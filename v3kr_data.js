@@ -1,9 +1,181 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-02T20:09:23Z",
+  "generatedAt": "2026-07-02T21:16:46Z",
   "totalClosed": 1429,
   "totalOpen": 96,
   "winRate": 57.7,
   "avgReturnPct": 1.46,
+  "avgQqqReturnPct": 0.64,
+  "strategies": [
+    {
+      "strategy": "QUAD Earnings GAP D1",
+      "verdict": "KEEP",
+      "closed": 168,
+      "open": 3,
+      "winRate": 53.6,
+      "avgReturnPct": 3.0,
+      "expectancy": 3.0,
+      "returnOnCapital": 33.6,
+      "avgPeakPct": null,
+      "insight": "SHORT book +4.4% (65t) vs LONG book +2.1% (103t). The LONG side is the drag — trading SHORT-only flips the scanner.",
+      "insightKind": "split"
+    },
+    {
+      "strategy": "STOCKS SENTIMENT V5",
+      "verdict": "KEEP",
+      "closed": 128,
+      "open": 0,
+      "winRate": 52.3,
+      "avgReturnPct": 3.65,
+      "expectancy": 3.65,
+      "returnOnCapital": 24.6,
+      "avgPeakPct": 6.47,
+      "insight": "Mentions matters: the <20 bucket returns +10.0% (58t) vs 20-40 at -3.4% (36t). Filter toward <20.",
+      "insightKind": "bucket"
+    },
+    {
+      "strategy": "STOCKS ONEPERCENT",
+      "verdict": "KEEP",
+      "closed": 214,
+      "open": 6,
+      "winRate": 61.2,
+      "avgReturnPct": 0.6,
+      "expectancy": 0.6,
+      "returnOnCapital": 9.8,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 61% WR, +0.6% avg, expectancy +0.6% across 214 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    },
+    {
+      "strategy": "KESTREL",
+      "verdict": "KEEP",
+      "closed": 177,
+      "open": 10,
+      "winRate": 63.8,
+      "avgReturnPct": 0.71,
+      "expectancy": 0.71,
+      "returnOnCapital": 8.9,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 64% WR, +0.7% avg, expectancy +0.7% across 177 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    },
+    {
+      "strategy": "ADAPTIVE Chameleon",
+      "verdict": "KEEP",
+      "closed": 75,
+      "open": 17,
+      "winRate": 54.7,
+      "avgReturnPct": 2.15,
+      "expectancy": 2.15,
+      "returnOnCapital": 8.5,
+      "avgPeakPct": null,
+      "insight": "Blended signals carry it: +4.4% (18t) vs single +1.5% (57t). Take blended-only for the real edge.",
+      "insightKind": "blend"
+    },
+    {
+      "strategy": "STOCKS EDGE FRIDAYMON",
+      "verdict": "KEEP",
+      "closed": 57,
+      "open": 0,
+      "winRate": 68.4,
+      "avgReturnPct": 1.62,
+      "expectancy": 1.62,
+      "returnOnCapital": 8.4,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 68% WR, +1.6% avg, expectancy +1.6% across 57 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    },
+    {
+      "strategy": "STOCKS ONEPERCENT V2",
+      "verdict": "KEEP",
+      "closed": 209,
+      "open": 14,
+      "winRate": 57.9,
+      "avgReturnPct": 0.6,
+      "expectancy": 0.6,
+      "returnOnCapital": 8.4,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 58% WR, +0.6% avg, expectancy +0.6% across 209 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    },
+    {
+      "strategy": "STOCKS CONGRESS",
+      "verdict": "KEEP",
+      "closed": 18,
+      "open": 0,
+      "winRate": 72.2,
+      "avgReturnPct": 3.16,
+      "expectancy": 3.16,
+      "returnOnCapital": 7.1,
+      "avgPeakPct": 5.57,
+      "insight": "Left 2.4% on the table — avg peak +5.6% but exits realize +3.2%. Exits fire too late; a faster profit-take is the lever.",
+      "insightKind": "peak"
+    },
+    {
+      "strategy": "KESTREL",
+      "verdict": "KEEP",
+      "closed": 100,
+      "open": 15,
+      "winRate": 53.0,
+      "avgReturnPct": 0.99,
+      "expectancy": 0.99,
+      "returnOnCapital": 5.9,
+      "avgPeakPct": null,
+      "insight": "53% WR, +1.0% avg across 100 trades.",
+      "insightKind": "plain"
+    },
+    {
+      "strategy": "STC INVERSE",
+      "verdict": "KEEP",
+      "closed": 229,
+      "open": 27,
+      "winRate": 54.6,
+      "avgReturnPct": 0.77,
+      "expectancy": 0.77,
+      "returnOnCapital": 4.9,
+      "avgPeakPct": 3.36,
+      "insight": "Left 2.6% on the table — avg peak +3.4% but exits realize +0.8%. Exits fire too late; a faster profit-take is the lever.",
+      "insightKind": "peak"
+    },
+    {
+      "strategy": "LEADING Witching",
+      "verdict": "KEEP",
+      "closed": 15,
+      "open": 0,
+      "winRate": 60.0,
+      "avgReturnPct": 2.07,
+      "expectancy": 2.07,
+      "returnOnCapital": 4.4,
+      "avgPeakPct": 4.18,
+      "insight": "Left 2.1% on the table — avg peak +4.2% but exits realize +2.1%. Exits fire too late; a faster profit-take is the lever.",
+      "insightKind": "peak"
+    },
+    {
+      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "verdict": "KEEP",
+      "closed": 19,
+      "open": 4,
+      "winRate": 63.2,
+      "avgReturnPct": 3.75,
+      "expectancy": 3.75,
+      "returnOnCapital": 3.8,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 63% WR, +3.8% avg, expectancy +3.8% across 19 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    },
+    {
+      "strategy": "STOCKS NEWSCANNER Momentum",
+      "verdict": "KEEP",
+      "closed": 20,
+      "open": 0,
+      "winRate": 55.0,
+      "avgReturnPct": 2.46,
+      "expectancy": 2.46,
+      "returnOnCapital": 2.5,
+      "avgPeakPct": null,
+      "insight": "Genuine positive edge: 55% WR, +2.5% avg, expectancy +2.5% across 20 trades. One of the real ones — watch it hold out-of-sample.",
+      "insightKind": "keep"
+    }
+  ],
   "trades": [
     {
       "strategy": "KESTREL",
@@ -14,7 +186,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -25,7 +198,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -36,7 +210,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -47,7 +222,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -58,7 +234,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -69,7 +246,8 @@ window.V3KR_DATA = {
       "exitPrice": 546.21,
       "exitTime": "2026-07-02T15:38:00Z",
       "open": false,
-      "returnPct": 6.95
+      "returnPct": 6.95,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "KESTREL",
@@ -80,7 +258,8 @@ window.V3KR_DATA = {
       "exitPrice": 53.4,
       "exitTime": "2026-07-02T15:38:00Z",
       "open": false,
-      "returnPct": -4.42
+      "returnPct": -4.42,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "KESTREL",
@@ -91,7 +270,8 @@ window.V3KR_DATA = {
       "exitPrice": 94.47,
       "exitTime": "2026-07-02T15:37:59Z",
       "open": false,
-      "returnPct": 1.82
+      "returnPct": 1.82,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "KESTREL",
@@ -102,7 +282,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.56,
       "exitTime": "2026-07-02T15:37:59Z",
       "open": false,
-      "returnPct": 2.31
+      "returnPct": 2.31,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "KESTREL",
@@ -113,7 +294,8 @@ window.V3KR_DATA = {
       "exitPrice": 356.28,
       "exitTime": "2026-07-02T15:37:58Z",
       "open": false,
-      "returnPct": 6.39
+      "returnPct": 6.39,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "STC INVERSE",
@@ -124,7 +306,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -135,7 +318,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -146,7 +330,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -157,7 +342,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -168,7 +354,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -179,7 +366,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -190,7 +378,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -201,7 +390,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -212,7 +402,8 @@ window.V3KR_DATA = {
       "exitPrice": 196.38,
       "exitTime": "2026-07-02T15:31:33Z",
       "open": false,
-      "returnPct": -74.78
+      "returnPct": -74.78,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STC INVERSE",
@@ -223,7 +414,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.02,
       "exitTime": "2026-07-02T15:31:32Z",
       "open": false,
-      "returnPct": -11.19
+      "returnPct": -11.19,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "STC INVERSE",
@@ -234,7 +426,8 @@ window.V3KR_DATA = {
       "exitPrice": 420.38,
       "exitTime": "2026-07-02T15:31:32Z",
       "open": false,
-      "returnPct": 5.87
+      "returnPct": 5.87,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STC INVERSE",
@@ -245,7 +438,8 @@ window.V3KR_DATA = {
       "exitPrice": 218.06,
       "exitTime": "2026-07-02T15:31:31Z",
       "open": false,
-      "returnPct": -6.02
+      "returnPct": -6.02,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "STC INVERSE",
@@ -256,7 +450,8 @@ window.V3KR_DATA = {
       "exitPrice": 306.44,
       "exitTime": "2026-07-02T15:31:31Z",
       "open": false,
-      "returnPct": -6.27
+      "returnPct": -6.27,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "STC INVERSE",
@@ -267,7 +462,8 @@ window.V3KR_DATA = {
       "exitPrice": 528.98,
       "exitTime": "2026-07-02T15:31:28Z",
       "open": false,
-      "returnPct": -3.72
+      "returnPct": -3.72,
+      "qqqReturnPct": -0.53
     },
     {
       "strategy": "STC INVERSE",
@@ -278,7 +474,8 @@ window.V3KR_DATA = {
       "exitPrice": 150.59,
       "exitTime": "2026-07-02T15:31:27Z",
       "open": false,
-      "returnPct": 0.53
+      "returnPct": 0.53,
+      "qqqReturnPct": -0.53
     },
     {
       "strategy": "STC INVERSE",
@@ -289,7 +486,8 @@ window.V3KR_DATA = {
       "exitPrice": 139.94,
       "exitTime": "2026-07-02T15:31:27Z",
       "open": false,
-      "returnPct": -3.33
+      "returnPct": -3.33,
+      "qqqReturnPct": -0.53
     },
     {
       "strategy": "STC INVERSE",
@@ -300,7 +498,8 @@ window.V3KR_DATA = {
       "exitPrice": 198.08,
       "exitTime": "2026-07-02T15:31:27Z",
       "open": false,
-      "returnPct": -1.47
+      "returnPct": -1.47,
+      "qqqReturnPct": -0.53
     },
     {
       "strategy": "KESTREL",
@@ -311,7 +510,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -322,7 +522,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -333,7 +534,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -344,7 +546,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -355,7 +558,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -366,7 +570,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -377,7 +582,8 @@ window.V3KR_DATA = {
       "exitPrice": 260.9,
       "exitTime": "2026-07-02T15:25:05Z",
       "open": false,
-      "returnPct": 3.37
+      "returnPct": 3.37,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "KESTREL",
@@ -388,7 +594,8 @@ window.V3KR_DATA = {
       "exitPrice": 1217.53,
       "exitTime": "2026-07-02T15:25:04Z",
       "open": false,
-      "returnPct": 2.85
+      "returnPct": 2.85,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "KESTREL",
@@ -399,7 +606,8 @@ window.V3KR_DATA = {
       "exitPrice": 74.82,
       "exitTime": "2026-07-02T15:25:03Z",
       "open": false,
-      "returnPct": -3.06
+      "returnPct": -3.06,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "KESTREL",
@@ -410,7 +618,8 @@ window.V3KR_DATA = {
       "exitPrice": 53.83,
       "exitTime": "2026-07-02T15:25:03Z",
       "open": false,
-      "returnPct": -3.64
+      "returnPct": -3.64,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "KESTREL",
@@ -421,7 +630,8 @@ window.V3KR_DATA = {
       "exitPrice": 431.27,
       "exitTime": "2026-07-02T15:25:03Z",
       "open": false,
-      "returnPct": 4.01
+      "returnPct": 4.01,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "KESTREL",
@@ -432,7 +642,8 @@ window.V3KR_DATA = {
       "exitPrice": 94.51,
       "exitTime": "2026-07-02T15:25:02Z",
       "open": false,
-      "returnPct": 1.87
+      "returnPct": 1.87,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "KESTREL",
@@ -443,7 +654,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.53,
       "exitTime": "2026-07-02T15:25:02Z",
       "open": false,
-      "returnPct": 2.25
+      "returnPct": 2.25,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -454,7 +666,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -465,7 +678,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -476,7 +690,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -487,7 +702,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -498,7 +714,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -509,7 +726,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -520,7 +738,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -531,7 +750,8 @@ window.V3KR_DATA = {
       "exitPrice": 357.09,
       "exitTime": "2026-07-02T15:25:01Z",
       "open": false,
-      "returnPct": 6.63
+      "returnPct": 6.63,
+      "qqqReturnPct": 0.28
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -542,7 +762,8 @@ window.V3KR_DATA = {
       "exitPrice": 1007.34,
       "exitTime": "2026-07-02T15:23:45Z",
       "open": false,
-      "returnPct": -4.03
+      "returnPct": -4.03,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -553,7 +774,8 @@ window.V3KR_DATA = {
       "exitPrice": 174.46,
       "exitTime": "2026-07-02T15:23:44Z",
       "open": false,
-      "returnPct": -8.06
+      "returnPct": -8.06,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -564,7 +786,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.52,
       "exitTime": "2026-07-02T15:23:43Z",
       "open": false,
-      "returnPct": -7.66
+      "returnPct": -7.66,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -575,7 +798,8 @@ window.V3KR_DATA = {
       "exitPrice": 972.61,
       "exitTime": "2026-07-02T15:23:43Z",
       "open": false,
-      "returnPct": -6.63
+      "returnPct": -6.63,
+      "qqqReturnPct": -0.53
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -586,7 +810,8 @@ window.V3KR_DATA = {
       "exitPrice": 587.49,
       "exitTime": "2026-07-02T15:21:09Z",
       "open": false,
-      "returnPct": -5.86
+      "returnPct": -5.86,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -597,7 +822,8 @@ window.V3KR_DATA = {
       "exitPrice": 354.53,
       "exitTime": "2026-07-02T15:21:08Z",
       "open": false,
-      "returnPct": 3.92
+      "returnPct": 3.92,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -608,7 +834,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.28,
       "exitTime": "2026-07-02T15:21:08Z",
       "open": false,
-      "returnPct": 6.45
+      "returnPct": 6.45,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -619,7 +846,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -630,7 +858,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -641,7 +870,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -652,7 +882,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -663,7 +894,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -674,7 +906,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -685,7 +918,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.36,
       "exitTime": "2026-07-02T14:05:26Z",
       "open": false,
-      "returnPct": 1.0
+      "returnPct": 1.0,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -696,7 +930,8 @@ window.V3KR_DATA = {
       "exitPrice": 254.94,
       "exitTime": "2026-07-02T14:05:25Z",
       "open": false,
-      "returnPct": 2.8
+      "returnPct": 2.8,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -707,7 +942,8 @@ window.V3KR_DATA = {
       "exitPrice": 257.4,
       "exitTime": "2026-07-02T14:04:27Z",
       "open": false,
-      "returnPct": 2.35
+      "returnPct": 2.35,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -718,7 +954,8 @@ window.V3KR_DATA = {
       "exitPrice": 254.56,
       "exitTime": "2026-07-02T14:04:27Z",
       "open": false,
-      "returnPct": 2.69
+      "returnPct": 2.69,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -729,7 +966,8 @@ window.V3KR_DATA = {
       "exitPrice": 127.46,
       "exitTime": "2026-07-02T14:04:27Z",
       "open": false,
-      "returnPct": 1.76
+      "returnPct": 1.76,
+      "qqqReturnPct": -1.73
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -740,7 +978,8 @@ window.V3KR_DATA = {
       "exitPrice": 428.27,
       "exitTime": "2026-07-02T14:04:25Z",
       "open": false,
-      "returnPct": 3.18
+      "returnPct": 3.18,
+      "qqqReturnPct": -3.23
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -751,7 +990,8 @@ window.V3KR_DATA = {
       "exitPrice": 137.93,
       "exitTime": "2026-07-02T14:04:24Z",
       "open": false,
-      "returnPct": 1.42
+      "returnPct": 1.42,
+      "qqqReturnPct": -1.59
     },
     {
       "strategy": "KESTREL",
@@ -762,7 +1002,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.72
+      "returnPct": 3.72,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -773,7 +1014,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.45
+      "returnPct": 0.45,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -784,7 +1026,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.15
+      "returnPct": -2.15,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -795,7 +1038,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.43
+      "returnPct": 2.43,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -806,7 +1050,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.96
+      "returnPct": 2.96,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -817,7 +1062,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.21
+      "returnPct": -3.21,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -828,7 +1074,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.23
+      "returnPct": -3.23,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -839,7 +1086,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.27
+      "returnPct": -0.27,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -850,7 +1098,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.17
+      "returnPct": 1.17,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -861,7 +1110,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.51
+      "returnPct": -1.51,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -872,7 +1122,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.29
+      "returnPct": -1.29,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -883,7 +1134,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.0,
       "exitTime": "2026-07-01T15:32:10Z",
       "open": false,
-      "returnPct": -7.38
+      "returnPct": -7.38,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "STC INVERSE",
@@ -894,7 +1146,8 @@ window.V3KR_DATA = {
       "exitPrice": 358.1,
       "exitTime": "2026-07-01T15:32:09Z",
       "open": false,
-      "returnPct": -6.56
+      "returnPct": -6.56,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "STC INVERSE",
@@ -905,7 +1158,8 @@ window.V3KR_DATA = {
       "exitPrice": 235.5,
       "exitTime": "2026-07-01T15:32:09Z",
       "open": false,
-      "returnPct": -5.46
+      "returnPct": -5.46,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "STC INVERSE",
@@ -916,7 +1170,8 @@ window.V3KR_DATA = {
       "exitPrice": 127.46,
       "exitTime": "2026-07-01T15:32:08Z",
       "open": false,
-      "returnPct": -8.6
+      "returnPct": -8.6,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "STC INVERSE",
@@ -927,7 +1182,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.88,
       "exitTime": "2026-07-01T15:32:04Z",
       "open": false,
-      "returnPct": -7.56
+      "returnPct": -7.56,
+      "qqqReturnPct": 1.23
     },
     {
       "strategy": "STC INVERSE",
@@ -938,7 +1194,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.74,
       "exitTime": "2026-07-01T15:32:03Z",
       "open": false,
-      "returnPct": -0.48
+      "returnPct": -0.48,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "STC INVERSE",
@@ -949,7 +1206,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.37,
       "exitTime": "2026-07-01T15:32:03Z",
       "open": false,
-      "returnPct": -1.07
+      "returnPct": -1.07,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "STC INVERSE",
@@ -960,7 +1218,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.03,
       "exitTime": "2026-07-01T15:32:03Z",
       "open": false,
-      "returnPct": 0.64
+      "returnPct": 0.64,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "STC INVERSE",
@@ -971,7 +1230,8 @@ window.V3KR_DATA = {
       "exitPrice": 202.84,
       "exitTime": "2026-07-01T15:32:02Z",
       "open": false,
-      "returnPct": -4.08
+      "returnPct": -4.08,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "KESTREL",
@@ -982,7 +1242,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.23
+      "returnPct": 0.23,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -993,7 +1254,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.86
+      "returnPct": -2.86,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1004,7 +1266,8 @@ window.V3KR_DATA = {
       "exitPrice": 380.86,
       "exitTime": "2026-07-01T15:25:39Z",
       "open": false,
-      "returnPct": 1.23
+      "returnPct": 1.23,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "KESTREL",
@@ -1015,7 +1278,8 @@ window.V3KR_DATA = {
       "exitPrice": 420.81,
       "exitTime": "2026-07-01T15:25:39Z",
       "open": false,
-      "returnPct": 1.07
+      "returnPct": 1.07,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "KESTREL",
@@ -1026,7 +1290,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.52,
       "exitTime": "2026-07-01T15:25:38Z",
       "open": false,
-      "returnPct": 7.92
+      "returnPct": 7.92,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "KESTREL",
@@ -1037,7 +1302,8 @@ window.V3KR_DATA = {
       "exitPrice": 532.3,
       "exitTime": "2026-07-01T15:25:38Z",
       "open": false,
-      "returnPct": 4.22
+      "returnPct": 4.22,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "KESTREL",
@@ -1048,7 +1314,8 @@ window.V3KR_DATA = {
       "exitPrice": 161.75,
       "exitTime": "2026-07-01T15:25:37Z",
       "open": false,
-      "returnPct": 10.03
+      "returnPct": 10.03,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1059,7 +1326,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.35
+      "returnPct": 1.35,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1070,7 +1338,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.67
+      "returnPct": 1.67,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1081,7 +1350,8 @@ window.V3KR_DATA = {
       "exitPrice": 298.36,
       "exitTime": "2026-07-01T15:24:59Z",
       "open": false,
-      "returnPct": 5.36
+      "returnPct": 5.36,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1092,7 +1362,8 @@ window.V3KR_DATA = {
       "exitPrice": 314.04,
       "exitTime": "2026-07-01T15:24:57Z",
       "open": false,
-      "returnPct": 0.07
+      "returnPct": 0.07,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1103,7 +1374,8 @@ window.V3KR_DATA = {
       "exitPrice": 362.2,
       "exitTime": "2026-07-01T15:24:57Z",
       "open": false,
-      "returnPct": 4.69
+      "returnPct": 4.69,
+      "qqqReturnPct": 2.05
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1114,7 +1386,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.34,
       "exitTime": "2026-07-01T15:22:09Z",
       "open": false,
-      "returnPct": -6.66
+      "returnPct": -6.66,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1125,7 +1398,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.45
+      "returnPct": 0.45,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1136,7 +1410,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.1
+      "returnPct": 1.1,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1147,7 +1422,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.76
+      "returnPct": 0.76,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1158,7 +1434,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.04
+      "returnPct": 0.04,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1169,7 +1446,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.27,
       "exitTime": "2026-07-01T14:04:32Z",
       "open": false,
-      "returnPct": 3.09
+      "returnPct": 3.09,
+      "qqqReturnPct": -1.52
     },
     {
       "strategy": "KESTREL",
@@ -1180,7 +1458,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.62
+      "returnPct": -2.62,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1191,7 +1470,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.01
+      "returnPct": -0.01,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1202,7 +1482,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.93
+      "returnPct": 2.93,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1213,7 +1494,8 @@ window.V3KR_DATA = {
       "exitPrice": 139.99,
       "exitTime": "2026-06-30T15:36:10Z",
       "open": false,
-      "returnPct": 12.06
+      "returnPct": 12.06,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "KESTREL",
@@ -1224,7 +1506,8 @@ window.V3KR_DATA = {
       "exitPrice": 179.85,
       "exitTime": "2026-06-30T15:36:09Z",
       "open": false,
-      "returnPct": 0.04
+      "returnPct": 0.04,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "KESTREL",
@@ -1235,7 +1518,8 @@ window.V3KR_DATA = {
       "exitPrice": 104.3,
       "exitTime": "2026-06-30T15:36:09Z",
       "open": false,
-      "returnPct": -2.51
+      "returnPct": -2.51,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "KESTREL",
@@ -1246,7 +1530,8 @@ window.V3KR_DATA = {
       "exitPrice": 566.42,
       "exitTime": "2026-06-30T15:36:07Z",
       "open": false,
-      "returnPct": 9.62
+      "returnPct": 9.62,
+      "qqqReturnPct": 3.63
     },
     {
       "strategy": "STC INVERSE",
@@ -1257,7 +1542,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.38
+      "returnPct": 1.38,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1268,7 +1554,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.26
+      "returnPct": 3.26,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1279,7 +1566,8 @@ window.V3KR_DATA = {
       "exitPrice": 415.5,
       "exitTime": "2026-06-30T15:29:38Z",
       "open": false,
-      "returnPct": -4.57
+      "returnPct": -4.57,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "STC INVERSE",
@@ -1290,7 +1578,8 @@ window.V3KR_DATA = {
       "exitPrice": 102.99,
       "exitTime": "2026-06-30T15:29:35Z",
       "open": false,
-      "returnPct": 8.85
+      "returnPct": 8.85,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "STC INVERSE",
@@ -1301,7 +1590,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.84,
       "exitTime": "2026-06-30T15:29:33Z",
       "open": false,
-      "returnPct": 2.14
+      "returnPct": 2.14,
+      "qqqReturnPct": 3.19
     },
     {
       "strategy": "STC INVERSE",
@@ -1312,7 +1602,8 @@ window.V3KR_DATA = {
       "exitPrice": 356.56,
       "exitTime": "2026-06-30T15:29:33Z",
       "open": false,
-      "returnPct": 3.2
+      "returnPct": 3.2,
+      "qqqReturnPct": 3.19
     },
     {
       "strategy": "STC INVERSE",
@@ -1323,7 +1614,8 @@ window.V3KR_DATA = {
       "exitPrice": 180.05,
       "exitTime": "2026-06-30T15:29:32Z",
       "open": false,
-      "returnPct": 2.64
+      "returnPct": 2.64,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "STC INVERSE",
@@ -1334,7 +1626,8 @@ window.V3KR_DATA = {
       "exitPrice": 125.54,
       "exitTime": "2026-06-30T15:29:32Z",
       "open": false,
-      "returnPct": -1.33
+      "returnPct": -1.33,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "STC INVERSE",
@@ -1345,7 +1638,8 @@ window.V3KR_DATA = {
       "exitPrice": 136.39,
       "exitTime": "2026-06-30T15:29:32Z",
       "open": false,
-      "returnPct": -4.47
+      "returnPct": -4.47,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "STC INVERSE",
@@ -1356,7 +1650,8 @@ window.V3KR_DATA = {
       "exitPrice": 189.35,
       "exitTime": "2026-06-30T15:29:31Z",
       "open": false,
-      "returnPct": 3.84
+      "returnPct": 3.84,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "KESTREL",
@@ -1367,7 +1662,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1378,7 +1674,8 @@ window.V3KR_DATA = {
       "exitPrice": 140.26,
       "exitTime": "2026-06-30T15:22:59Z",
       "open": false,
-      "returnPct": 12.28
+      "returnPct": 12.28,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "KESTREL",
@@ -1389,7 +1686,8 @@ window.V3KR_DATA = {
       "exitPrice": 494.39,
       "exitTime": "2026-06-30T15:22:58Z",
       "open": false,
-      "returnPct": 2.57
+      "returnPct": 2.57,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "KESTREL",
@@ -1400,7 +1698,8 @@ window.V3KR_DATA = {
       "exitPrice": 104.43,
       "exitTime": "2026-06-30T15:22:57Z",
       "open": false,
-      "returnPct": -2.38
+      "returnPct": -2.38,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "KESTREL",
@@ -1411,7 +1710,8 @@ window.V3KR_DATA = {
       "exitPrice": 369.0,
       "exitTime": "2026-06-30T15:22:57Z",
       "open": false,
-      "returnPct": -3.34
+      "returnPct": -3.34,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1422,7 +1722,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.93
+      "returnPct": 1.93,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1433,7 +1734,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.84
+      "returnPct": 0.84,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1444,7 +1746,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.57
+      "returnPct": 1.57,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1455,7 +1758,8 @@ window.V3KR_DATA = {
       "exitPrice": 224.46,
       "exitTime": "2026-06-30T15:22:19Z",
       "open": false,
-      "returnPct": -6.79
+      "returnPct": -6.79,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1466,7 +1770,8 @@ window.V3KR_DATA = {
       "exitPrice": 180.48,
       "exitTime": "2026-06-30T15:22:17Z",
       "open": false,
-      "returnPct": 3.16
+      "returnPct": 3.16,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1477,7 +1782,8 @@ window.V3KR_DATA = {
       "exitPrice": 353.74,
       "exitTime": "2026-06-30T15:22:17Z",
       "open": false,
-      "returnPct": 2.29
+      "returnPct": 2.29,
+      "qqqReturnPct": 3.19
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1488,7 +1794,8 @@ window.V3KR_DATA = {
       "exitPrice": 197.82,
       "exitTime": "2026-06-30T15:22:17Z",
       "open": false,
-      "returnPct": -1.52
+      "returnPct": -1.52,
+      "qqqReturnPct": 3.19
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1499,7 +1806,8 @@ window.V3KR_DATA = {
       "exitPrice": 104.49,
       "exitTime": "2026-06-30T15:22:16Z",
       "open": false,
-      "returnPct": -3.87
+      "returnPct": -3.87,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1510,7 +1818,8 @@ window.V3KR_DATA = {
       "exitPrice": 136.33,
       "exitTime": "2026-06-30T15:22:16Z",
       "open": false,
-      "returnPct": -0.86
+      "returnPct": -0.86,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1521,7 +1830,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.48,
       "exitTime": "2026-06-30T15:22:15Z",
       "open": false,
-      "returnPct": -2.07
+      "returnPct": -2.07,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1532,7 +1842,8 @@ window.V3KR_DATA = {
       "exitPrice": 168.08,
       "exitTime": "2026-06-30T15:22:15Z",
       "open": false,
-      "returnPct": -3.34
+      "returnPct": -3.34,
+      "qqqReturnPct": -0.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1543,7 +1854,8 @@ window.V3KR_DATA = {
       "exitPrice": 429.09,
       "exitTime": "2026-06-30T15:22:14Z",
       "open": false,
-      "returnPct": 10.44
+      "returnPct": 10.44,
+      "qqqReturnPct": -1.02
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1554,7 +1866,8 @@ window.V3KR_DATA = {
       "exitPrice": 295.35,
       "exitTime": "2026-06-30T15:22:14Z",
       "open": false,
-      "returnPct": 16.94
+      "returnPct": 16.94,
+      "qqqReturnPct": -1.02
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1565,7 +1878,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 7.76
+      "returnPct": 7.76,
+      "qqqReturnPct": null
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1576,7 +1890,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.79,
       "exitTime": "2026-06-30T15:19:24Z",
       "open": false,
-      "returnPct": 0.35
+      "returnPct": 0.35,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1587,7 +1902,8 @@ window.V3KR_DATA = {
       "exitPrice": 252.46,
       "exitTime": "2026-06-30T15:19:24Z",
       "open": false,
-      "returnPct": -4.07
+      "returnPct": -4.07,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1598,7 +1914,8 @@ window.V3KR_DATA = {
       "exitPrice": 83.79,
       "exitTime": "2026-06-30T15:19:24Z",
       "open": false,
-      "returnPct": 15.47
+      "returnPct": 15.47,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1609,7 +1926,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.84,
       "exitTime": "2026-06-30T15:19:23Z",
       "open": false,
-      "returnPct": -0.22
+      "returnPct": -0.22,
+      "qqqReturnPct": 3.63
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1620,7 +1938,8 @@ window.V3KR_DATA = {
       "exitPrice": 376.8,
       "exitTime": "2026-06-30T15:19:23Z",
       "open": false,
-      "returnPct": 1.76
+      "returnPct": 1.76,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1631,7 +1950,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.69,
       "exitTime": "2026-06-30T15:19:23Z",
       "open": false,
-      "returnPct": 0.21
+      "returnPct": 0.21,
+      "qqqReturnPct": 2.79
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -1642,7 +1962,8 @@ window.V3KR_DATA = {
       "exitPrice": 62.78,
       "exitTime": "2026-06-30T15:19:22Z",
       "open": false,
-      "returnPct": 1.51
+      "returnPct": 1.51,
+      "qqqReturnPct": 3.63
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1653,7 +1974,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.01
+      "returnPct": -0.01,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1664,7 +1986,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.37
+      "returnPct": -0.37,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1675,7 +1998,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.4
+      "returnPct": 0.4,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1686,7 +2010,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.01
+      "returnPct": 0.01,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1697,7 +2022,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.26,
       "exitTime": "2026-06-30T14:05:16Z",
       "open": false,
-      "returnPct": -0.5
+      "returnPct": -0.5,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1708,7 +2034,8 @@ window.V3KR_DATA = {
       "exitPrice": 294.92,
       "exitTime": "2026-06-30T14:05:16Z",
       "open": false,
-      "returnPct": 7.02
+      "returnPct": 7.02,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1719,7 +2046,8 @@ window.V3KR_DATA = {
       "exitPrice": 103.68,
       "exitTime": "2026-06-30T14:05:15Z",
       "open": false,
-      "returnPct": 0.64
+      "returnPct": 0.64,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1730,7 +2058,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.98,
       "exitTime": "2026-06-30T14:05:15Z",
       "open": false,
-      "returnPct": 0.2
+      "returnPct": 0.2,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -1741,7 +2070,8 @@ window.V3KR_DATA = {
       "exitPrice": 332.06,
       "exitTime": "2026-06-30T14:05:14Z",
       "open": false,
-      "returnPct": -1.55
+      "returnPct": -1.55,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1752,7 +2082,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.68
+      "returnPct": 0.68,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1763,7 +2094,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.08
+      "returnPct": -0.08,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1774,7 +2106,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.28
+      "returnPct": 0.28,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1785,7 +2118,8 @@ window.V3KR_DATA = {
       "exitPrice": 293.32,
       "exitTime": "2026-06-30T14:04:21Z",
       "open": false,
-      "returnPct": 4.13
+      "returnPct": 4.13,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1796,7 +2130,8 @@ window.V3KR_DATA = {
       "exitPrice": 1148.04,
       "exitTime": "2026-06-30T14:04:21Z",
       "open": false,
-      "returnPct": 7.9
+      "returnPct": 7.9,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1807,7 +2142,8 @@ window.V3KR_DATA = {
       "exitPrice": 104.84,
       "exitTime": "2026-06-30T14:04:20Z",
       "open": false,
-      "returnPct": -1.18
+      "returnPct": -1.18,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1818,7 +2154,8 @@ window.V3KR_DATA = {
       "exitPrice": 137.92,
       "exitTime": "2026-06-30T14:04:20Z",
       "open": false,
-      "returnPct": 12.65
+      "returnPct": 12.65,
+      "qqqReturnPct": 1.7
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -1829,7 +2166,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.01,
       "exitTime": "2026-06-30T14:04:19Z",
       "open": false,
-      "returnPct": -0.75
+      "returnPct": -0.75,
+      "qqqReturnPct": 4.23
     },
     {
       "strategy": "KESTREL",
@@ -1840,7 +2178,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.82
+      "returnPct": -2.82,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1851,7 +2190,8 @@ window.V3KR_DATA = {
       "exitPrice": 282.04,
       "exitTime": "2026-06-29T15:35:43Z",
       "open": false,
-      "returnPct": 1.96
+      "returnPct": 1.96,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "KESTREL",
@@ -1862,7 +2202,8 @@ window.V3KR_DATA = {
       "exitPrice": 322.32,
       "exitTime": "2026-06-29T15:35:41Z",
       "open": false,
-      "returnPct": 0.21
+      "returnPct": 0.21,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "KESTREL",
@@ -1873,7 +2214,8 @@ window.V3KR_DATA = {
       "exitPrice": 190.59,
       "exitTime": "2026-06-29T15:35:41Z",
       "open": false,
-      "returnPct": -4.38
+      "returnPct": -4.38,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "KESTREL",
@@ -1884,7 +2226,8 @@ window.V3KR_DATA = {
       "exitPrice": 509.52,
       "exitTime": "2026-06-29T15:35:40Z",
       "open": false,
-      "returnPct": -0.78
+      "returnPct": -0.78,
+      "qqqReturnPct": -1.88
     },
     {
       "strategy": "STC INVERSE",
@@ -1895,7 +2238,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.14
+      "returnPct": -3.14,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1906,7 +2250,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.24
+      "returnPct": -1.24,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1917,7 +2262,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.77
+      "returnPct": -0.77,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1928,7 +2274,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.47
+      "returnPct": -3.47,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1939,7 +2286,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.09
+      "returnPct": -2.09,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -1950,7 +2298,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.54,
       "exitTime": "2026-06-29T15:28:45Z",
       "open": false,
-      "returnPct": -4.94
+      "returnPct": -4.94,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STC INVERSE",
@@ -1961,7 +2310,8 @@ window.V3KR_DATA = {
       "exitPrice": 137.9,
       "exitTime": "2026-06-29T15:28:43Z",
       "open": false,
-      "returnPct": -9.05
+      "returnPct": -9.05,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "KESTREL",
@@ -1972,7 +2322,8 @@ window.V3KR_DATA = {
       "exitPrice": 116.96,
       "exitTime": "2026-06-29T15:22:04Z",
       "open": false,
-      "returnPct": 2.16
+      "returnPct": 2.16,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -1983,7 +2334,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.08
+      "returnPct": -1.08,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -1994,7 +2346,8 @@ window.V3KR_DATA = {
       "exitPrice": 189.65,
       "exitTime": "2026-06-29T15:22:01Z",
       "open": false,
-      "returnPct": -4.85
+      "returnPct": -4.85,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "KESTREL",
@@ -2005,7 +2358,8 @@ window.V3KR_DATA = {
       "exitPrice": 522.17,
       "exitTime": "2026-06-29T15:22:01Z",
       "open": false,
-      "returnPct": 1.06
+      "returnPct": 1.06,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2016,7 +2370,8 @@ window.V3KR_DATA = {
       "exitPrice": 1072.24,
       "exitTime": "2026-06-29T15:21:22Z",
       "open": false,
-      "returnPct": -8.92
+      "returnPct": -8.92,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2027,7 +2382,8 @@ window.V3KR_DATA = {
       "exitPrice": 189.56,
       "exitTime": "2026-06-29T15:21:21Z",
       "open": false,
-      "returnPct": -4.83
+      "returnPct": -4.83,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2038,7 +2394,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.08,
       "exitTime": "2026-06-29T15:21:21Z",
       "open": false,
-      "returnPct": -4.99
+      "returnPct": -4.99,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2049,7 +2406,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.33,
       "exitTime": "2026-06-29T15:21:20Z",
       "open": false,
-      "returnPct": -5.11
+      "returnPct": -5.11,
+      "qqqReturnPct": -1.88
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2060,7 +2418,8 @@ window.V3KR_DATA = {
       "exitPrice": 686.7,
       "exitTime": "2026-06-29T15:21:18Z",
       "open": false,
-      "returnPct": 15.73
+      "returnPct": 15.73,
+      "qqqReturnPct": -2.68
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2071,7 +2430,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.98
+      "returnPct": 3.98,
+      "qqqReturnPct": null
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2082,7 +2442,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.27
+      "returnPct": 0.27,
+      "qqqReturnPct": null
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2093,7 +2454,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.39,
       "exitTime": "2026-06-29T15:18:25Z",
       "open": false,
-      "returnPct": -5.49
+      "returnPct": -5.49,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2104,7 +2466,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.84,
       "exitTime": "2026-06-29T15:18:24Z",
       "open": false,
-      "returnPct": 2.78
+      "returnPct": 2.78,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2115,7 +2478,8 @@ window.V3KR_DATA = {
       "exitPrice": 11.92,
       "exitTime": "2026-06-29T15:18:23Z",
       "open": false,
-      "returnPct": 15.85
+      "returnPct": 15.85,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2126,7 +2490,8 @@ window.V3KR_DATA = {
       "exitPrice": 107.82,
       "exitTime": "2026-06-29T15:18:23Z",
       "open": false,
-      "returnPct": -9.58
+      "returnPct": -9.58,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2137,7 +2502,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.41,
       "exitTime": "2026-06-29T15:18:22Z",
       "open": false,
-      "returnPct": 9.41
+      "returnPct": 9.41,
+      "qqqReturnPct": -1.88
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2148,7 +2514,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.73,
       "exitTime": "2026-06-29T15:18:22Z",
       "open": false,
-      "returnPct": 0.05
+      "returnPct": 0.05,
+      "qqqReturnPct": -1.88
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2159,7 +2526,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.19,
       "exitTime": "2026-06-29T15:18:22Z",
       "open": false,
-      "returnPct": 2.44
+      "returnPct": 2.44,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2170,7 +2538,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.15,
       "exitTime": "2026-06-29T15:18:21Z",
       "open": false,
-      "returnPct": 6.04
+      "returnPct": 6.04,
+      "qqqReturnPct": -1.88
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2181,7 +2550,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.47
+      "returnPct": 0.47,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2192,7 +2562,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 7.31
+      "returnPct": 7.31,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2203,7 +2574,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.7
+      "returnPct": -0.7,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2214,7 +2586,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.15
+      "returnPct": 0.15,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2225,7 +2598,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.06
+      "returnPct": -0.06,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2236,7 +2610,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.71
+      "returnPct": -0.71,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2247,7 +2622,8 @@ window.V3KR_DATA = {
       "exitPrice": 156.6,
       "exitTime": "2026-06-29T14:05:19Z",
       "open": false,
-      "returnPct": -3.09
+      "returnPct": -3.09,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2258,7 +2634,8 @@ window.V3KR_DATA = {
       "exitPrice": 283.65,
       "exitTime": "2026-06-29T14:05:18Z",
       "open": false,
-      "returnPct": 1.35
+      "returnPct": 1.35,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2269,7 +2646,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.62,
       "exitTime": "2026-06-29T14:05:18Z",
       "open": false,
-      "returnPct": -0.31
+      "returnPct": -0.31,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2280,7 +2658,8 @@ window.V3KR_DATA = {
       "exitPrice": 511.23,
       "exitTime": "2026-06-29T14:05:18Z",
       "open": false,
-      "returnPct": -0.98
+      "returnPct": -0.98,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2291,7 +2670,8 @@ window.V3KR_DATA = {
       "exitPrice": 32.57,
       "exitTime": "2026-06-29T14:05:17Z",
       "open": false,
-      "returnPct": -1.2
+      "returnPct": -1.2,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2302,7 +2682,8 @@ window.V3KR_DATA = {
       "exitPrice": 1096.88,
       "exitTime": "2026-06-29T14:05:17Z",
       "open": false,
-      "returnPct": 1.1
+      "returnPct": 1.1,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2313,7 +2694,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.65,
       "exitTime": "2026-06-29T14:05:16Z",
       "open": false,
-      "returnPct": 2.09
+      "returnPct": 2.09,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2324,7 +2706,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.06,
       "exitTime": "2026-06-29T14:05:16Z",
       "open": false,
-      "returnPct": 1.33
+      "returnPct": 1.33,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2335,7 +2718,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.93,
       "exitTime": "2026-06-29T14:05:16Z",
       "open": false,
-      "returnPct": -0.42
+      "returnPct": -0.42,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2346,7 +2730,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.69
+      "returnPct": -2.69,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2357,7 +2742,8 @@ window.V3KR_DATA = {
       "exitPrice": 347.18,
       "exitTime": "2026-06-29T14:04:22Z",
       "open": false,
-      "returnPct": 2.63
+      "returnPct": 2.63,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2368,7 +2754,8 @@ window.V3KR_DATA = {
       "exitPrice": 1025.1,
       "exitTime": "2026-06-29T14:04:21Z",
       "open": false,
-      "returnPct": -4.44
+      "returnPct": -4.44,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2379,7 +2766,8 @@ window.V3KR_DATA = {
       "exitPrice": 116.12,
       "exitTime": "2026-06-29T14:04:21Z",
       "open": false,
-      "returnPct": -1.51
+      "returnPct": -1.51,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2390,7 +2778,8 @@ window.V3KR_DATA = {
       "exitPrice": 283.81,
       "exitTime": "2026-06-29T14:04:20Z",
       "open": false,
-      "returnPct": 1.42
+      "returnPct": 1.42,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2401,7 +2790,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.73,
       "exitTime": "2026-06-29T14:04:20Z",
       "open": false,
-      "returnPct": -3.42
+      "returnPct": -3.42,
+      "qqqReturnPct": 1.07
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2412,7 +2802,8 @@ window.V3KR_DATA = {
       "exitPrice": 281.86,
       "exitTime": "2026-06-29T14:04:19Z",
       "open": false,
-      "returnPct": -7.05
+      "returnPct": -7.05,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2423,7 +2814,8 @@ window.V3KR_DATA = {
       "exitPrice": 193.29,
       "exitTime": "2026-06-29T14:04:19Z",
       "open": false,
-      "returnPct": -3.23
+      "returnPct": -3.23,
+      "qqqReturnPct": 1.89
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -2434,7 +2826,8 @@ window.V3KR_DATA = {
       "exitPrice": 998.41,
       "exitTime": "2026-06-29T00:00:00Z",
       "open": false,
-      "returnPct": -2.12
+      "returnPct": -2.12,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -2445,7 +2838,8 @@ window.V3KR_DATA = {
       "exitPrice": 214.33,
       "exitTime": "2026-06-29T00:00:00Z",
       "open": false,
-      "returnPct": -0.29
+      "returnPct": -0.29,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -2456,7 +2850,8 @@ window.V3KR_DATA = {
       "exitPrice": 1029.19,
       "exitTime": "2026-06-29T00:00:00Z",
       "open": false,
-      "returnPct": -0.65
+      "returnPct": -0.65,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -2467,7 +2862,8 @@ window.V3KR_DATA = {
       "exitPrice": 373.52,
       "exitTime": "2026-06-29T00:00:00Z",
       "open": false,
-      "returnPct": 1.01
+      "returnPct": 1.01,
+      "qqqReturnPct": 2.49
     },
     {
       "strategy": "KESTREL",
@@ -2478,7 +2874,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.4
+      "returnPct": -0.4,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -2489,7 +2886,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.39,
       "exitTime": "2026-06-26T15:36:26Z",
       "open": false,
-      "returnPct": 4.32
+      "returnPct": 4.32,
+      "qqqReturnPct": -0.58
     },
     {
       "strategy": "KESTREL",
@@ -2500,7 +2898,8 @@ window.V3KR_DATA = {
       "exitPrice": 1032.09,
       "exitTime": "2026-06-26T15:36:26Z",
       "open": false,
-      "returnPct": -4.57
+      "returnPct": -4.57,
+      "qqqReturnPct": -0.58
     },
     {
       "strategy": "KESTREL",
@@ -2511,7 +2910,8 @@ window.V3KR_DATA = {
       "exitPrice": 282.38,
       "exitTime": "2026-06-26T15:36:24Z",
       "open": false,
-      "returnPct": 4.01
+      "returnPct": 4.01,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "KESTREL",
@@ -2522,7 +2922,8 @@ window.V3KR_DATA = {
       "exitPrice": 338.71,
       "exitTime": "2026-06-26T15:36:23Z",
       "open": false,
-      "returnPct": 2.86
+      "returnPct": 2.86,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2533,7 +2934,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.7
+      "returnPct": 0.7,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2544,7 +2946,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.48
+      "returnPct": -2.48,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2555,7 +2958,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.67
+      "returnPct": -2.67,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2566,7 +2970,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.03
+      "returnPct": -0.03,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2577,7 +2982,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.29
+      "returnPct": -0.29,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2588,7 +2994,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.68
+      "returnPct": -0.68,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STC INVERSE",
@@ -2599,7 +3006,8 @@ window.V3KR_DATA = {
       "exitPrice": 105.57,
       "exitTime": "2026-06-26T15:29:46Z",
       "open": false,
-      "returnPct": 5.19
+      "returnPct": 5.19,
+      "qqqReturnPct": -0.58
     },
     {
       "strategy": "STC INVERSE",
@@ -2610,7 +3018,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.61,
       "exitTime": "2026-06-26T15:29:43Z",
       "open": false,
-      "returnPct": 1.09
+      "returnPct": 1.09,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2621,7 +3030,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.52,
       "exitTime": "2026-06-26T15:29:43Z",
       "open": false,
-      "returnPct": -6.68
+      "returnPct": -6.68,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "STC INVERSE",
@@ -2632,7 +3042,8 @@ window.V3KR_DATA = {
       "exitPrice": 427.45,
       "exitTime": "2026-06-26T15:29:43Z",
       "open": false,
-      "returnPct": 5.59
+      "returnPct": 5.59,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "STC INVERSE",
@@ -2643,7 +3054,8 @@ window.V3KR_DATA = {
       "exitPrice": 312.25,
       "exitTime": "2026-06-26T15:29:42Z",
       "open": false,
-      "returnPct": 2.9
+      "returnPct": 2.9,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2654,7 +3066,8 @@ window.V3KR_DATA = {
       "exitPrice": 47.56,
       "exitTime": "2026-06-26T15:29:42Z",
       "open": false,
-      "returnPct": 2.97
+      "returnPct": 2.97,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2665,7 +3078,8 @@ window.V3KR_DATA = {
       "exitPrice": 156.22,
       "exitTime": "2026-06-26T15:29:42Z",
       "open": false,
-      "returnPct": -5.48
+      "returnPct": -5.48,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2676,7 +3090,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.63,
       "exitTime": "2026-06-26T15:29:41Z",
       "open": false,
-      "returnPct": 1.57
+      "returnPct": 1.57,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2687,7 +3102,8 @@ window.V3KR_DATA = {
       "exitPrice": 381.75,
       "exitTime": "2026-06-26T15:29:41Z",
       "open": false,
-      "returnPct": 4.16
+      "returnPct": 4.16,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "STC INVERSE",
@@ -2698,7 +3114,8 @@ window.V3KR_DATA = {
       "exitPrice": 228.74,
       "exitTime": "2026-06-26T15:29:41Z",
       "open": false,
-      "returnPct": -0.38
+      "returnPct": -0.38,
+      "qqqReturnPct": -4.6
     },
     {
       "strategy": "KESTREL",
@@ -2709,7 +3126,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.48
+      "returnPct": -0.48,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -2720,7 +3138,8 @@ window.V3KR_DATA = {
       "exitPrice": 140.02,
       "exitTime": "2026-06-26T15:23:03Z",
       "open": false,
-      "returnPct": -3.79
+      "returnPct": -3.79,
+      "qqqReturnPct": -1.38
     },
     {
       "strategy": "KESTREL",
@@ -2731,7 +3150,8 @@ window.V3KR_DATA = {
       "exitPrice": 182.01,
       "exitTime": "2026-06-26T15:23:02Z",
       "open": false,
-      "returnPct": 1.24
+      "returnPct": 1.24,
+      "qqqReturnPct": -1.38
     },
     {
       "strategy": "KESTREL",
@@ -2742,7 +3162,8 @@ window.V3KR_DATA = {
       "exitPrice": 278.61,
       "exitTime": "2026-06-26T15:23:02Z",
       "open": false,
-      "returnPct": 0.72
+      "returnPct": 0.72,
+      "qqqReturnPct": -1.38
     },
     {
       "strategy": "KESTREL",
@@ -2753,7 +3174,8 @@ window.V3KR_DATA = {
       "exitPrice": 116.29,
       "exitTime": "2026-06-26T15:23:00Z",
       "open": false,
-      "returnPct": 3.34
+      "returnPct": 3.34,
+      "qqqReturnPct": -0.58
     },
     {
       "strategy": "KESTREL",
@@ -2764,7 +3186,8 @@ window.V3KR_DATA = {
       "exitPrice": 1028.03,
       "exitTime": "2026-06-26T15:23:00Z",
       "open": false,
-      "returnPct": -4.95
+      "returnPct": -4.95,
+      "qqqReturnPct": -0.58
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2775,7 +3198,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.42
+      "returnPct": -2.42,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2786,7 +3210,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.36
+      "returnPct": -1.36,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2797,7 +3222,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.8
+      "returnPct": -3.8,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -2808,7 +3234,8 @@ window.V3KR_DATA = {
       "exitPrice": 515.29,
       "exitTime": "2026-06-26T15:22:18Z",
       "open": false,
-      "returnPct": -6.17
+      "returnPct": -6.17,
+      "qqqReturnPct": -5.04
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2819,7 +3246,8 @@ window.V3KR_DATA = {
       "exitPrice": 251.06,
       "exitTime": "2026-06-26T15:19:28Z",
       "open": false,
-      "returnPct": 5.89
+      "returnPct": 5.89,
+      "qqqReturnPct": -1.0
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2830,7 +3258,8 @@ window.V3KR_DATA = {
       "exitPrice": 4.33,
       "exitTime": "2026-06-26T15:19:28Z",
       "open": false,
-      "returnPct": 10.88
+      "returnPct": 10.88,
+      "qqqReturnPct": -1.38
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2841,7 +3270,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.9,
       "exitTime": "2026-06-26T15:19:27Z",
       "open": false,
-      "returnPct": -2.89
+      "returnPct": -2.89,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -2852,7 +3282,8 @@ window.V3KR_DATA = {
       "exitPrice": 155.4,
       "exitTime": "2026-06-26T15:19:27Z",
       "open": false,
-      "returnPct": 9.66
+      "returnPct": 9.66,
+      "qqqReturnPct": -1.0
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2863,7 +3294,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -5.61
+      "returnPct": -5.61,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2874,7 +3306,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -4.8
+      "returnPct": -4.8,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2885,7 +3318,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 9.93
+      "returnPct": 9.93,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -2896,7 +3330,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 8.67
+      "returnPct": 8.67,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -2907,7 +3342,8 @@ window.V3KR_DATA = {
       "exitPrice": 170.59,
       "exitTime": "2026-06-26T14:05:10Z",
       "open": false,
-      "returnPct": -1.63
+      "returnPct": -1.63,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2918,7 +3354,8 @@ window.V3KR_DATA = {
       "exitPrice": 136.43,
       "exitTime": "2026-06-26T14:04:14Z",
       "open": false,
-      "returnPct": -0.74
+      "returnPct": -0.74,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -2929,7 +3366,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.96,
       "exitTime": "2026-06-26T14:04:14Z",
       "open": false,
-      "returnPct": -1.74
+      "returnPct": -1.74,
+      "qqqReturnPct": -4.26
     },
     {
       "strategy": "KESTREL",
@@ -2940,7 +3378,8 @@ window.V3KR_DATA = {
       "exitPrice": 174.26,
       "exitTime": "2026-06-25T15:34:48Z",
       "open": false,
-      "returnPct": -4.32
+      "returnPct": -4.32,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "KESTREL",
@@ -2951,7 +3390,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.66,
       "exitTime": "2026-06-25T15:34:48Z",
       "open": false,
-      "returnPct": -5.53
+      "returnPct": -5.53,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "KESTREL",
@@ -2962,7 +3402,8 @@ window.V3KR_DATA = {
       "exitPrice": 368.12,
       "exitTime": "2026-06-25T15:34:46Z",
       "open": false,
-      "returnPct": -3.45
+      "returnPct": -3.45,
+      "qqqReturnPct": -2.92
     },
     {
       "strategy": "STC INVERSE",
@@ -2973,7 +3414,8 @@ window.V3KR_DATA = {
       "exitPrice": 629.44,
       "exitTime": "2026-06-25T15:28:06Z",
       "open": false,
-      "returnPct": 7.39
+      "returnPct": 7.39,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -2984,7 +3426,8 @@ window.V3KR_DATA = {
       "exitPrice": 277.72,
       "exitTime": "2026-06-25T15:28:06Z",
       "open": false,
-      "returnPct": 7.06
+      "returnPct": 7.06,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -2995,7 +3438,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.76,
       "exitTime": "2026-06-25T15:28:04Z",
       "open": false,
-      "returnPct": -7.8
+      "returnPct": -7.8,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "STC INVERSE",
@@ -3006,7 +3450,8 @@ window.V3KR_DATA = {
       "exitPrice": 345.58,
       "exitTime": "2026-06-25T15:28:04Z",
       "open": false,
-      "returnPct": 5.9
+      "returnPct": 5.9,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "STC INVERSE",
@@ -3017,7 +3462,8 @@ window.V3KR_DATA = {
       "exitPrice": 246.88,
       "exitTime": "2026-06-25T15:28:03Z",
       "open": false,
-      "returnPct": 7.22
+      "returnPct": 7.22,
+      "qqqReturnPct": -2.92
     },
     {
       "strategy": "STC INVERSE",
@@ -3028,7 +3474,8 @@ window.V3KR_DATA = {
       "exitPrice": 246.98,
       "exitTime": "2026-06-25T15:28:00Z",
       "open": false,
-      "returnPct": 5.7
+      "returnPct": 5.7,
+      "qqqReturnPct": -3.27
     },
     {
       "strategy": "KESTREL",
@@ -3039,7 +3486,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.11,
       "exitTime": "2026-06-25T15:21:28Z",
       "open": false,
-      "returnPct": -6.1
+      "returnPct": -6.1,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "KESTREL",
@@ -3050,7 +3498,8 @@ window.V3KR_DATA = {
       "exitPrice": 326.36,
       "exitTime": "2026-06-25T15:21:27Z",
       "open": false,
-      "returnPct": 1.47
+      "returnPct": 1.47,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "KESTREL",
@@ -3061,7 +3510,8 @@ window.V3KR_DATA = {
       "exitPrice": 309.52,
       "exitTime": "2026-06-25T15:21:27Z",
       "open": false,
-      "returnPct": 1.53
+      "returnPct": 1.53,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "KESTREL",
@@ -3072,7 +3522,8 @@ window.V3KR_DATA = {
       "exitPrice": 173.15,
       "exitTime": "2026-06-25T15:21:27Z",
       "open": false,
-      "returnPct": -4.94
+      "returnPct": -4.94,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "KESTREL",
@@ -3083,7 +3534,8 @@ window.V3KR_DATA = {
       "exitPrice": 366.36,
       "exitTime": "2026-06-25T15:21:26Z",
       "open": false,
-      "returnPct": -3.91
+      "returnPct": -3.91,
+      "qqqReturnPct": -2.92
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3094,7 +3546,8 @@ window.V3KR_DATA = {
       "exitPrice": 168.17,
       "exitTime": "2026-06-25T15:17:17Z",
       "open": false,
-      "returnPct": 12.26
+      "returnPct": 12.26,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3105,7 +3558,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.18,
       "exitTime": "2026-06-25T15:17:17Z",
       "open": false,
-      "returnPct": 6.54
+      "returnPct": 6.54,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3116,7 +3570,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.01,
       "exitTime": "2026-06-25T15:17:16Z",
       "open": false,
-      "returnPct": -8.67
+      "returnPct": -8.67,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3127,7 +3582,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.59,
       "exitTime": "2026-06-25T15:17:16Z",
       "open": false,
-      "returnPct": -16.8
+      "returnPct": -16.8,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3138,7 +3594,8 @@ window.V3KR_DATA = {
       "exitPrice": 107.39,
       "exitTime": "2026-06-25T14:05:11Z",
       "open": false,
-      "returnPct": 2.22
+      "returnPct": 2.22,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3149,7 +3606,8 @@ window.V3KR_DATA = {
       "exitPrice": 325.36,
       "exitTime": "2026-06-25T14:05:10Z",
       "open": false,
-      "returnPct": 4.73
+      "returnPct": 4.73,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3160,7 +3618,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.84,
       "exitTime": "2026-06-25T14:05:09Z",
       "open": false,
-      "returnPct": 3.79
+      "returnPct": 3.79,
+      "qqqReturnPct": 0.38
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -3171,7 +3630,8 @@ window.V3KR_DATA = {
       "exitPrice": 1148.11,
       "exitTime": "2026-06-25T14:04:14Z",
       "open": false,
-      "returnPct": 10.09
+      "returnPct": 10.09,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -3182,7 +3642,8 @@ window.V3KR_DATA = {
       "exitPrice": 325.16,
       "exitTime": "2026-06-25T14:04:13Z",
       "open": false,
-      "returnPct": 4.94
+      "returnPct": 4.94,
+      "qqqReturnPct": 0.81
     },
     {
       "strategy": "KESTREL",
@@ -3193,7 +3654,8 @@ window.V3KR_DATA = {
       "exitPrice": 739.5,
       "exitTime": "2026-06-24T15:35:55Z",
       "open": false,
-      "returnPct": -2.04
+      "returnPct": -2.04,
+      "qqqReturnPct": -4.49
     },
     {
       "strategy": "STC INVERSE",
@@ -3204,7 +3666,8 @@ window.V3KR_DATA = {
       "exitPrice": 74.37,
       "exitTime": "2026-06-24T15:29:31Z",
       "open": false,
-      "returnPct": 5.35
+      "returnPct": 5.35,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "STC INVERSE",
@@ -3215,7 +3678,8 @@ window.V3KR_DATA = {
       "exitPrice": 50.42,
       "exitTime": "2026-06-24T15:29:26Z",
       "open": false,
-      "returnPct": 1.66
+      "returnPct": 1.66,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -3226,7 +3690,8 @@ window.V3KR_DATA = {
       "exitPrice": 471.41,
       "exitTime": "2026-06-24T15:29:25Z",
       "open": false,
-      "returnPct": 0.65
+      "returnPct": 0.65,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -3237,7 +3702,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.45,
       "exitTime": "2026-06-24T15:29:25Z",
       "open": false,
-      "returnPct": 0.16
+      "returnPct": 0.16,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -3248,7 +3714,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.26,
       "exitTime": "2026-06-24T15:29:25Z",
       "open": false,
-      "returnPct": 0.54
+      "returnPct": 0.54,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -3259,7 +3726,8 @@ window.V3KR_DATA = {
       "exitPrice": 116.84,
       "exitTime": "2026-06-24T15:29:25Z",
       "open": false,
-      "returnPct": 0.4
+      "returnPct": 0.4,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -3270,7 +3738,8 @@ window.V3KR_DATA = {
       "exitPrice": 1108.56,
       "exitTime": "2026-06-24T15:29:24Z",
       "open": false,
-      "returnPct": -1.57
+      "returnPct": -1.57,
+      "qqqReturnPct": -2.64
     },
     {
       "strategy": "STC INVERSE",
@@ -3281,7 +3750,8 @@ window.V3KR_DATA = {
       "exitPrice": 386.85,
       "exitTime": "2026-06-24T15:29:24Z",
       "open": false,
-      "returnPct": -3.0
+      "returnPct": -3.0,
+      "qqqReturnPct": -2.64
     },
     {
       "strategy": "STC INVERSE",
@@ -3292,7 +3762,8 @@ window.V3KR_DATA = {
       "exitPrice": 184.39,
       "exitTime": "2026-06-24T15:29:24Z",
       "open": false,
-      "returnPct": -4.87
+      "returnPct": -4.87,
+      "qqqReturnPct": -2.64
     },
     {
       "strategy": "KESTREL",
@@ -3303,7 +3774,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.34,
       "exitTime": "2026-06-24T15:22:45Z",
       "open": false,
-      "returnPct": 2.06
+      "returnPct": 2.06,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "KESTREL",
@@ -3314,7 +3786,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.39,
       "exitTime": "2026-06-24T15:22:45Z",
       "open": false,
-      "returnPct": 5.72
+      "returnPct": 5.72,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "KESTREL",
@@ -3325,7 +3798,8 @@ window.V3KR_DATA = {
       "exitPrice": 405.11,
       "exitTime": "2026-06-24T15:22:44Z",
       "open": false,
-      "returnPct": -0.62
+      "returnPct": -0.62,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "KESTREL",
@@ -3336,7 +3810,8 @@ window.V3KR_DATA = {
       "exitPrice": 334.58,
       "exitTime": "2026-06-24T15:22:44Z",
       "open": false,
-      "returnPct": 1.61
+      "returnPct": 1.61,
+      "qqqReturnPct": -4.05
     },
     {
       "strategy": "KESTREL",
@@ -3347,7 +3822,8 @@ window.V3KR_DATA = {
       "exitPrice": 279.42,
       "exitTime": "2026-06-24T15:22:44Z",
       "open": false,
-      "returnPct": 2.92
+      "returnPct": 2.92,
+      "qqqReturnPct": -3.7
     },
     {
       "strategy": "KESTREL",
@@ -3358,7 +3834,8 @@ window.V3KR_DATA = {
       "exitPrice": 739.18,
       "exitTime": "2026-06-24T15:22:43Z",
       "open": false,
-      "returnPct": -2.08
+      "returnPct": -2.08,
+      "qqqReturnPct": -4.49
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3369,7 +3846,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.39,
       "exitTime": "2026-06-24T15:19:19Z",
       "open": false,
-      "returnPct": 7.36
+      "returnPct": 7.36,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3380,7 +3858,8 @@ window.V3KR_DATA = {
       "exitPrice": 93.0,
       "exitTime": "2026-06-24T15:19:19Z",
       "open": false,
-      "returnPct": 16.57
+      "returnPct": 16.57,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3391,7 +3870,8 @@ window.V3KR_DATA = {
       "exitPrice": 134.6,
       "exitTime": "2026-06-24T15:19:18Z",
       "open": false,
-      "returnPct": 2.03
+      "returnPct": 2.03,
+      "qqqReturnPct": -4.05
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3402,7 +3882,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.2,
       "exitTime": "2026-06-24T15:19:17Z",
       "open": false,
-      "returnPct": -7.64
+      "returnPct": -7.64,
+      "qqqReturnPct": -4.05
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3413,7 +3894,8 @@ window.V3KR_DATA = {
       "exitPrice": 1335.01,
       "exitTime": "2026-06-24T14:05:06Z",
       "open": false,
-      "returnPct": 1.36
+      "returnPct": 1.36,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3424,7 +3906,8 @@ window.V3KR_DATA = {
       "exitPrice": 105.28,
       "exitTime": "2026-06-24T14:05:06Z",
       "open": false,
-      "returnPct": 1.84
+      "returnPct": 1.84,
+      "qqqReturnPct": -0.42
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3435,7 +3918,8 @@ window.V3KR_DATA = {
       "exitPrice": 111.63,
       "exitTime": "2026-06-24T14:05:05Z",
       "open": false,
-      "returnPct": 2.94
+      "returnPct": 2.94,
+      "qqqReturnPct": -3.7
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -3446,7 +3930,8 @@ window.V3KR_DATA = {
       "exitPrice": 186.4,
       "exitTime": "2026-06-24T14:04:11Z",
       "open": false,
-      "returnPct": 1.75
+      "returnPct": 1.75,
+      "qqqReturnPct": -3.7
     },
     {
       "strategy": "KESTREL",
@@ -3457,7 +3942,8 @@ window.V3KR_DATA = {
       "exitPrice": 716.8,
       "exitTime": "2026-06-23T15:34:18Z",
       "open": false,
-      "returnPct": -3.51
+      "returnPct": -3.51,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "KESTREL",
@@ -3468,7 +3954,8 @@ window.V3KR_DATA = {
       "exitPrice": 371.95,
       "exitTime": "2026-06-23T15:34:18Z",
       "open": false,
-      "returnPct": -9.63
+      "returnPct": -9.63,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "KESTREL",
@@ -3479,7 +3966,8 @@ window.V3KR_DATA = {
       "exitPrice": 1098.37,
       "exitTime": "2026-06-23T15:34:17Z",
       "open": false,
-      "returnPct": -3.02
+      "returnPct": -3.02,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3490,7 +3978,8 @@ window.V3KR_DATA = {
       "exitPrice": 444.6,
       "exitTime": "2026-06-23T15:27:54Z",
       "open": false,
-      "returnPct": 5.27
+      "returnPct": 5.27,
+      "qqqReturnPct": -1.23
     },
     {
       "strategy": "STC INVERSE",
@@ -3501,7 +3990,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.58,
       "exitTime": "2026-06-23T15:27:51Z",
       "open": false,
-      "returnPct": 1.37
+      "returnPct": 1.37,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3512,7 +4002,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.98,
       "exitTime": "2026-06-23T15:27:51Z",
       "open": false,
-      "returnPct": -1.36
+      "returnPct": -1.36,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3523,7 +4014,8 @@ window.V3KR_DATA = {
       "exitPrice": 183.24,
       "exitTime": "2026-06-23T15:27:51Z",
       "open": false,
-      "returnPct": 2.69
+      "returnPct": 2.69,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3534,7 +4026,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.37,
       "exitTime": "2026-06-23T15:27:50Z",
       "open": false,
-      "returnPct": 3.73
+      "returnPct": 3.73,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3545,7 +4038,8 @@ window.V3KR_DATA = {
       "exitPrice": 329.84,
       "exitTime": "2026-06-23T15:27:50Z",
       "open": false,
-      "returnPct": -1.26
+      "returnPct": -1.26,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "STC INVERSE",
@@ -3556,7 +4050,8 @@ window.V3KR_DATA = {
       "exitPrice": 233.61,
       "exitTime": "2026-06-23T15:27:50Z",
       "open": false,
-      "returnPct": 5.2
+      "returnPct": 5.2,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "KESTREL",
@@ -3567,7 +4062,8 @@ window.V3KR_DATA = {
       "exitPrice": 518.53,
       "exitTime": "2026-06-23T15:21:02Z",
       "open": false,
-      "returnPct": 0.97
+      "returnPct": 0.97,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "KESTREL",
@@ -3578,7 +4074,8 @@ window.V3KR_DATA = {
       "exitPrice": 183.32,
       "exitTime": "2026-06-23T15:21:01Z",
       "open": false,
-      "returnPct": 1.15
+      "returnPct": 1.15,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "KESTREL",
@@ -3589,7 +4086,8 @@ window.V3KR_DATA = {
       "exitPrice": 372.07,
       "exitTime": "2026-06-23T15:21:01Z",
       "open": false,
-      "returnPct": -9.6
+      "returnPct": -9.6,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "KESTREL",
@@ -3600,7 +4098,8 @@ window.V3KR_DATA = {
       "exitPrice": 53.96,
       "exitTime": "2026-06-23T15:21:00Z",
       "open": false,
-      "returnPct": 0.06
+      "returnPct": 0.06,
+      "qqqReturnPct": -3.64
     },
     {
       "strategy": "KESTREL",
@@ -3611,7 +4110,8 @@ window.V3KR_DATA = {
       "exitPrice": 1100.53,
       "exitTime": "2026-06-23T15:20:59Z",
       "open": false,
-      "returnPct": -2.83
+      "returnPct": -2.83,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "KESTREL",
@@ -3622,7 +4122,8 @@ window.V3KR_DATA = {
       "exitPrice": 716.82,
       "exitTime": "2026-06-23T15:20:59Z",
       "open": false,
-      "returnPct": -3.5
+      "returnPct": -3.5,
+      "qqqReturnPct": -4.08
     },
     {
       "strategy": "KESTREL",
@@ -3633,7 +4134,8 @@ window.V3KR_DATA = {
       "exitPrice": 87.4,
       "exitTime": "2026-06-23T15:20:59Z",
       "open": false,
-      "returnPct": 2.1
+      "returnPct": 2.1,
+      "qqqReturnPct": -2.22
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3644,7 +4146,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.58,
       "exitTime": "2026-06-23T15:17:36Z",
       "open": false,
-      "returnPct": -5.14
+      "returnPct": -5.14,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3655,7 +4158,8 @@ window.V3KR_DATA = {
       "exitPrice": 6.44,
       "exitTime": "2026-06-23T15:17:36Z",
       "open": false,
-      "returnPct": -7.85
+      "returnPct": -7.85,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3666,7 +4170,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.96,
       "exitTime": "2026-06-23T15:17:35Z",
       "open": false,
-      "returnPct": 20.83
+      "returnPct": 20.83,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3677,7 +4182,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.12,
       "exitTime": "2026-06-23T15:17:35Z",
       "open": false,
-      "returnPct": -5.95
+      "returnPct": -5.95,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -3688,7 +4194,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.76,
       "exitTime": "2026-06-23T15:17:33Z",
       "open": false,
-      "returnPct": -9.57
+      "returnPct": -9.57,
+      "qqqReturnPct": -3.64
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -3699,7 +4206,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -6.32
+      "returnPct": -6.32,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3710,7 +4218,8 @@ window.V3KR_DATA = {
       "exitPrice": 196.7,
       "exitTime": "2026-06-23T14:05:21Z",
       "open": false,
-      "returnPct": 1.86
+      "returnPct": 1.86,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3721,7 +4230,8 @@ window.V3KR_DATA = {
       "exitPrice": 28.7,
       "exitTime": "2026-06-23T14:05:20Z",
       "open": false,
-      "returnPct": 1.43
+      "returnPct": 1.43,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -3732,7 +4242,8 @@ window.V3KR_DATA = {
       "exitPrice": 95.75,
       "exitTime": "2026-06-23T14:05:20Z",
       "open": false,
-      "returnPct": 1.7
+      "returnPct": 1.7,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -3743,7 +4254,8 @@ window.V3KR_DATA = {
       "exitPrice": 118.48,
       "exitTime": "2026-06-23T14:04:26Z",
       "open": false,
-      "returnPct": 4.46
+      "returnPct": 4.46,
+      "qqqReturnPct": -3.29
     },
     {
       "strategy": "KESTREL",
@@ -3754,7 +4266,8 @@ window.V3KR_DATA = {
       "exitPrice": 305.0,
       "exitTime": "2026-06-22T15:36:37Z",
       "open": false,
-      "returnPct": 0.44
+      "returnPct": 0.44,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "KESTREL",
@@ -3765,7 +4278,8 @@ window.V3KR_DATA = {
       "exitPrice": 53.84,
       "exitTime": "2026-06-22T15:36:37Z",
       "open": false,
-      "returnPct": -0.15
+      "returnPct": -0.15,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "KESTREL",
@@ -3776,7 +4290,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.94,
       "exitTime": "2026-06-22T15:36:37Z",
       "open": false,
-      "returnPct": -4.32
+      "returnPct": -4.32,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "KESTREL",
@@ -3787,7 +4302,8 @@ window.V3KR_DATA = {
       "exitPrice": 157.66,
       "exitTime": "2026-06-22T15:36:36Z",
       "open": false,
-      "returnPct": -1.22
+      "returnPct": -1.22,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "KESTREL",
@@ -3798,7 +4314,8 @@ window.V3KR_DATA = {
       "exitPrice": 54.76,
       "exitTime": "2026-06-22T15:36:36Z",
       "open": false,
-      "returnPct": -0.5
+      "returnPct": -0.5,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "KESTREL",
@@ -3809,7 +4326,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.35,
       "exitTime": "2026-06-22T15:36:35Z",
       "open": false,
-      "returnPct": -0.54
+      "returnPct": -0.54,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "KESTREL",
@@ -3820,7 +4338,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.04,
       "exitTime": "2026-06-22T15:36:34Z",
       "open": false,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": 6.38
     },
     {
       "strategy": "KESTREL",
@@ -3831,7 +4350,8 @@ window.V3KR_DATA = {
       "exitPrice": 404.56,
       "exitTime": "2026-06-22T15:36:34Z",
       "open": false,
-      "returnPct": -0.43
+      "returnPct": -0.43,
+      "qqqReturnPct": 2.9
     },
     {
       "strategy": "KESTREL",
@@ -3842,7 +4362,8 @@ window.V3KR_DATA = {
       "exitPrice": 396.29,
       "exitTime": "2026-06-22T15:36:34Z",
       "open": false,
-      "returnPct": -0.67
+      "returnPct": -0.67,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3853,7 +4374,8 @@ window.V3KR_DATA = {
       "exitPrice": 343.29,
       "exitTime": "2026-06-22T15:29:13Z",
       "open": false,
-      "returnPct": 5.15
+      "returnPct": 5.15,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STC INVERSE",
@@ -3864,7 +4386,8 @@ window.V3KR_DATA = {
       "exitPrice": 176.17,
       "exitTime": "2026-06-22T15:29:08Z",
       "open": false,
-      "returnPct": -2.98
+      "returnPct": -2.98,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3875,7 +4398,8 @@ window.V3KR_DATA = {
       "exitPrice": 233.22,
       "exitTime": "2026-06-22T15:29:08Z",
       "open": false,
-      "returnPct": 5.2
+      "returnPct": 5.2,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -3886,7 +4410,8 @@ window.V3KR_DATA = {
       "exitPrice": 170.0,
       "exitTime": "2026-06-22T15:29:07Z",
       "open": false,
-      "returnPct": -4.05
+      "returnPct": -4.05,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3897,7 +4422,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.46,
       "exitTime": "2026-06-22T15:29:07Z",
       "open": false,
-      "returnPct": 4.19
+      "returnPct": 4.19,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3908,7 +4434,8 @@ window.V3KR_DATA = {
       "exitPrice": 102.82,
       "exitTime": "2026-06-22T15:29:07Z",
       "open": false,
-      "returnPct": -2.65
+      "returnPct": -2.65,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3919,7 +4446,8 @@ window.V3KR_DATA = {
       "exitPrice": 1057.42,
       "exitTime": "2026-06-22T15:29:07Z",
       "open": false,
-      "returnPct": -1.64
+      "returnPct": -1.64,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3930,7 +4458,8 @@ window.V3KR_DATA = {
       "exitPrice": 175.38,
       "exitTime": "2026-06-22T15:29:06Z",
       "open": false,
-      "returnPct": 4.35
+      "returnPct": 4.35,
+      "qqqReturnPct": 2.9
     },
     {
       "strategy": "STC INVERSE",
@@ -3941,7 +4470,8 @@ window.V3KR_DATA = {
       "exitPrice": 93.8,
       "exitTime": "2026-06-22T15:29:06Z",
       "open": false,
-      "returnPct": 0.61
+      "returnPct": 0.61,
+      "qqqReturnPct": 2.9
     },
     {
       "strategy": "STC INVERSE",
@@ -3952,7 +4482,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.2,
       "exitTime": "2026-06-22T15:29:06Z",
       "open": false,
-      "returnPct": 3.32
+      "returnPct": 3.32,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STC INVERSE",
@@ -3963,7 +4494,8 @@ window.V3KR_DATA = {
       "exitPrice": 950.61,
       "exitTime": "2026-06-22T15:29:05Z",
       "open": false,
-      "returnPct": 3.0
+      "returnPct": 3.0,
+      "qqqReturnPct": 2.9
     },
     {
       "strategy": "KESTREL",
@@ -3974,7 +4506,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.61,
       "exitTime": "2026-06-22T15:22:31Z",
       "open": false,
-      "returnPct": -4.72
+      "returnPct": -4.72,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "KESTREL",
@@ -3985,7 +4518,8 @@ window.V3KR_DATA = {
       "exitPrice": 54.93,
       "exitTime": "2026-06-22T15:22:30Z",
       "open": false,
-      "returnPct": -0.18
+      "returnPct": -0.18,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "KESTREL",
@@ -3996,7 +4530,8 @@ window.V3KR_DATA = {
       "exitPrice": 172.79,
       "exitTime": "2026-06-22T15:22:30Z",
       "open": false,
-      "returnPct": -4.51
+      "returnPct": -4.51,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "KESTREL",
@@ -4007,7 +4542,8 @@ window.V3KR_DATA = {
       "exitPrice": 157.6,
       "exitTime": "2026-06-22T15:22:29Z",
       "open": false,
-      "returnPct": -1.25
+      "returnPct": -1.25,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "KESTREL",
@@ -4018,7 +4554,8 @@ window.V3KR_DATA = {
       "exitPrice": 389.46,
       "exitTime": "2026-06-22T15:22:28Z",
       "open": false,
-      "returnPct": -3.2
+      "returnPct": -3.2,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "KESTREL",
@@ -4029,7 +4566,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.03,
       "exitTime": "2026-06-22T15:22:27Z",
       "open": false,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": 6.38
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4040,7 +4578,8 @@ window.V3KR_DATA = {
       "exitPrice": 1015.45,
       "exitTime": "2026-06-22T15:21:52Z",
       "open": false,
-      "returnPct": 9.01
+      "returnPct": 9.01,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4051,7 +4590,8 @@ window.V3KR_DATA = {
       "exitPrice": 395.48,
       "exitTime": "2026-06-22T15:21:50Z",
       "open": false,
-      "returnPct": -0.9
+      "returnPct": -0.9,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4062,7 +4602,8 @@ window.V3KR_DATA = {
       "exitPrice": 232.6,
       "exitTime": "2026-06-22T15:21:50Z",
       "open": false,
-      "returnPct": -2.28
+      "returnPct": -2.28,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4073,7 +4614,8 @@ window.V3KR_DATA = {
       "exitPrice": 1184.52,
       "exitTime": "2026-06-22T15:21:50Z",
       "open": false,
-      "returnPct": 10.44
+      "returnPct": 10.44,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4084,7 +4626,8 @@ window.V3KR_DATA = {
       "exitPrice": 299.63,
       "exitTime": "2026-06-22T15:21:49Z",
       "open": false,
-      "returnPct": 2.31
+      "returnPct": 2.31,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4095,7 +4638,8 @@ window.V3KR_DATA = {
       "exitPrice": 74.33,
       "exitTime": "2026-06-22T15:18:55Z",
       "open": false,
-      "returnPct": -1.72
+      "returnPct": -1.72,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4106,7 +4650,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.33,
       "exitTime": "2026-06-22T15:18:54Z",
       "open": false,
-      "returnPct": 11.62
+      "returnPct": 11.62,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4117,7 +4662,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.24,
       "exitTime": "2026-06-22T15:18:54Z",
       "open": false,
-      "returnPct": -3.52
+      "returnPct": -3.52,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4128,7 +4674,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.87,
       "exitTime": "2026-06-22T15:18:53Z",
       "open": false,
-      "returnPct": 10.18
+      "returnPct": 10.18,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4139,7 +4686,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.7,
       "exitTime": "2026-06-22T15:18:53Z",
       "open": false,
-      "returnPct": -3.2
+      "returnPct": -3.2,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4150,7 +4698,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.81,
       "exitTime": "2026-06-22T15:18:53Z",
       "open": false,
-      "returnPct": -6.14
+      "returnPct": -6.14,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4161,7 +4710,8 @@ window.V3KR_DATA = {
       "exitPrice": 168.37,
       "exitTime": "2026-06-22T15:18:53Z",
       "open": false,
-      "returnPct": 11.26
+      "returnPct": 11.26,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4172,7 +4722,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.38,
       "exitTime": "2026-06-22T15:18:52Z",
       "open": false,
-      "returnPct": 0.1
+      "returnPct": 0.1,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "LEADING Witching",
@@ -4183,7 +4734,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.68,
       "exitTime": "2026-06-22T14:26:03Z",
       "open": false,
-      "returnPct": 2.85
+      "returnPct": 2.85,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "LEADING Witching",
@@ -4194,7 +4746,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.17,
       "exitTime": "2026-06-22T14:26:03Z",
       "open": false,
-      "returnPct": 2.13
+      "returnPct": 2.13,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "LEADING Witching",
@@ -4205,7 +4758,8 @@ window.V3KR_DATA = {
       "exitPrice": 169.15,
       "exitTime": "2026-06-22T14:26:02Z",
       "open": false,
-      "returnPct": -0.66
+      "returnPct": -0.66,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "LEADING Witching",
@@ -4216,7 +4770,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.78,
       "exitTime": "2026-06-22T14:26:02Z",
       "open": false,
-      "returnPct": 8.3
+      "returnPct": 8.3,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "LEADING Witching",
@@ -4227,7 +4782,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.31,
       "exitTime": "2026-06-22T14:26:02Z",
       "open": false,
-      "returnPct": -5.92
+      "returnPct": -5.92,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "LEADING Witching",
@@ -4238,7 +4794,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.38,
       "exitTime": "2026-06-22T14:26:01Z",
       "open": false,
-      "returnPct": -2.29
+      "returnPct": -2.29,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "LEADING Witching",
@@ -4249,7 +4806,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.85,
       "exitTime": "2026-06-22T14:26:01Z",
       "open": false,
-      "returnPct": -2.95
+      "returnPct": -2.95,
+      "qqqReturnPct": 2.3
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -4260,7 +4818,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 9.03
+      "returnPct": 9.03,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -4271,7 +4830,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -11.95
+      "returnPct": -11.95,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -4282,7 +4842,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 7.8
+      "returnPct": 7.8,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -4293,7 +4854,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -8.78
+      "returnPct": -8.78,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4304,7 +4866,8 @@ window.V3KR_DATA = {
       "exitPrice": 224.53,
       "exitTime": "2026-06-22T14:05:30Z",
       "open": false,
-      "returnPct": 0.94
+      "returnPct": 0.94,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4315,7 +4878,8 @@ window.V3KR_DATA = {
       "exitPrice": 328.73,
       "exitTime": "2026-06-22T14:05:30Z",
       "open": false,
-      "returnPct": 0.99
+      "returnPct": 0.99,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4326,7 +4890,8 @@ window.V3KR_DATA = {
       "exitPrice": 283.19,
       "exitTime": "2026-06-22T14:05:30Z",
       "open": false,
-      "returnPct": 0.07
+      "returnPct": 0.07,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4337,7 +4902,8 @@ window.V3KR_DATA = {
       "exitPrice": 116.97,
       "exitTime": "2026-06-22T14:05:29Z",
       "open": false,
-      "returnPct": 0.83
+      "returnPct": 0.83,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4348,7 +4914,8 @@ window.V3KR_DATA = {
       "exitPrice": 225.35,
       "exitTime": "2026-06-22T14:05:29Z",
       "open": false,
-      "returnPct": 2.46
+      "returnPct": 2.46,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4359,7 +4926,8 @@ window.V3KR_DATA = {
       "exitPrice": 193.44,
       "exitTime": "2026-06-22T14:05:28Z",
       "open": false,
-      "returnPct": -2.45
+      "returnPct": -2.45,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4370,7 +4938,8 @@ window.V3KR_DATA = {
       "exitPrice": 273.35,
       "exitTime": "2026-06-22T14:05:28Z",
       "open": false,
-      "returnPct": -1.86
+      "returnPct": -1.86,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4381,7 +4950,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.48,
       "exitTime": "2026-06-22T14:05:27Z",
       "open": false,
-      "returnPct": -2.65
+      "returnPct": -2.65,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4392,7 +4962,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.95,
       "exitTime": "2026-06-22T14:05:27Z",
       "open": false,
-      "returnPct": -0.94
+      "returnPct": -0.94,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4403,7 +4974,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.69,
       "exitTime": "2026-06-22T14:05:26Z",
       "open": false,
-      "returnPct": -8.62
+      "returnPct": -8.62,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4414,7 +4986,8 @@ window.V3KR_DATA = {
       "exitPrice": 107.25,
       "exitTime": "2026-06-22T14:05:26Z",
       "open": false,
-      "returnPct": -4.57
+      "returnPct": -4.57,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4425,7 +4998,8 @@ window.V3KR_DATA = {
       "exitPrice": 176.62,
       "exitTime": "2026-06-22T14:05:26Z",
       "open": false,
-      "returnPct": -3.24
+      "returnPct": -3.24,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4436,7 +5010,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.49,
       "exitTime": "2026-06-22T14:05:25Z",
       "open": false,
-      "returnPct": 2.12
+      "returnPct": 2.12,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4447,7 +5022,8 @@ window.V3KR_DATA = {
       "exitPrice": 212.94,
       "exitTime": "2026-06-22T14:05:25Z",
       "open": false,
-      "returnPct": -1.14
+      "returnPct": -1.14,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4458,7 +5034,8 @@ window.V3KR_DATA = {
       "exitPrice": 839.87,
       "exitTime": "2026-06-22T14:05:24Z",
       "open": false,
-      "returnPct": -2.51
+      "returnPct": -2.51,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4469,7 +5046,8 @@ window.V3KR_DATA = {
       "exitPrice": 109.0,
       "exitTime": "2026-06-22T14:04:31Z",
       "open": false,
-      "returnPct": 0.59
+      "returnPct": 0.59,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4480,7 +5058,8 @@ window.V3KR_DATA = {
       "exitPrice": 79.54,
       "exitTime": "2026-06-22T14:04:30Z",
       "open": false,
-      "returnPct": 0.17
+      "returnPct": 0.17,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4491,7 +5070,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.84,
       "exitTime": "2026-06-22T14:04:30Z",
       "open": false,
-      "returnPct": 0.25
+      "returnPct": 0.25,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4502,7 +5082,8 @@ window.V3KR_DATA = {
       "exitPrice": 229.67,
       "exitTime": "2026-06-22T14:04:29Z",
       "open": false,
-      "returnPct": -0.21
+      "returnPct": -0.21,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4513,7 +5094,8 @@ window.V3KR_DATA = {
       "exitPrice": 283.24,
       "exitTime": "2026-06-22T14:04:29Z",
       "open": false,
-      "returnPct": -0.18
+      "returnPct": -0.18,
+      "qqqReturnPct": -0.36
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4524,7 +5106,8 @@ window.V3KR_DATA = {
       "exitPrice": 212.95,
       "exitTime": "2026-06-22T14:04:28Z",
       "open": false,
-      "returnPct": 2.74
+      "returnPct": 2.74,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4535,7 +5118,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.91,
       "exitTime": "2026-06-22T14:04:28Z",
       "open": false,
-      "returnPct": 2.08
+      "returnPct": 2.08,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4546,7 +5130,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.49,
       "exitTime": "2026-06-22T14:04:27Z",
       "open": false,
-      "returnPct": 2.05
+      "returnPct": 2.05,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4557,7 +5142,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.8,
       "exitTime": "2026-06-22T14:04:27Z",
       "open": false,
-      "returnPct": -0.69
+      "returnPct": -0.69,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4568,7 +5154,8 @@ window.V3KR_DATA = {
       "exitPrice": 173.62,
       "exitTime": "2026-06-22T14:04:27Z",
       "open": false,
-      "returnPct": -2.78
+      "returnPct": -2.78,
+      "qqqReturnPct": 2.14
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4579,7 +5166,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.47,
       "exitTime": "2026-06-22T14:04:26Z",
       "open": false,
-      "returnPct": -1.74
+      "returnPct": -1.74,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4590,7 +5178,8 @@ window.V3KR_DATA = {
       "exitPrice": 1103.63,
       "exitTime": "2026-06-22T14:04:26Z",
       "open": false,
-      "returnPct": -1.27
+      "returnPct": -1.27,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "KESTREL",
@@ -4601,7 +5190,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.96,
       "exitTime": "2026-06-18T15:35:27Z",
       "open": false,
-      "returnPct": -5.56
+      "returnPct": -5.56,
+      "qqqReturnPct": -0.45
     },
     {
       "strategy": "KESTREL",
@@ -4612,7 +5202,8 @@ window.V3KR_DATA = {
       "exitPrice": 72.26,
       "exitTime": "2026-06-18T15:35:26Z",
       "open": false,
-      "returnPct": -0.72
+      "returnPct": -0.72,
+      "qqqReturnPct": 2.67
     },
     {
       "strategy": "KESTREL",
@@ -4623,7 +5214,8 @@ window.V3KR_DATA = {
       "exitPrice": 78.94,
       "exitTime": "2026-06-18T15:35:26Z",
       "open": false,
-      "returnPct": -4.08
+      "returnPct": -4.08,
+      "qqqReturnPct": 2.67
     },
     {
       "strategy": "STC INVERSE",
@@ -4634,7 +5226,8 @@ window.V3KR_DATA = {
       "exitPrice": 263.73,
       "exitTime": "2026-06-18T15:29:08Z",
       "open": false,
-      "returnPct": 6.12
+      "returnPct": 6.12,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "STC INVERSE",
@@ -4645,7 +5238,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.52,
       "exitTime": "2026-06-18T15:29:04Z",
       "open": false,
-      "returnPct": -4.13
+      "returnPct": -4.13,
+      "qqqReturnPct": -0.45
     },
     {
       "strategy": "STC INVERSE",
@@ -4656,7 +5250,8 @@ window.V3KR_DATA = {
       "exitPrice": 216.27,
       "exitTime": "2026-06-18T15:29:01Z",
       "open": false,
-      "returnPct": -5.18
+      "returnPct": -5.18,
+      "qqqReturnPct": 3.28
     },
     {
       "strategy": "STC INVERSE",
@@ -4667,7 +5262,8 @@ window.V3KR_DATA = {
       "exitPrice": 133.6,
       "exitTime": "2026-06-18T15:29:00Z",
       "open": false,
-      "returnPct": 5.88
+      "returnPct": 5.88,
+      "qqqReturnPct": 6.77
     },
     {
       "strategy": "KESTREL",
@@ -4678,7 +5274,8 @@ window.V3KR_DATA = {
       "exitPrice": 303.73,
       "exitTime": "2026-06-18T15:22:37Z",
       "open": false,
-      "returnPct": 0.02
+      "returnPct": 0.02,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "KESTREL",
@@ -4689,7 +5286,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.05,
       "exitTime": "2026-06-18T15:22:36Z",
       "open": false,
-      "returnPct": 2.33
+      "returnPct": 2.33,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "KESTREL",
@@ -4700,7 +5298,8 @@ window.V3KR_DATA = {
       "exitPrice": 78.98,
       "exitTime": "2026-06-18T15:22:35Z",
       "open": false,
-      "returnPct": -4.03
+      "returnPct": -4.03,
+      "qqqReturnPct": 2.67
     },
     {
       "strategy": "KESTREL",
@@ -4711,7 +5310,8 @@ window.V3KR_DATA = {
       "exitPrice": 72.23,
       "exitTime": "2026-06-18T15:22:34Z",
       "open": false,
-      "returnPct": -0.77
+      "returnPct": -0.77,
+      "qqqReturnPct": 2.67
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4722,7 +5322,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.8,
       "exitTime": "2026-06-18T15:21:14Z",
       "open": false,
-      "returnPct": 10.41
+      "returnPct": 10.41,
+      "qqqReturnPct": 1.47
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4733,7 +5334,8 @@ window.V3KR_DATA = {
       "exitPrice": 247.59,
       "exitTime": "2026-06-18T15:21:12Z",
       "open": false,
-      "returnPct": -9.91
+      "returnPct": -9.91,
+      "qqqReturnPct": 2.67
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4744,7 +5346,8 @@ window.V3KR_DATA = {
       "exitPrice": 8.65,
       "exitTime": "2026-06-18T15:18:32Z",
       "open": false,
-      "returnPct": -12.67
+      "returnPct": -12.67,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4755,7 +5358,8 @@ window.V3KR_DATA = {
       "exitPrice": 85.47,
       "exitTime": "2026-06-18T15:18:30Z",
       "open": false,
-      "returnPct": 12.96
+      "returnPct": 12.96,
+      "qqqReturnPct": 1.47
     },
     {
       "strategy": "LEADING Witching",
@@ -4766,7 +5370,8 @@ window.V3KR_DATA = {
       "exitPrice": 112.47,
       "exitTime": "2026-06-18T14:26:21Z",
       "open": false,
-      "returnPct": -8.08
+      "returnPct": -8.08,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "LEADING Witching",
@@ -4777,7 +5382,8 @@ window.V3KR_DATA = {
       "exitPrice": 105.91,
       "exitTime": "2026-06-18T14:26:20Z",
       "open": false,
-      "returnPct": 6.57
+      "returnPct": 6.57,
+      "qqqReturnPct": -0.45
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -4788,7 +5394,8 @@ window.V3KR_DATA = {
       "exitPrice": 174.02,
       "exitTime": "2026-06-18T14:14:40Z",
       "open": false,
-      "returnPct": 0.8
+      "returnPct": 0.8,
+      "qqqReturnPct": 6.77
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -4799,7 +5406,8 @@ window.V3KR_DATA = {
       "exitPrice": 78.58,
       "exitTime": "2026-06-18T14:14:40Z",
       "open": false,
-      "returnPct": -7.52
+      "returnPct": -7.52,
+      "qqqReturnPct": -0.45
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4810,7 +5418,8 @@ window.V3KR_DATA = {
       "exitPrice": 217.84,
       "exitTime": "2026-06-18T14:05:15Z",
       "open": false,
-      "returnPct": 4.79
+      "returnPct": 4.79,
+      "qqqReturnPct": 1.47
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -4821,7 +5430,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.58,
       "exitTime": "2026-06-18T14:05:14Z",
       "open": false,
-      "returnPct": -2.5
+      "returnPct": -2.5,
+      "qqqReturnPct": -0.45
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -4832,7 +5442,8 @@ window.V3KR_DATA = {
       "exitPrice": 1107.0,
       "exitTime": "2026-06-18T14:04:21Z",
       "open": false,
-      "returnPct": 8.47
+      "returnPct": 8.47,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -4843,7 +5454,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 3.96
+      "returnPct": 3.96,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -4854,7 +5466,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.64,
       "exitTime": "2026-06-17T15:32:09Z",
       "open": false,
-      "returnPct": 0.08
+      "returnPct": 0.08,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "KESTREL",
@@ -4865,7 +5478,8 @@ window.V3KR_DATA = {
       "exitPrice": 222.05,
       "exitTime": "2026-06-17T15:32:09Z",
       "open": false,
-      "returnPct": -1.11
+      "returnPct": -1.11,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "KESTREL",
@@ -4876,7 +5490,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.59,
       "exitTime": "2026-06-17T15:32:08Z",
       "open": false,
-      "returnPct": -0.6
+      "returnPct": -0.6,
+      "qqqReturnPct": 0.75
     },
     {
       "strategy": "KESTREL",
@@ -4887,7 +5502,8 @@ window.V3KR_DATA = {
       "exitPrice": 297.33,
       "exitTime": "2026-06-17T15:32:07Z",
       "open": false,
-      "returnPct": 1.64
+      "returnPct": 1.64,
+      "qqqReturnPct": 2.07
     },
     {
       "strategy": "STC INVERSE",
@@ -4898,7 +5514,8 @@ window.V3KR_DATA = {
       "exitPrice": 178.97,
       "exitTime": "2026-06-17T15:25:40Z",
       "open": false,
-      "returnPct": -4.32
+      "returnPct": -4.32,
+      "qqqReturnPct": 2.07
     },
     {
       "strategy": "STC INVERSE",
@@ -4909,7 +5526,8 @@ window.V3KR_DATA = {
       "exitPrice": 251.26,
       "exitTime": "2026-06-17T15:25:40Z",
       "open": false,
-      "returnPct": 5.54
+      "returnPct": 5.54,
+      "qqqReturnPct": 0.75
     },
     {
       "strategy": "KESTREL",
@@ -4920,7 +5538,8 @@ window.V3KR_DATA = {
       "exitPrice": 222.71,
       "exitTime": "2026-06-17T15:18:52Z",
       "open": false,
-      "returnPct": -0.82
+      "returnPct": -0.82,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "KESTREL",
@@ -4931,7 +5550,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.3,
       "exitTime": "2026-06-17T15:18:52Z",
       "open": false,
-      "returnPct": -3.26
+      "returnPct": -3.26,
+      "qqqReturnPct": -2.89
     },
     {
       "strategy": "KESTREL",
@@ -4942,7 +5562,8 @@ window.V3KR_DATA = {
       "exitPrice": 298.1,
       "exitTime": "2026-06-17T15:18:51Z",
       "open": false,
-      "returnPct": 1.9
+      "returnPct": 1.9,
+      "qqqReturnPct": 2.07
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -4953,7 +5574,8 @@ window.V3KR_DATA = {
       "exitPrice": 399.69,
       "exitTime": "2026-06-17T15:17:29Z",
       "open": false,
-      "returnPct": 6.56
+      "returnPct": 6.56,
+      "qqqReturnPct": 4.15
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4964,7 +5586,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.34,
       "exitTime": "2026-06-17T15:14:48Z",
       "open": false,
-      "returnPct": -4.83
+      "returnPct": -4.83,
+      "qqqReturnPct": -1.01
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4975,7 +5598,8 @@ window.V3KR_DATA = {
       "exitPrice": 723.81,
       "exitTime": "2026-06-17T15:14:47Z",
       "open": false,
-      "returnPct": 12.03
+      "returnPct": 12.03,
+      "qqqReturnPct": -2.89
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -4986,7 +5610,8 @@ window.V3KR_DATA = {
       "exitPrice": 24.48,
       "exitTime": "2026-06-17T15:14:47Z",
       "open": false,
-      "returnPct": -6.53
+      "returnPct": -6.53,
+      "qqqReturnPct": -1.01
     },
     {
       "strategy": "LEADING Witching",
@@ -4997,7 +5622,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.4,
       "exitTime": "2026-06-17T14:25:18Z",
       "open": false,
-      "returnPct": 11.31
+      "returnPct": 11.31,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "LEADING Witching",
@@ -5008,7 +5634,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.36,
       "exitTime": "2026-06-17T14:25:18Z",
       "open": false,
-      "returnPct": -7.02
+      "returnPct": -7.02,
+      "qqqReturnPct": -2.89
     },
     {
       "strategy": "LEADING Witching",
@@ -5019,7 +5646,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.56,
       "exitTime": "2026-06-17T14:25:17Z",
       "open": false,
-      "returnPct": 8.0
+      "returnPct": 8.0,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5030,7 +5658,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.88,
       "exitTime": "2026-06-17T14:14:11Z",
       "open": false,
-      "returnPct": -2.59
+      "returnPct": -2.59,
+      "qqqReturnPct": 2.07
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5041,7 +5670,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.97,
       "exitTime": "2026-06-17T14:14:11Z",
       "open": false,
-      "returnPct": -4.66
+      "returnPct": -4.66,
+      "qqqReturnPct": 4.15
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5052,7 +5682,8 @@ window.V3KR_DATA = {
       "exitPrice": 109.4,
       "exitTime": "2026-06-17T14:14:11Z",
       "open": false,
-      "returnPct": 3.43
+      "returnPct": 3.43,
+      "qqqReturnPct": 0.16
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5063,7 +5694,8 @@ window.V3KR_DATA = {
       "exitPrice": 191.42,
       "exitTime": "2026-06-17T14:04:16Z",
       "open": false,
-      "returnPct": 4.61
+      "returnPct": 4.61,
+      "qqqReturnPct": -1.01
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -5074,7 +5706,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 10.96
+      "returnPct": 10.96,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -5085,7 +5718,8 @@ window.V3KR_DATA = {
       "exitPrice": 85.79,
       "exitTime": "2026-06-16T15:36:07Z",
       "open": false,
-      "returnPct": -6.05
+      "returnPct": -6.05,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STC INVERSE",
@@ -5096,7 +5730,8 @@ window.V3KR_DATA = {
       "exitPrice": 110.28,
       "exitTime": "2026-06-16T15:29:29Z",
       "open": false,
-      "returnPct": 5.59
+      "returnPct": 5.59,
+      "qqqReturnPct": 5.21
     },
     {
       "strategy": "STC INVERSE",
@@ -5107,7 +5742,8 @@ window.V3KR_DATA = {
       "exitPrice": 55.2,
       "exitTime": "2026-06-16T15:29:29Z",
       "open": false,
-      "returnPct": 5.84
+      "returnPct": 5.84,
+      "qqqReturnPct": 5.21
     },
     {
       "strategy": "KESTREL",
@@ -5118,7 +5754,8 @@ window.V3KR_DATA = {
       "exitPrice": 126.29,
       "exitTime": "2026-06-16T15:23:31Z",
       "open": false,
-      "returnPct": 1.01
+      "returnPct": 1.01,
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -5129,7 +5766,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.4,
       "exitTime": "2026-06-16T15:22:31Z",
       "open": false,
-      "returnPct": -6.85
+      "returnPct": -6.85,
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5140,7 +5778,8 @@ window.V3KR_DATA = {
       "exitPrice": 155.65,
       "exitTime": "2026-06-16T15:19:43Z",
       "open": false,
-      "returnPct": -7.09
+      "returnPct": -7.09,
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5151,7 +5790,8 @@ window.V3KR_DATA = {
       "exitPrice": 870.24,
       "exitTime": "2026-06-16T15:19:42Z",
       "open": false,
-      "returnPct": -0.85
+      "returnPct": -0.85,
+      "qqqReturnPct": 5.21
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5162,7 +5802,8 @@ window.V3KR_DATA = {
       "exitPrice": 73.32,
       "exitTime": "2026-06-16T15:19:42Z",
       "open": false,
-      "returnPct": 43.05
+      "returnPct": 43.05,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5173,7 +5814,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.0,
       "exitTime": "2026-06-16T15:19:42Z",
       "open": false,
-      "returnPct": 5.64
+      "returnPct": 5.64,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5184,7 +5826,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.63,
       "exitTime": "2026-06-16T14:16:28Z",
       "open": false,
-      "returnPct": 4.47
+      "returnPct": 4.47,
+      "qqqReturnPct": 5.21
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5195,7 +5838,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.45,
       "exitTime": "2026-06-16T14:16:28Z",
       "open": false,
-      "returnPct": -10.56
+      "returnPct": -10.56,
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -5206,7 +5850,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 13.03
+      "returnPct": 13.03,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -5217,7 +5862,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 5.42
+      "returnPct": 5.42,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5228,7 +5874,8 @@ window.V3KR_DATA = {
       "exitPrice": 272.9,
       "exitTime": "2026-06-16T14:06:35Z",
       "open": false,
-      "returnPct": 2.55
+      "returnPct": 2.55,
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5239,7 +5886,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.6,
       "exitTime": "2026-06-16T14:06:31Z",
       "open": false,
-      "returnPct": -1.68
+      "returnPct": -1.68,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5250,7 +5898,8 @@ window.V3KR_DATA = {
       "exitPrice": 99.09,
       "exitTime": "2026-06-16T14:06:30Z",
       "open": false,
-      "returnPct": 2.73
+      "returnPct": 2.73,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5261,7 +5910,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.89,
       "exitTime": "2026-06-16T14:06:30Z",
       "open": false,
-      "returnPct": -1.63
+      "returnPct": -1.63,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5272,7 +5922,8 @@ window.V3KR_DATA = {
       "exitPrice": 978.62,
       "exitTime": "2026-06-16T14:05:36Z",
       "open": false,
-      "returnPct": 0.63
+      "returnPct": 0.63,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5283,7 +5934,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.83,
       "exitTime": "2026-06-16T14:05:36Z",
       "open": false,
-      "returnPct": 2.26
+      "returnPct": 2.26,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5294,7 +5946,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.86,
       "exitTime": "2026-06-16T14:05:35Z",
       "open": false,
-      "returnPct": -1.68
+      "returnPct": -1.68,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5305,7 +5958,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.96,
       "exitTime": "2026-06-16T14:05:35Z",
       "open": false,
-      "returnPct": 0.69
+      "returnPct": 0.69,
+      "qqqReturnPct": 1.18
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -5316,7 +5970,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -6.53
+      "returnPct": -6.53,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -5327,7 +5982,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 1.75
+      "returnPct": 1.75,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -5338,7 +5994,8 @@ window.V3KR_DATA = {
       "exitPrice": 112.66,
       "exitTime": "2026-06-15T15:40:45Z",
       "open": false,
-      "returnPct": -4.14
+      "returnPct": -4.14,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -5349,7 +6006,8 @@ window.V3KR_DATA = {
       "exitPrice": 237.77,
       "exitTime": "2026-06-15T15:40:44Z",
       "open": false,
-      "returnPct": 6.37
+      "returnPct": 6.37,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "KESTREL",
@@ -5360,7 +6018,8 @@ window.V3KR_DATA = {
       "exitPrice": 147.52,
       "exitTime": "2026-06-15T15:40:43Z",
       "open": false,
-      "returnPct": 2.75
+      "returnPct": 2.75,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "KESTREL",
@@ -5371,7 +6030,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.25,
       "exitTime": "2026-06-15T15:40:42Z",
       "open": false,
-      "returnPct": -0.39
+      "returnPct": -0.39,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "KESTREL",
@@ -5382,7 +6042,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.66,
       "exitTime": "2026-06-15T15:40:42Z",
       "open": false,
-      "returnPct": 1.45
+      "returnPct": 1.45,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "KESTREL",
@@ -5393,7 +6054,8 @@ window.V3KR_DATA = {
       "exitPrice": 245.88,
       "exitTime": "2026-06-15T15:40:42Z",
       "open": false,
-      "returnPct": 0.94
+      "returnPct": 0.94,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "KESTREL",
@@ -5404,7 +6066,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.28,
       "exitTime": "2026-06-15T15:40:41Z",
       "open": false,
-      "returnPct": -0.85
+      "returnPct": -0.85,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "STC INVERSE",
@@ -5415,7 +6078,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.95,
       "exitTime": "2026-06-15T15:33:38Z",
       "open": false,
-      "returnPct": 5.79
+      "returnPct": 5.79,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STC INVERSE",
@@ -5426,7 +6090,8 @@ window.V3KR_DATA = {
       "exitPrice": 172.04,
       "exitTime": "2026-06-15T15:33:38Z",
       "open": false,
-      "returnPct": -6.11
+      "returnPct": -6.11,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STC INVERSE",
@@ -5437,7 +6102,8 @@ window.V3KR_DATA = {
       "exitPrice": 194.87,
       "exitTime": "2026-06-15T15:33:37Z",
       "open": false,
-      "returnPct": 8.6
+      "returnPct": 8.6,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STC INVERSE",
@@ -5448,7 +6114,8 @@ window.V3KR_DATA = {
       "exitPrice": 141.28,
       "exitTime": "2026-06-15T15:33:35Z",
       "open": false,
-      "returnPct": 6.57
+      "returnPct": 6.57,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STC INVERSE",
@@ -5459,7 +6126,8 @@ window.V3KR_DATA = {
       "exitPrice": 238.73,
       "exitTime": "2026-06-15T15:33:35Z",
       "open": false,
-      "returnPct": 7.15
+      "returnPct": 7.15,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STC INVERSE",
@@ -5470,7 +6138,8 @@ window.V3KR_DATA = {
       "exitPrice": 83.8,
       "exitTime": "2026-06-15T15:33:34Z",
       "open": false,
-      "returnPct": 5.55
+      "returnPct": 5.55,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STC INVERSE",
@@ -5481,7 +6150,8 @@ window.V3KR_DATA = {
       "exitPrice": 347.13,
       "exitTime": "2026-06-15T15:33:34Z",
       "open": false,
-      "returnPct": 8.13
+      "returnPct": 8.13,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STC INVERSE",
@@ -5492,7 +6162,8 @@ window.V3KR_DATA = {
       "exitPrice": 450.17,
       "exitTime": "2026-06-15T15:33:33Z",
       "open": false,
-      "returnPct": 0.71
+      "returnPct": 0.71,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STC INVERSE",
@@ -5503,7 +6174,8 @@ window.V3KR_DATA = {
       "exitPrice": 333.43,
       "exitTime": "2026-06-15T15:33:33Z",
       "open": false,
-      "returnPct": 2.48
+      "returnPct": 2.48,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STC INVERSE",
@@ -5514,7 +6186,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.32,
       "exitTime": "2026-06-15T15:33:32Z",
       "open": false,
-      "returnPct": -8.06
+      "returnPct": -8.06,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "STC INVERSE",
@@ -5525,7 +6198,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.03,
       "exitTime": "2026-06-15T15:33:32Z",
       "open": false,
-      "returnPct": 0.19
+      "returnPct": 0.19,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "STC INVERSE",
@@ -5536,7 +6210,8 @@ window.V3KR_DATA = {
       "exitPrice": 269.02,
       "exitTime": "2026-06-15T15:33:32Z",
       "open": false,
-      "returnPct": 4.99
+      "returnPct": 4.99,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STC INVERSE",
@@ -5547,7 +6222,8 @@ window.V3KR_DATA = {
       "exitPrice": 597.9,
       "exitTime": "2026-06-15T15:33:32Z",
       "open": false,
-      "returnPct": -1.63
+      "returnPct": -1.63,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STC INVERSE",
@@ -5558,7 +6234,8 @@ window.V3KR_DATA = {
       "exitPrice": 410.26,
       "exitTime": "2026-06-15T15:33:31Z",
       "open": false,
-      "returnPct": 2.36
+      "returnPct": 2.36,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "KESTREL",
@@ -5569,7 +6246,8 @@ window.V3KR_DATA = {
       "exitPrice": 404.6,
       "exitTime": "2026-06-15T15:26:51Z",
       "open": false,
-      "returnPct": 1.41
+      "returnPct": 1.41,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -5580,7 +6258,8 @@ window.V3KR_DATA = {
       "exitPrice": 125.02,
       "exitTime": "2026-06-15T15:26:50Z",
       "open": false,
-      "returnPct": 0.38
+      "returnPct": 0.38,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -5591,7 +6270,8 @@ window.V3KR_DATA = {
       "exitPrice": 112.4,
       "exitTime": "2026-06-15T15:26:49Z",
       "open": false,
-      "returnPct": -4.36
+      "returnPct": -4.36,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -5602,7 +6282,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.08,
       "exitTime": "2026-06-15T15:26:49Z",
       "open": false,
-      "returnPct": -3.53
+      "returnPct": -3.53,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -5613,7 +6294,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.2,
       "exitTime": "2026-06-15T15:26:48Z",
       "open": false,
-      "returnPct": -0.91
+      "returnPct": -0.91,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "KESTREL",
@@ -5624,7 +6306,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.04,
       "exitTime": "2026-06-15T15:26:48Z",
       "open": false,
-      "returnPct": -0.54
+      "returnPct": -0.54,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "KESTREL",
@@ -5635,7 +6318,8 @@ window.V3KR_DATA = {
       "exitPrice": 246.13,
       "exitTime": "2026-06-15T15:26:48Z",
       "open": false,
-      "returnPct": 1.04
+      "returnPct": 1.04,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -5646,7 +6330,8 @@ window.V3KR_DATA = {
       "exitPrice": 315.99,
       "exitTime": "2026-06-15T15:25:27Z",
       "open": false,
-      "returnPct": 7.5
+      "returnPct": 7.5,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -5657,7 +6342,8 @@ window.V3KR_DATA = {
       "exitPrice": 409.11,
       "exitTime": "2026-06-15T15:25:27Z",
       "open": false,
-      "returnPct": 6.71
+      "returnPct": 6.71,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -5668,7 +6354,8 @@ window.V3KR_DATA = {
       "exitPrice": 1074.77,
       "exitTime": "2026-06-15T15:25:26Z",
       "open": false,
-      "returnPct": 15.74
+      "returnPct": 15.74,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -5679,7 +6366,8 @@ window.V3KR_DATA = {
       "exitPrice": 549.88,
       "exitTime": "2026-06-15T15:25:26Z",
       "open": false,
-      "returnPct": 13.16
+      "returnPct": 13.16,
+      "qqqReturnPct": 5.52
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5690,7 +6378,8 @@ window.V3KR_DATA = {
       "exitPrice": 30.59,
       "exitTime": "2026-06-15T15:22:34Z",
       "open": false,
-      "returnPct": 3.81
+      "returnPct": 3.81,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5701,7 +6390,8 @@ window.V3KR_DATA = {
       "exitPrice": 8.05,
       "exitTime": "2026-06-15T15:22:34Z",
       "open": false,
-      "returnPct": 54.4
+      "returnPct": 54.4,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5712,7 +6402,8 @@ window.V3KR_DATA = {
       "exitPrice": 114.8,
       "exitTime": "2026-06-15T15:22:33Z",
       "open": false,
-      "returnPct": 0.46
+      "returnPct": 0.46,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -5723,7 +6414,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.46,
       "exitTime": "2026-06-15T15:22:33Z",
       "open": false,
-      "returnPct": 0.26
+      "returnPct": 0.26,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "LEADING Witching",
@@ -5734,7 +6426,8 @@ window.V3KR_DATA = {
       "exitPrice": 99.38,
       "exitTime": "2026-06-15T14:29:23Z",
       "open": false,
-      "returnPct": 7.05
+      "returnPct": 7.05,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "LEADING Witching",
@@ -5745,7 +6438,8 @@ window.V3KR_DATA = {
       "exitPrice": 170.27,
       "exitTime": "2026-06-15T14:29:22Z",
       "open": false,
-      "returnPct": 5.23
+      "returnPct": 5.23,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "LEADING Witching",
@@ -5756,7 +6450,8 @@ window.V3KR_DATA = {
       "exitPrice": 131.6,
       "exitTime": "2026-06-15T14:29:21Z",
       "open": false,
-      "returnPct": 6.55
+      "returnPct": 6.55,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5767,7 +6462,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.02,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 3.85
+      "returnPct": 3.85,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5778,7 +6474,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.98,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": -2.06
+      "returnPct": -2.06,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5789,7 +6486,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.78,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": -0.48
+      "returnPct": -0.48,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5800,7 +6498,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.38,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": -1.06
+      "returnPct": -1.06,
+      "qqqReturnPct": 3.9
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5811,7 +6510,8 @@ window.V3KR_DATA = {
       "exitPrice": 172.31,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": -4.2
+      "returnPct": -4.2,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5822,7 +6522,8 @@ window.V3KR_DATA = {
       "exitPrice": 38.15,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 10.8
+      "returnPct": 10.8,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5833,7 +6534,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.82,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 5.2
+      "returnPct": 5.2,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5844,7 +6546,8 @@ window.V3KR_DATA = {
       "exitPrice": 148.11,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 0.27
+      "returnPct": 0.27,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5855,7 +6558,8 @@ window.V3KR_DATA = {
       "exitPrice": 237.85,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 4.01
+      "returnPct": 4.01,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -5866,7 +6570,8 @@ window.V3KR_DATA = {
       "exitPrice": 398.45,
       "exitTime": "2026-06-15T14:17:26Z",
       "open": false,
-      "returnPct": 3.58
+      "returnPct": 3.58,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -5877,7 +6582,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 5.25
+      "returnPct": 5.25,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5888,7 +6594,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.37,
       "exitTime": "2026-06-15T14:06:12Z",
       "open": false,
-      "returnPct": 1.16
+      "returnPct": 1.16,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5899,7 +6606,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.02,
       "exitTime": "2026-06-15T14:06:10Z",
       "open": false,
-      "returnPct": 2.15
+      "returnPct": 2.15,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5910,7 +6618,8 @@ window.V3KR_DATA = {
       "exitPrice": 327.42,
       "exitTime": "2026-06-15T14:06:10Z",
       "open": false,
-      "returnPct": 2.13
+      "returnPct": 2.13,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5921,7 +6630,8 @@ window.V3KR_DATA = {
       "exitPrice": 406.44,
       "exitTime": "2026-06-15T14:06:09Z",
       "open": false,
-      "returnPct": 2.86
+      "returnPct": 2.86,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5932,7 +6642,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.24,
       "exitTime": "2026-06-15T14:06:09Z",
       "open": false,
-      "returnPct": 2.4
+      "returnPct": 2.4,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5943,7 +6654,8 @@ window.V3KR_DATA = {
       "exitPrice": 295.56,
       "exitTime": "2026-06-15T14:06:08Z",
       "open": false,
-      "returnPct": 0.27
+      "returnPct": 0.27,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -5954,7 +6666,8 @@ window.V3KR_DATA = {
       "exitPrice": 1074.64,
       "exitTime": "2026-06-15T14:06:08Z",
       "open": false,
-      "returnPct": 2.07
+      "returnPct": 2.07,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5965,7 +6678,8 @@ window.V3KR_DATA = {
       "exitPrice": 245.87,
       "exitTime": "2026-06-15T14:05:08Z",
       "open": false,
-      "returnPct": 1.98
+      "returnPct": 1.98,
+      "qqqReturnPct": 7.25
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5976,7 +6690,8 @@ window.V3KR_DATA = {
       "exitPrice": 221.72,
       "exitTime": "2026-06-15T14:05:08Z",
       "open": false,
-      "returnPct": -1.23
+      "returnPct": -1.23,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5987,7 +6702,8 @@ window.V3KR_DATA = {
       "exitPrice": 295.71,
       "exitTime": "2026-06-15T14:05:07Z",
       "open": false,
-      "returnPct": 0.36
+      "returnPct": 0.36,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -5998,7 +6714,8 @@ window.V3KR_DATA = {
       "exitPrice": 137.16,
       "exitTime": "2026-06-15T14:05:07Z",
       "open": false,
-      "returnPct": -3.26
+      "returnPct": -3.26,
+      "qqqReturnPct": 5.11
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6009,7 +6726,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.72,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": 3.05
+      "returnPct": 3.05,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6020,7 +6738,8 @@ window.V3KR_DATA = {
       "exitPrice": 152.0,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": 2.11
+      "returnPct": 2.11,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6031,7 +6750,8 @@ window.V3KR_DATA = {
       "exitPrice": 28.52,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": -1.63
+      "returnPct": -1.63,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6042,7 +6762,8 @@ window.V3KR_DATA = {
       "exitPrice": 104.8,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": 4.98
+      "returnPct": 4.98,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6053,7 +6774,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.48,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": -1.94
+      "returnPct": -1.94,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -6064,7 +6786,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.62,
       "exitTime": "2026-06-15T00:00:00Z",
       "open": false,
-      "returnPct": 4.34
+      "returnPct": 4.34,
+      "qqqReturnPct": 3.14
     },
     {
       "strategy": "KESTREL",
@@ -6075,7 +6798,8 @@ window.V3KR_DATA = {
       "exitPrice": 513.85,
       "exitTime": "2026-06-12T15:40:37Z",
       "open": false,
-      "returnPct": 12.34
+      "returnPct": 12.34,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "KESTREL",
@@ -6086,7 +6810,8 @@ window.V3KR_DATA = {
       "exitPrice": 118.2,
       "exitTime": "2026-06-12T15:40:36Z",
       "open": false,
-      "returnPct": 2.17
+      "returnPct": 2.17,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STC INVERSE",
@@ -6097,7 +6822,8 @@ window.V3KR_DATA = {
       "exitPrice": 287.2,
       "exitTime": "2026-06-12T15:33:57Z",
       "open": false,
-      "returnPct": 11.68
+      "returnPct": 11.68,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STC INVERSE",
@@ -6108,7 +6834,8 @@ window.V3KR_DATA = {
       "exitPrice": 185.0,
       "exitTime": "2026-06-12T15:33:55Z",
       "open": false,
-      "returnPct": 5.9
+      "returnPct": 5.9,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -6119,7 +6846,8 @@ window.V3KR_DATA = {
       "exitPrice": 164.58,
       "exitTime": "2026-06-12T15:33:55Z",
       "open": false,
-      "returnPct": -9.43
+      "returnPct": -9.43,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -6130,7 +6858,8 @@ window.V3KR_DATA = {
       "exitPrice": 16.6,
       "exitTime": "2026-06-12T15:33:55Z",
       "open": false,
-      "returnPct": -4.01
+      "returnPct": -4.01,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -6141,7 +6870,8 @@ window.V3KR_DATA = {
       "exitPrice": 102.26,
       "exitTime": "2026-06-12T15:33:55Z",
       "open": false,
-      "returnPct": 5.65
+      "returnPct": 5.65,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -6152,7 +6882,8 @@ window.V3KR_DATA = {
       "exitPrice": 102.54,
       "exitTime": "2026-06-12T15:33:54Z",
       "open": false,
-      "returnPct": 5.09
+      "returnPct": 5.09,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -6163,7 +6894,8 @@ window.V3KR_DATA = {
       "exitPrice": 128.6,
       "exitTime": "2026-06-12T15:33:54Z",
       "open": false,
-      "returnPct": 6.23
+      "returnPct": 6.23,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "KESTREL",
@@ -6174,7 +6906,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.52,
       "exitTime": "2026-06-12T15:27:10Z",
       "open": false,
-      "returnPct": 2.66
+      "returnPct": 2.66,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "KESTREL",
@@ -6185,7 +6918,8 @@ window.V3KR_DATA = {
       "exitPrice": 408.15,
       "exitTime": "2026-06-12T15:27:10Z",
       "open": false,
-      "returnPct": 0.45
+      "returnPct": 0.45,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "KESTREL",
@@ -6196,7 +6930,8 @@ window.V3KR_DATA = {
       "exitPrice": 228.26,
       "exitTime": "2026-06-12T15:27:09Z",
       "open": false,
-      "returnPct": 2.11
+      "returnPct": 2.11,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "KESTREL",
@@ -6207,7 +6942,8 @@ window.V3KR_DATA = {
       "exitPrice": 118.46,
       "exitTime": "2026-06-12T15:27:09Z",
       "open": false,
-      "returnPct": 1.87
+      "returnPct": 1.87,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "KESTREL",
@@ -6218,7 +6954,8 @@ window.V3KR_DATA = {
       "exitPrice": 522.86,
       "exitTime": "2026-06-12T15:27:08Z",
       "open": false,
-      "returnPct": 1.63
+      "returnPct": 1.63,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "KESTREL",
@@ -6229,7 +6966,8 @@ window.V3KR_DATA = {
       "exitPrice": 145.54,
       "exitTime": "2026-06-12T15:27:08Z",
       "open": false,
-      "returnPct": 1.37
+      "returnPct": 1.37,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "KESTREL",
@@ -6240,7 +6978,8 @@ window.V3KR_DATA = {
       "exitPrice": 515.44,
       "exitTime": "2026-06-12T15:27:08Z",
       "open": false,
-      "returnPct": 12.69
+      "returnPct": 12.69,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6251,7 +6990,8 @@ window.V3KR_DATA = {
       "exitPrice": 68.54,
       "exitTime": "2026-06-12T15:26:32Z",
       "open": false,
-      "returnPct": 9.3
+      "returnPct": 9.3,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6262,7 +7002,8 @@ window.V3KR_DATA = {
       "exitPrice": 212.95,
       "exitTime": "2026-06-12T15:26:31Z",
       "open": false,
-      "returnPct": 9.56
+      "returnPct": 9.56,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6273,7 +7014,8 @@ window.V3KR_DATA = {
       "exitPrice": 164.33,
       "exitTime": "2026-06-12T15:26:31Z",
       "open": false,
-      "returnPct": 8.57
+      "returnPct": 8.57,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6284,7 +7026,8 @@ window.V3KR_DATA = {
       "exitPrice": 370.62,
       "exitTime": "2026-06-12T15:26:30Z",
       "open": false,
-      "returnPct": 10.55
+      "returnPct": 10.55,
+      "qqqReturnPct": -3.33
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6295,7 +7038,8 @@ window.V3KR_DATA = {
       "exitPrice": 562.43,
       "exitTime": "2026-06-12T15:26:30Z",
       "open": false,
-      "returnPct": 11.67
+      "returnPct": 11.67,
+      "qqqReturnPct": -3.07
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6306,7 +7050,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.81,
       "exitTime": "2026-06-12T15:26:29Z",
       "open": false,
-      "returnPct": 13.38
+      "returnPct": 13.38,
+      "qqqReturnPct": -3.33
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -6317,7 +7062,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.96,
       "exitTime": "2026-06-12T15:23:41Z",
       "open": false,
-      "returnPct": -7.19
+      "returnPct": -7.19,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -6328,7 +7074,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.9,
       "exitTime": "2026-06-12T15:23:39Z",
       "open": false,
-      "returnPct": 0.31
+      "returnPct": 0.31,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6339,7 +7086,8 @@ window.V3KR_DATA = {
       "exitPrice": 384.84,
       "exitTime": "2026-06-12T14:17:22Z",
       "open": false,
-      "returnPct": 0.55
+      "returnPct": 0.55,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6350,7 +7098,8 @@ window.V3KR_DATA = {
       "exitPrice": 181.19,
       "exitTime": "2026-06-12T14:17:22Z",
       "open": false,
-      "returnPct": 2.63
+      "returnPct": 2.63,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6361,7 +7110,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.4,
       "exitTime": "2026-06-12T14:17:22Z",
       "open": false,
-      "returnPct": -23.91
+      "returnPct": -23.91,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -6372,7 +7122,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -6.96
+      "returnPct": -6.96,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -6383,7 +7134,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 8.0
+      "returnPct": 8.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6394,7 +7146,8 @@ window.V3KR_DATA = {
       "exitPrice": 184.28,
       "exitTime": "2026-06-12T14:06:22Z",
       "open": false,
-      "returnPct": 2.97
+      "returnPct": 2.97,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6405,7 +7158,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.92,
       "exitTime": "2026-06-12T14:06:21Z",
       "open": false,
-      "returnPct": 1.12
+      "returnPct": 1.12,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6416,7 +7170,8 @@ window.V3KR_DATA = {
       "exitPrice": 32.25,
       "exitTime": "2026-06-12T14:06:21Z",
       "open": false,
-      "returnPct": 3.63
+      "returnPct": 3.63,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6427,7 +7182,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.99,
       "exitTime": "2026-06-12T14:06:20Z",
       "open": false,
-      "returnPct": 3.97
+      "returnPct": 3.97,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6438,7 +7194,8 @@ window.V3KR_DATA = {
       "exitPrice": 353.39,
       "exitTime": "2026-06-12T14:06:19Z",
       "open": false,
-      "returnPct": 2.88
+      "returnPct": 2.88,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6449,7 +7206,8 @@ window.V3KR_DATA = {
       "exitPrice": 75.98,
       "exitTime": "2026-06-12T14:06:18Z",
       "open": false,
-      "returnPct": -0.31
+      "returnPct": -0.31,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6460,7 +7218,8 @@ window.V3KR_DATA = {
       "exitPrice": 593.7,
       "exitTime": "2026-06-12T14:06:17Z",
       "open": false,
-      "returnPct": -2.0
+      "returnPct": -2.0,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6471,7 +7230,8 @@ window.V3KR_DATA = {
       "exitPrice": 284.72,
       "exitTime": "2026-06-12T14:06:17Z",
       "open": false,
-      "returnPct": 0.92
+      "returnPct": 0.92,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6482,7 +7242,8 @@ window.V3KR_DATA = {
       "exitPrice": 453.75,
       "exitTime": "2026-06-12T14:06:16Z",
       "open": false,
-      "returnPct": -2.19
+      "returnPct": -2.19,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6493,7 +7254,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.66,
       "exitTime": "2026-06-12T14:05:20Z",
       "open": false,
-      "returnPct": 2.24
+      "returnPct": 2.24,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6504,7 +7266,8 @@ window.V3KR_DATA = {
       "exitPrice": 358.92,
       "exitTime": "2026-06-12T14:05:20Z",
       "open": false,
-      "returnPct": 2.54
+      "returnPct": 2.54,
+      "qqqReturnPct": 0.59
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6515,7 +7278,8 @@ window.V3KR_DATA = {
       "exitPrice": 916.85,
       "exitTime": "2026-06-12T14:05:19Z",
       "open": false,
-      "returnPct": 3.0
+      "returnPct": 3.0,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6526,7 +7290,8 @@ window.V3KR_DATA = {
       "exitPrice": 1057.69,
       "exitTime": "2026-06-12T14:05:18Z",
       "open": false,
-      "returnPct": 3.37
+      "returnPct": 3.37,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6537,7 +7302,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.9,
       "exitTime": "2026-06-12T14:05:18Z",
       "open": false,
-      "returnPct": 4.02
+      "returnPct": 4.02,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6548,7 +7314,8 @@ window.V3KR_DATA = {
       "exitPrice": 210.51,
       "exitTime": "2026-06-12T14:05:17Z",
       "open": false,
-      "returnPct": 5.93
+      "returnPct": 5.93,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6559,7 +7326,8 @@ window.V3KR_DATA = {
       "exitPrice": 220.94,
       "exitTime": "2026-06-12T14:05:16Z",
       "open": false,
-      "returnPct": 3.58
+      "returnPct": 3.58,
+      "qqqReturnPct": 0.74
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -6570,7 +7338,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -1.3
+      "returnPct": -1.3,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -6581,7 +7350,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 6.03
+      "returnPct": 6.03,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -6592,7 +7362,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 9.41
+      "returnPct": 9.41,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -6603,7 +7374,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -0.74
+      "returnPct": -0.74,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -6614,7 +7386,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 6.74
+      "returnPct": 6.74,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -6625,7 +7398,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.0,
       "exitTime": "2026-06-11T15:42:11Z",
       "open": false,
-      "returnPct": -5.76
+      "returnPct": -5.76,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "KESTREL",
@@ -6636,7 +7410,8 @@ window.V3KR_DATA = {
       "exitPrice": 216.12,
       "exitTime": "2026-06-11T15:42:11Z",
       "open": false,
-      "returnPct": -3.6
+      "returnPct": -3.6,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "KESTREL",
@@ -6647,7 +7422,8 @@ window.V3KR_DATA = {
       "exitPrice": 165.17,
       "exitTime": "2026-06-11T15:42:10Z",
       "open": false,
-      "returnPct": -5.22
+      "returnPct": -5.22,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "STC INVERSE",
@@ -6658,7 +7434,8 @@ window.V3KR_DATA = {
       "exitPrice": 371.01,
       "exitTime": "2026-06-11T15:35:18Z",
       "open": false,
-      "returnPct": 6.0
+      "returnPct": 6.0,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "STC INVERSE",
@@ -6669,7 +7446,8 @@ window.V3KR_DATA = {
       "exitPrice": 164.78,
       "exitTime": "2026-06-11T15:35:18Z",
       "open": false,
-      "returnPct": 9.85
+      "returnPct": 9.85,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "STC INVERSE",
@@ -6680,7 +7458,8 @@ window.V3KR_DATA = {
       "exitPrice": 397.9,
       "exitTime": "2026-06-11T15:35:13Z",
       "open": false,
-      "returnPct": -4.01
+      "returnPct": -4.01,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STC INVERSE",
@@ -6691,7 +7470,8 @@ window.V3KR_DATA = {
       "exitPrice": 165.98,
       "exitTime": "2026-06-11T15:35:13Z",
       "open": false,
-      "returnPct": 6.9
+      "returnPct": 6.9,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STC INVERSE",
@@ -6702,7 +7482,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.44,
       "exitTime": "2026-06-11T15:35:12Z",
       "open": false,
-      "returnPct": -1.75
+      "returnPct": -1.75,
+      "qqqReturnPct": -3.17
     },
     {
       "strategy": "STC INVERSE",
@@ -6713,7 +7494,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.96,
       "exitTime": "2026-06-11T15:35:12Z",
       "open": false,
-      "returnPct": -3.02
+      "returnPct": -3.02,
+      "qqqReturnPct": -3.17
     },
     {
       "strategy": "STC INVERSE",
@@ -6724,7 +7506,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.62,
       "exitTime": "2026-06-11T15:35:12Z",
       "open": false,
-      "returnPct": 5.6
+      "returnPct": 5.6,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STC INVERSE",
@@ -6735,7 +7518,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.08,
       "exitTime": "2026-06-11T15:35:11Z",
       "open": false,
-      "returnPct": 1.7
+      "returnPct": 1.7,
+      "qqqReturnPct": -3.17
     },
     {
       "strategy": "KESTREL",
@@ -6746,7 +7530,8 @@ window.V3KR_DATA = {
       "exitPrice": 164.7,
       "exitTime": "2026-06-11T15:28:06Z",
       "open": false,
-      "returnPct": -5.49
+      "returnPct": -5.49,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "KESTREL",
@@ -6757,7 +7542,8 @@ window.V3KR_DATA = {
       "exitPrice": 222.76,
       "exitTime": "2026-06-11T15:28:06Z",
       "open": false,
-      "returnPct": -5.86
+      "returnPct": -5.86,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "KESTREL",
@@ -6768,7 +7554,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.56,
       "exitTime": "2026-06-11T15:28:06Z",
       "open": false,
-      "returnPct": -3.85
+      "returnPct": -3.85,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "KESTREL",
@@ -6779,7 +7566,8 @@ window.V3KR_DATA = {
       "exitPrice": 348.1,
       "exitTime": "2026-06-11T15:28:05Z",
       "open": false,
-      "returnPct": -4.24
+      "returnPct": -4.24,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -6790,7 +7578,8 @@ window.V3KR_DATA = {
       "exitPrice": 2316.68,
       "exitTime": "2026-06-11T15:27:24Z",
       "open": false,
-      "returnPct": 11.01
+      "returnPct": 11.01,
+      "qqqReturnPct": -3.64
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -6801,7 +7590,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.4,
       "exitTime": "2026-06-11T15:24:27Z",
       "open": false,
-      "returnPct": 12.71
+      "returnPct": 12.71,
+      "qqqReturnPct": 3.38
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -6812,7 +7602,8 @@ window.V3KR_DATA = {
       "exitPrice": 50.15,
       "exitTime": "2026-06-11T15:24:26Z",
       "open": false,
-      "returnPct": 10.86
+      "returnPct": 10.86,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -6823,7 +7614,8 @@ window.V3KR_DATA = {
       "exitPrice": 100.85,
       "exitTime": "2026-06-11T15:24:25Z",
       "open": false,
-      "returnPct": -1.49
+      "returnPct": -1.49,
+      "qqqReturnPct": 0.15
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6834,7 +7626,8 @@ window.V3KR_DATA = {
       "exitPrice": 49.57,
       "exitTime": "2026-06-11T14:17:41Z",
       "open": false,
-      "returnPct": -7.58
+      "returnPct": -7.58,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6845,7 +7638,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.08,
       "exitTime": "2026-06-11T14:17:41Z",
       "open": false,
-      "returnPct": -1.73
+      "returnPct": -1.73,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -6856,7 +7650,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.02,
       "exitTime": "2026-06-11T14:17:41Z",
       "open": false,
-      "returnPct": -8.12
+      "returnPct": -8.12,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -6867,7 +7662,8 @@ window.V3KR_DATA = {
       "exitPrice": 389.72,
       "exitTime": "2026-06-11T14:15:51Z",
       "open": false,
-      "returnPct": -9.64
+      "returnPct": -9.64,
+      "qqqReturnPct": -3.17
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -6878,7 +7674,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.54,
       "exitTime": "2026-06-11T14:06:21Z",
       "open": false,
-      "returnPct": 1.6
+      "returnPct": 1.6,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -6889,7 +7686,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.52,
       "exitTime": "2026-06-11T14:05:17Z",
       "open": false,
-      "returnPct": 1.78
+      "returnPct": 1.78,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "KESTREL",
@@ -6900,7 +7698,8 @@ window.V3KR_DATA = {
       "exitPrice": 86.54,
       "exitTime": "2026-06-10T15:42:27Z",
       "open": false,
-      "returnPct": 0.25
+      "returnPct": 0.25,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "KESTREL",
@@ -6911,7 +7710,8 @@ window.V3KR_DATA = {
       "exitPrice": 322.06,
       "exitTime": "2026-06-10T15:42:27Z",
       "open": false,
-      "returnPct": -2.74
+      "returnPct": -2.74,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "KESTREL",
@@ -6922,7 +7722,8 @@ window.V3KR_DATA = {
       "exitPrice": 361.42,
       "exitTime": "2026-06-10T15:42:26Z",
       "open": false,
-      "returnPct": 0.73
+      "returnPct": 0.73,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STC INVERSE",
@@ -6933,7 +7734,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.1,
       "exitTime": "2026-06-10T15:35:24Z",
       "open": false,
-      "returnPct": 9.67
+      "returnPct": 9.67,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STC INVERSE",
@@ -6944,7 +7746,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.09,
       "exitTime": "2026-06-10T15:35:21Z",
       "open": false,
-      "returnPct": -6.76
+      "returnPct": -6.76,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "STC INVERSE",
@@ -6955,7 +7758,8 @@ window.V3KR_DATA = {
       "exitPrice": 87.54,
       "exitTime": "2026-06-10T15:35:18Z",
       "open": false,
-      "returnPct": 8.02
+      "returnPct": 8.02,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STC INVERSE",
@@ -6966,7 +7770,8 @@ window.V3KR_DATA = {
       "exitPrice": 611.05,
       "exitTime": "2026-06-10T15:35:18Z",
       "open": false,
-      "returnPct": 1.07
+      "returnPct": 1.07,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STC INVERSE",
@@ -6977,7 +7782,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.82,
       "exitTime": "2026-06-10T15:35:17Z",
       "open": false,
-      "returnPct": 3.37
+      "returnPct": 3.37,
+      "qqqReturnPct": -7.03
     },
     {
       "strategy": "STC INVERSE",
@@ -6988,7 +7794,8 @@ window.V3KR_DATA = {
       "exitPrice": 281.29,
       "exitTime": "2026-06-10T15:35:17Z",
       "open": false,
-      "returnPct": 0.97
+      "returnPct": 0.97,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STC INVERSE",
@@ -6999,7 +7806,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.98,
       "exitTime": "2026-06-10T15:35:17Z",
       "open": false,
-      "returnPct": 0.93
+      "returnPct": 0.93,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "KESTREL",
@@ -7010,7 +7818,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.4,
       "exitTime": "2026-06-10T15:28:17Z",
       "open": false,
-      "returnPct": 1.15
+      "returnPct": 1.15,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "KESTREL",
@@ -7021,7 +7830,8 @@ window.V3KR_DATA = {
       "exitPrice": 505.58,
       "exitTime": "2026-06-10T15:28:17Z",
       "open": false,
-      "returnPct": 1.93
+      "returnPct": 1.93,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "KESTREL",
@@ -7032,7 +7842,8 @@ window.V3KR_DATA = {
       "exitPrice": 979.38,
       "exitTime": "2026-06-10T15:28:16Z",
       "open": false,
-      "returnPct": 0.32
+      "returnPct": 0.32,
+      "qqqReturnPct": -3.13
     },
     {
       "strategy": "KESTREL",
@@ -7043,7 +7854,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.58,
       "exitTime": "2026-06-10T15:28:16Z",
       "open": false,
-      "returnPct": 1.63
+      "returnPct": 1.63,
+      "qqqReturnPct": -3.13
     },
     {
       "strategy": "KESTREL",
@@ -7054,7 +7866,8 @@ window.V3KR_DATA = {
       "exitPrice": 322.52,
       "exitTime": "2026-06-10T15:28:15Z",
       "open": false,
-      "returnPct": -2.6
+      "returnPct": -2.6,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "KESTREL",
@@ -7065,7 +7878,8 @@ window.V3KR_DATA = {
       "exitPrice": 457.0,
       "exitTime": "2026-06-10T15:28:15Z",
       "open": false,
-      "returnPct": -6.08
+      "returnPct": -6.08,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -7076,7 +7890,8 @@ window.V3KR_DATA = {
       "exitPrice": 863.67,
       "exitTime": "2026-06-10T15:27:32Z",
       "open": false,
-      "returnPct": -7.42
+      "returnPct": -7.42,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7087,7 +7902,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.32,
       "exitTime": "2026-06-10T15:24:42Z",
       "open": false,
-      "returnPct": -31.96
+      "returnPct": -31.96,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7098,7 +7914,8 @@ window.V3KR_DATA = {
       "exitPrice": 40.28,
       "exitTime": "2026-06-10T15:24:41Z",
       "open": false,
-      "returnPct": -6.97
+      "returnPct": -6.97,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7109,7 +7926,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.0,
       "exitTime": "2026-06-10T15:24:40Z",
       "open": false,
-      "returnPct": 5.84
+      "returnPct": 5.84,
+      "qqqReturnPct": -1.61
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7120,7 +7938,8 @@ window.V3KR_DATA = {
       "exitPrice": 49.73,
       "exitTime": "2026-06-10T14:18:11Z",
       "open": false,
-      "returnPct": 3.6
+      "returnPct": 3.6,
+      "qqqReturnPct": -7.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7131,7 +7950,8 @@ window.V3KR_DATA = {
       "exitPrice": 105.36,
       "exitTime": "2026-06-10T14:18:11Z",
       "open": false,
-      "returnPct": -4.15
+      "returnPct": -4.15,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7142,7 +7962,8 @@ window.V3KR_DATA = {
       "exitPrice": 481.12,
       "exitTime": "2026-06-10T14:18:11Z",
       "open": false,
-      "returnPct": 3.5
+      "returnPct": 3.5,
+      "qqqReturnPct": -6.79
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7153,7 +7974,8 @@ window.V3KR_DATA = {
       "exitPrice": 16.24,
       "exitTime": "2026-06-10T14:18:11Z",
       "open": false,
-      "returnPct": -3.51
+      "returnPct": -3.51,
+      "qqqReturnPct": -3.13
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7164,7 +7986,8 @@ window.V3KR_DATA = {
       "exitPrice": 0.06,
       "exitTime": "2026-06-10T14:18:11Z",
       "open": false,
-      "returnPct": -67.19
+      "returnPct": -67.19,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -7175,7 +7998,8 @@ window.V3KR_DATA = {
       "exitPrice": 309.43,
       "exitTime": "2026-06-10T14:16:09Z",
       "open": false,
-      "returnPct": -0.54
+      "returnPct": -0.54,
+      "qqqReturnPct": -1.92
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -7186,7 +8010,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -7.57
+      "returnPct": -7.57,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -7197,7 +8022,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 1.33
+      "returnPct": 1.33,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -7208,7 +8034,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 9.4
+      "returnPct": 9.4,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -7219,7 +8046,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 38.36
+      "returnPct": 38.36,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS MANY SCANNER FDA Calendar",
@@ -7230,7 +8058,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -5.01
+      "returnPct": -5.01,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7241,7 +8070,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.81,
       "exitTime": "2026-06-10T14:06:29Z",
       "open": false,
-      "returnPct": 1.95
+      "returnPct": 1.95,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7252,7 +8082,8 @@ window.V3KR_DATA = {
       "exitPrice": 254.5,
       "exitTime": "2026-06-10T14:06:29Z",
       "open": false,
-      "returnPct": 1.3
+      "returnPct": 1.3,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7263,7 +8094,8 @@ window.V3KR_DATA = {
       "exitPrice": 239.57,
       "exitTime": "2026-06-10T14:05:22Z",
       "open": false,
-      "returnPct": 3.72
+      "returnPct": 3.72,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7274,7 +8106,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.63,
       "exitTime": "2026-06-10T14:05:22Z",
       "open": false,
-      "returnPct": 1.86
+      "returnPct": 1.86,
+      "qqqReturnPct": -2.0
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7285,7 +8118,8 @@ window.V3KR_DATA = {
       "exitPrice": 198.99,
       "exitTime": "2026-06-10T14:05:20Z",
       "open": false,
-      "returnPct": -8.05
+      "returnPct": -8.05,
+      "qqqReturnPct": -3.13
     },
     {
       "strategy": "KESTREL",
@@ -7296,7 +8130,8 @@ window.V3KR_DATA = {
       "exitPrice": 465.0,
       "exitTime": "2026-06-09T15:38:34Z",
       "open": false,
-      "returnPct": -4.44
+      "returnPct": -4.44,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "KESTREL",
@@ -7307,7 +8142,8 @@ window.V3KR_DATA = {
       "exitPrice": 203.5,
       "exitTime": "2026-06-09T15:38:33Z",
       "open": false,
-      "returnPct": -5.82
+      "returnPct": -5.82,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "KESTREL",
@@ -7318,7 +8154,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.86,
       "exitTime": "2026-06-09T15:38:33Z",
       "open": false,
-      "returnPct": 1.97
+      "returnPct": 1.97,
+      "qqqReturnPct": -4.43
     },
     {
       "strategy": "KESTREL",
@@ -7329,7 +8166,8 @@ window.V3KR_DATA = {
       "exitPrice": 700.88,
       "exitTime": "2026-06-09T15:38:32Z",
       "open": false,
-      "returnPct": -5.93
+      "returnPct": -5.93,
+      "qqqReturnPct": -5.14
     },
     {
       "strategy": "KESTREL",
@@ -7340,7 +8178,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.06,
       "exitTime": "2026-06-09T15:38:32Z",
       "open": false,
-      "returnPct": 0.93
+      "returnPct": 0.93,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "KESTREL",
@@ -7351,7 +8190,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.72,
       "exitTime": "2026-06-09T15:38:32Z",
       "open": false,
-      "returnPct": -1.93
+      "returnPct": -1.93,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "STC INVERSE",
@@ -7362,7 +8202,8 @@ window.V3KR_DATA = {
       "exitPrice": 146.48,
       "exitTime": "2026-06-09T15:31:38Z",
       "open": false,
-      "returnPct": 5.23
+      "returnPct": 5.23,
+      "qqqReturnPct": -5.14
     },
     {
       "strategy": "STC INVERSE",
@@ -7373,7 +8214,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.88,
       "exitTime": "2026-06-09T15:31:37Z",
       "open": false,
-      "returnPct": 4.4
+      "returnPct": 4.4,
+      "qqqReturnPct": -4.7
     },
     {
       "strategy": "STC INVERSE",
@@ -7384,7 +8226,8 @@ window.V3KR_DATA = {
       "exitPrice": 213.03,
       "exitTime": "2026-06-09T15:31:37Z",
       "open": false,
-      "returnPct": 5.08
+      "returnPct": 5.08,
+      "qqqReturnPct": -4.7
     },
     {
       "strategy": "STC INVERSE",
@@ -7395,7 +8238,8 @@ window.V3KR_DATA = {
       "exitPrice": 291.35,
       "exitTime": "2026-06-09T15:31:37Z",
       "open": false,
-      "returnPct": -5.08
+      "returnPct": -5.08,
+      "qqqReturnPct": -4.7
     },
     {
       "strategy": "KESTREL",
@@ -7406,7 +8250,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.57,
       "exitTime": "2026-06-09T15:25:00Z",
       "open": false,
-      "returnPct": 1.67
+      "returnPct": 1.67,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "KESTREL",
@@ -7417,7 +8262,8 @@ window.V3KR_DATA = {
       "exitPrice": 204.59,
       "exitTime": "2026-06-09T15:25:00Z",
       "open": false,
-      "returnPct": -5.32
+      "returnPct": -5.32,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "KESTREL",
@@ -7428,7 +8274,8 @@ window.V3KR_DATA = {
       "exitPrice": 202.28,
       "exitTime": "2026-06-09T15:25:00Z",
       "open": false,
-      "returnPct": -10.42
+      "returnPct": -10.42,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "KESTREL",
@@ -7439,7 +8286,8 @@ window.V3KR_DATA = {
       "exitPrice": 86.87,
       "exitTime": "2026-06-09T15:25:00Z",
       "open": false,
-      "returnPct": 0.63
+      "returnPct": 0.63,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "KESTREL",
@@ -7450,7 +8298,8 @@ window.V3KR_DATA = {
       "exitPrice": 705.52,
       "exitTime": "2026-06-09T15:24:59Z",
       "open": false,
-      "returnPct": -5.3
+      "returnPct": -5.3,
+      "qqqReturnPct": -5.14
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7461,7 +8310,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.77,
       "exitTime": "2026-06-09T15:21:01Z",
       "open": false,
-      "returnPct": -15.58
+      "returnPct": -15.58,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7472,7 +8322,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.18,
       "exitTime": "2026-06-09T15:21:01Z",
       "open": false,
-      "returnPct": -23.47
+      "returnPct": -23.47,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7483,7 +8334,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.29,
       "exitTime": "2026-06-09T15:21:01Z",
       "open": false,
-      "returnPct": -5.18
+      "returnPct": -5.18,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7494,7 +8346,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.93,
       "exitTime": "2026-06-09T15:21:00Z",
       "open": false,
-      "returnPct": 8.0
+      "returnPct": 8.0,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7505,7 +8358,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.97,
       "exitTime": "2026-06-09T15:21:00Z",
       "open": false,
-      "returnPct": 5.45
+      "returnPct": 5.45,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7516,7 +8370,8 @@ window.V3KR_DATA = {
       "exitPrice": 70.54,
       "exitTime": "2026-06-09T15:21:00Z",
       "open": false,
-      "returnPct": 9.86
+      "returnPct": 9.86,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7527,7 +8382,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.12,
       "exitTime": "2026-06-09T15:20:59Z",
       "open": false,
-      "returnPct": 4.46
+      "returnPct": 4.46,
+      "qqqReturnPct": -4.89
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7538,7 +8394,8 @@ window.V3KR_DATA = {
       "exitPrice": 639.48,
       "exitTime": "2026-06-09T15:20:59Z",
       "open": false,
-      "returnPct": -8.36
+      "returnPct": -8.36,
+      "qqqReturnPct": -4.43
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7549,7 +8406,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.56,
       "exitTime": "2026-06-09T15:20:59Z",
       "open": false,
-      "returnPct": 4.1
+      "returnPct": 4.1,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7560,7 +8418,8 @@ window.V3KR_DATA = {
       "exitPrice": 11.16,
       "exitTime": "2026-06-09T15:20:59Z",
       "open": false,
-      "returnPct": 14.44
+      "returnPct": 14.44,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7571,7 +8430,8 @@ window.V3KR_DATA = {
       "exitPrice": 493.76,
       "exitTime": "2026-06-09T14:06:09Z",
       "open": false,
-      "returnPct": 1.14
+      "returnPct": 1.14,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7582,7 +8442,8 @@ window.V3KR_DATA = {
       "exitPrice": 157.32,
       "exitTime": "2026-06-09T14:06:09Z",
       "open": false,
-      "returnPct": 0.07
+      "returnPct": 0.07,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7593,7 +8454,8 @@ window.V3KR_DATA = {
       "exitPrice": 139.45,
       "exitTime": "2026-06-09T14:06:08Z",
       "open": false,
-      "returnPct": -8.89
+      "returnPct": -8.89,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7604,7 +8466,8 @@ window.V3KR_DATA = {
       "exitPrice": 932.61,
       "exitTime": "2026-06-09T14:05:10Z",
       "open": false,
-      "returnPct": 3.08
+      "returnPct": 3.08,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7615,7 +8478,8 @@ window.V3KR_DATA = {
       "exitPrice": 370.02,
       "exitTime": "2026-06-09T14:05:09Z",
       "open": false,
-      "returnPct": 2.19
+      "returnPct": 2.19,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7626,7 +8490,8 @@ window.V3KR_DATA = {
       "exitPrice": 216.69,
       "exitTime": "2026-06-09T14:05:09Z",
       "open": false,
-      "returnPct": 3.11
+      "returnPct": 3.11,
+      "qqqReturnPct": -1.15
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7637,7 +8502,8 @@ window.V3KR_DATA = {
       "exitPrice": 398.38,
       "exitTime": "2026-06-09T14:05:08Z",
       "open": false,
-      "returnPct": -0.99
+      "returnPct": -0.99,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -7648,7 +8514,8 @@ window.V3KR_DATA = {
       "exitPrice": 281.11,
       "exitTime": "2026-06-09T14:05:08Z",
       "open": false,
-      "returnPct": -3.0
+      "returnPct": -3.0,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "KESTREL",
@@ -7659,7 +8526,8 @@ window.V3KR_DATA = {
       "exitPrice": 110.91,
       "exitTime": "2026-06-08T15:35:44Z",
       "open": false,
-      "returnPct": 6.82
+      "returnPct": 6.82,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "KESTREL",
@@ -7670,7 +8538,8 @@ window.V3KR_DATA = {
       "exitPrice": 218.78,
       "exitTime": "2026-06-08T15:35:43Z",
       "open": false,
-      "returnPct": -3.12
+      "returnPct": -3.12,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "KESTREL",
@@ -7681,7 +8550,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.77,
       "exitTime": "2026-06-08T15:35:41Z",
       "open": false,
-      "returnPct": 1.88
+      "returnPct": 1.88,
+      "qqqReturnPct": -3.01
     },
     {
       "strategy": "KESTREL",
@@ -7692,7 +8562,8 @@ window.V3KR_DATA = {
       "exitPrice": 49.06,
       "exitTime": "2026-06-08T15:35:41Z",
       "open": false,
-      "returnPct": 2.46
+      "returnPct": 2.46,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STC INVERSE",
@@ -7703,7 +8574,8 @@ window.V3KR_DATA = {
       "exitPrice": 660.74,
       "exitTime": "2026-06-08T15:29:17Z",
       "open": false,
-      "returnPct": -4.7
+      "returnPct": -4.7,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STC INVERSE",
@@ -7714,7 +8586,8 @@ window.V3KR_DATA = {
       "exitPrice": 76.96,
       "exitTime": "2026-06-08T15:29:16Z",
       "open": false,
-      "returnPct": 6.67
+      "returnPct": 6.67,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "KESTREL",
@@ -7725,7 +8598,8 @@ window.V3KR_DATA = {
       "exitPrice": 111.78,
       "exitTime": "2026-06-08T15:23:00Z",
       "open": false,
-      "returnPct": 7.66
+      "returnPct": 7.66,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "KESTREL",
@@ -7736,7 +8610,8 @@ window.V3KR_DATA = {
       "exitPrice": 83.8,
       "exitTime": "2026-06-08T15:22:58Z",
       "open": false,
-      "returnPct": 0.56
+      "returnPct": 0.56,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "KESTREL",
@@ -7747,7 +8622,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.07,
       "exitTime": "2026-06-08T15:22:57Z",
       "open": false,
-      "returnPct": -1.27
+      "returnPct": -1.27,
+      "qqqReturnPct": -3.59
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7758,7 +8634,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.68,
       "exitTime": "2026-06-08T15:19:28Z",
       "open": false,
-      "returnPct": -11.26
+      "returnPct": -11.26,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7769,7 +8646,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.09,
       "exitTime": "2026-06-08T15:19:27Z",
       "open": false,
-      "returnPct": 49.42
+      "returnPct": 49.42,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7780,7 +8658,8 @@ window.V3KR_DATA = {
       "exitPrice": 473.34,
       "exitTime": "2026-06-08T15:19:26Z",
       "open": false,
-      "returnPct": 6.72
+      "returnPct": 6.72,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7791,7 +8670,8 @@ window.V3KR_DATA = {
       "exitPrice": 187.9,
       "exitTime": "2026-06-08T15:19:26Z",
       "open": false,
-      "returnPct": 2.12
+      "returnPct": 2.12,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7802,7 +8682,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.72,
       "exitTime": "2026-06-08T15:19:26Z",
       "open": false,
-      "returnPct": 9.01
+      "returnPct": 9.01,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7813,7 +8694,8 @@ window.V3KR_DATA = {
       "exitPrice": 71.52,
       "exitTime": "2026-06-08T15:19:25Z",
       "open": false,
-      "returnPct": -0.16
+      "returnPct": -0.16,
+      "qqqReturnPct": -3.59
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -7824,7 +8706,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.07,
       "exitTime": "2026-06-08T15:19:25Z",
       "open": false,
-      "returnPct": 6.05
+      "returnPct": 6.05,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7835,7 +8718,8 @@ window.V3KR_DATA = {
       "exitPrice": 38.91,
       "exitTime": "2026-06-08T14:17:07Z",
       "open": false,
-      "returnPct": -0.24
+      "returnPct": -0.24,
+      "qqqReturnPct": -3.59
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7846,7 +8730,8 @@ window.V3KR_DATA = {
       "exitPrice": 8.34,
       "exitTime": "2026-06-08T14:17:07Z",
       "open": false,
-      "returnPct": -9.61
+      "returnPct": -9.61,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -7857,7 +8742,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.88,
       "exitTime": "2026-06-08T14:17:07Z",
       "open": false,
-      "returnPct": 0.84
+      "returnPct": 0.84,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7868,7 +8754,8 @@ window.V3KR_DATA = {
       "exitPrice": 142.08,
       "exitTime": "2026-06-08T14:06:15Z",
       "open": false,
-      "returnPct": 1.56
+      "returnPct": 1.56,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7879,7 +8766,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.98,
       "exitTime": "2026-06-08T14:06:14Z",
       "open": false,
-      "returnPct": -5.26
+      "returnPct": -5.26,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7890,7 +8778,8 @@ window.V3KR_DATA = {
       "exitPrice": 190.61,
       "exitTime": "2026-06-08T14:06:14Z",
       "open": false,
-      "returnPct": 1.69
+      "returnPct": 1.69,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7901,7 +8790,8 @@ window.V3KR_DATA = {
       "exitPrice": 125.45,
       "exitTime": "2026-06-08T14:06:13Z",
       "open": false,
-      "returnPct": -0.89
+      "returnPct": -0.89,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7912,7 +8802,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.64,
       "exitTime": "2026-06-08T14:06:13Z",
       "open": false,
-      "returnPct": 0.76
+      "returnPct": 0.76,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7923,7 +8814,8 @@ window.V3KR_DATA = {
       "exitPrice": 142.85,
       "exitTime": "2026-06-08T14:06:13Z",
       "open": false,
-      "returnPct": 0.2
+      "returnPct": 0.2,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7934,7 +8826,8 @@ window.V3KR_DATA = {
       "exitPrice": 566.26,
       "exitTime": "2026-06-08T14:06:12Z",
       "open": false,
-      "returnPct": -0.89
+      "returnPct": -0.89,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7945,7 +8838,8 @@ window.V3KR_DATA = {
       "exitPrice": 73.28,
       "exitTime": "2026-06-08T14:06:12Z",
       "open": false,
-      "returnPct": 3.48
+      "returnPct": 3.48,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7956,7 +8850,8 @@ window.V3KR_DATA = {
       "exitPrice": 96.1,
       "exitTime": "2026-06-08T14:06:11Z",
       "open": false,
-      "returnPct": 0.89
+      "returnPct": 0.89,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7967,7 +8862,8 @@ window.V3KR_DATA = {
       "exitPrice": 86.97,
       "exitTime": "2026-06-08T14:06:11Z",
       "open": false,
-      "returnPct": -1.09
+      "returnPct": -1.09,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7978,7 +8874,8 @@ window.V3KR_DATA = {
       "exitPrice": 195.86,
       "exitTime": "2026-06-08T14:06:11Z",
       "open": false,
-      "returnPct": -0.3
+      "returnPct": -0.3,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -7989,7 +8886,8 @@ window.V3KR_DATA = {
       "exitPrice": 246.87,
       "exitTime": "2026-06-08T14:06:10Z",
       "open": false,
-      "returnPct": -3.3
+      "returnPct": -3.3,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8000,7 +8898,8 @@ window.V3KR_DATA = {
       "exitPrice": 107.15,
       "exitTime": "2026-06-08T14:05:13Z",
       "open": false,
-      "returnPct": 2.94
+      "returnPct": 2.94,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8011,7 +8910,8 @@ window.V3KR_DATA = {
       "exitPrice": 142.16,
       "exitTime": "2026-06-08T14:05:12Z",
       "open": false,
-      "returnPct": 1.69
+      "returnPct": 1.69,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8022,7 +8922,8 @@ window.V3KR_DATA = {
       "exitPrice": 289.46,
       "exitTime": "2026-06-08T14:05:11Z",
       "open": false,
-      "returnPct": -4.74
+      "returnPct": -4.74,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8033,7 +8934,8 @@ window.V3KR_DATA = {
       "exitPrice": 190.76,
       "exitTime": "2026-06-08T14:05:11Z",
       "open": false,
-      "returnPct": 1.87
+      "returnPct": 1.87,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8044,7 +8946,8 @@ window.V3KR_DATA = {
       "exitPrice": 206.52,
       "exitTime": "2026-06-08T14:05:10Z",
       "open": false,
-      "returnPct": -4.61
+      "returnPct": -4.61,
+      "qqqReturnPct": -3.78
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8055,7 +8958,8 @@ window.V3KR_DATA = {
       "exitPrice": 213.31,
       "exitTime": "2026-06-08T14:05:10Z",
       "open": false,
-      "returnPct": -4.62
+      "returnPct": -4.62,
+      "qqqReturnPct": -3.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8066,7 +8970,8 @@ window.V3KR_DATA = {
       "exitPrice": 87.08,
       "exitTime": "2026-06-08T14:05:09Z",
       "open": false,
-      "returnPct": -0.97
+      "returnPct": -0.97,
+      "qqqReturnPct": -4.03
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8077,7 +8982,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.89,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": 5.44
+      "returnPct": 5.44,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8088,7 +8994,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.75,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": 1.72
+      "returnPct": 1.72,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8099,7 +9006,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.42,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": 1.28
+      "returnPct": 1.28,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8110,7 +9018,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.29,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": 0.46
+      "returnPct": 0.46,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8121,7 +9030,8 @@ window.V3KR_DATA = {
       "exitPrice": 4.32,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": -1.12
+      "returnPct": -1.12,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8132,7 +9042,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.8,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": 1.58
+      "returnPct": 1.58,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -8143,7 +9054,8 @@ window.V3KR_DATA = {
       "exitPrice": 59.54,
       "exitTime": "2026-06-08T00:00:00Z",
       "open": false,
-      "returnPct": -1.47
+      "returnPct": -1.47,
+      "qqqReturnPct": 1.56
     },
     {
       "strategy": "KESTREL",
@@ -8154,7 +9066,8 @@ window.V3KR_DATA = {
       "exitPrice": 401.04,
       "exitTime": "2026-06-05T15:40:31Z",
       "open": false,
-      "returnPct": -4.61
+      "returnPct": -4.61,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8165,7 +9078,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.18,
       "exitTime": "2026-06-05T15:40:30Z",
       "open": false,
-      "returnPct": 3.03
+      "returnPct": 3.03,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "KESTREL",
@@ -8176,7 +9090,8 @@ window.V3KR_DATA = {
       "exitPrice": 95.77,
       "exitTime": "2026-06-05T15:40:28Z",
       "open": false,
-      "returnPct": 0.02
+      "returnPct": 0.02,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "KESTREL",
@@ -8187,7 +9102,8 @@ window.V3KR_DATA = {
       "exitPrice": 313.17,
       "exitTime": "2026-06-05T15:40:28Z",
       "open": false,
-      "returnPct": 3.76
+      "returnPct": 3.76,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "KESTREL",
@@ -8198,7 +9114,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.26,
       "exitTime": "2026-06-05T15:40:27Z",
       "open": false,
-      "returnPct": 1.1
+      "returnPct": 1.1,
+      "qqqReturnPct": -4.15
     },
     {
       "strategy": "KESTREL",
@@ -8209,7 +9126,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.78,
       "exitTime": "2026-06-05T15:40:27Z",
       "open": false,
-      "returnPct": 0.04
+      "returnPct": 0.04,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "STC INVERSE",
@@ -8220,7 +9138,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.84,
       "exitTime": "2026-06-05T15:33:09Z",
       "open": false,
-      "returnPct": -11.07
+      "returnPct": -11.07,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "STC INVERSE",
@@ -8231,7 +9150,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.92,
       "exitTime": "2026-06-05T15:33:06Z",
       "open": false,
-      "returnPct": -5.87
+      "returnPct": -5.87,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "STC INVERSE",
@@ -8242,7 +9162,8 @@ window.V3KR_DATA = {
       "exitPrice": 346.14,
       "exitTime": "2026-06-05T15:33:04Z",
       "open": false,
-      "returnPct": -0.69
+      "returnPct": -0.69,
+      "qqqReturnPct": -4.15
     },
     {
       "strategy": "STC INVERSE",
@@ -8253,7 +9174,8 @@ window.V3KR_DATA = {
       "exitPrice": 229.27,
       "exitTime": "2026-06-05T15:33:04Z",
       "open": false,
-      "returnPct": 7.82
+      "returnPct": 7.82,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "STC INVERSE",
@@ -8264,7 +9186,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.21,
       "exitTime": "2026-06-05T15:33:04Z",
       "open": false,
-      "returnPct": 7.53
+      "returnPct": 7.53,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "STC INVERSE",
@@ -8275,7 +9198,8 @@ window.V3KR_DATA = {
       "exitPrice": 286.23,
       "exitTime": "2026-06-05T15:33:03Z",
       "open": false,
-      "returnPct": -1.93
+      "returnPct": -1.93,
+      "qqqReturnPct": -4.15
     },
     {
       "strategy": "KESTREL",
@@ -8286,7 +9210,8 @@ window.V3KR_DATA = {
       "exitPrice": 47.09,
       "exitTime": "2026-06-05T15:26:40Z",
       "open": false,
-      "returnPct": 2.47
+      "returnPct": 2.47,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8297,7 +9222,8 @@ window.V3KR_DATA = {
       "exitPrice": 397.52,
       "exitTime": "2026-06-05T15:26:39Z",
       "open": false,
-      "returnPct": -3.63
+      "returnPct": -3.63,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8308,7 +9234,8 @@ window.V3KR_DATA = {
       "exitPrice": 157.18,
       "exitTime": "2026-06-05T15:26:39Z",
       "open": false,
-      "returnPct": -4.58
+      "returnPct": -4.58,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8319,7 +9246,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.58,
       "exitTime": "2026-06-05T15:26:39Z",
       "open": false,
-      "returnPct": -10.1
+      "returnPct": -10.1,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8330,7 +9258,8 @@ window.V3KR_DATA = {
       "exitPrice": 402.09,
       "exitTime": "2026-06-05T15:26:39Z",
       "open": false,
-      "returnPct": -4.36
+      "returnPct": -4.36,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "KESTREL",
@@ -8341,7 +9270,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.09,
       "exitTime": "2026-06-05T15:26:38Z",
       "open": false,
-      "returnPct": 2.91
+      "returnPct": 2.91,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "KESTREL",
@@ -8352,7 +9282,8 @@ window.V3KR_DATA = {
       "exitPrice": 51.17,
       "exitTime": "2026-06-05T15:26:36Z",
       "open": false,
-      "returnPct": -0.26
+      "returnPct": -0.26,
+      "qqqReturnPct": -3.34
     },
     {
       "strategy": "KESTREL",
@@ -8363,7 +9294,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.74,
       "exitTime": "2026-06-05T15:26:36Z",
       "open": false,
-      "returnPct": 3.54
+      "returnPct": 3.54,
+      "qqqReturnPct": -4.5
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -8374,7 +9306,8 @@ window.V3KR_DATA = {
       "exitPrice": 927.46,
       "exitTime": "2026-06-05T15:25:11Z",
       "open": false,
-      "returnPct": -12.35
+      "returnPct": -12.35,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -8385,7 +9318,8 @@ window.V3KR_DATA = {
       "exitPrice": 485.7,
       "exitTime": "2026-06-05T15:25:10Z",
       "open": false,
-      "returnPct": -7.0
+      "returnPct": -7.0,
+      "qqqReturnPct": -4.15
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8396,7 +9330,8 @@ window.V3KR_DATA = {
       "exitPrice": 9.78,
       "exitTime": "2026-06-05T15:22:30Z",
       "open": false,
-      "returnPct": -8.77
+      "returnPct": -8.77,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8407,7 +9342,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.26,
       "exitTime": "2026-06-05T15:22:29Z",
       "open": false,
-      "returnPct": -15.03
+      "returnPct": -15.03,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8418,7 +9354,8 @@ window.V3KR_DATA = {
       "exitPrice": 9.56,
       "exitTime": "2026-06-05T15:22:29Z",
       "open": false,
-      "returnPct": -8.51
+      "returnPct": -8.51,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8429,7 +9366,8 @@ window.V3KR_DATA = {
       "exitPrice": 63.13,
       "exitTime": "2026-06-05T15:22:28Z",
       "open": false,
-      "returnPct": -12.12
+      "returnPct": -12.12,
+      "qqqReturnPct": -5.51
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8440,7 +9378,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.97,
       "exitTime": "2026-06-05T15:22:28Z",
       "open": false,
-      "returnPct": 11.87
+      "returnPct": 11.87,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8451,7 +9390,8 @@ window.V3KR_DATA = {
       "exitPrice": 112.4,
       "exitTime": "2026-06-05T15:22:27Z",
       "open": false,
-      "returnPct": 9.26
+      "returnPct": 9.26,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8462,7 +9402,8 @@ window.V3KR_DATA = {
       "exitPrice": 211.11,
       "exitTime": "2026-06-05T15:22:27Z",
       "open": false,
-      "returnPct": 7.99
+      "returnPct": 7.99,
+      "qqqReturnPct": -5.51
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8473,7 +9414,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.52,
       "exitTime": "2026-06-05T15:22:27Z",
       "open": false,
-      "returnPct": -0.76
+      "returnPct": -0.76,
+      "qqqReturnPct": -5.51
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -8484,7 +9426,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.46,
       "exitTime": "2026-06-05T14:16:56Z",
       "open": false,
-      "returnPct": -9.03
+      "returnPct": -9.03,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -8495,7 +9438,8 @@ window.V3KR_DATA = {
       "exitPrice": 252.94,
       "exitTime": "2026-06-05T14:16:56Z",
       "open": false,
-      "returnPct": -0.38
+      "returnPct": -0.38,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -8506,7 +9450,8 @@ window.V3KR_DATA = {
       "exitPrice": 312.18,
       "exitTime": "2026-06-05T14:15:18Z",
       "open": false,
-      "returnPct": 4.01
+      "returnPct": 4.01,
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -8517,7 +9462,8 @@ window.V3KR_DATA = {
       "exitPrice": 1225.66,
       "exitTime": "2026-06-05T14:15:17Z",
       "open": false,
-      "returnPct": 0.09
+      "returnPct": 0.09,
+      "qqqReturnPct": -0.87
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8528,7 +9474,8 @@ window.V3KR_DATA = {
       "exitPrice": 187.9,
       "exitTime": "2026-06-05T14:06:09Z",
       "open": false,
-      "returnPct": 3.05
+      "returnPct": 3.05,
+      "qqqReturnPct": -4.8
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8539,7 +9486,8 @@ window.V3KR_DATA = {
       "exitPrice": 168.94,
       "exitTime": "2026-06-05T14:06:08Z",
       "open": false,
-      "returnPct": 2.22
+      "returnPct": 2.22,
+      "qqqReturnPct": -5.26
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8550,7 +9498,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.15,
       "exitTime": "2026-06-05T14:06:06Z",
       "open": false,
-      "returnPct": -1.68
+      "returnPct": -1.68,
+      "qqqReturnPct": -5.07
     },
     {
       "strategy": "KESTREL",
@@ -8561,7 +9510,8 @@ window.V3KR_DATA = {
       "exitPrice": 221.91,
       "exitTime": "2026-06-04T15:37:51Z",
       "open": false,
-      "returnPct": -4.51
+      "returnPct": -4.51,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "KESTREL",
@@ -8572,7 +9522,8 @@ window.V3KR_DATA = {
       "exitPrice": 51.76,
       "exitTime": "2026-06-04T15:37:49Z",
       "open": false,
-      "returnPct": 0.89
+      "returnPct": 0.89,
+      "qqqReturnPct": 1.53
     },
     {
       "strategy": "KESTREL",
@@ -8583,7 +9534,8 @@ window.V3KR_DATA = {
       "exitPrice": 397.8,
       "exitTime": "2026-06-04T15:37:49Z",
       "open": false,
-      "returnPct": 5.3
+      "returnPct": 5.3,
+      "qqqReturnPct": 0.31
     },
     {
       "strategy": "KESTREL",
@@ -8594,7 +9546,8 @@ window.V3KR_DATA = {
       "exitPrice": 418.79,
       "exitTime": "2026-06-04T15:37:48Z",
       "open": false,
-      "returnPct": -3.6
+      "returnPct": -3.6,
+      "qqqReturnPct": 1.41
     },
     {
       "strategy": "STC INVERSE",
@@ -8605,7 +9558,8 @@ window.V3KR_DATA = {
       "exitPrice": 600.72,
       "exitTime": "2026-06-04T15:30:51Z",
       "open": false,
-      "returnPct": -5.03
+      "returnPct": -5.03,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STC INVERSE",
@@ -8616,7 +9570,8 @@ window.V3KR_DATA = {
       "exitPrice": 1138.5,
       "exitTime": "2026-06-04T15:30:50Z",
       "open": false,
-      "returnPct": 5.96
+      "returnPct": 5.96,
+      "qqqReturnPct": -0.29
     },
     {
       "strategy": "STC INVERSE",
@@ -8627,7 +9582,8 @@ window.V3KR_DATA = {
       "exitPrice": 6.16,
       "exitTime": "2026-06-04T15:30:48Z",
       "open": false,
-      "returnPct": -4.87
+      "returnPct": -4.87,
+      "qqqReturnPct": 1.53
     },
     {
       "strategy": "STC INVERSE",
@@ -8638,7 +9594,8 @@ window.V3KR_DATA = {
       "exitPrice": 137.2,
       "exitTime": "2026-06-04T15:30:48Z",
       "open": false,
-      "returnPct": -2.4
+      "returnPct": -2.4,
+      "qqqReturnPct": 1.53
     },
     {
       "strategy": "STC INVERSE",
@@ -8649,7 +9606,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.09,
       "exitTime": "2026-06-04T15:30:48Z",
       "open": false,
-      "returnPct": 7.91
+      "returnPct": 7.91,
+      "qqqReturnPct": 0.68
     },
     {
       "strategy": "KESTREL",
@@ -8660,7 +9618,8 @@ window.V3KR_DATA = {
       "exitPrice": 370.1,
       "exitTime": "2026-06-04T15:24:53Z",
       "open": false,
-      "returnPct": 3.14
+      "returnPct": 3.14,
+      "qqqReturnPct": -0.48
     },
     {
       "strategy": "KESTREL",
@@ -8671,7 +9630,8 @@ window.V3KR_DATA = {
       "exitPrice": 48.81,
       "exitTime": "2026-06-04T15:24:51Z",
       "open": false,
-      "returnPct": 1.96
+      "returnPct": 1.96,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "KESTREL",
@@ -8682,7 +9642,8 @@ window.V3KR_DATA = {
       "exitPrice": 409.11,
       "exitTime": "2026-06-04T15:24:51Z",
       "open": false,
-      "returnPct": 2.98
+      "returnPct": 2.98,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "KESTREL",
@@ -8693,7 +9654,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.51,
       "exitTime": "2026-06-04T15:24:50Z",
       "open": false,
-      "returnPct": -5.3
+      "returnPct": -5.3,
+      "qqqReturnPct": 0.68
     },
     {
       "strategy": "KESTREL",
@@ -8704,7 +9666,8 @@ window.V3KR_DATA = {
       "exitPrice": 420.41,
       "exitTime": "2026-06-04T15:24:49Z",
       "open": false,
-      "returnPct": -3.23
+      "returnPct": -3.23,
+      "qqqReturnPct": 1.41
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8715,7 +9678,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.32,
       "exitTime": "2026-06-04T15:21:12Z",
       "open": false,
-      "returnPct": -12.06
+      "returnPct": -12.06,
+      "qqqReturnPct": -0.48
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8726,7 +9690,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.86,
       "exitTime": "2026-06-04T15:21:11Z",
       "open": false,
-      "returnPct": 8.15
+      "returnPct": 8.15,
+      "qqqReturnPct": -0.48
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8737,7 +9702,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.05,
       "exitTime": "2026-06-04T15:21:10Z",
       "open": false,
-      "returnPct": -6.51
+      "returnPct": -6.51,
+      "qqqReturnPct": -0.29
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -8748,7 +9714,8 @@ window.V3KR_DATA = {
       "exitPrice": 177.04,
       "exitTime": "2026-06-04T15:21:09Z",
       "open": false,
-      "returnPct": -1.85
+      "returnPct": -1.85,
+      "qqqReturnPct": 0.31
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -8759,7 +9726,8 @@ window.V3KR_DATA = {
       "exitPrice": 39.02,
       "exitTime": "2026-06-04T14:17:35Z",
       "open": false,
-      "returnPct": 1.6
+      "returnPct": 1.6,
+      "qqqReturnPct": 0.68
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -8770,7 +9738,8 @@ window.V3KR_DATA = {
       "exitPrice": 367.41,
       "exitTime": "2026-06-04T14:17:35Z",
       "open": false,
-      "returnPct": -0.02
+      "returnPct": -0.02,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8781,7 +9750,8 @@ window.V3KR_DATA = {
       "exitPrice": 62.77,
       "exitTime": "2026-06-04T14:06:39Z",
       "open": false,
-      "returnPct": 6.45
+      "returnPct": 6.45,
+      "qqqReturnPct": -0.48
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8792,7 +9762,8 @@ window.V3KR_DATA = {
       "exitPrice": 253.37,
       "exitTime": "2026-06-04T14:06:36Z",
       "open": false,
-      "returnPct": 2.18
+      "returnPct": 2.18,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -8803,7 +9774,8 @@ window.V3KR_DATA = {
       "exitPrice": 200.09,
       "exitTime": "2026-06-04T14:06:35Z",
       "open": false,
-      "returnPct": 2.51
+      "returnPct": 2.51,
+      "qqqReturnPct": -0.29
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8814,7 +9786,8 @@ window.V3KR_DATA = {
       "exitPrice": 321.64,
       "exitTime": "2026-06-04T14:05:23Z",
       "open": false,
-      "returnPct": 2.89
+      "returnPct": 2.89,
+      "qqqReturnPct": -0.48
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8825,7 +9798,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.23,
       "exitTime": "2026-06-04T14:05:22Z",
       "open": false,
-      "returnPct": -4.66
+      "returnPct": -4.66,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8836,7 +9810,8 @@ window.V3KR_DATA = {
       "exitPrice": 79.48,
       "exitTime": "2026-06-04T14:05:21Z",
       "open": false,
-      "returnPct": 1.42
+      "returnPct": 1.42,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8847,7 +9822,8 @@ window.V3KR_DATA = {
       "exitPrice": 1122.49,
       "exitTime": "2026-06-04T14:05:20Z",
       "open": false,
-      "returnPct": 3.85
+      "returnPct": 3.85,
+      "qqqReturnPct": -0.29
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -8858,7 +9834,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.96,
       "exitTime": "2026-06-04T14:05:20Z",
       "open": false,
-      "returnPct": 2.17
+      "returnPct": 2.17,
+      "qqqReturnPct": -0.74
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -8869,7 +9846,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -7.54
+      "returnPct": -7.54,
+      "qqqReturnPct": null
     },
     {
       "strategy": "KESTREL",
@@ -8880,7 +9858,8 @@ window.V3KR_DATA = {
       "exitPrice": 537.15,
       "exitTime": "2026-06-03T15:37:08Z",
       "open": false,
-      "returnPct": 4.65
+      "returnPct": 4.65,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STC INVERSE",
@@ -8891,7 +9870,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.46,
       "exitTime": "2026-06-03T15:30:31Z",
       "open": false,
-      "returnPct": -8.81
+      "returnPct": -8.81,
+      "qqqReturnPct": 0.8
     },
     {
       "strategy": "STC INVERSE",
@@ -8902,7 +9882,8 @@ window.V3KR_DATA = {
       "exitPrice": 110.59,
       "exitTime": "2026-06-03T15:30:29Z",
       "open": false,
-      "returnPct": -6.87
+      "returnPct": -6.87,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -8913,7 +9894,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.16,
       "exitTime": "2026-06-03T15:30:29Z",
       "open": false,
-      "returnPct": -1.59
+      "returnPct": -1.59,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -8924,7 +9906,8 @@ window.V3KR_DATA = {
       "exitPrice": 470.6,
       "exitTime": "2026-06-03T15:30:29Z",
       "open": false,
-      "returnPct": 2.33
+      "returnPct": 2.33,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STC INVERSE",
@@ -8935,7 +9918,8 @@ window.V3KR_DATA = {
       "exitPrice": 426.02,
       "exitTime": "2026-06-03T15:30:28Z",
       "open": false,
-      "returnPct": 4.45
+      "returnPct": 4.45,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "KESTREL",
@@ -8946,7 +9930,8 @@ window.V3KR_DATA = {
       "exitPrice": 176.52,
       "exitTime": "2026-06-03T15:24:11Z",
       "open": false,
-      "returnPct": 1.91
+      "returnPct": 1.91,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "KESTREL",
@@ -8957,7 +9942,8 @@ window.V3KR_DATA = {
       "exitPrice": 236.68,
       "exitTime": "2026-06-03T15:24:11Z",
       "open": false,
-      "returnPct": 1.85
+      "returnPct": 1.85,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "KESTREL",
@@ -8968,7 +9954,8 @@ window.V3KR_DATA = {
       "exitPrice": 383.07,
       "exitTime": "2026-06-03T15:24:10Z",
       "open": false,
-      "returnPct": 1.4
+      "returnPct": 1.4,
+      "qqqReturnPct": 0.8
     },
     {
       "strategy": "KESTREL",
@@ -8979,7 +9966,8 @@ window.V3KR_DATA = {
       "exitPrice": 531.74,
       "exitTime": "2026-06-03T15:24:10Z",
       "open": false,
-      "returnPct": 3.6
+      "returnPct": 3.6,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "KESTREL",
@@ -8990,7 +9978,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.61,
       "exitTime": "2026-06-03T15:24:09Z",
       "open": false,
-      "returnPct": 1.73
+      "returnPct": 1.73,
+      "qqqReturnPct": 1.17
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9001,7 +9990,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.37
+      "returnPct": -0.37,
+      "qqqReturnPct": null
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9012,7 +10002,8 @@ window.V3KR_DATA = {
       "exitPrice": 504.12,
       "exitTime": "2026-06-03T15:22:46Z",
       "open": false,
-      "returnPct": 11.8
+      "returnPct": 11.8,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9023,7 +10014,8 @@ window.V3KR_DATA = {
       "exitPrice": 1059.62,
       "exitTime": "2026-06-03T15:22:46Z",
       "open": false,
-      "returnPct": 9.62
+      "returnPct": 9.62,
+      "qqqReturnPct": 0.8
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9034,7 +10026,8 @@ window.V3KR_DATA = {
       "exitPrice": 358.88,
       "exitTime": "2026-06-03T15:22:45Z",
       "open": false,
-      "returnPct": -8.72
+      "returnPct": -8.72,
+      "qqqReturnPct": 4.33
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9045,7 +10038,8 @@ window.V3KR_DATA = {
       "exitPrice": 933.74,
       "exitTime": "2026-06-03T15:22:45Z",
       "open": false,
-      "returnPct": 9.42
+      "returnPct": 9.42,
+      "qqqReturnPct": 6.08
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9056,7 +10050,8 @@ window.V3KR_DATA = {
       "exitPrice": 2087.4,
       "exitTime": "2026-06-03T15:22:45Z",
       "open": false,
-      "returnPct": 10.19
+      "returnPct": 10.19,
+      "qqqReturnPct": 3.72
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9067,7 +10062,8 @@ window.V3KR_DATA = {
       "exitPrice": 272.21,
       "exitTime": "2026-06-03T15:20:00Z",
       "open": false,
-      "returnPct": 7.32
+      "returnPct": 7.32,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9078,7 +10074,8 @@ window.V3KR_DATA = {
       "exitPrice": 308.51,
       "exitTime": "2026-06-03T15:19:59Z",
       "open": false,
-      "returnPct": 10.3
+      "returnPct": 10.3,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9089,7 +10086,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.28,
       "exitTime": "2026-06-03T15:19:59Z",
       "open": false,
-      "returnPct": -12.81
+      "returnPct": -12.81,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9100,7 +10098,8 @@ window.V3KR_DATA = {
       "exitPrice": 85.04,
       "exitTime": "2026-06-03T14:17:15Z",
       "open": false,
-      "returnPct": 3.39
+      "returnPct": 3.39,
+      "qqqReturnPct": 2.02
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9111,7 +10110,8 @@ window.V3KR_DATA = {
       "exitPrice": 181.87,
       "exitTime": "2026-06-03T14:17:15Z",
       "open": false,
-      "returnPct": -5.96
+      "returnPct": -5.96,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9122,7 +10122,8 @@ window.V3KR_DATA = {
       "exitPrice": 432.38,
       "exitTime": "2026-06-03T14:17:15Z",
       "open": false,
-      "returnPct": -6.34
+      "returnPct": -6.34,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9133,7 +10134,8 @@ window.V3KR_DATA = {
       "exitPrice": 224.06,
       "exitTime": "2026-06-03T14:06:06Z",
       "open": false,
-      "returnPct": 1.18
+      "returnPct": 1.18,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9144,7 +10146,8 @@ window.V3KR_DATA = {
       "exitPrice": 111.08,
       "exitTime": "2026-06-03T14:06:05Z",
       "open": false,
-      "returnPct": 3.78
+      "returnPct": 3.78,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9155,7 +10158,8 @@ window.V3KR_DATA = {
       "exitPrice": 66.77,
       "exitTime": "2026-06-03T14:06:04Z",
       "open": false,
-      "returnPct": 1.5
+      "returnPct": 1.5,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9166,7 +10170,8 @@ window.V3KR_DATA = {
       "exitPrice": 154.93,
       "exitTime": "2026-06-03T14:05:08Z",
       "open": false,
-      "returnPct": 1.62
+      "returnPct": 1.62,
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9177,7 +10182,8 @@ window.V3KR_DATA = {
       "exitPrice": 66.88,
       "exitTime": "2026-06-03T14:05:06Z",
       "open": false,
-      "returnPct": 1.71
+      "returnPct": 1.71,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "KESTREL",
@@ -9188,7 +10194,8 @@ window.V3KR_DATA = {
       "exitPrice": 282.44,
       "exitTime": "2026-06-02T15:38:39Z",
       "open": false,
-      "returnPct": 29.48
+      "returnPct": 29.48,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9199,7 +10206,8 @@ window.V3KR_DATA = {
       "exitPrice": 483.71,
       "exitTime": "2026-06-02T15:38:39Z",
       "open": false,
-      "returnPct": 6.38
+      "returnPct": 6.38,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9210,7 +10218,8 @@ window.V3KR_DATA = {
       "exitPrice": 1068.76,
       "exitTime": "2026-06-02T15:38:37Z",
       "open": false,
-      "returnPct": 7.91
+      "returnPct": 7.91,
+      "qqqReturnPct": 2.29
     },
     {
       "strategy": "KESTREL",
@@ -9221,7 +10230,8 @@ window.V3KR_DATA = {
       "exitPrice": 131.9,
       "exitTime": "2026-06-02T15:38:37Z",
       "open": false,
-      "returnPct": 6.03
+      "returnPct": 6.03,
+      "qqqReturnPct": 1.44
     },
     {
       "strategy": "KESTREL",
@@ -9232,7 +10242,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.74,
       "exitTime": "2026-06-02T15:38:36Z",
       "open": false,
-      "returnPct": 5.7
+      "returnPct": 5.7,
+      "qqqReturnPct": 2.17
     },
     {
       "strategy": "STC INVERSE",
@@ -9243,7 +10254,8 @@ window.V3KR_DATA = {
       "exitPrice": 260.68,
       "exitTime": "2026-06-02T15:31:52Z",
       "open": false,
-      "returnPct": 5.02
+      "returnPct": 5.02,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "STC INVERSE",
@@ -9254,7 +10266,8 @@ window.V3KR_DATA = {
       "exitPrice": 480.32,
       "exitTime": "2026-06-02T15:31:50Z",
       "open": false,
-      "returnPct": 9.5
+      "returnPct": 9.5,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STC INVERSE",
@@ -9265,7 +10278,8 @@ window.V3KR_DATA = {
       "exitPrice": 86.9,
       "exitTime": "2026-06-02T15:31:50Z",
       "open": false,
-      "returnPct": -5.39
+      "returnPct": -5.39,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STC INVERSE",
@@ -9276,7 +10290,8 @@ window.V3KR_DATA = {
       "exitPrice": 127.32,
       "exitTime": "2026-06-02T15:31:49Z",
       "open": false,
-      "returnPct": 6.53
+      "returnPct": 6.53,
+      "qqqReturnPct": 2.29
     },
     {
       "strategy": "KESTREL",
@@ -9287,7 +10302,8 @@ window.V3KR_DATA = {
       "exitPrice": 96.64,
       "exitTime": "2026-06-02T15:25:19Z",
       "open": false,
-      "returnPct": 0.93
+      "returnPct": 0.93,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9298,7 +10314,8 @@ window.V3KR_DATA = {
       "exitPrice": 307.33,
       "exitTime": "2026-06-02T15:25:19Z",
       "open": false,
-      "returnPct": 1.83
+      "returnPct": 1.83,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9309,7 +10326,8 @@ window.V3KR_DATA = {
       "exitPrice": 280.05,
       "exitTime": "2026-06-02T15:25:18Z",
       "open": false,
-      "returnPct": 28.38
+      "returnPct": 28.38,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9320,7 +10338,8 @@ window.V3KR_DATA = {
       "exitPrice": 485.14,
       "exitTime": "2026-06-02T15:25:18Z",
       "open": false,
-      "returnPct": 6.69
+      "returnPct": 6.69,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "KESTREL",
@@ -9331,7 +10350,8 @@ window.V3KR_DATA = {
       "exitPrice": 905.15,
       "exitTime": "2026-06-02T15:25:17Z",
       "open": false,
-      "returnPct": 2.87
+      "returnPct": 2.87,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "KESTREL",
@@ -9342,7 +10362,8 @@ window.V3KR_DATA = {
       "exitPrice": 2024.19,
       "exitTime": "2026-06-02T15:25:16Z",
       "open": false,
-      "returnPct": 4.07
+      "returnPct": 4.07,
+      "qqqReturnPct": 1.44
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9353,7 +10374,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.29,
       "exitTime": "2026-06-02T15:23:56Z",
       "open": false,
-      "returnPct": -7.41
+      "returnPct": -7.41,
+      "qqqReturnPct": 4.63
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9364,7 +10386,8 @@ window.V3KR_DATA = {
       "exitPrice": 335.22,
       "exitTime": "2026-06-02T15:23:56Z",
       "open": false,
-      "returnPct": 8.75
+      "returnPct": 8.75,
+      "qqqReturnPct": 3.99
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -9375,7 +10398,8 @@ window.V3KR_DATA = {
       "exitPrice": 366.62,
       "exitTime": "2026-06-02T15:23:55Z",
       "open": false,
-      "returnPct": -6.79
+      "returnPct": -6.79,
+      "qqqReturnPct": 4.4
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9386,7 +10410,8 @@ window.V3KR_DATA = {
       "exitPrice": 111.24,
       "exitTime": "2026-06-02T15:20:49Z",
       "open": false,
-      "returnPct": -9.46
+      "returnPct": -9.46,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9397,7 +10422,8 @@ window.V3KR_DATA = {
       "exitPrice": 28.84,
       "exitTime": "2026-06-02T15:20:48Z",
       "open": false,
-      "returnPct": 11.63
+      "returnPct": 11.63,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9408,7 +10434,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.56,
       "exitTime": "2026-06-02T15:20:48Z",
       "open": false,
-      "returnPct": -4.71
+      "returnPct": -4.71,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9419,7 +10446,8 @@ window.V3KR_DATA = {
       "exitPrice": 50.33,
       "exitTime": "2026-06-02T15:20:47Z",
       "open": false,
-      "returnPct": 8.12
+      "returnPct": 8.12,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9430,7 +10458,8 @@ window.V3KR_DATA = {
       "exitPrice": 59.04,
       "exitTime": "2026-06-02T15:20:47Z",
       "open": false,
-      "returnPct": 34.46
+      "returnPct": 34.46,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9441,7 +10470,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.84,
       "exitTime": "2026-06-02T15:20:46Z",
       "open": false,
-      "returnPct": 13.18
+      "returnPct": 13.18,
+      "qqqReturnPct": 1.44
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9452,7 +10482,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.06,
       "exitTime": "2026-06-02T15:20:46Z",
       "open": false,
-      "returnPct": -10.47
+      "returnPct": -10.47,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9463,7 +10494,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.05,
       "exitTime": "2026-06-02T14:17:22Z",
       "open": false,
-      "returnPct": 0.37
+      "returnPct": 0.37,
+      "qqqReturnPct": 2.17
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9474,7 +10506,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.32,
       "exitTime": "2026-06-02T14:17:22Z",
       "open": false,
-      "returnPct": 12.14
+      "returnPct": 12.14,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -9485,7 +10518,8 @@ window.V3KR_DATA = {
       "exitPrice": 68.33,
       "exitTime": "2026-06-02T14:15:16Z",
       "open": false,
-      "returnPct": 4.69
+      "returnPct": 4.69,
+      "qqqReturnPct": 5.5
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -9496,7 +10530,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.78,
       "exitTime": "2026-06-02T14:15:14Z",
       "open": false,
-      "returnPct": -2.28
+      "returnPct": -2.28,
+      "qqqReturnPct": 9.47
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9507,7 +10542,8 @@ window.V3KR_DATA = {
       "exitPrice": 195.4,
       "exitTime": "2026-06-02T14:05:47Z",
       "open": false,
-      "returnPct": -6.17
+      "returnPct": -6.17,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9518,7 +10554,8 @@ window.V3KR_DATA = {
       "exitPrice": 106.07,
       "exitTime": "2026-06-02T14:05:47Z",
       "open": false,
-      "returnPct": -2.01
+      "returnPct": -2.01,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9529,7 +10566,8 @@ window.V3KR_DATA = {
       "exitPrice": 305.51,
       "exitTime": "2026-06-02T14:05:46Z",
       "open": false,
-      "returnPct": 0.67
+      "returnPct": 0.67,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9540,7 +10578,8 @@ window.V3KR_DATA = {
       "exitPrice": 301.2,
       "exitTime": "2026-06-02T14:04:47Z",
       "open": false,
-      "returnPct": 3.36
+      "returnPct": 3.36,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9551,7 +10590,8 @@ window.V3KR_DATA = {
       "exitPrice": 416.32,
       "exitTime": "2026-06-02T14:04:47Z",
       "open": false,
-      "returnPct": 3.62
+      "returnPct": 3.62,
+      "qqqReturnPct": 0.46
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9562,7 +10602,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.38,
       "exitTime": "2026-06-02T14:04:46Z",
       "open": false,
-      "returnPct": -2.26
+      "returnPct": -2.26,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9573,7 +10614,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.02,
       "exitTime": "2026-06-02T14:04:46Z",
       "open": false,
-      "returnPct": -3.09
+      "returnPct": -3.09,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9584,7 +10626,8 @@ window.V3KR_DATA = {
       "exitPrice": 377.54,
       "exitTime": "2026-06-02T14:04:45Z",
       "open": false,
-      "returnPct": -0.26
+      "returnPct": -0.26,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9595,7 +10638,8 @@ window.V3KR_DATA = {
       "exitPrice": 222.16,
       "exitTime": "2026-06-02T14:04:45Z",
       "open": false,
-      "returnPct": -2.3
+      "returnPct": -2.3,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -9606,7 +10650,8 @@ window.V3KR_DATA = {
       "exitPrice": 218.04,
       "exitTime": "2026-06-02T14:04:44Z",
       "open": false,
-      "returnPct": -0.44
+      "returnPct": -0.44,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "KESTREL",
@@ -9617,7 +10662,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.9,
       "exitTime": "2026-06-01T15:40:10Z",
       "open": false,
-      "returnPct": -3.08
+      "returnPct": -3.08,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "KESTREL",
@@ -9628,7 +10674,8 @@ window.V3KR_DATA = {
       "exitPrice": 218.23,
       "exitTime": "2026-06-01T15:40:08Z",
       "open": false,
-      "returnPct": 10.36
+      "returnPct": 10.36,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "KESTREL",
@@ -9639,7 +10686,8 @@ window.V3KR_DATA = {
       "exitPrice": 68.57,
       "exitTime": "2026-06-01T15:40:07Z",
       "open": false,
-      "returnPct": -4.68
+      "returnPct": -4.68,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STC INVERSE",
@@ -9650,7 +10698,8 @@ window.V3KR_DATA = {
       "exitPrice": 242.6,
       "exitTime": "2026-06-01T15:32:54Z",
       "open": false,
-      "returnPct": 10.02
+      "returnPct": 10.02,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STC INVERSE",
@@ -9661,7 +10710,8 @@ window.V3KR_DATA = {
       "exitPrice": 235.14,
       "exitTime": "2026-06-01T15:32:53Z",
       "open": false,
-      "returnPct": -4.56
+      "returnPct": -4.56,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STC INVERSE",
@@ -9672,7 +10722,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.92,
       "exitTime": "2026-06-01T15:32:53Z",
       "open": false,
-      "returnPct": 11.41
+      "returnPct": 11.41,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STC INVERSE",
@@ -9683,7 +10734,8 @@ window.V3KR_DATA = {
       "exitPrice": 313.12,
       "exitTime": "2026-06-01T15:32:52Z",
       "open": false,
-      "returnPct": -6.75
+      "returnPct": -6.75,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STC INVERSE",
@@ -9694,7 +10746,8 @@ window.V3KR_DATA = {
       "exitPrice": 1030.1,
       "exitTime": "2026-06-01T15:32:52Z",
       "open": false,
-      "returnPct": 9.05
+      "returnPct": 9.05,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STC INVERSE",
@@ -9705,7 +10758,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.77,
       "exitTime": "2026-06-01T15:32:49Z",
       "open": false,
-      "returnPct": 5.55
+      "returnPct": 5.55,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STC INVERSE",
@@ -9716,7 +10770,8 @@ window.V3KR_DATA = {
       "exitPrice": 169.7,
       "exitTime": "2026-06-01T15:32:49Z",
       "open": false,
-      "returnPct": 11.02
+      "returnPct": 11.02,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STC INVERSE",
@@ -9727,7 +10782,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.35,
       "exitTime": "2026-06-01T15:32:48Z",
       "open": false,
-      "returnPct": -4.57
+      "returnPct": -4.57,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STC INVERSE",
@@ -9738,7 +10794,8 @@ window.V3KR_DATA = {
       "exitPrice": 98.02,
       "exitTime": "2026-06-01T15:32:48Z",
       "open": false,
-      "returnPct": -1.58
+      "returnPct": -1.58,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STC INVERSE",
@@ -9749,7 +10806,8 @@ window.V3KR_DATA = {
       "exitPrice": 266.24,
       "exitTime": "2026-06-01T15:32:48Z",
       "open": false,
-      "returnPct": 8.73
+      "returnPct": 8.73,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STC INVERSE",
@@ -9760,7 +10818,8 @@ window.V3KR_DATA = {
       "exitPrice": 314.45,
       "exitTime": "2026-06-01T15:32:47Z",
       "open": false,
-      "returnPct": 0.74
+      "returnPct": 0.74,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "KESTREL",
@@ -9771,7 +10830,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.76,
       "exitTime": "2026-06-01T15:26:29Z",
       "open": false,
-      "returnPct": -3.2
+      "returnPct": -3.2,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "KESTREL",
@@ -9782,7 +10842,8 @@ window.V3KR_DATA = {
       "exitPrice": 296.5,
       "exitTime": "2026-06-01T15:26:27Z",
       "open": false,
-      "returnPct": -3.23
+      "returnPct": -3.23,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "KESTREL",
@@ -9793,7 +10854,8 @@ window.V3KR_DATA = {
       "exitPrice": 218.06,
       "exitTime": "2026-06-01T15:26:27Z",
       "open": false,
-      "returnPct": 10.27
+      "returnPct": 10.27,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "KESTREL",
@@ -9804,7 +10866,8 @@ window.V3KR_DATA = {
       "exitPrice": 306.64,
       "exitTime": "2026-06-01T15:26:26Z",
       "open": false,
-      "returnPct": 1.15
+      "returnPct": 1.15,
+      "qqqReturnPct": 3.95
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9815,7 +10878,8 @@ window.V3KR_DATA = {
       "exitPrice": 136.91,
       "exitTime": "2026-06-01T15:22:24Z",
       "open": false,
-      "returnPct": 11.06
+      "returnPct": 11.06,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9826,7 +10890,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.6,
       "exitTime": "2026-06-01T15:22:23Z",
       "open": false,
-      "returnPct": 9.21
+      "returnPct": 9.21,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9837,7 +10902,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.03,
       "exitTime": "2026-06-01T15:22:23Z",
       "open": false,
-      "returnPct": 43.7
+      "returnPct": 43.7,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9848,7 +10914,8 @@ window.V3KR_DATA = {
       "exitPrice": 87.9,
       "exitTime": "2026-06-01T15:22:22Z",
       "open": false,
-      "returnPct": -2.37
+      "returnPct": -2.37,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9859,7 +10926,8 @@ window.V3KR_DATA = {
       "exitPrice": 279.07,
       "exitTime": "2026-06-01T15:22:22Z",
       "open": false,
-      "returnPct": 17.64
+      "returnPct": 17.64,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9870,7 +10938,8 @@ window.V3KR_DATA = {
       "exitPrice": 140.96,
       "exitTime": "2026-06-01T15:22:22Z",
       "open": false,
-      "returnPct": 17.72
+      "returnPct": 17.72,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -9881,7 +10950,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.68,
       "exitTime": "2026-06-01T15:22:21Z",
       "open": false,
-      "returnPct": -6.11
+      "returnPct": -6.11,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9892,7 +10962,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.01,
       "exitTime": "2026-06-01T14:17:04Z",
       "open": false,
-      "returnPct": 25.62
+      "returnPct": 25.62,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -9903,7 +10974,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.88,
       "exitTime": "2026-06-01T14:17:04Z",
       "open": false,
-      "returnPct": 10.23
+      "returnPct": 10.23,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9914,7 +10986,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.11,
       "exitTime": "2026-06-01T14:05:56Z",
       "open": false,
-      "returnPct": -1.92
+      "returnPct": -1.92,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9925,7 +10998,8 @@ window.V3KR_DATA = {
       "exitPrice": 278.0,
       "exitTime": "2026-06-01T14:05:55Z",
       "open": false,
-      "returnPct": -1.65
+      "returnPct": -1.65,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9936,7 +11010,8 @@ window.V3KR_DATA = {
       "exitPrice": 312.4,
       "exitTime": "2026-06-01T14:05:55Z",
       "open": false,
-      "returnPct": -1.95
+      "returnPct": -1.95,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9947,7 +11022,8 @@ window.V3KR_DATA = {
       "exitPrice": 195.24,
       "exitTime": "2026-06-01T14:05:54Z",
       "open": false,
-      "returnPct": -2.38
+      "returnPct": -2.38,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9958,7 +11034,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.94,
       "exitTime": "2026-06-01T14:05:54Z",
       "open": false,
-      "returnPct": -2.79
+      "returnPct": -2.79,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9969,7 +11046,8 @@ window.V3KR_DATA = {
       "exitPrice": 65.76,
       "exitTime": "2026-06-01T14:05:53Z",
       "open": false,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9980,7 +11058,8 @@ window.V3KR_DATA = {
       "exitPrice": 97.89,
       "exitTime": "2026-06-01T14:05:53Z",
       "open": false,
-      "returnPct": -4.56
+      "returnPct": -4.56,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -9991,7 +11070,8 @@ window.V3KR_DATA = {
       "exitPrice": 206.63,
       "exitTime": "2026-06-01T14:05:53Z",
       "open": false,
-      "returnPct": -2.67
+      "returnPct": -2.67,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10002,7 +11082,8 @@ window.V3KR_DATA = {
       "exitPrice": 55.39,
       "exitTime": "2026-06-01T14:05:52Z",
       "open": false,
-      "returnPct": -5.16
+      "returnPct": -5.16,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10013,7 +11094,8 @@ window.V3KR_DATA = {
       "exitPrice": 401.58,
       "exitTime": "2026-06-01T14:04:51Z",
       "open": false,
-      "returnPct": -2.05
+      "returnPct": -2.05,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10024,7 +11106,8 @@ window.V3KR_DATA = {
       "exitPrice": 125.18,
       "exitTime": "2026-06-01T14:04:50Z",
       "open": false,
-      "returnPct": -2.59
+      "returnPct": -2.59,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10035,7 +11118,8 @@ window.V3KR_DATA = {
       "exitPrice": 291.36,
       "exitTime": "2026-06-01T14:04:50Z",
       "open": false,
-      "returnPct": -7.26
+      "returnPct": -7.26,
+      "qqqReturnPct": 0.97
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10046,7 +11130,8 @@ window.V3KR_DATA = {
       "exitPrice": 97.91,
       "exitTime": "2026-06-01T14:04:49Z",
       "open": false,
-      "returnPct": -4.38
+      "returnPct": -4.38,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10057,7 +11142,8 @@ window.V3KR_DATA = {
       "exitPrice": 82.74,
       "exitTime": "2026-06-01T14:04:49Z",
       "open": false,
-      "returnPct": -0.63
+      "returnPct": -0.63,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10068,7 +11154,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.58,
       "exitTime": "2026-06-01T14:04:48Z",
       "open": false,
-      "returnPct": -3.09
+      "returnPct": -3.09,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10079,7 +11166,8 @@ window.V3KR_DATA = {
       "exitPrice": 65.81,
       "exitTime": "2026-06-01T14:04:48Z",
       "open": false,
-      "returnPct": -2.56
+      "returnPct": -2.56,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10090,7 +11178,8 @@ window.V3KR_DATA = {
       "exitPrice": 55.45,
       "exitTime": "2026-06-01T14:04:47Z",
       "open": false,
-      "returnPct": -5.0
+      "returnPct": -5.0,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -10101,7 +11190,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -36.91
+      "returnPct": -36.91,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10112,7 +11202,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.94,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 22.06
+      "returnPct": 22.06,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10123,7 +11214,8 @@ window.V3KR_DATA = {
       "exitPrice": 179.14,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": -4.75
+      "returnPct": -4.75,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10134,7 +11226,8 @@ window.V3KR_DATA = {
       "exitPrice": 159.98,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 19.1
+      "returnPct": 19.1,
+      "qqqReturnPct": 3.51
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10145,7 +11238,8 @@ window.V3KR_DATA = {
       "exitPrice": 11.68,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 0.39
+      "returnPct": 0.39,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10156,7 +11250,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.94,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 3.99
+      "returnPct": 3.99,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10167,7 +11262,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.19,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 7.87
+      "returnPct": 7.87,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10178,7 +11274,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.17,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 8.39
+      "returnPct": 8.39,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10189,7 +11286,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.64,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 2.5
+      "returnPct": 2.5,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10200,7 +11298,8 @@ window.V3KR_DATA = {
       "exitPrice": 427.38,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": -0.73
+      "returnPct": -0.73,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10211,7 +11310,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.07,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 2.66
+      "returnPct": 2.66,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -10222,7 +11322,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.79,
       "exitTime": "2026-06-01T00:00:00Z",
       "open": false,
-      "returnPct": 0.52
+      "returnPct": 0.52,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "KESTREL",
@@ -10233,7 +11334,8 @@ window.V3KR_DATA = {
       "exitPrice": 142.55,
       "exitTime": "2026-05-29T15:41:01Z",
       "open": false,
-      "returnPct": 12.91
+      "returnPct": 12.91,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "KESTREL",
@@ -10244,7 +11346,8 @@ window.V3KR_DATA = {
       "exitPrice": 328.61,
       "exitTime": "2026-05-29T15:41:00Z",
       "open": false,
-      "returnPct": 5.07
+      "returnPct": 5.07,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "KESTREL",
@@ -10255,7 +11358,8 @@ window.V3KR_DATA = {
       "exitPrice": 311.94,
       "exitTime": "2026-05-29T15:40:59Z",
       "open": false,
-      "returnPct": 2.9
+      "returnPct": 2.9,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "STC INVERSE",
@@ -10266,7 +11370,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.16,
       "exitTime": "2026-05-29T15:34:33Z",
       "open": false,
-      "returnPct": 15.35
+      "returnPct": 15.35,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "STC INVERSE",
@@ -10277,7 +11382,8 @@ window.V3KR_DATA = {
       "exitPrice": 712.02,
       "exitTime": "2026-05-29T15:34:31Z",
       "open": false,
-      "returnPct": 10.77
+      "returnPct": 10.77,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STC INVERSE",
@@ -10288,7 +11394,8 @@ window.V3KR_DATA = {
       "exitPrice": 303.72,
       "exitTime": "2026-05-29T15:34:30Z",
       "open": false,
-      "returnPct": -4.94
+      "returnPct": -4.94,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STC INVERSE",
@@ -10299,7 +11406,8 @@ window.V3KR_DATA = {
       "exitPrice": 239.82,
       "exitTime": "2026-05-29T15:34:30Z",
       "open": false,
-      "returnPct": 6.55
+      "returnPct": 6.55,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STC INVERSE",
@@ -10310,7 +11418,8 @@ window.V3KR_DATA = {
       "exitPrice": 134.15,
       "exitTime": "2026-05-29T15:34:30Z",
       "open": false,
-      "returnPct": 5.36
+      "returnPct": 5.36,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STC INVERSE",
@@ -10321,7 +11430,8 @@ window.V3KR_DATA = {
       "exitPrice": 271.04,
       "exitTime": "2026-05-29T15:34:30Z",
       "open": false,
-      "returnPct": 8.93
+      "returnPct": 8.93,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STC INVERSE",
@@ -10332,7 +11442,8 @@ window.V3KR_DATA = {
       "exitPrice": 233.99,
       "exitTime": "2026-05-29T15:34:29Z",
       "open": false,
-      "returnPct": 6.9
+      "returnPct": 6.9,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STC INVERSE",
@@ -10343,7 +11454,8 @@ window.V3KR_DATA = {
       "exitPrice": 948.38,
       "exitTime": "2026-05-29T15:34:29Z",
       "open": false,
-      "returnPct": 5.09
+      "returnPct": 5.09,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STC INVERSE",
@@ -10354,7 +11466,8 @@ window.V3KR_DATA = {
       "exitPrice": 447.67,
       "exitTime": "2026-05-29T15:34:26Z",
       "open": false,
-      "returnPct": -4.39
+      "returnPct": -4.39,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "STC INVERSE",
@@ -10365,7 +11478,8 @@ window.V3KR_DATA = {
       "exitPrice": 83.62,
       "exitTime": "2026-05-29T15:34:26Z",
       "open": false,
-      "returnPct": -0.0
+      "returnPct": -0.0,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "STC INVERSE",
@@ -10376,7 +11490,8 @@ window.V3KR_DATA = {
       "exitPrice": 297.71,
       "exitTime": "2026-05-29T15:34:25Z",
       "open": false,
-      "returnPct": -1.18
+      "returnPct": -1.18,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "STC INVERSE",
@@ -10387,7 +11502,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.17,
       "exitTime": "2026-05-29T15:34:25Z",
       "open": false,
-      "returnPct": -1.05
+      "returnPct": -1.05,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "STC INVERSE",
@@ -10398,7 +11514,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.78,
       "exitTime": "2026-05-29T15:34:25Z",
       "open": false,
-      "returnPct": -2.54
+      "returnPct": -2.54,
+      "qqqReturnPct": 3.33
     },
     {
       "strategy": "KESTREL",
@@ -10409,7 +11526,8 @@ window.V3KR_DATA = {
       "exitPrice": 236.76,
       "exitTime": "2026-05-29T15:28:40Z",
       "open": false,
-      "returnPct": 2.4
+      "returnPct": 2.4,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "KESTREL",
@@ -10420,7 +11538,8 @@ window.V3KR_DATA = {
       "exitPrice": 126.69,
       "exitTime": "2026-05-29T15:28:40Z",
       "open": false,
-      "returnPct": 1.84
+      "returnPct": 1.84,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "KESTREL",
@@ -10431,7 +11550,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.5,
       "exitTime": "2026-05-29T15:28:38Z",
       "open": false,
-      "returnPct": 0.46
+      "returnPct": 0.46,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -10442,7 +11562,8 @@ window.V3KR_DATA = {
       "exitPrice": 965.8,
       "exitTime": "2026-05-29T15:27:45Z",
       "open": false,
-      "returnPct": 10.21
+      "returnPct": 10.21,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10453,7 +11574,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.9,
       "exitTime": "2026-05-29T15:25:01Z",
       "open": false,
-      "returnPct": -6.77
+      "returnPct": -6.77,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10464,7 +11586,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.18,
       "exitTime": "2026-05-29T15:25:00Z",
       "open": false,
-      "returnPct": -4.51
+      "returnPct": -4.51,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10475,7 +11598,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.0,
       "exitTime": "2026-05-29T15:25:00Z",
       "open": false,
-      "returnPct": -7.55
+      "returnPct": -7.55,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10486,7 +11610,8 @@ window.V3KR_DATA = {
       "exitPrice": 511.46,
       "exitTime": "2026-05-29T15:24:59Z",
       "open": false,
-      "returnPct": -5.48
+      "returnPct": -5.48,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10497,7 +11622,8 @@ window.V3KR_DATA = {
       "exitPrice": 136.23,
       "exitTime": "2026-05-29T15:24:59Z",
       "open": false,
-      "returnPct": -8.29
+      "returnPct": -8.29,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10508,7 +11634,8 @@ window.V3KR_DATA = {
       "exitPrice": 2954.57,
       "exitTime": "2026-05-29T15:24:58Z",
       "open": false,
-      "returnPct": 2.48
+      "returnPct": 2.48,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10519,7 +11646,8 @@ window.V3KR_DATA = {
       "exitPrice": 109.63,
       "exitTime": "2026-05-29T15:24:58Z",
       "open": false,
-      "returnPct": -12.78
+      "returnPct": -12.78,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10530,7 +11658,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.74,
       "exitTime": "2026-05-29T15:24:58Z",
       "open": false,
-      "returnPct": -7.17
+      "returnPct": -7.17,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -10541,7 +11670,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.26,
       "exitTime": "2026-05-29T14:19:23Z",
       "open": false,
-      "returnPct": 0.91
+      "returnPct": 0.91,
+      "qqqReturnPct": 2.89
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -10552,7 +11682,8 @@ window.V3KR_DATA = {
       "exitPrice": 0.57,
       "exitTime": "2026-05-29T14:19:23Z",
       "open": false,
-      "returnPct": 376.47
+      "returnPct": 376.47,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10563,7 +11694,8 @@ window.V3KR_DATA = {
       "exitPrice": 112.71,
       "exitTime": "2026-05-29T14:05:46Z",
       "open": false,
-      "returnPct": -3.17
+      "returnPct": -3.17,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10574,7 +11706,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.21,
       "exitTime": "2026-05-29T14:05:45Z",
       "open": false,
-      "returnPct": -3.77
+      "returnPct": -3.77,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10585,7 +11718,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.52,
       "exitTime": "2026-05-29T14:05:44Z",
       "open": false,
-      "returnPct": -4.29
+      "returnPct": -4.29,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10596,7 +11730,8 @@ window.V3KR_DATA = {
       "exitPrice": 953.23,
       "exitTime": "2026-05-29T14:05:44Z",
       "open": false,
-      "returnPct": -4.8
+      "returnPct": -4.8,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10607,7 +11742,8 @@ window.V3KR_DATA = {
       "exitPrice": 453.92,
       "exitTime": "2026-05-29T14:04:45Z",
       "open": false,
-      "returnPct": 3.07
+      "returnPct": 3.07,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10618,7 +11754,8 @@ window.V3KR_DATA = {
       "exitPrice": 122.31,
       "exitTime": "2026-05-29T14:04:44Z",
       "open": false,
-      "returnPct": 4.86
+      "returnPct": 4.86,
+      "qqqReturnPct": 0.37
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10629,7 +11766,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.93,
       "exitTime": "2026-05-29T14:04:43Z",
       "open": false,
-      "returnPct": 2.32
+      "returnPct": 2.32,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -10640,7 +11778,8 @@ window.V3KR_DATA = {
       "exitPrice": 954.31,
       "exitTime": "2026-05-29T14:04:41Z",
       "open": false,
-      "returnPct": -4.71
+      "returnPct": -4.71,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "KESTREL",
@@ -10651,7 +11790,8 @@ window.V3KR_DATA = {
       "exitPrice": 58.35,
       "exitTime": "2026-05-28T15:41:01Z",
       "open": false,
-      "returnPct": 7.03
+      "returnPct": 7.03,
+      "qqqReturnPct": 0.73
     },
     {
       "strategy": "KESTREL",
@@ -10662,7 +11802,8 @@ window.V3KR_DATA = {
       "exitPrice": 244.48,
       "exitTime": "2026-05-28T15:41:01Z",
       "open": false,
-      "returnPct": 8.69
+      "returnPct": 8.69,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10673,7 +11814,8 @@ window.V3KR_DATA = {
       "exitPrice": 386.29,
       "exitTime": "2026-05-28T15:40:59Z",
       "open": false,
-      "returnPct": 0.59
+      "returnPct": 0.59,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "KESTREL",
@@ -10684,7 +11826,8 @@ window.V3KR_DATA = {
       "exitPrice": 385.7,
       "exitTime": "2026-05-28T15:40:59Z",
       "open": false,
-      "returnPct": -0.16
+      "returnPct": -0.16,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10695,7 +11838,8 @@ window.V3KR_DATA = {
       "exitPrice": 51.04,
       "exitTime": "2026-05-28T15:34:21Z",
       "open": false,
-      "returnPct": -0.47
+      "returnPct": -0.47,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10706,7 +11850,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.96,
       "exitTime": "2026-05-28T15:34:21Z",
       "open": false,
-      "returnPct": -1.2
+      "returnPct": -1.2,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10717,7 +11862,8 @@ window.V3KR_DATA = {
       "exitPrice": 54.47,
       "exitTime": "2026-05-28T15:34:20Z",
       "open": false,
-      "returnPct": 0.11
+      "returnPct": 0.11,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10728,7 +11874,8 @@ window.V3KR_DATA = {
       "exitPrice": 220.27,
       "exitTime": "2026-05-28T15:34:20Z",
       "open": false,
-      "returnPct": 1.42
+      "returnPct": 1.42,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10739,7 +11886,8 @@ window.V3KR_DATA = {
       "exitPrice": 203.13,
       "exitTime": "2026-05-28T15:34:20Z",
       "open": false,
-      "returnPct": 3.74
+      "returnPct": 3.74,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "STC INVERSE",
@@ -10750,7 +11898,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.22,
       "exitTime": "2026-05-28T15:34:19Z",
       "open": false,
-      "returnPct": -0.3
+      "returnPct": -0.3,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "KESTREL",
@@ -10761,7 +11910,8 @@ window.V3KR_DATA = {
       "exitPrice": 999.25,
       "exitTime": "2026-05-28T15:28:30Z",
       "open": false,
-      "returnPct": 0.9
+      "returnPct": 0.9,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10772,7 +11922,8 @@ window.V3KR_DATA = {
       "exitPrice": 314.49,
       "exitTime": "2026-05-28T15:28:30Z",
       "open": false,
-      "returnPct": 0.56
+      "returnPct": 0.56,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10783,7 +11934,8 @@ window.V3KR_DATA = {
       "exitPrice": 127.16,
       "exitTime": "2026-05-28T15:28:30Z",
       "open": false,
-      "returnPct": 0.72
+      "returnPct": 0.72,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10794,7 +11946,8 @@ window.V3KR_DATA = {
       "exitPrice": 58.56,
       "exitTime": "2026-05-28T15:28:29Z",
       "open": false,
-      "returnPct": 7.41
+      "returnPct": 7.41,
+      "qqqReturnPct": 0.73
     },
     {
       "strategy": "KESTREL",
@@ -10805,7 +11958,8 @@ window.V3KR_DATA = {
       "exitPrice": 245.3,
       "exitTime": "2026-05-28T15:28:29Z",
       "open": false,
-      "returnPct": 9.06
+      "returnPct": 9.06,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10816,7 +11970,8 @@ window.V3KR_DATA = {
       "exitPrice": 385.32,
       "exitTime": "2026-05-28T15:28:28Z",
       "open": false,
-      "returnPct": -0.26
+      "returnPct": -0.26,
+      "qqqReturnPct": 3.15
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -10827,7 +11982,8 @@ window.V3KR_DATA = {
       "exitPrice": 522.06,
       "exitTime": "2026-05-28T15:27:36Z",
       "open": false,
-      "returnPct": 10.56
+      "returnPct": 10.56,
+      "qqqReturnPct": 2.52
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10838,7 +11994,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.78,
       "exitTime": "2026-05-28T15:24:54Z",
       "open": false,
-      "returnPct": 12.2
+      "returnPct": 12.2,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10849,7 +12006,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.82,
       "exitTime": "2026-05-28T15:24:53Z",
       "open": false,
-      "returnPct": 71.84
+      "returnPct": 71.84,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10860,7 +12018,8 @@ window.V3KR_DATA = {
       "exitPrice": 321.7,
       "exitTime": "2026-05-28T15:24:52Z",
       "open": false,
-      "returnPct": 11.27
+      "returnPct": 11.27,
+      "qqqReturnPct": 2.52
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10871,7 +12030,8 @@ window.V3KR_DATA = {
       "exitPrice": 24.97,
       "exitTime": "2026-05-28T15:24:52Z",
       "open": false,
-      "returnPct": 12.22
+      "returnPct": 12.22,
+      "qqqReturnPct": 0.73
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -10882,7 +12042,8 @@ window.V3KR_DATA = {
       "exitPrice": 32.9,
       "exitTime": "2026-05-28T15:24:52Z",
       "open": false,
-      "returnPct": -5.53
+      "returnPct": -5.53,
+      "qqqReturnPct": 0.73
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -10893,7 +12054,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.87,
       "exitTime": "2026-05-28T14:17:23Z",
       "open": false,
-      "returnPct": -1.46
+      "returnPct": -1.46,
+      "qqqReturnPct": 0.73
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -10904,7 +12066,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.08,
       "exitTime": "2026-05-28T14:17:23Z",
       "open": false,
-      "returnPct": -4.84
+      "returnPct": -4.84,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -10915,7 +12078,8 @@ window.V3KR_DATA = {
       "exitPrice": 162.01,
       "exitTime": "2026-05-28T14:05:39Z",
       "open": false,
-      "returnPct": -2.46
+      "returnPct": -2.46,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "KESTREL",
@@ -10926,7 +12090,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.35,
       "exitTime": "2026-05-27T15:36:30Z",
       "open": false,
-      "returnPct": 5.19
+      "returnPct": 5.19,
+      "qqqReturnPct": -0.11
     },
     {
       "strategy": "STC INVERSE",
@@ -10937,7 +12102,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.02,
       "exitTime": "2026-05-27T15:30:20Z",
       "open": false,
-      "returnPct": 5.99
+      "returnPct": 5.99,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STC INVERSE",
@@ -10948,7 +12114,8 @@ window.V3KR_DATA = {
       "exitPrice": 410.79,
       "exitTime": "2026-05-27T15:30:18Z",
       "open": false,
-      "returnPct": 6.34
+      "returnPct": 6.34,
+      "qqqReturnPct": 2.29
     },
     {
       "strategy": "STC INVERSE",
@@ -10959,7 +12126,8 @@ window.V3KR_DATA = {
       "exitPrice": 297.44,
       "exitTime": "2026-05-27T15:30:18Z",
       "open": false,
-      "returnPct": 5.13
+      "returnPct": 5.13,
+      "qqqReturnPct": 2.09
     },
     {
       "strategy": "STC INVERSE",
@@ -10970,7 +12138,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.85,
       "exitTime": "2026-05-27T15:30:16Z",
       "open": false,
-      "returnPct": -3.15
+      "returnPct": -3.15,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "STC INVERSE",
@@ -10981,7 +12150,8 @@ window.V3KR_DATA = {
       "exitPrice": 425.53,
       "exitTime": "2026-05-27T15:30:16Z",
       "open": false,
-      "returnPct": 3.98
+      "returnPct": 3.98,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "STC INVERSE",
@@ -10992,7 +12162,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.36,
       "exitTime": "2026-05-27T15:30:15Z",
       "open": false,
-      "returnPct": -1.34
+      "returnPct": -1.34,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "STC INVERSE",
@@ -11003,7 +12174,8 @@ window.V3KR_DATA = {
       "exitPrice": 172.62,
       "exitTime": "2026-05-27T15:30:15Z",
       "open": false,
-      "returnPct": -2.28
+      "returnPct": -2.28,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "STC INVERSE",
@@ -11014,7 +12186,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.32,
       "exitTime": "2026-05-27T15:30:15Z",
       "open": false,
-      "returnPct": -2.0
+      "returnPct": -2.0,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "KESTREL",
@@ -11025,7 +12198,8 @@ window.V3KR_DATA = {
       "exitPrice": 72.66,
       "exitTime": "2026-05-27T15:24:08Z",
       "open": false,
-      "returnPct": 1.0
+      "returnPct": 1.0,
+      "qqqReturnPct": -0.11
     },
     {
       "strategy": "KESTREL",
@@ -11036,7 +12210,8 @@ window.V3KR_DATA = {
       "exitPrice": 340.62,
       "exitTime": "2026-05-27T15:24:07Z",
       "open": false,
-      "returnPct": 0.43
+      "returnPct": 0.43,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -11047,7 +12222,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.65,
       "exitTime": "2026-05-27T15:24:07Z",
       "open": false,
-      "returnPct": 4.37
+      "returnPct": 4.37,
+      "qqqReturnPct": -0.11
     },
     {
       "strategy": "KESTREL",
@@ -11058,7 +12234,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.45,
       "exitTime": "2026-05-27T15:24:06Z",
       "open": false,
-      "returnPct": 0.89
+      "returnPct": 0.89,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "KESTREL",
@@ -11069,7 +12246,8 @@ window.V3KR_DATA = {
       "exitPrice": 115.33,
       "exitTime": "2026-05-27T15:24:06Z",
       "open": false,
-      "returnPct": -2.19
+      "returnPct": -2.19,
+      "qqqReturnPct": 2.09
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11080,7 +12258,8 @@ window.V3KR_DATA = {
       "exitPrice": 277.0,
       "exitTime": "2026-05-27T15:20:11Z",
       "open": false,
-      "returnPct": -10.81
+      "returnPct": -10.81,
+      "qqqReturnPct": -0.11
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11091,7 +12270,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.59,
       "exitTime": "2026-05-27T15:20:10Z",
       "open": false,
-      "returnPct": -2.4
+      "returnPct": -2.4,
+      "qqqReturnPct": 2.09
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11102,7 +12282,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.43,
       "exitTime": "2026-05-27T14:16:39Z",
       "open": false,
-      "returnPct": -0.13
+      "returnPct": -0.13,
+      "qqqReturnPct": 3.98
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11113,7 +12294,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.36,
       "exitTime": "2026-05-27T14:16:39Z",
       "open": false,
-      "returnPct": 3.72
+      "returnPct": 3.72,
+      "qqqReturnPct": 2.29
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11124,7 +12306,8 @@ window.V3KR_DATA = {
       "exitPrice": 40.47,
       "exitTime": "2026-05-27T14:16:39Z",
       "open": false,
-      "returnPct": 4.12
+      "returnPct": 4.12,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -11135,7 +12318,8 @@ window.V3KR_DATA = {
       "exitPrice": 133.68,
       "exitTime": "2026-05-26T15:39:31Z",
       "open": false,
-      "returnPct": 2.18
+      "returnPct": 2.18,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "KESTREL",
@@ -11146,7 +12330,8 @@ window.V3KR_DATA = {
       "exitPrice": 415.88,
       "exitTime": "2026-05-26T15:39:30Z",
       "open": false,
-      "returnPct": 7.46
+      "returnPct": 7.46,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "KESTREL",
@@ -11157,7 +12342,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.92,
       "exitTime": "2026-05-26T15:39:30Z",
       "open": false,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "KESTREL",
@@ -11168,7 +12354,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.39,
       "exitTime": "2026-05-26T15:39:30Z",
       "open": false,
-      "returnPct": -0.45
+      "returnPct": -0.45,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "KESTREL",
@@ -11179,7 +12366,8 @@ window.V3KR_DATA = {
       "exitPrice": 386.25,
       "exitTime": "2026-05-26T15:39:29Z",
       "open": false,
-      "returnPct": -0.25
+      "returnPct": -0.25,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STC INVERSE",
@@ -11190,7 +12378,8 @@ window.V3KR_DATA = {
       "exitPrice": 203.52,
       "exitTime": "2026-05-26T15:32:32Z",
       "open": false,
-      "returnPct": 7.83
+      "returnPct": 7.83,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STC INVERSE",
@@ -11201,7 +12390,8 @@ window.V3KR_DATA = {
       "exitPrice": 344.0,
       "exitTime": "2026-05-26T15:32:29Z",
       "open": false,
-      "returnPct": -1.83
+      "returnPct": -1.83,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STC INVERSE",
@@ -11212,7 +12402,8 @@ window.V3KR_DATA = {
       "exitPrice": 163.91,
       "exitTime": "2026-05-26T15:32:29Z",
       "open": false,
-      "returnPct": -4.21
+      "returnPct": -4.21,
+      "qqqReturnPct": 4.1
     },
     {
       "strategy": "STC INVERSE",
@@ -11223,7 +12414,8 @@ window.V3KR_DATA = {
       "exitPrice": 220.62,
       "exitTime": "2026-05-26T15:32:28Z",
       "open": false,
-      "returnPct": -1.64
+      "returnPct": -1.64,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STC INVERSE",
@@ -11234,7 +12426,8 @@ window.V3KR_DATA = {
       "exitPrice": 187.49,
       "exitTime": "2026-05-26T15:32:28Z",
       "open": false,
-      "returnPct": -3.37
+      "returnPct": -3.37,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STC INVERSE",
@@ -11245,7 +12438,8 @@ window.V3KR_DATA = {
       "exitPrice": 640.37,
       "exitTime": "2026-05-26T15:32:28Z",
       "open": false,
-      "returnPct": -2.46
+      "returnPct": -2.46,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STC INVERSE",
@@ -11256,7 +12450,8 @@ window.V3KR_DATA = {
       "exitPrice": 184.8,
       "exitTime": "2026-05-26T15:32:27Z",
       "open": false,
-      "returnPct": 4.05
+      "returnPct": 4.05,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "STC INVERSE",
@@ -11267,7 +12462,8 @@ window.V3KR_DATA = {
       "exitPrice": 749.74,
       "exitTime": "2026-05-26T15:32:27Z",
       "open": false,
-      "returnPct": 1.07
+      "returnPct": 1.07,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "STC INVERSE",
@@ -11278,7 +12474,8 @@ window.V3KR_DATA = {
       "exitPrice": 32.19,
       "exitTime": "2026-05-26T15:32:27Z",
       "open": false,
-      "returnPct": 1.36
+      "returnPct": 1.36,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "STC INVERSE",
@@ -11289,7 +12486,8 @@ window.V3KR_DATA = {
       "exitPrice": 372.32,
       "exitTime": "2026-05-26T15:32:27Z",
       "open": false,
-      "returnPct": 3.27
+      "returnPct": 3.27,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STC INVERSE",
@@ -11300,7 +12498,8 @@ window.V3KR_DATA = {
       "exitPrice": 280.45,
       "exitTime": "2026-05-26T15:32:26Z",
       "open": false,
-      "returnPct": -1.63
+      "returnPct": -1.63,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "KESTREL",
@@ -11311,7 +12510,8 @@ window.V3KR_DATA = {
       "exitPrice": 133.27,
       "exitTime": "2026-05-26T15:26:06Z",
       "open": false,
-      "returnPct": 1.87
+      "returnPct": 1.87,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "KESTREL",
@@ -11322,7 +12522,8 @@ window.V3KR_DATA = {
       "exitPrice": 416.95,
       "exitTime": "2026-05-26T15:26:05Z",
       "open": false,
-      "returnPct": 7.74
+      "returnPct": 7.74,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "KESTREL",
@@ -11333,7 +12534,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.72,
       "exitTime": "2026-05-26T15:26:05Z",
       "open": false,
-      "returnPct": -2.91
+      "returnPct": -2.91,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "KESTREL",
@@ -11344,7 +12546,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.58,
       "exitTime": "2026-05-26T15:26:04Z",
       "open": false,
-      "returnPct": 1.55
+      "returnPct": 1.55,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "KESTREL",
@@ -11355,7 +12558,8 @@ window.V3KR_DATA = {
       "exitPrice": 58.14,
       "exitTime": "2026-05-26T15:26:04Z",
       "open": false,
-      "returnPct": 0.98
+      "returnPct": 0.98,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "KESTREL",
@@ -11366,7 +12570,8 @@ window.V3KR_DATA = {
       "exitPrice": 38.7,
       "exitTime": "2026-05-26T15:26:03Z",
       "open": false,
-      "returnPct": -0.54
+      "returnPct": -0.54,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11377,7 +12582,8 @@ window.V3KR_DATA = {
       "exitPrice": 874.34,
       "exitTime": "2026-05-26T15:24:48Z",
       "open": false,
-      "returnPct": 14.19
+      "returnPct": 14.19,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11388,7 +12594,8 @@ window.V3KR_DATA = {
       "exitPrice": 220.92,
       "exitTime": "2026-05-26T15:24:47Z",
       "open": false,
-      "returnPct": -0.77
+      "returnPct": -0.77,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11399,7 +12606,8 @@ window.V3KR_DATA = {
       "exitPrice": 54.84,
       "exitTime": "2026-05-26T15:24:47Z",
       "open": false,
-      "returnPct": 4.46
+      "returnPct": 4.46,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11410,7 +12618,8 @@ window.V3KR_DATA = {
       "exitPrice": 451.3,
       "exitTime": "2026-05-26T15:24:47Z",
       "open": false,
-      "returnPct": 8.74
+      "returnPct": 8.74,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11421,7 +12630,8 @@ window.V3KR_DATA = {
       "exitPrice": 133.35,
       "exitTime": "2026-05-26T15:24:46Z",
       "open": false,
-      "returnPct": 0.52
+      "returnPct": 0.52,
+      "qqqReturnPct": 3.01
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11432,7 +12642,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.24,
       "exitTime": "2026-05-26T15:22:06Z",
       "open": false,
-      "returnPct": -12.99
+      "returnPct": -12.99,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11443,7 +12654,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.28,
       "exitTime": "2026-05-26T15:22:05Z",
       "open": false,
-      "returnPct": 3.42
+      "returnPct": 3.42,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11454,7 +12666,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.26,
       "exitTime": "2026-05-26T15:22:05Z",
       "open": false,
-      "returnPct": 19.72
+      "returnPct": 19.72,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11465,7 +12678,8 @@ window.V3KR_DATA = {
       "exitPrice": 24.16,
       "exitTime": "2026-05-26T15:22:05Z",
       "open": false,
-      "returnPct": -3.09
+      "returnPct": -3.09,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11476,7 +12690,8 @@ window.V3KR_DATA = {
       "exitPrice": 37.67,
       "exitTime": "2026-05-26T15:22:04Z",
       "open": false,
-      "returnPct": -0.49
+      "returnPct": -0.49,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11487,7 +12702,8 @@ window.V3KR_DATA = {
       "exitPrice": 16.48,
       "exitTime": "2026-05-26T15:22:04Z",
       "open": false,
-      "returnPct": -2.24
+      "returnPct": -2.24,
+      "qqqReturnPct": 4.1
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11498,7 +12714,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.66,
       "exitTime": "2026-05-26T15:22:04Z",
       "open": false,
-      "returnPct": -0.05
+      "returnPct": -0.05,
+      "qqqReturnPct": 4.1
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11509,7 +12726,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.6,
       "exitTime": "2026-05-26T15:22:03Z",
       "open": false,
-      "returnPct": 9.52
+      "returnPct": 9.52,
+      "qqqReturnPct": 3.46
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11520,7 +12738,8 @@ window.V3KR_DATA = {
       "exitPrice": 609.65,
       "exitTime": "2026-05-26T14:16:52Z",
       "open": false,
-      "returnPct": 1.27
+      "returnPct": 1.27,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11531,7 +12750,8 @@ window.V3KR_DATA = {
       "exitPrice": 247.8,
       "exitTime": "2026-05-26T14:16:52Z",
       "open": false,
-      "returnPct": -3.99
+      "returnPct": -3.99,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11542,7 +12762,8 @@ window.V3KR_DATA = {
       "exitPrice": 323.3,
       "exitTime": "2026-05-26T14:05:49Z",
       "open": false,
-      "returnPct": 0.76
+      "returnPct": 0.76,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11553,7 +12774,8 @@ window.V3KR_DATA = {
       "exitPrice": 158.6,
       "exitTime": "2026-05-26T14:05:49Z",
       "open": false,
-      "returnPct": 1.45
+      "returnPct": 1.45,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11564,7 +12786,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.4,
       "exitTime": "2026-05-26T14:05:48Z",
       "open": false,
-      "returnPct": -0.34
+      "returnPct": -0.34,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11575,7 +12798,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.59,
       "exitTime": "2026-05-26T14:05:48Z",
       "open": false,
-      "returnPct": -0.32
+      "returnPct": -0.32,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11586,7 +12810,8 @@ window.V3KR_DATA = {
       "exitPrice": 41.37,
       "exitTime": "2026-05-26T14:05:47Z",
       "open": false,
-      "returnPct": -1.94
+      "returnPct": -1.94,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11597,7 +12822,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.22,
       "exitTime": "2026-05-26T14:05:47Z",
       "open": false,
-      "returnPct": -1.09
+      "returnPct": -1.09,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11608,7 +12834,8 @@ window.V3KR_DATA = {
       "exitPrice": 384.07,
       "exitTime": "2026-05-26T14:05:46Z",
       "open": false,
-      "returnPct": 0.55
+      "returnPct": 0.55,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11619,7 +12846,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.6,
       "exitTime": "2026-05-26T14:05:46Z",
       "open": false,
-      "returnPct": 0.74
+      "returnPct": 0.74,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11630,7 +12858,8 @@ window.V3KR_DATA = {
       "exitPrice": 1002.32,
       "exitTime": "2026-05-26T14:05:46Z",
       "open": false,
-      "returnPct": -4.09
+      "returnPct": -4.09,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11641,7 +12870,8 @@ window.V3KR_DATA = {
       "exitPrice": 79.9,
       "exitTime": "2026-05-26T14:05:45Z",
       "open": false,
-      "returnPct": 0.45
+      "returnPct": 0.45,
+      "qqqReturnPct": 4.1
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -11652,7 +12882,8 @@ window.V3KR_DATA = {
       "exitPrice": 285.64,
       "exitTime": "2026-05-26T14:05:45Z",
       "open": false,
-      "returnPct": -4.45
+      "returnPct": -4.45,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11663,7 +12894,8 @@ window.V3KR_DATA = {
       "exitPrice": 102.34,
       "exitTime": "2026-05-26T14:04:46Z",
       "open": false,
-      "returnPct": -0.68
+      "returnPct": -0.68,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11674,7 +12906,8 @@ window.V3KR_DATA = {
       "exitPrice": 158.45,
       "exitTime": "2026-05-26T14:04:46Z",
       "open": false,
-      "returnPct": 1.39
+      "returnPct": 1.39,
+      "qqqReturnPct": 1.78
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11685,7 +12918,8 @@ window.V3KR_DATA = {
       "exitPrice": 118.82,
       "exitTime": "2026-05-26T14:04:45Z",
       "open": false,
-      "returnPct": -2.94
+      "returnPct": -2.94,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11696,7 +12930,8 @@ window.V3KR_DATA = {
       "exitPrice": 529.33,
       "exitTime": "2026-05-26T14:04:45Z",
       "open": false,
-      "returnPct": 1.22
+      "returnPct": 1.22,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11707,7 +12942,8 @@ window.V3KR_DATA = {
       "exitPrice": 87.09,
       "exitTime": "2026-05-26T14:04:44Z",
       "open": false,
-      "returnPct": 0.92
+      "returnPct": 0.92,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11718,7 +12954,8 @@ window.V3KR_DATA = {
       "exitPrice": 119.14,
       "exitTime": "2026-05-26T14:04:44Z",
       "open": false,
-      "returnPct": -1.81
+      "returnPct": -1.81,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11729,7 +12966,8 @@ window.V3KR_DATA = {
       "exitPrice": 1000.0,
       "exitTime": "2026-05-26T14:04:44Z",
       "open": false,
-      "returnPct": -4.21
+      "returnPct": -4.21,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11740,7 +12978,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.17,
       "exitTime": "2026-05-26T14:04:43Z",
       "open": false,
-      "returnPct": 0.6
+      "returnPct": 0.6,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -11751,7 +12990,8 @@ window.V3KR_DATA = {
       "exitPrice": 285.85,
       "exitTime": "2026-05-26T14:04:43Z",
       "open": false,
-      "returnPct": -4.46
+      "returnPct": -4.46,
+      "qqqReturnPct": 2.4
     },
     {
       "strategy": "KESTREL",
@@ -11762,7 +13002,8 @@ window.V3KR_DATA = {
       "exitPrice": 312.7,
       "exitTime": "2026-05-22T15:39:00Z",
       "open": false,
-      "returnPct": 5.86
+      "returnPct": 5.86,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "KESTREL",
@@ -11773,7 +13014,8 @@ window.V3KR_DATA = {
       "exitPrice": 121.46,
       "exitTime": "2026-05-22T15:39:00Z",
       "open": false,
-      "returnPct": 5.98
+      "returnPct": 5.98,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STC INVERSE",
@@ -11784,7 +13026,8 @@ window.V3KR_DATA = {
       "exitPrice": 152.84,
       "exitTime": "2026-05-22T15:34:37Z",
       "open": false,
-      "returnPct": 5.33
+      "returnPct": 5.33,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STC INVERSE",
@@ -11795,7 +13038,8 @@ window.V3KR_DATA = {
       "exitPrice": 306.9,
       "exitTime": "2026-05-22T15:34:35Z",
       "open": false,
-      "returnPct": 8.44
+      "returnPct": 8.44,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STC INVERSE",
@@ -11806,7 +13050,8 @@ window.V3KR_DATA = {
       "exitPrice": 426.98,
       "exitTime": "2026-05-22T15:34:30Z",
       "open": false,
-      "returnPct": -4.36
+      "returnPct": -4.36,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -11817,7 +13062,8 @@ window.V3KR_DATA = {
       "exitPrice": 238.63,
       "exitTime": "2026-05-22T15:34:28Z",
       "open": false,
-      "returnPct": 17.92
+      "returnPct": 17.92,
+      "qqqReturnPct": -0.31
     },
     {
       "strategy": "STC INVERSE",
@@ -11828,7 +13074,8 @@ window.V3KR_DATA = {
       "exitPrice": 760.68,
       "exitTime": "2026-05-22T15:34:28Z",
       "open": false,
-      "returnPct": -1.72
+      "returnPct": -1.72,
+      "qqqReturnPct": -0.31
     },
     {
       "strategy": "STC INVERSE",
@@ -11839,7 +13086,8 @@ window.V3KR_DATA = {
       "exitPrice": 48.26,
       "exitTime": "2026-05-22T15:34:28Z",
       "open": false,
-      "returnPct": 2.44
+      "returnPct": 2.44,
+      "qqqReturnPct": -0.31
     },
     {
       "strategy": "KESTREL",
@@ -11850,7 +13098,8 @@ window.V3KR_DATA = {
       "exitPrice": 121.5,
       "exitTime": "2026-05-22T15:28:12Z",
       "open": false,
-      "returnPct": 6.01
+      "returnPct": 6.01,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "KESTREL",
@@ -11861,7 +13110,8 @@ window.V3KR_DATA = {
       "exitPrice": 313.15,
       "exitTime": "2026-05-22T15:28:11Z",
       "open": false,
-      "returnPct": 6.01
+      "returnPct": 6.01,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11872,7 +13122,8 @@ window.V3KR_DATA = {
       "exitPrice": 308.09,
       "exitTime": "2026-05-22T15:26:56Z",
       "open": false,
-      "returnPct": 10.55
+      "returnPct": 10.55,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11883,7 +13134,8 @@ window.V3KR_DATA = {
       "exitPrice": 530.32,
       "exitTime": "2026-05-22T15:26:55Z",
       "open": false,
-      "returnPct": 7.34
+      "returnPct": 7.34,
+      "qqqReturnPct": 1.21
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11894,7 +13146,8 @@ window.V3KR_DATA = {
       "exitPrice": 765.59,
       "exitTime": "2026-05-22T15:26:55Z",
       "open": false,
-      "returnPct": 8.72
+      "returnPct": 8.72,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11905,7 +13158,8 @@ window.V3KR_DATA = {
       "exitPrice": 471.48,
       "exitTime": "2026-05-22T15:26:55Z",
       "open": false,
-      "returnPct": 12.42
+      "returnPct": 12.42,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -11916,7 +13170,8 @@ window.V3KR_DATA = {
       "exitPrice": 1894.3,
       "exitTime": "2026-05-22T15:26:54Z",
       "open": false,
-      "returnPct": 8.05
+      "returnPct": 8.05,
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11927,7 +13182,8 @@ window.V3KR_DATA = {
       "exitPrice": 30.22,
       "exitTime": "2026-05-22T15:24:16Z",
       "open": false,
-      "returnPct": 24.03
+      "returnPct": 24.03,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11938,7 +13194,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.49,
       "exitTime": "2026-05-22T15:24:16Z",
       "open": false,
-      "returnPct": -7.55
+      "returnPct": -7.55,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11949,7 +13206,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.44,
       "exitTime": "2026-05-22T15:24:16Z",
       "open": false,
-      "returnPct": 24.95
+      "returnPct": 24.95,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11960,7 +13218,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.11,
       "exitTime": "2026-05-22T15:24:15Z",
       "open": false,
-      "returnPct": -1.1
+      "returnPct": -1.1,
+      "qqqReturnPct": 2.28
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11971,7 +13230,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.52,
       "exitTime": "2026-05-22T15:24:15Z",
       "open": false,
-      "returnPct": 17.69
+      "returnPct": 17.69,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -11982,7 +13242,8 @@ window.V3KR_DATA = {
       "exitPrice": 101.47,
       "exitTime": "2026-05-22T15:24:14Z",
       "open": false,
-      "returnPct": 2.45
+      "returnPct": 2.45,
+      "qqqReturnPct": 2.28
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -11993,7 +13254,8 @@ window.V3KR_DATA = {
       "exitPrice": 30.84,
       "exitTime": "2026-05-22T14:16:54Z",
       "open": false,
-      "returnPct": -5.41
+      "returnPct": -5.41,
+      "qqqReturnPct": 0.62
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12004,7 +13266,8 @@ window.V3KR_DATA = {
       "exitPrice": 34.97,
       "exitTime": "2026-05-22T14:16:54Z",
       "open": false,
-      "returnPct": 6.81
+      "returnPct": 6.81,
+      "qqqReturnPct": 0.62
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12015,7 +13278,8 @@ window.V3KR_DATA = {
       "exitPrice": 309.22,
       "exitTime": "2026-05-22T14:16:54Z",
       "open": false,
-      "returnPct": -0.34
+      "returnPct": -0.34,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12026,7 +13290,8 @@ window.V3KR_DATA = {
       "exitPrice": 399.59,
       "exitTime": "2026-05-22T14:05:51Z",
       "open": false,
-      "returnPct": 2.75
+      "returnPct": 2.75,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12037,7 +13302,8 @@ window.V3KR_DATA = {
       "exitPrice": 119.61,
       "exitTime": "2026-05-22T14:05:48Z",
       "open": false,
-      "returnPct": 4.22
+      "returnPct": 4.22,
+      "qqqReturnPct": 0.62
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12048,7 +13314,8 @@ window.V3KR_DATA = {
       "exitPrice": 528.45,
       "exitTime": "2026-05-22T14:05:47Z",
       "open": false,
-      "returnPct": 6.62
+      "returnPct": 6.62,
+      "qqqReturnPct": 2.28
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12059,7 +13326,8 @@ window.V3KR_DATA = {
       "exitPrice": 173.24,
       "exitTime": "2026-05-22T14:05:46Z",
       "open": false,
-      "returnPct": -3.41
+      "returnPct": -3.41,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12070,7 +13338,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.64,
       "exitTime": "2026-05-22T14:05:46Z",
       "open": false,
-      "returnPct": 0.51
+      "returnPct": 0.51,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12081,7 +13350,8 @@ window.V3KR_DATA = {
       "exitPrice": 399.48,
       "exitTime": "2026-05-22T14:04:49Z",
       "open": false,
-      "returnPct": 2.89
+      "returnPct": 2.89,
+      "qqqReturnPct": 0.42
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12092,7 +13362,8 @@ window.V3KR_DATA = {
       "exitPrice": 311.92,
       "exitTime": "2026-05-22T14:04:46Z",
       "open": false,
-      "returnPct": 3.75
+      "returnPct": 3.75,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12103,7 +13374,8 @@ window.V3KR_DATA = {
       "exitPrice": 119.58,
       "exitTime": "2026-05-22T14:04:46Z",
       "open": false,
-      "returnPct": 3.69
+      "returnPct": 3.69,
+      "qqqReturnPct": 0.62
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12114,7 +13386,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.42,
       "exitTime": "2026-05-22T14:04:45Z",
       "open": false,
-      "returnPct": 0.34
+      "returnPct": 0.34,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12125,7 +13398,8 @@ window.V3KR_DATA = {
       "exitPrice": 414.49,
       "exitTime": "2026-05-22T14:04:45Z",
       "open": false,
-      "returnPct": -0.32
+      "returnPct": -0.32,
+      "qqqReturnPct": 1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -12136,7 +13410,8 @@ window.V3KR_DATA = {
       "exitPrice": 517.09,
       "exitTime": "2026-05-21T15:34:31Z",
       "open": false,
-      "returnPct": 8.23
+      "returnPct": 8.23,
+      "qqqReturnPct": 1.22
     },
     {
       "strategy": "KESTREL",
@@ -12147,7 +13422,8 @@ window.V3KR_DATA = {
       "exitPrice": 249.75,
       "exitTime": "2026-05-21T15:27:41Z",
       "open": false,
-      "returnPct": 1.11
+      "returnPct": 1.11,
+      "qqqReturnPct": 0.19
     },
     {
       "strategy": "KESTREL",
@@ -12158,7 +13434,8 @@ window.V3KR_DATA = {
       "exitPrice": 89.24,
       "exitTime": "2026-05-21T15:27:41Z",
       "open": false,
-      "returnPct": 2.74
+      "returnPct": 2.74,
+      "qqqReturnPct": 0.19
     },
     {
       "strategy": "KESTREL",
@@ -12169,7 +13446,8 @@ window.V3KR_DATA = {
       "exitPrice": 314.82,
       "exitTime": "2026-05-21T15:27:40Z",
       "open": false,
-      "returnPct": -5.92
+      "returnPct": -5.92,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "KESTREL",
@@ -12180,7 +13458,8 @@ window.V3KR_DATA = {
       "exitPrice": 388.92,
       "exitTime": "2026-05-21T15:27:40Z",
       "open": false,
-      "returnPct": 0.44
+      "returnPct": 0.44,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12191,7 +13470,8 @@ window.V3KR_DATA = {
       "exitPrice": 32.97,
       "exitTime": "2026-05-21T15:23:29Z",
       "open": false,
-      "returnPct": -5.01
+      "returnPct": -5.01,
+      "qqqReturnPct": 0.19
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12202,7 +13482,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.44,
       "exitTime": "2026-05-21T15:23:27Z",
       "open": false,
-      "returnPct": 8.78
+      "returnPct": 8.78,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12213,7 +13494,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.84,
       "exitTime": "2026-05-21T15:23:26Z",
       "open": false,
-      "returnPct": -4.63
+      "returnPct": -4.63,
+      "qqqReturnPct": 0.79
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12224,7 +13506,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.86,
       "exitTime": "2026-05-21T14:17:15Z",
       "open": false,
-      "returnPct": 8.79
+      "returnPct": 8.79,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12235,7 +13518,8 @@ window.V3KR_DATA = {
       "exitPrice": 226.36,
       "exitTime": "2026-05-21T14:05:53Z",
       "open": false,
-      "returnPct": 2.79
+      "returnPct": 2.79,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12246,7 +13530,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.64,
       "exitTime": "2026-05-21T14:05:52Z",
       "open": false,
-      "returnPct": 1.22
+      "returnPct": 1.22,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12257,7 +13542,8 @@ window.V3KR_DATA = {
       "exitPrice": 191.25,
       "exitTime": "2026-05-21T14:05:51Z",
       "open": false,
-      "returnPct": 1.7
+      "returnPct": 1.7,
+      "qqqReturnPct": 1.22
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12268,7 +13554,8 @@ window.V3KR_DATA = {
       "exitPrice": 1069.84,
       "exitTime": "2026-05-21T14:05:51Z",
       "open": false,
-      "returnPct": 1.0
+      "returnPct": 1.0,
+      "qqqReturnPct": 1.22
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12279,7 +13566,8 @@ window.V3KR_DATA = {
       "exitPrice": 221.25,
       "exitTime": "2026-05-21T14:04:51Z",
       "open": false,
-      "returnPct": 2.61
+      "returnPct": 2.61,
+      "qqqReturnPct": 0.19
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12290,7 +13578,8 @@ window.V3KR_DATA = {
       "exitPrice": 296.95,
       "exitTime": "2026-05-21T14:04:48Z",
       "open": false,
-      "returnPct": 6.28
+      "returnPct": 6.28,
+      "qqqReturnPct": 1.22
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12301,7 +13590,8 @@ window.V3KR_DATA = {
       "exitPrice": 224.28,
       "exitTime": "2026-05-21T14:04:48Z",
       "open": false,
-      "returnPct": 1.74
+      "returnPct": 1.74,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12312,7 +13602,8 @@ window.V3KR_DATA = {
       "exitPrice": 868.05,
       "exitTime": "2026-05-21T14:04:48Z",
       "open": false,
-      "returnPct": 1.8
+      "returnPct": 1.8,
+      "qqqReturnPct": 1.85
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12323,7 +13614,8 @@ window.V3KR_DATA = {
       "exitPrice": 428.1,
       "exitTime": "2026-05-21T14:04:47Z",
       "open": false,
-      "returnPct": 3.19
+      "returnPct": 3.19,
+      "qqqReturnPct": 1.22
     },
     {
       "strategy": "STC INVERSE",
@@ -12334,7 +13626,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.17,
       "exitTime": "2026-05-20T15:34:44Z",
       "open": false,
-      "returnPct": 10.23
+      "returnPct": 10.23,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STC INVERSE",
@@ -12345,7 +13638,8 @@ window.V3KR_DATA = {
       "exitPrice": 292.39,
       "exitTime": "2026-05-20T15:34:43Z",
       "open": false,
-      "returnPct": 8.57
+      "returnPct": 8.57,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STC INVERSE",
@@ -12356,7 +13650,8 @@ window.V3KR_DATA = {
       "exitPrice": 194.82,
       "exitTime": "2026-05-20T15:34:40Z",
       "open": false,
-      "returnPct": -4.19
+      "returnPct": -4.19,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STC INVERSE",
@@ -12367,7 +13662,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.18,
       "exitTime": "2026-05-20T15:34:37Z",
       "open": false,
-      "returnPct": 4.07
+      "returnPct": 4.07,
+      "qqqReturnPct": -0.22
     },
     {
       "strategy": "KESTREL",
@@ -12378,7 +13674,8 @@ window.V3KR_DATA = {
       "exitPrice": 188.88,
       "exitTime": "2026-05-20T15:27:38Z",
       "open": false,
-      "returnPct": 9.74
+      "returnPct": 9.74,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -12389,7 +13686,8 @@ window.V3KR_DATA = {
       "exitPrice": 264.44,
       "exitTime": "2026-05-20T15:27:38Z",
       "open": false,
-      "returnPct": 3.43
+      "returnPct": 3.43,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -12400,7 +13698,8 @@ window.V3KR_DATA = {
       "exitPrice": 299.38,
       "exitTime": "2026-05-20T15:27:37Z",
       "open": false,
-      "returnPct": 0.78
+      "returnPct": 0.78,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -12411,7 +13710,8 @@ window.V3KR_DATA = {
       "exitPrice": 225.41,
       "exitTime": "2026-05-20T15:27:37Z",
       "open": false,
-      "returnPct": 2.37
+      "returnPct": 2.37,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "KESTREL",
@@ -12422,7 +13722,8 @@ window.V3KR_DATA = {
       "exitPrice": 346.74,
       "exitTime": "2026-05-20T15:27:36Z",
       "open": false,
-      "returnPct": -1.9
+      "returnPct": -1.9,
+      "qqqReturnPct": -0.92
     },
     {
       "strategy": "KESTREL",
@@ -12433,7 +13734,8 @@ window.V3KR_DATA = {
       "exitPrice": 710.77,
       "exitTime": "2026-05-20T15:27:35Z",
       "open": false,
-      "returnPct": -0.33
+      "returnPct": -0.33,
+      "qqqReturnPct": -0.02
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -12444,7 +13746,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.08,
       "exitTime": "2026-05-20T15:26:04Z",
       "open": false,
-      "returnPct": 7.7
+      "returnPct": 7.7,
+      "qqqReturnPct": 0.6
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12455,7 +13758,8 @@ window.V3KR_DATA = {
       "exitPrice": 0.84,
       "exitTime": "2026-05-20T15:23:17Z",
       "open": false,
-      "returnPct": 55.23
+      "returnPct": 55.23,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12466,7 +13770,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.69,
       "exitTime": "2026-05-20T15:23:17Z",
       "open": false,
-      "returnPct": 12.67
+      "returnPct": 12.67,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12477,7 +13782,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.73,
       "exitTime": "2026-05-20T15:23:16Z",
       "open": false,
-      "returnPct": 13.71
+      "returnPct": 13.71,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12488,7 +13794,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.06,
       "exitTime": "2026-05-20T15:23:16Z",
       "open": false,
-      "returnPct": -4.65
+      "returnPct": -4.65,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12499,7 +13806,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.3,
       "exitTime": "2026-05-20T15:23:15Z",
       "open": false,
-      "returnPct": -3.11
+      "returnPct": -3.11,
+      "qqqReturnPct": -0.92
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12510,7 +13818,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.66,
       "exitTime": "2026-05-20T14:16:59Z",
       "open": false,
-      "returnPct": -0.03
+      "returnPct": -0.03,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12521,7 +13830,8 @@ window.V3KR_DATA = {
       "exitPrice": 100.92,
       "exitTime": "2026-05-20T14:16:59Z",
       "open": false,
-      "returnPct": 5.3
+      "returnPct": 5.3,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12532,7 +13842,8 @@ window.V3KR_DATA = {
       "exitPrice": 176.4,
       "exitTime": "2026-05-20T14:16:59Z",
       "open": false,
-      "returnPct": -4.27
+      "returnPct": -4.27,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -12543,7 +13854,8 @@ window.V3KR_DATA = {
       "exitPrice": 58.82,
       "exitTime": "2026-05-20T14:15:27Z",
       "open": false,
-      "returnPct": 5.6
+      "returnPct": 5.6,
+      "qqqReturnPct": 0.84
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12554,7 +13866,8 @@ window.V3KR_DATA = {
       "exitPrice": 1507.98,
       "exitTime": "2026-05-20T14:05:41Z",
       "open": false,
-      "returnPct": 5.26
+      "returnPct": 5.26,
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12565,7 +13878,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.68,
       "exitTime": "2026-05-20T14:05:38Z",
       "open": false,
-      "returnPct": 1.6
+      "returnPct": 1.6,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STC INVERSE",
@@ -12576,7 +13890,8 @@ window.V3KR_DATA = {
       "exitPrice": 409.5,
       "exitTime": "2026-05-19T15:32:13Z",
       "open": false,
-      "returnPct": -5.85
+      "returnPct": -5.85,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STC INVERSE",
@@ -12587,7 +13902,8 @@ window.V3KR_DATA = {
       "exitPrice": 539.14,
       "exitTime": "2026-05-19T15:32:12Z",
       "open": false,
-      "returnPct": -4.1
+      "returnPct": -4.1,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STC INVERSE",
@@ -12598,7 +13914,8 @@ window.V3KR_DATA = {
       "exitPrice": 74.22,
       "exitTime": "2026-05-19T15:32:11Z",
       "open": false,
-      "returnPct": 5.4
+      "returnPct": 5.4,
+      "qqqReturnPct": -2.54
     },
     {
       "strategy": "STC INVERSE",
@@ -12609,7 +13926,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.87,
       "exitTime": "2026-05-19T15:32:11Z",
       "open": false,
-      "returnPct": -4.84
+      "returnPct": -4.84,
+      "qqqReturnPct": -2.54
     },
     {
       "strategy": "STC INVERSE",
@@ -12620,7 +13938,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.22,
       "exitTime": "2026-05-19T15:32:11Z",
       "open": false,
-      "returnPct": -4.95
+      "returnPct": -4.95,
+      "qqqReturnPct": -2.54
     },
     {
       "strategy": "STC INVERSE",
@@ -12631,7 +13950,8 @@ window.V3KR_DATA = {
       "exitPrice": 699.25,
       "exitTime": "2026-05-19T15:32:09Z",
       "open": false,
-      "returnPct": -0.11
+      "returnPct": -0.11,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -12642,7 +13962,8 @@ window.V3KR_DATA = {
       "exitPrice": 493.65,
       "exitTime": "2026-05-19T15:32:09Z",
       "open": false,
-      "returnPct": -2.9
+      "returnPct": -2.9,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -12653,7 +13974,8 @@ window.V3KR_DATA = {
       "exitPrice": 229.63,
       "exitTime": "2026-05-19T15:32:09Z",
       "open": false,
-      "returnPct": -1.52
+      "returnPct": -1.52,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -12664,7 +13986,8 @@ window.V3KR_DATA = {
       "exitPrice": 326.74,
       "exitTime": "2026-05-19T15:32:09Z",
       "open": false,
-      "returnPct": -4.65
+      "returnPct": -4.65,
+      "qqqReturnPct": -1.84
     },
     {
       "strategy": "STC INVERSE",
@@ -12675,7 +13998,8 @@ window.V3KR_DATA = {
       "exitPrice": 387.73,
       "exitTime": "2026-05-19T15:32:08Z",
       "open": false,
-      "returnPct": -1.55
+      "returnPct": -1.55,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -12686,7 +14010,8 @@ window.V3KR_DATA = {
       "exitPrice": 146.83,
       "exitTime": "2026-05-19T15:32:08Z",
       "open": false,
-      "returnPct": -1.52
+      "returnPct": -1.52,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "STC INVERSE",
@@ -12697,7 +14022,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.2,
       "exitTime": "2026-05-19T15:32:08Z",
       "open": false,
-      "returnPct": -1.68
+      "returnPct": -1.68,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STC INVERSE",
@@ -12708,7 +14034,8 @@ window.V3KR_DATA = {
       "exitPrice": 384.54,
       "exitTime": "2026-05-19T15:32:07Z",
       "open": false,
-      "returnPct": -1.58
+      "returnPct": -1.58,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "KESTREL",
@@ -12719,7 +14046,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.03,
       "exitTime": "2026-05-19T15:25:22Z",
       "open": false,
-      "returnPct": 2.16
+      "returnPct": 2.16,
+      "qqqReturnPct": -0.62
     },
     {
       "strategy": "KESTREL",
@@ -12730,7 +14058,8 @@ window.V3KR_DATA = {
       "exitPrice": 331.37,
       "exitTime": "2026-05-19T15:25:21Z",
       "open": false,
-      "returnPct": 1.43
+      "returnPct": 1.43,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "KESTREL",
@@ -12741,7 +14070,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.19,
       "exitTime": "2026-05-19T15:25:21Z",
       "open": false,
-      "returnPct": 0.81
+      "returnPct": 0.81,
+      "qqqReturnPct": -0.62
     },
     {
       "strategy": "KESTREL",
@@ -12752,7 +14082,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.93,
       "exitTime": "2026-05-19T15:25:20Z",
       "open": false,
-      "returnPct": 0.68
+      "returnPct": 0.68,
+      "qqqReturnPct": -2.54
     },
     {
       "strategy": "KESTREL",
@@ -12763,7 +14094,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.85,
       "exitTime": "2026-05-19T15:25:19Z",
       "open": false,
-      "returnPct": -2.81
+      "returnPct": -2.81,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "KESTREL",
@@ -12774,7 +14106,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.96,
       "exitTime": "2026-05-19T15:25:19Z",
       "open": false,
-      "returnPct": -6.27
+      "returnPct": -6.27,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "KESTREL",
@@ -12785,7 +14118,8 @@ window.V3KR_DATA = {
       "exitPrice": 213.95,
       "exitTime": "2026-05-19T15:25:18Z",
       "open": false,
-      "returnPct": -0.52
+      "returnPct": -0.52,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -12796,7 +14130,8 @@ window.V3KR_DATA = {
       "exitPrice": 853.52,
       "exitTime": "2026-05-19T15:23:50Z",
       "open": false,
-      "returnPct": -6.05
+      "returnPct": -6.05,
+      "qqqReturnPct": -1.65
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12807,7 +14142,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.87,
       "exitTime": "2026-05-19T15:20:59Z",
       "open": false,
-      "returnPct": 8.85
+      "returnPct": 8.85,
+      "qqqReturnPct": -0.62
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12818,7 +14154,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.06,
       "exitTime": "2026-05-19T15:20:58Z",
       "open": false,
-      "returnPct": -3.44
+      "returnPct": -3.44,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12829,7 +14166,8 @@ window.V3KR_DATA = {
       "exitPrice": 59.3,
       "exitTime": "2026-05-19T15:20:58Z",
       "open": false,
-      "returnPct": 2.25
+      "returnPct": 2.25,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -12840,7 +14178,8 @@ window.V3KR_DATA = {
       "exitPrice": 105.98,
       "exitTime": "2026-05-19T15:20:58Z",
       "open": false,
-      "returnPct": 2.3
+      "returnPct": 2.3,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12851,7 +14190,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.22,
       "exitTime": "2026-05-19T14:17:29Z",
       "open": false,
-      "returnPct": 3.3
+      "returnPct": 3.3,
+      "qqqReturnPct": -1.84
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -12862,7 +14202,8 @@ window.V3KR_DATA = {
       "exitPrice": 135.52,
       "exitTime": "2026-05-19T14:17:29Z",
       "open": false,
-      "returnPct": 1.21
+      "returnPct": 1.21,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -12873,7 +14214,8 @@ window.V3KR_DATA = {
       "exitPrice": 183.38,
       "exitTime": "2026-05-19T14:15:58Z",
       "open": false,
-      "returnPct": 4.97
+      "returnPct": 4.97,
+      "qqqReturnPct": 2.92
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12884,7 +14226,8 @@ window.V3KR_DATA = {
       "exitPrice": 185.15,
       "exitTime": "2026-05-19T14:05:59Z",
       "open": false,
-      "returnPct": 1.26
+      "returnPct": 1.26,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12895,7 +14238,8 @@ window.V3KR_DATA = {
       "exitPrice": 79.46,
       "exitTime": "2026-05-19T14:05:59Z",
       "open": false,
-      "returnPct": -3.98
+      "returnPct": -3.98,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12906,7 +14250,8 @@ window.V3KR_DATA = {
       "exitPrice": 324.04,
       "exitTime": "2026-05-19T14:05:58Z",
       "open": false,
-      "returnPct": -1.76
+      "returnPct": -1.76,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12917,7 +14262,8 @@ window.V3KR_DATA = {
       "exitPrice": 290.7,
       "exitTime": "2026-05-19T14:05:58Z",
       "open": false,
-      "returnPct": -2.3
+      "returnPct": -2.3,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -12928,7 +14274,8 @@ window.V3KR_DATA = {
       "exitPrice": 411.38,
       "exitTime": "2026-05-19T14:05:57Z",
       "open": false,
-      "returnPct": -1.07
+      "returnPct": -1.07,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12939,7 +14286,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.1,
       "exitTime": "2026-05-19T14:04:56Z",
       "open": false,
-      "returnPct": -0.12
+      "returnPct": -0.12,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12950,7 +14298,8 @@ window.V3KR_DATA = {
       "exitPrice": 397.57,
       "exitTime": "2026-05-19T14:04:56Z",
       "open": false,
-      "returnPct": 1.14
+      "returnPct": 1.14,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12961,7 +14310,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.06,
       "exitTime": "2026-05-19T14:04:55Z",
       "open": false,
-      "returnPct": 0.31
+      "returnPct": 0.31,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -12972,7 +14322,8 @@ window.V3KR_DATA = {
       "exitPrice": 323.96,
       "exitTime": "2026-05-19T14:04:55Z",
       "open": false,
-      "returnPct": -1.78
+      "returnPct": -1.78,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STC INVERSE",
@@ -12983,7 +14334,8 @@ window.V3KR_DATA = {
       "exitPrice": 700.3,
       "exitTime": "2026-05-18T15:34:35Z",
       "open": false,
-      "returnPct": -5.23
+      "returnPct": -5.23,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STC INVERSE",
@@ -12994,7 +14346,8 @@ window.V3KR_DATA = {
       "exitPrice": 74.42,
       "exitTime": "2026-05-18T15:34:34Z",
       "open": false,
-      "returnPct": 5.22
+      "returnPct": 5.22,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STC INVERSE",
@@ -13005,7 +14358,8 @@ window.V3KR_DATA = {
       "exitPrice": 861.13,
       "exitTime": "2026-05-18T15:34:32Z",
       "open": false,
-      "returnPct": -4.6
+      "returnPct": -4.6,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STC INVERSE",
@@ -13016,7 +14370,8 @@ window.V3KR_DATA = {
       "exitPrice": 311.65,
       "exitTime": "2026-05-18T15:34:32Z",
       "open": false,
-      "returnPct": -4.85
+      "returnPct": -4.85,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STC INVERSE",
@@ -13027,7 +14382,8 @@ window.V3KR_DATA = {
       "exitPrice": 220.04,
       "exitTime": "2026-05-18T15:34:31Z",
       "open": false,
-      "returnPct": 5.7
+      "returnPct": 5.7,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STC INVERSE",
@@ -13038,7 +14394,8 @@ window.V3KR_DATA = {
       "exitPrice": 342.46,
       "exitTime": "2026-05-18T15:34:30Z",
       "open": false,
-      "returnPct": -4.04
+      "returnPct": -4.04,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STC INVERSE",
@@ -13049,7 +14406,8 @@ window.V3KR_DATA = {
       "exitPrice": 85.83,
       "exitTime": "2026-05-18T15:34:30Z",
       "open": false,
-      "returnPct": 9.1
+      "returnPct": 9.1,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STC INVERSE",
@@ -13060,7 +14418,8 @@ window.V3KR_DATA = {
       "exitPrice": 60.3,
       "exitTime": "2026-05-18T15:34:29Z",
       "open": false,
-      "returnPct": 6.25
+      "returnPct": 6.25,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STC INVERSE",
@@ -13071,7 +14430,8 @@ window.V3KR_DATA = {
       "exitPrice": 624.88,
       "exitTime": "2026-05-18T15:34:29Z",
       "open": false,
-      "returnPct": 12.55
+      "returnPct": 12.55,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STC INVERSE",
@@ -13082,7 +14442,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.28,
       "exitTime": "2026-05-18T15:34:28Z",
       "open": false,
-      "returnPct": 5.23
+      "returnPct": 5.23,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "KESTREL",
@@ -13093,7 +14454,8 @@ window.V3KR_DATA = {
       "exitPrice": 170.39,
       "exitTime": "2026-05-18T15:27:31Z",
       "open": false,
-      "returnPct": -5.31
+      "returnPct": -5.31,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "KESTREL",
@@ -13104,7 +14466,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.21,
       "exitTime": "2026-05-18T15:27:31Z",
       "open": false,
-      "returnPct": 1.72
+      "returnPct": 1.72,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "KESTREL",
@@ -13115,7 +14478,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.7,
       "exitTime": "2026-05-18T15:27:30Z",
       "open": false,
-      "returnPct": -4.04
+      "returnPct": -4.04,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -13126,7 +14490,8 @@ window.V3KR_DATA = {
       "exitPrice": 701.17,
       "exitTime": "2026-05-18T15:25:58Z",
       "open": false,
-      "returnPct": -10.51
+      "returnPct": -10.51,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -13137,7 +14502,8 @@ window.V3KR_DATA = {
       "exitPrice": 418.92,
       "exitTime": "2026-05-18T15:25:58Z",
       "open": false,
-      "returnPct": -9.29
+      "returnPct": -9.29,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -13148,7 +14514,8 @@ window.V3KR_DATA = {
       "exitPrice": 277.9,
       "exitTime": "2026-05-18T15:25:58Z",
       "open": false,
-      "returnPct": -6.54
+      "returnPct": -6.54,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -13159,7 +14526,8 @@ window.V3KR_DATA = {
       "exitPrice": 413.96,
       "exitTime": "2026-05-18T15:25:58Z",
       "open": false,
-      "returnPct": -6.65
+      "returnPct": -6.65,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13170,7 +14538,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.08,
       "exitTime": "2026-05-18T15:23:13Z",
       "open": false,
-      "returnPct": -4.13
+      "returnPct": -4.13,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13181,7 +14550,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.29,
       "exitTime": "2026-05-18T15:23:13Z",
       "open": false,
-      "returnPct": 15.52
+      "returnPct": 15.52,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13192,7 +14562,8 @@ window.V3KR_DATA = {
       "exitPrice": 0.48,
       "exitTime": "2026-05-18T15:23:13Z",
       "open": false,
-      "returnPct": 8.96
+      "returnPct": 8.96,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13203,7 +14574,8 @@ window.V3KR_DATA = {
       "exitPrice": 9.62,
       "exitTime": "2026-05-18T15:23:12Z",
       "open": false,
-      "returnPct": -9.12
+      "returnPct": -9.12,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13214,7 +14586,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.14,
       "exitTime": "2026-05-18T15:23:12Z",
       "open": false,
-      "returnPct": -25.34
+      "returnPct": -25.34,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13225,7 +14598,8 @@ window.V3KR_DATA = {
       "exitPrice": 258.89,
       "exitTime": "2026-05-18T15:23:11Z",
       "open": false,
-      "returnPct": 2.79
+      "returnPct": 2.79,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13236,7 +14610,8 @@ window.V3KR_DATA = {
       "exitPrice": 201.16,
       "exitTime": "2026-05-18T14:17:08Z",
       "open": false,
-      "returnPct": 0.43
+      "returnPct": 0.43,
+      "qqqReturnPct": -1.04
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13247,7 +14622,8 @@ window.V3KR_DATA = {
       "exitPrice": 121.4,
       "exitTime": "2026-05-18T14:17:08Z",
       "open": false,
-      "returnPct": -0.44
+      "returnPct": -0.44,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13258,7 +14634,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.46,
       "exitTime": "2026-05-18T14:17:08Z",
       "open": false,
-      "returnPct": 74.11
+      "returnPct": 74.11,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13269,7 +14646,8 @@ window.V3KR_DATA = {
       "exitPrice": 208.62,
       "exitTime": "2026-05-18T14:05:58Z",
       "open": false,
-      "returnPct": -1.32
+      "returnPct": -1.32,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13280,7 +14658,8 @@ window.V3KR_DATA = {
       "exitPrice": 338.18,
       "exitTime": "2026-05-18T14:05:57Z",
       "open": false,
-      "returnPct": -0.86
+      "returnPct": -0.86,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13291,7 +14670,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.73,
       "exitTime": "2026-05-18T14:05:57Z",
       "open": false,
-      "returnPct": -0.68
+      "returnPct": -0.68,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13302,7 +14682,8 @@ window.V3KR_DATA = {
       "exitPrice": 106.83,
       "exitTime": "2026-05-18T14:05:56Z",
       "open": false,
-      "returnPct": -1.91
+      "returnPct": -1.91,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13313,7 +14694,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.66,
       "exitTime": "2026-05-18T14:05:56Z",
       "open": false,
-      "returnPct": -1.04
+      "returnPct": -1.04,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13324,7 +14706,8 @@ window.V3KR_DATA = {
       "exitPrice": 114.84,
       "exitTime": "2026-05-18T14:05:55Z",
       "open": false,
-      "returnPct": 0.11
+      "returnPct": 0.11,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13335,7 +14718,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.52,
       "exitTime": "2026-05-18T14:05:55Z",
       "open": false,
-      "returnPct": -0.01
+      "returnPct": -0.01,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13346,7 +14730,8 @@ window.V3KR_DATA = {
       "exitPrice": 418.11,
       "exitTime": "2026-05-18T14:05:55Z",
       "open": false,
-      "returnPct": -4.26
+      "returnPct": -4.26,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13357,7 +14742,8 @@ window.V3KR_DATA = {
       "exitPrice": 420.45,
       "exitTime": "2026-05-18T14:04:52Z",
       "open": false,
-      "returnPct": 1.19
+      "returnPct": 1.19,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13368,7 +14754,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.67,
       "exitTime": "2026-05-18T14:04:51Z",
       "open": false,
-      "returnPct": -0.75
+      "returnPct": -0.75,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13379,7 +14766,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.92,
       "exitTime": "2026-05-18T14:04:51Z",
       "open": false,
-      "returnPct": -0.14
+      "returnPct": -0.14,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13390,7 +14778,8 @@ window.V3KR_DATA = {
       "exitPrice": 198.8,
       "exitTime": "2026-05-18T14:04:50Z",
       "open": false,
-      "returnPct": -4.52
+      "returnPct": -4.52,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13401,7 +14790,8 @@ window.V3KR_DATA = {
       "exitPrice": 865.68,
       "exitTime": "2026-05-18T14:04:50Z",
       "open": false,
-      "returnPct": -4.17
+      "returnPct": -4.17,
+      "qqqReturnPct": -1.24
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13412,7 +14802,8 @@ window.V3KR_DATA = {
       "exitPrice": 370.26,
       "exitTime": "2026-05-18T14:04:49Z",
       "open": false,
-      "returnPct": -1.44
+      "returnPct": -1.44,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13423,7 +14814,8 @@ window.V3KR_DATA = {
       "exitPrice": 51.81,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": -0.86
+      "returnPct": -0.86,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13434,7 +14826,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.5,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": -3.31
+      "returnPct": -3.31,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13445,7 +14838,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.07,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": -1.89
+      "returnPct": -1.89,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13456,7 +14850,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.68,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": 5.23
+      "returnPct": 5.23,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13467,7 +14862,8 @@ window.V3KR_DATA = {
       "exitPrice": 190.48,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": -4.44
+      "returnPct": -4.44,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13478,7 +14874,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.22,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": 0.31
+      "returnPct": 0.31,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13489,7 +14886,8 @@ window.V3KR_DATA = {
       "exitPrice": 113.51,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": 3.34
+      "returnPct": 3.34,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -13500,7 +14898,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.49,
       "exitTime": "2026-05-18T00:00:00Z",
       "open": false,
-      "returnPct": 0.64
+      "returnPct": 0.64,
+      "qqqReturnPct": -0.43
     },
     {
       "strategy": "STC INVERSE",
@@ -13511,7 +14910,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.72,
       "exitTime": "2026-05-15T15:35:21Z",
       "open": false,
-      "returnPct": -6.86
+      "returnPct": -6.86,
+      "qqqReturnPct": 0.24
     },
     {
       "strategy": "KESTREL",
@@ -13522,7 +14922,8 @@ window.V3KR_DATA = {
       "exitPrice": 222.4,
       "exitTime": "2026-05-15T15:28:17Z",
       "open": false,
-      "returnPct": -3.69
+      "returnPct": -3.69,
+      "qqqReturnPct": -1.51
     },
     {
       "strategy": "KESTREL",
@@ -13533,7 +14934,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.48,
       "exitTime": "2026-05-15T15:28:16Z",
       "open": false,
-      "returnPct": -7.07
+      "returnPct": -7.07,
+      "qqqReturnPct": -1.51
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -13544,7 +14946,8 @@ window.V3KR_DATA = {
       "exitPrice": 108.72,
       "exitTime": "2026-05-15T15:27:39Z",
       "open": false,
-      "returnPct": -7.41
+      "returnPct": -7.41,
+      "qqqReturnPct": 0.24
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13555,7 +14958,8 @@ window.V3KR_DATA = {
       "exitPrice": 13.73,
       "exitTime": "2026-05-15T15:24:49Z",
       "open": false,
-      "returnPct": 8.7
+      "returnPct": 8.7,
+      "qqqReturnPct": -1.51
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13566,7 +14970,8 @@ window.V3KR_DATA = {
       "exitPrice": 47.4,
       "exitTime": "2026-05-15T15:24:48Z",
       "open": false,
-      "returnPct": -6.37
+      "returnPct": -6.37,
+      "qqqReturnPct": -1.51
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13577,7 +14982,8 @@ window.V3KR_DATA = {
       "exitPrice": 170.05,
       "exitTime": "2026-05-15T15:24:47Z",
       "open": false,
-      "returnPct": 0.89
+      "returnPct": 0.89,
+      "qqqReturnPct": 0.24
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13588,7 +14994,8 @@ window.V3KR_DATA = {
       "exitPrice": 69.26,
       "exitTime": "2026-05-15T14:17:34Z",
       "open": false,
-      "returnPct": -9.93
+      "returnPct": -9.93,
+      "qqqReturnPct": -0.61
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13599,7 +15006,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.56,
       "exitTime": "2026-05-15T14:17:34Z",
       "open": false,
-      "returnPct": -4.86
+      "returnPct": -4.86,
+      "qqqReturnPct": 0.24
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13610,7 +15018,8 @@ window.V3KR_DATA = {
       "exitPrice": 182.31,
       "exitTime": "2026-05-15T14:05:49Z",
       "open": false,
-      "returnPct": -8.45
+      "returnPct": -8.45,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13621,7 +15030,8 @@ window.V3KR_DATA = {
       "exitPrice": 148.99,
       "exitTime": "2026-05-15T14:05:47Z",
       "open": false,
-      "returnPct": -1.58
+      "returnPct": -1.58,
+      "qqqReturnPct": -0.61
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13632,7 +15042,8 @@ window.V3KR_DATA = {
       "exitPrice": 180.04,
       "exitTime": "2026-05-15T14:05:47Z",
       "open": false,
-      "returnPct": -0.41
+      "returnPct": -0.41,
+      "qqqReturnPct": -0.61
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13643,7 +15054,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.0,
       "exitTime": "2026-05-15T14:05:47Z",
       "open": false,
-      "returnPct": -1.98
+      "returnPct": -1.98,
+      "qqqReturnPct": -0.61
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13654,7 +15066,8 @@ window.V3KR_DATA = {
       "exitPrice": 106.98,
       "exitTime": "2026-05-15T14:04:44Z",
       "open": false,
-      "returnPct": -9.6
+      "returnPct": -9.6,
+      "qqqReturnPct": -0.81
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13665,7 +15078,8 @@ window.V3KR_DATA = {
       "exitPrice": 148.99,
       "exitTime": "2026-05-15T14:04:43Z",
       "open": false,
-      "returnPct": -1.49
+      "returnPct": -1.49,
+      "qqqReturnPct": -0.61
     },
     {
       "strategy": "STC INVERSE",
@@ -13676,7 +15090,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.5,
       "exitTime": "2026-05-14T15:34:58Z",
       "open": false,
-      "returnPct": -11.59
+      "returnPct": -11.59,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STC INVERSE",
@@ -13687,7 +15102,8 @@ window.V3KR_DATA = {
       "exitPrice": 579.74,
       "exitTime": "2026-05-14T15:34:57Z",
       "open": false,
-      "returnPct": 5.88
+      "returnPct": 5.88,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "KESTREL",
@@ -13698,7 +15114,8 @@ window.V3KR_DATA = {
       "exitPrice": 90.0,
       "exitTime": "2026-05-14T15:27:59Z",
       "open": false,
-      "returnPct": 3.03
+      "returnPct": 3.03,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "KESTREL",
@@ -13709,7 +15126,8 @@ window.V3KR_DATA = {
       "exitPrice": 156.57,
       "exitTime": "2026-05-14T15:27:59Z",
       "open": false,
-      "returnPct": 7.19
+      "returnPct": 7.19,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "KESTREL",
@@ -13720,7 +15138,8 @@ window.V3KR_DATA = {
       "exitPrice": 446.26,
       "exitTime": "2026-05-14T15:27:58Z",
       "open": false,
-      "returnPct": 6.86
+      "returnPct": 6.86,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "KESTREL",
@@ -13731,7 +15150,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.35,
       "exitTime": "2026-05-14T15:27:58Z",
       "open": false,
-      "returnPct": 0.42
+      "returnPct": 0.42,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "KESTREL",
@@ -13742,7 +15162,8 @@ window.V3KR_DATA = {
       "exitPrice": 200.44,
       "exitTime": "2026-05-14T15:27:58Z",
       "open": false,
-      "returnPct": 6.06
+      "returnPct": 6.06,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "KESTREL",
@@ -13753,7 +15174,8 @@ window.V3KR_DATA = {
       "exitPrice": 318.26,
       "exitTime": "2026-05-14T15:27:58Z",
       "open": false,
-      "returnPct": 0.56
+      "returnPct": 0.56,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "KESTREL",
@@ -13764,7 +15186,8 @@ window.V3KR_DATA = {
       "exitPrice": 238.24,
       "exitTime": "2026-05-14T15:27:57Z",
       "open": false,
-      "returnPct": 13.06
+      "returnPct": 13.06,
+      "qqqReturnPct": 0.91
     },
     {
       "strategy": "KESTREL",
@@ -13775,7 +15198,8 @@ window.V3KR_DATA = {
       "exitPrice": 578.27,
       "exitTime": "2026-05-14T15:27:57Z",
       "open": false,
-      "returnPct": 8.6
+      "returnPct": 8.6,
+      "qqqReturnPct": 0.91
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13786,7 +15210,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.67,
       "exitTime": "2026-05-14T15:23:47Z",
       "open": false,
-      "returnPct": -6.2
+      "returnPct": -6.2,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13797,7 +15222,8 @@ window.V3KR_DATA = {
       "exitPrice": 228.49,
       "exitTime": "2026-05-14T15:23:47Z",
       "open": false,
-      "returnPct": 9.73
+      "returnPct": 9.73,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13808,7 +15234,8 @@ window.V3KR_DATA = {
       "exitPrice": 103.17,
       "exitTime": "2026-05-14T15:23:46Z",
       "open": false,
-      "returnPct": -7.2
+      "returnPct": -7.2,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13819,7 +15246,8 @@ window.V3KR_DATA = {
       "exitPrice": 620.81,
       "exitTime": "2026-05-14T14:17:23Z",
       "open": false,
-      "returnPct": 3.35
+      "returnPct": 3.35,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13830,7 +15258,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.12,
       "exitTime": "2026-05-14T14:17:23Z",
       "open": false,
-      "returnPct": -3.53
+      "returnPct": -3.53,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -13841,7 +15270,8 @@ window.V3KR_DATA = {
       "exitPrice": 442.31,
       "exitTime": "2026-05-14T14:05:45Z",
       "open": false,
-      "returnPct": 4.07
+      "returnPct": 4.07,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13852,7 +15282,8 @@ window.V3KR_DATA = {
       "exitPrice": 442.48,
       "exitTime": "2026-05-14T14:04:44Z",
       "open": false,
-      "returnPct": 4.03
+      "returnPct": 4.03,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13863,7 +15294,8 @@ window.V3KR_DATA = {
       "exitPrice": 299.65,
       "exitTime": "2026-05-14T14:04:44Z",
       "open": false,
-      "returnPct": 3.78
+      "returnPct": 3.78,
+      "qqqReturnPct": 0.71
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13874,7 +15306,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.82,
       "exitTime": "2026-05-14T14:04:42Z",
       "open": false,
-      "returnPct": 1.49
+      "returnPct": 1.49,
+      "qqqReturnPct": 0.91
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -13885,7 +15318,8 @@ window.V3KR_DATA = {
       "exitPrice": 269.25,
       "exitTime": "2026-05-14T14:04:42Z",
       "open": false,
-      "returnPct": 1.76
+      "returnPct": 1.76,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "STC INVERSE",
@@ -13896,7 +15330,8 @@ window.V3KR_DATA = {
       "exitPrice": 61.16,
       "exitTime": "2026-05-13T15:31:13Z",
       "open": false,
-      "returnPct": -4.45
+      "returnPct": -4.45,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "STC INVERSE",
@@ -13907,7 +15342,8 @@ window.V3KR_DATA = {
       "exitPrice": 80.95,
       "exitTime": "2026-05-13T15:31:12Z",
       "open": false,
-      "returnPct": -6.52
+      "returnPct": -6.52,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "KESTREL",
@@ -13918,7 +15354,8 @@ window.V3KR_DATA = {
       "exitPrice": 305.9,
       "exitTime": "2026-05-13T15:24:18Z",
       "open": false,
-      "returnPct": 6.15
+      "returnPct": 6.15,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "KESTREL",
@@ -13929,7 +15366,8 @@ window.V3KR_DATA = {
       "exitPrice": 605.53,
       "exitTime": "2026-05-13T15:24:18Z",
       "open": false,
-      "returnPct": 0.8
+      "returnPct": 0.8,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "KESTREL",
@@ -13940,7 +15378,8 @@ window.V3KR_DATA = {
       "exitPrice": 77.62,
       "exitTime": "2026-05-13T15:24:17Z",
       "open": false,
-      "returnPct": 1.85
+      "returnPct": 1.85,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "KESTREL",
@@ -13951,7 +15390,8 @@ window.V3KR_DATA = {
       "exitPrice": 142.64,
       "exitTime": "2026-05-13T15:24:16Z",
       "open": false,
-      "returnPct": 0.44
+      "returnPct": 0.44,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13962,7 +15402,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.86,
       "exitTime": "2026-05-13T15:20:06Z",
       "open": false,
-      "returnPct": -7.09
+      "returnPct": -7.09,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13973,7 +15414,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.93,
       "exitTime": "2026-05-13T15:20:05Z",
       "open": false,
-      "returnPct": 11.03
+      "returnPct": 11.03,
+      "qqqReturnPct": 0.2
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -13984,7 +15426,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.35,
       "exitTime": "2026-05-13T15:20:05Z",
       "open": false,
-      "returnPct": -6.02
+      "returnPct": -6.02,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -13995,7 +15438,8 @@ window.V3KR_DATA = {
       "exitPrice": 33.06,
       "exitTime": "2026-05-13T14:16:57Z",
       "open": false,
-      "returnPct": -0.5
+      "returnPct": -0.5,
+      "qqqReturnPct": 2.72
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14006,7 +15450,8 @@ window.V3KR_DATA = {
       "exitPrice": 188.55,
       "exitTime": "2026-05-13T14:16:57Z",
       "open": false,
-      "returnPct": -5.72
+      "returnPct": -5.72,
+      "qqqReturnPct": 0.49
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14017,7 +15462,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.26,
       "exitTime": "2026-05-13T14:16:57Z",
       "open": false,
-      "returnPct": -8.25
+      "returnPct": -8.25,
+      "qqqReturnPct": 0.49
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -14028,7 +15474,8 @@ window.V3KR_DATA = {
       "exitPrice": 270.32,
       "exitTime": "2026-05-13T14:14:48Z",
       "open": false,
-      "returnPct": -13.08
+      "returnPct": -13.08,
+      "qqqReturnPct": 0.49
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14039,7 +15486,8 @@ window.V3KR_DATA = {
       "exitPrice": 388.74,
       "exitTime": "2026-05-13T14:05:35Z",
       "open": false,
-      "returnPct": 1.5
+      "returnPct": 1.5,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14050,7 +15498,8 @@ window.V3KR_DATA = {
       "exitPrice": 392.4,
       "exitTime": "2026-05-13T14:05:35Z",
       "open": false,
-      "returnPct": 1.74
+      "returnPct": 1.74,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14061,7 +15510,8 @@ window.V3KR_DATA = {
       "exitPrice": 353.28,
       "exitTime": "2026-05-13T14:05:34Z",
       "open": false,
-      "returnPct": 1.24
+      "returnPct": 1.24,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14072,7 +15522,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.03,
       "exitTime": "2026-05-13T14:05:33Z",
       "open": false,
-      "returnPct": 1.49
+      "returnPct": 1.49,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14083,7 +15534,8 @@ window.V3KR_DATA = {
       "exitPrice": 268.46,
       "exitTime": "2026-05-13T14:04:34Z",
       "open": false,
-      "returnPct": 2.44
+      "returnPct": 2.44,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14094,7 +15546,8 @@ window.V3KR_DATA = {
       "exitPrice": 99.14,
       "exitTime": "2026-05-13T14:04:34Z",
       "open": false,
-      "returnPct": 1.43
+      "returnPct": 1.43,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14105,7 +15558,8 @@ window.V3KR_DATA = {
       "exitPrice": 391.32,
       "exitTime": "2026-05-13T14:04:33Z",
       "open": false,
-      "returnPct": 1.44
+      "returnPct": 1.44,
+      "qqqReturnPct": 1.06
     },
     {
       "strategy": "KESTREL",
@@ -14116,7 +15570,8 @@ window.V3KR_DATA = {
       "exitPrice": 134.88,
       "exitTime": "2026-05-12T15:23:49Z",
       "open": false,
-      "returnPct": -3.18
+      "returnPct": -3.18,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "KESTREL",
@@ -14127,7 +15582,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.52,
       "exitTime": "2026-05-12T15:23:49Z",
       "open": false,
-      "returnPct": 2.21
+      "returnPct": 2.21,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "KESTREL",
@@ -14138,7 +15594,8 @@ window.V3KR_DATA = {
       "exitPrice": 204.5,
       "exitTime": "2026-05-12T15:23:48Z",
       "open": false,
-      "returnPct": -3.97
+      "returnPct": -3.97,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "KESTREL",
@@ -14149,7 +15606,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.77,
       "exitTime": "2026-05-12T15:23:48Z",
       "open": false,
-      "returnPct": 1.4
+      "returnPct": 1.4,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -14160,7 +15618,8 @@ window.V3KR_DATA = {
       "exitPrice": 1754.0,
       "exitTime": "2026-05-12T15:22:26Z",
       "open": false,
-      "returnPct": -6.88
+      "returnPct": -6.88,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "ADAPTIVE Chameleon",
@@ -14171,7 +15630,8 @@ window.V3KR_DATA = {
       "exitPrice": 117.57,
       "exitTime": "2026-05-12T15:22:24Z",
       "open": false,
-      "returnPct": -7.64
+      "returnPct": -7.64,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "QUAD Earnings GAP D1",
@@ -14182,7 +15642,8 @@ window.V3KR_DATA = {
       "exitPrice": 35.58,
       "exitTime": "2026-05-12T15:19:44Z",
       "open": false,
-      "returnPct": -6.36
+      "returnPct": -6.36,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14193,7 +15654,8 @@ window.V3KR_DATA = {
       "exitPrice": 49.92,
       "exitTime": "2026-05-12T14:17:06Z",
       "open": false,
-      "returnPct": -5.97
+      "returnPct": -5.97,
+      "qqqReturnPct": 1.77
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14204,7 +15666,8 @@ window.V3KR_DATA = {
       "exitPrice": 143.43,
       "exitTime": "2026-05-12T14:17:06Z",
       "open": false,
-      "returnPct": 4.85
+      "returnPct": 4.85,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14215,7 +15678,8 @@ window.V3KR_DATA = {
       "exitPrice": 1010.16,
       "exitTime": "2026-05-12T14:06:03Z",
       "open": false,
-      "returnPct": 1.17
+      "returnPct": 1.17,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14226,7 +15690,8 @@ window.V3KR_DATA = {
       "exitPrice": 1236.69,
       "exitTime": "2026-05-12T14:06:03Z",
       "open": false,
-      "returnPct": 1.51
+      "returnPct": 1.51,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14237,7 +15702,8 @@ window.V3KR_DATA = {
       "exitPrice": 58.96,
       "exitTime": "2026-05-12T14:06:01Z",
       "open": false,
-      "returnPct": -6.59
+      "returnPct": -6.59,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14248,7 +15714,8 @@ window.V3KR_DATA = {
       "exitPrice": 22.38,
       "exitTime": "2026-05-12T14:06:01Z",
       "open": false,
-      "returnPct": -5.77
+      "returnPct": -5.77,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14259,7 +15726,8 @@ window.V3KR_DATA = {
       "exitPrice": 47.33,
       "exitTime": "2026-05-12T14:05:05Z",
       "open": false,
-      "returnPct": -3.07
+      "returnPct": -3.07,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14270,7 +15738,8 @@ window.V3KR_DATA = {
       "exitPrice": 1010.26,
       "exitTime": "2026-05-12T14:05:04Z",
       "open": false,
-      "returnPct": 1.18
+      "returnPct": 1.18,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14281,7 +15750,8 @@ window.V3KR_DATA = {
       "exitPrice": 147.71,
       "exitTime": "2026-05-12T14:05:04Z",
       "open": false,
-      "returnPct": -2.7
+      "returnPct": -2.7,
+      "qqqReturnPct": -0.85
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14292,7 +15762,8 @@ window.V3KR_DATA = {
       "exitPrice": 76.92,
       "exitTime": "2026-05-12T14:05:03Z",
       "open": false,
-      "returnPct": -1.17
+      "returnPct": -1.17,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14303,7 +15774,8 @@ window.V3KR_DATA = {
       "exitPrice": 283.64,
       "exitTime": "2026-05-12T14:04:59Z",
       "open": false,
-      "returnPct": 0.34
+      "returnPct": 0.34,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14314,7 +15786,8 @@ window.V3KR_DATA = {
       "exitPrice": 301.4,
       "exitTime": "2026-05-11T14:16:43Z",
       "open": false,
-      "returnPct": -3.11
+      "returnPct": -3.11,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14325,7 +15798,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.1,
       "exitTime": "2026-05-11T14:16:43Z",
       "open": false,
-      "returnPct": 7.13
+      "returnPct": 7.13,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14336,7 +15810,8 @@ window.V3KR_DATA = {
       "exitPrice": 206.5,
       "exitTime": "2026-05-11T14:16:43Z",
       "open": false,
-      "returnPct": 10.08
+      "returnPct": 10.08,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -14347,7 +15822,8 @@ window.V3KR_DATA = {
       "exitPrice": 394.56,
       "exitTime": "2026-05-11T14:15:08Z",
       "open": false,
-      "returnPct": 23.45
+      "returnPct": 23.45,
+      "qqqReturnPct": 16.73
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14358,7 +15834,8 @@ window.V3KR_DATA = {
       "exitPrice": 21.44,
       "exitTime": "2026-05-11T14:05:44Z",
       "open": false,
-      "returnPct": 35.1
+      "returnPct": 35.1,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14369,7 +15846,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.04,
       "exitTime": "2026-05-11T14:05:42Z",
       "open": false,
-      "returnPct": 0.75
+      "returnPct": 0.75,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14380,7 +15858,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.58,
       "exitTime": "2026-05-11T14:05:42Z",
       "open": false,
-      "returnPct": 0.31
+      "returnPct": 0.31,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14391,7 +15870,8 @@ window.V3KR_DATA = {
       "exitPrice": 25.92,
       "exitTime": "2026-05-11T14:05:41Z",
       "open": false,
-      "returnPct": -1.3
+      "returnPct": -1.3,
+      "qqqReturnPct": 4.65
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14402,7 +15882,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.68,
       "exitTime": "2026-05-11T14:05:41Z",
       "open": false,
-      "returnPct": 0.49
+      "returnPct": 0.49,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14413,7 +15894,8 @@ window.V3KR_DATA = {
       "exitPrice": 9.18,
       "exitTime": "2026-05-11T14:05:40Z",
       "open": false,
-      "returnPct": -0.27
+      "returnPct": -0.27,
+      "qqqReturnPct": 4.65
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14424,7 +15906,8 @@ window.V3KR_DATA = {
       "exitPrice": 94.76,
       "exitTime": "2026-05-11T14:04:44Z",
       "open": false,
-      "returnPct": 1.65
+      "returnPct": 1.65,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14435,7 +15918,8 @@ window.V3KR_DATA = {
       "exitPrice": 147.11,
       "exitTime": "2026-05-11T14:04:42Z",
       "open": false,
-      "returnPct": 1.35
+      "returnPct": 1.35,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14446,7 +15930,8 @@ window.V3KR_DATA = {
       "exitPrice": 131.82,
       "exitTime": "2026-05-11T14:04:42Z",
       "open": false,
-      "returnPct": 1.78
+      "returnPct": 1.78,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14457,7 +15942,8 @@ window.V3KR_DATA = {
       "exitPrice": 124.54,
       "exitTime": "2026-05-11T14:04:41Z",
       "open": false,
-      "returnPct": -1.23
+      "returnPct": -1.23,
+      "qqqReturnPct": 2.52
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14468,7 +15954,8 @@ window.V3KR_DATA = {
       "exitPrice": 114.34,
       "exitTime": "2026-05-11T14:04:41Z",
       "open": false,
-      "returnPct": -0.31
+      "returnPct": -0.31,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14479,7 +15966,8 @@ window.V3KR_DATA = {
       "exitPrice": 373.71,
       "exitTime": "2026-05-11T14:04:40Z",
       "open": false,
-      "returnPct": 0.96
+      "returnPct": 0.96,
+      "qqqReturnPct": 4.65
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14490,7 +15978,8 @@ window.V3KR_DATA = {
       "exitPrice": 184.44,
       "exitTime": "2026-05-11T14:04:40Z",
       "open": false,
-      "returnPct": -0.13
+      "returnPct": -0.13,
+      "qqqReturnPct": 2.52
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14501,7 +15990,8 @@ window.V3KR_DATA = {
       "exitPrice": 8.7,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 0.26
+      "returnPct": 0.26,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14512,7 +16002,8 @@ window.V3KR_DATA = {
       "exitPrice": 41.26,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": -3.27
+      "returnPct": -3.27,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14523,7 +16014,8 @@ window.V3KR_DATA = {
       "exitPrice": 150.16,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 2.03
+      "returnPct": 2.03,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14534,7 +16026,8 @@ window.V3KR_DATA = {
       "exitPrice": 179.9,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 0.6
+      "returnPct": 0.6,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14545,7 +16038,8 @@ window.V3KR_DATA = {
       "exitPrice": 91.04,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 1.25
+      "returnPct": 1.25,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14556,7 +16050,8 @@ window.V3KR_DATA = {
       "exitPrice": 162.34,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": -1.75
+      "returnPct": -1.75,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14567,7 +16062,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.95,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 0.58
+      "returnPct": 0.58,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14578,7 +16074,8 @@ window.V3KR_DATA = {
       "exitPrice": 250.53,
       "exitTime": "2026-05-11T00:00:00Z",
       "open": false,
-      "returnPct": 0.77
+      "returnPct": 0.77,
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14589,7 +16086,8 @@ window.V3KR_DATA = {
       "exitPrice": 39.04,
       "exitTime": "2026-05-08T14:12:59Z",
       "open": false,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": 6.51
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14600,7 +16098,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.56,
       "exitTime": "2026-05-08T14:12:59Z",
       "open": false,
-      "returnPct": -1.25
+      "returnPct": -1.25,
+      "qqqReturnPct": 5.5
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14611,7 +16110,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.67,
       "exitTime": "2026-05-08T14:12:59Z",
       "open": false,
-      "returnPct": -5.48
+      "returnPct": -5.48,
+      "qqqReturnPct": 5.5
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14622,7 +16122,8 @@ window.V3KR_DATA = {
       "exitPrice": 615.18,
       "exitTime": "2026-05-08T14:12:59Z",
       "open": false,
-      "returnPct": 0.39
+      "returnPct": 0.39,
+      "qqqReturnPct": 2.22
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14633,7 +16134,8 @@ window.V3KR_DATA = {
       "exitPrice": 12.84,
       "exitTime": "2026-05-08T14:05:41Z",
       "open": false,
-      "returnPct": 2.62
+      "returnPct": 2.62,
+      "qqqReturnPct": 2.34
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14644,7 +16146,8 @@ window.V3KR_DATA = {
       "exitPrice": 131.55,
       "exitTime": "2026-05-08T14:04:42Z",
       "open": false,
-      "returnPct": 3.18
+      "returnPct": 3.18,
+      "qqqReturnPct": 2.34
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14655,7 +16158,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.27,
       "exitTime": "2026-05-08T14:04:39Z",
       "open": false,
-      "returnPct": -2.31
+      "returnPct": -2.31,
+      "qqqReturnPct": 2.22
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14666,7 +16170,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.99,
       "exitTime": "2026-05-08T14:04:38Z",
       "open": false,
-      "returnPct": -1.41
+      "returnPct": -1.41,
+      "qqqReturnPct": 5.7
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14677,7 +16182,8 @@ window.V3KR_DATA = {
       "exitPrice": 43.72,
       "exitTime": "2026-05-07T14:12:50Z",
       "open": false,
-      "returnPct": -6.1
+      "returnPct": -6.1,
+      "qqqReturnPct": 5.04
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14688,7 +16194,8 @@ window.V3KR_DATA = {
       "exitPrice": 88.98,
       "exitTime": "2026-05-07T14:12:50Z",
       "open": false,
-      "returnPct": 1.36
+      "returnPct": 1.36,
+      "qqqReturnPct": -0.12
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14699,7 +16206,8 @@ window.V3KR_DATA = {
       "exitPrice": 582.15,
       "exitTime": "2026-05-07T14:05:33Z",
       "open": false,
-      "returnPct": 1.29
+      "returnPct": 1.29,
+      "qqqReturnPct": -0.12
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14710,7 +16218,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.54,
       "exitTime": "2026-05-07T14:04:35Z",
       "open": false,
-      "returnPct": 1.09
+      "returnPct": 1.09,
+      "qqqReturnPct": 1.96
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14721,7 +16230,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.52,
       "exitTime": "2026-05-06T14:13:04Z",
       "open": false,
-      "returnPct": -0.98
+      "returnPct": -0.98,
+      "qqqReturnPct": 5.81
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14732,7 +16242,8 @@ window.V3KR_DATA = {
       "exitPrice": 78.01,
       "exitTime": "2026-05-06T14:13:04Z",
       "open": false,
-      "returnPct": 5.28
+      "returnPct": 5.28,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14743,7 +16254,8 @@ window.V3KR_DATA = {
       "exitPrice": 98.94,
       "exitTime": "2026-05-06T14:13:04Z",
       "open": false,
-      "returnPct": 0.62
+      "returnPct": 0.62,
+      "qqqReturnPct": 2.08
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -14754,7 +16266,8 @@ window.V3KR_DATA = {
       "exitPrice": 1519.72,
       "exitTime": "2026-05-06T14:11:30Z",
       "open": false,
-      "returnPct": 6.71
+      "returnPct": 6.71,
+      "qqqReturnPct": 2.08
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14765,7 +16278,8 @@ window.V3KR_DATA = {
       "exitPrice": 191.59,
       "exitTime": "2026-05-06T14:05:58Z",
       "open": false,
-      "returnPct": 12.67
+      "returnPct": 12.67,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14776,7 +16290,8 @@ window.V3KR_DATA = {
       "exitPrice": 50.94,
       "exitTime": "2026-05-06T14:04:53Z",
       "open": false,
-      "returnPct": 2.07
+      "returnPct": 2.07,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14787,7 +16302,8 @@ window.V3KR_DATA = {
       "exitPrice": 937.5,
       "exitTime": "2026-05-06T14:04:52Z",
       "open": false,
-      "returnPct": 2.74
+      "returnPct": 2.74,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14798,7 +16314,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.83,
       "exitTime": "2026-05-06T14:04:52Z",
       "open": false,
-      "returnPct": 1.96
+      "returnPct": 1.96,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14809,7 +16326,8 @@ window.V3KR_DATA = {
       "exitPrice": 54.03,
       "exitTime": "2026-05-06T14:04:51Z",
       "open": false,
-      "returnPct": 2.58
+      "returnPct": 2.58,
+      "qqqReturnPct": 3.4
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14820,7 +16338,8 @@ window.V3KR_DATA = {
       "exitPrice": 41.03,
       "exitTime": "2026-05-05T14:05:51Z",
       "open": false,
-      "returnPct": 2.91
+      "returnPct": 2.91,
+      "qqqReturnPct": 1.3
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14831,7 +16350,8 @@ window.V3KR_DATA = {
       "exitPrice": 198.62,
       "exitTime": "2026-05-05T14:05:50Z",
       "open": false,
-      "returnPct": -0.4
+      "returnPct": -0.4,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14842,7 +16362,8 @@ window.V3KR_DATA = {
       "exitPrice": 575.95,
       "exitTime": "2026-05-05T14:05:50Z",
       "open": false,
-      "returnPct": -2.74
+      "returnPct": -2.74,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14853,7 +16374,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.14,
       "exitTime": "2026-05-05T14:05:49Z",
       "open": false,
-      "returnPct": 0.4
+      "returnPct": 0.4,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14864,7 +16386,8 @@ window.V3KR_DATA = {
       "exitPrice": 277.63,
       "exitTime": "2026-05-05T14:04:47Z",
       "open": false,
-      "returnPct": -2.03
+      "returnPct": -2.03,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14875,7 +16398,8 @@ window.V3KR_DATA = {
       "exitPrice": 123.79,
       "exitTime": "2026-05-05T14:04:47Z",
       "open": false,
-      "returnPct": 0.69
+      "returnPct": 0.69,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14886,7 +16410,8 @@ window.V3KR_DATA = {
       "exitPrice": 198.94,
       "exitTime": "2026-05-05T14:04:47Z",
       "open": false,
-      "returnPct": -0.56
+      "returnPct": -0.56,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14897,7 +16422,8 @@ window.V3KR_DATA = {
       "exitPrice": 153.1,
       "exitTime": "2026-05-05T14:04:46Z",
       "open": false,
-      "returnPct": 1.03
+      "returnPct": 1.03,
+      "qqqReturnPct": 1.11
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -14908,7 +16434,8 @@ window.V3KR_DATA = {
       "exitPrice": 20.5,
       "exitTime": "2026-05-04T14:11:51Z",
       "open": false,
-      "returnPct": 4.43
+      "returnPct": 4.43,
+      "qqqReturnPct": 1.36
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14919,7 +16446,8 @@ window.V3KR_DATA = {
       "exitPrice": 209.66,
       "exitTime": "2026-05-04T14:05:00Z",
       "open": false,
-      "returnPct": 1.37
+      "returnPct": 1.37,
+      "qqqReturnPct": 2.33
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -14930,7 +16458,8 @@ window.V3KR_DATA = {
       "exitPrice": 209.91,
       "exitTime": "2026-05-04T14:05:00Z",
       "open": false,
-      "returnPct": -0.9
+      "returnPct": -0.9,
+      "qqqReturnPct": 2.33
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14941,7 +16470,8 @@ window.V3KR_DATA = {
       "exitPrice": 225.28,
       "exitTime": "2026-05-04T14:03:56Z",
       "open": false,
-      "returnPct": -1.6
+      "returnPct": -1.6,
+      "qqqReturnPct": 2.33
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -14952,7 +16482,8 @@ window.V3KR_DATA = {
       "exitPrice": 49.91,
       "exitTime": "2026-05-04T14:03:56Z",
       "open": false,
-      "returnPct": -2.21
+      "returnPct": -2.21,
+      "qqqReturnPct": 1.71
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14963,7 +16494,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.92,
       "exitTime": "2026-05-04T00:00:00Z",
       "open": false,
-      "returnPct": -1.37
+      "returnPct": -1.37,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14974,7 +16506,8 @@ window.V3KR_DATA = {
       "exitPrice": 326.1,
       "exitTime": "2026-05-04T00:00:00Z",
       "open": false,
-      "returnPct": -1.39
+      "returnPct": -1.39,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14985,7 +16518,8 @@ window.V3KR_DATA = {
       "exitPrice": 177.22,
       "exitTime": "2026-05-04T00:00:00Z",
       "open": false,
-      "returnPct": 2.9
+      "returnPct": 2.9,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -14996,7 +16530,8 @@ window.V3KR_DATA = {
       "exitPrice": 59.25,
       "exitTime": "2026-05-04T00:00:00Z",
       "open": false,
-      "returnPct": 1.61
+      "returnPct": 1.61,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15007,7 +16542,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.32,
       "exitTime": "2026-05-04T00:00:00Z",
       "open": false,
-      "returnPct": 2.07
+      "returnPct": 2.07,
+      "qqqReturnPct": -0.19
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15018,7 +16554,8 @@ window.V3KR_DATA = {
       "exitPrice": 16.18,
       "exitTime": "2026-05-01T14:04:55Z",
       "open": false,
-      "returnPct": 1.44
+      "returnPct": 1.44,
+      "qqqReturnPct": 1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15029,7 +16566,8 @@ window.V3KR_DATA = {
       "exitPrice": 199.58,
       "exitTime": "2026-05-01T14:04:55Z",
       "open": false,
-      "returnPct": -5.22
+      "returnPct": -5.22,
+      "qqqReturnPct": 1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15040,7 +16578,8 @@ window.V3KR_DATA = {
       "exitPrice": 46.9,
       "exitTime": "2026-05-01T14:04:54Z",
       "open": false,
-      "returnPct": 4.48
+      "returnPct": 4.48,
+      "qqqReturnPct": 2.52
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15051,7 +16590,8 @@ window.V3KR_DATA = {
       "exitPrice": 92.14,
       "exitTime": "2026-05-01T14:04:53Z",
       "open": false,
-      "returnPct": -0.51
+      "returnPct": -0.51,
+      "qqqReturnPct": 1.49
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15062,7 +16602,8 @@ window.V3KR_DATA = {
       "exitPrice": 200.09,
       "exitTime": "2026-05-01T14:03:52Z",
       "open": false,
-      "returnPct": -4.77
+      "returnPct": -4.77,
+      "qqqReturnPct": 1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15073,7 +16614,8 @@ window.V3KR_DATA = {
       "exitPrice": 135.53,
       "exitTime": "2026-05-01T14:03:51Z",
       "open": false,
-      "returnPct": 2.36
+      "returnPct": 2.36,
+      "qqqReturnPct": 1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15084,7 +16626,8 @@ window.V3KR_DATA = {
       "exitPrice": 268.41,
       "exitTime": "2026-05-01T14:03:51Z",
       "open": false,
-      "returnPct": 1.31
+      "returnPct": 1.31,
+      "qqqReturnPct": 1.9
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15095,7 +16638,8 @@ window.V3KR_DATA = {
       "exitPrice": 213.76,
       "exitTime": "2026-05-01T14:03:49Z",
       "open": false,
-      "returnPct": 0.92
+      "returnPct": 0.92,
+      "qqqReturnPct": 1.49
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15106,7 +16650,8 @@ window.V3KR_DATA = {
       "exitPrice": 278.46,
       "exitTime": "2026-05-01T14:03:49Z",
       "open": false,
-      "returnPct": 2.59
+      "returnPct": 2.59,
+      "qqqReturnPct": 1.49
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15117,7 +16662,8 @@ window.V3KR_DATA = {
       "exitPrice": 396.75,
       "exitTime": "2026-05-01T14:03:48Z",
       "open": false,
-      "returnPct": 1.04
+      "returnPct": 1.04,
+      "qqqReturnPct": 1.49
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15128,7 +16674,8 @@ window.V3KR_DATA = {
       "exitPrice": 23.45,
       "exitTime": "2026-04-30T15:21:29Z",
       "open": false,
-      "returnPct": 0.2
+      "returnPct": 0.2,
+      "qqqReturnPct": 2.51
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15139,7 +16686,8 @@ window.V3KR_DATA = {
       "exitPrice": 93.08,
       "exitTime": "2026-04-30T15:21:29Z",
       "open": false,
-      "returnPct": 0.45
+      "returnPct": 0.45,
+      "qqqReturnPct": 0.53
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15150,7 +16698,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.23,
       "exitTime": "2026-04-30T15:21:29Z",
       "open": false,
-      "returnPct": -4.12
+      "returnPct": -4.12,
+      "qqqReturnPct": 0.53
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15161,7 +16710,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.18,
       "exitTime": "2026-04-30T15:21:29Z",
       "open": false,
-      "returnPct": -1.54
+      "returnPct": -1.54,
+      "qqqReturnPct": 1.55
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15172,7 +16722,8 @@ window.V3KR_DATA = {
       "exitPrice": 39.6,
       "exitTime": "2026-04-30T15:21:29Z",
       "open": false,
-      "returnPct": -5.4
+      "returnPct": -5.4,
+      "qqqReturnPct": 1.55
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -15183,7 +16734,8 @@ window.V3KR_DATA = {
       "exitPrice": 202.99,
       "exitTime": "2026-04-30T15:20:04Z",
       "open": false,
-      "returnPct": -8.01
+      "returnPct": -8.01,
+      "qqqReturnPct": 8.16
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15194,7 +16746,8 @@ window.V3KR_DATA = {
       "exitPrice": 344.6,
       "exitTime": "2026-04-30T14:04:54Z",
       "open": false,
-      "returnPct": 7.24
+      "returnPct": 7.24,
+      "qqqReturnPct": 0.93
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15205,7 +16758,8 @@ window.V3KR_DATA = {
       "exitPrice": 160.69,
       "exitTime": "2026-04-30T14:04:51Z",
       "open": false,
-      "returnPct": 3.84
+      "returnPct": 3.84,
+      "qqqReturnPct": 0.53
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15216,7 +16770,8 @@ window.V3KR_DATA = {
       "exitPrice": 413.29,
       "exitTime": "2026-04-30T14:03:56Z",
       "open": false,
-      "returnPct": 3.52
+      "returnPct": 3.52,
+      "qqqReturnPct": 0.93
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15227,7 +16782,8 @@ window.V3KR_DATA = {
       "exitPrice": 253.39,
       "exitTime": "2026-04-30T14:03:53Z",
       "open": false,
-      "returnPct": 2.24
+      "returnPct": 2.24,
+      "qqqReturnPct": 1.55
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15238,7 +16794,8 @@ window.V3KR_DATA = {
       "exitPrice": 1011.45,
       "exitTime": "2026-04-30T14:03:53Z",
       "open": false,
-      "returnPct": 1.46
+      "returnPct": 1.46,
+      "qqqReturnPct": 1.55
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -15249,7 +16806,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 0.42
+      "returnPct": 0.42,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15260,7 +16818,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.23,
       "exitTime": "2026-04-29T14:32:33Z",
       "open": false,
-      "returnPct": 4.13
+      "returnPct": 4.13,
+      "qqqReturnPct": 0.99
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -15271,7 +16830,8 @@ window.V3KR_DATA = {
       "exitPrice": 526.55,
       "exitTime": "2026-04-29T14:31:10Z",
       "open": false,
-      "returnPct": 5.36
+      "returnPct": 5.36,
+      "qqqReturnPct": 7.16
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15282,7 +16842,8 @@ window.V3KR_DATA = {
       "exitPrice": 38.97,
       "exitTime": "2026-04-29T14:05:05Z",
       "open": false,
-      "returnPct": 2.46
+      "returnPct": 2.46,
+      "qqqReturnPct": 0.61
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15293,7 +16854,8 @@ window.V3KR_DATA = {
       "exitPrice": 392.23,
       "exitTime": "2026-04-29T14:04:03Z",
       "open": false,
-      "returnPct": 1.61
+      "returnPct": 1.61,
+      "qqqReturnPct": -0.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15304,7 +16866,8 @@ window.V3KR_DATA = {
       "exitPrice": 103.54,
       "exitTime": "2026-04-29T14:04:02Z",
       "open": false,
-      "returnPct": 5.46
+      "returnPct": 5.46,
+      "qqqReturnPct": -0.4
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15315,7 +16878,8 @@ window.V3KR_DATA = {
       "exitPrice": 132.49,
       "exitTime": "2026-04-29T14:04:01Z",
       "open": false,
-      "returnPct": -1.17
+      "returnPct": -1.17,
+      "qqqReturnPct": -0.35
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15326,7 +16890,8 @@ window.V3KR_DATA = {
       "exitPrice": 17.02,
       "exitTime": "2026-04-28T14:04:54Z",
       "open": false,
-      "returnPct": -8.54
+      "returnPct": -8.54,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15337,7 +16902,8 @@ window.V3KR_DATA = {
       "exitPrice": 38.07,
       "exitTime": "2026-04-28T14:04:54Z",
       "open": false,
-      "returnPct": -0.56
+      "returnPct": -0.56,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15348,7 +16914,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.0,
       "exitTime": "2026-04-28T14:04:54Z",
       "open": false,
-      "returnPct": -3.47
+      "returnPct": -3.47,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15359,7 +16926,8 @@ window.V3KR_DATA = {
       "exitPrice": 312.68,
       "exitTime": "2026-04-28T14:03:51Z",
       "open": false,
-      "returnPct": 1.43
+      "returnPct": 1.43,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15370,7 +16938,8 @@ window.V3KR_DATA = {
       "exitPrice": 221.48,
       "exitTime": "2026-04-28T14:03:50Z",
       "open": false,
-      "returnPct": -0.35
+      "returnPct": -0.35,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15381,7 +16950,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.3,
       "exitTime": "2026-04-28T14:03:50Z",
       "open": false,
-      "returnPct": 0.07
+      "returnPct": 0.07,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15392,7 +16962,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.45,
       "exitTime": "2026-04-28T14:03:49Z",
       "open": false,
-      "returnPct": 1.03
+      "returnPct": 1.03,
+      "qqqReturnPct": -0.95
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15403,7 +16974,8 @@ window.V3KR_DATA = {
       "exitPrice": 423.68,
       "exitTime": "2026-04-27T14:32:27Z",
       "open": false,
-      "returnPct": 0.97
+      "returnPct": 0.97,
+      "qqqReturnPct": 2.7
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15414,7 +16986,8 @@ window.V3KR_DATA = {
       "exitPrice": 6.31,
       "exitTime": "2026-04-27T14:05:09Z",
       "open": false,
-      "returnPct": 2.87
+      "returnPct": 2.87,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15425,7 +16998,8 @@ window.V3KR_DATA = {
       "exitPrice": 52.6,
       "exitTime": "2026-04-27T14:04:09Z",
       "open": false,
-      "returnPct": 1.06
+      "returnPct": 1.06,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15436,7 +17010,8 @@ window.V3KR_DATA = {
       "exitPrice": 27.24,
       "exitTime": "2026-04-27T14:04:07Z",
       "open": false,
-      "returnPct": 0.7
+      "returnPct": 0.7,
+      "qqqReturnPct": 1.39
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15447,7 +17022,8 @@ window.V3KR_DATA = {
       "exitPrice": 932.92,
       "exitTime": "2026-04-27T14:04:07Z",
       "open": false,
-      "returnPct": 1.14
+      "returnPct": 1.14,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15458,7 +17034,8 @@ window.V3KR_DATA = {
       "exitPrice": 244.2,
       "exitTime": "2026-04-27T14:04:06Z",
       "open": false,
-      "returnPct": -2.17
+      "returnPct": -2.17,
+      "qqqReturnPct": 1.39
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15469,7 +17046,8 @@ window.V3KR_DATA = {
       "exitPrice": 141.24,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 4.15
+      "returnPct": 4.15,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15480,7 +17058,8 @@ window.V3KR_DATA = {
       "exitPrice": 878.13,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 0.54
+      "returnPct": 0.54,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15491,7 +17070,8 @@ window.V3KR_DATA = {
       "exitPrice": 55.72,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 4.65
+      "returnPct": 4.65,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15502,7 +17082,8 @@ window.V3KR_DATA = {
       "exitPrice": 514.05,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 0.67
+      "returnPct": 0.67,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15513,7 +17094,8 @@ window.V3KR_DATA = {
       "exitPrice": 42.18,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 0.08
+      "returnPct": 0.08,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15524,7 +17106,8 @@ window.V3KR_DATA = {
       "exitPrice": 11.55,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 1.03
+      "returnPct": 1.03,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15535,7 +17118,8 @@ window.V3KR_DATA = {
       "exitPrice": 566.63,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": -1.2
+      "returnPct": -1.2,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS EDGE FRIDAYMON",
@@ -15546,7 +17130,8 @@ window.V3KR_DATA = {
       "exitPrice": 8.79,
       "exitTime": "2026-04-27T00:00:00Z",
       "open": false,
-      "returnPct": 0.23
+      "returnPct": 0.23,
+      "qqqReturnPct": 0.05
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15557,7 +17142,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.55,
       "exitTime": "2026-04-25T20:35:17Z",
       "open": false,
-      "returnPct": 2.58
+      "returnPct": 2.58,
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15568,7 +17154,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.24,
       "exitTime": "2026-04-25T20:35:16Z",
       "open": false,
-      "returnPct": -0.07
+      "returnPct": -0.07,
+      "qqqReturnPct": 1.34
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15579,7 +17166,8 @@ window.V3KR_DATA = {
       "exitPrice": 130.4,
       "exitTime": "2026-04-25T14:03:29Z",
       "open": false,
-      "returnPct": -2.16
+      "returnPct": -2.16,
+      "qqqReturnPct": 3.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15590,7 +17178,8 @@ window.V3KR_DATA = {
       "exitPrice": 227.5,
       "exitTime": "2026-04-25T14:03:28Z",
       "open": false,
-      "returnPct": 0.24
+      "returnPct": 0.24,
+      "qqqReturnPct": 3.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15601,7 +17190,8 @@ window.V3KR_DATA = {
       "exitPrice": 111.9,
       "exitTime": "2026-04-25T14:03:28Z",
       "open": false,
-      "returnPct": -2.06
+      "returnPct": -2.06,
+      "qqqReturnPct": 3.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15612,7 +17202,8 @@ window.V3KR_DATA = {
       "exitPrice": 285.06,
       "exitTime": "2026-04-25T14:03:27Z",
       "open": false,
-      "returnPct": -0.5
+      "returnPct": -0.5,
+      "qqqReturnPct": 3.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15623,7 +17214,8 @@ window.V3KR_DATA = {
       "exitPrice": 143.14,
       "exitTime": "2026-04-24T14:32:19Z",
       "open": false,
-      "returnPct": -0.85
+      "returnPct": -0.85,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15634,7 +17226,8 @@ window.V3KR_DATA = {
       "exitPrice": 2.39,
       "exitTime": "2026-04-24T14:32:19Z",
       "open": false,
-      "returnPct": -4.02
+      "returnPct": -4.02,
+      "qqqReturnPct": 1.91
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15645,7 +17238,8 @@ window.V3KR_DATA = {
       "exitPrice": 24.88,
       "exitTime": "2026-04-24T14:04:59Z",
       "open": false,
-      "returnPct": -5.58
+      "returnPct": -5.58,
+      "qqqReturnPct": 1.34
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15656,7 +17250,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.97,
       "exitTime": "2026-04-24T14:04:58Z",
       "open": false,
-      "returnPct": 23.48
+      "returnPct": 23.48,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15667,7 +17262,8 @@ window.V3KR_DATA = {
       "exitPrice": 6.13,
       "exitTime": "2026-04-24T14:04:58Z",
       "open": false,
-      "returnPct": -6.37
+      "returnPct": -6.37,
+      "qqqReturnPct": 3.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15678,7 +17274,8 @@ window.V3KR_DATA = {
       "exitPrice": 174.94,
       "exitTime": "2026-04-24T14:03:55Z",
       "open": false,
-      "returnPct": -3.96
+      "returnPct": -3.96,
+      "qqqReturnPct": 1.34
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15689,7 +17286,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.8,
       "exitTime": "2026-04-24T14:03:52Z",
       "open": false,
-      "returnPct": 22.97
+      "returnPct": 22.97,
+      "qqqReturnPct": 2.64
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15700,7 +17298,8 @@ window.V3KR_DATA = {
       "exitPrice": 24.4,
       "exitTime": "2026-04-23T14:30:10Z",
       "open": false,
-      "returnPct": 1.5
+      "returnPct": 1.5,
+      "qqqReturnPct": 2.2
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15711,7 +17310,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.26,
       "exitTime": "2026-04-23T14:03:59Z",
       "open": false,
-      "returnPct": 2.91
+      "returnPct": 2.91,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15722,7 +17322,8 @@ window.V3KR_DATA = {
       "exitPrice": 202.81,
       "exitTime": "2026-04-23T14:03:57Z",
       "open": false,
-      "returnPct": 1.55
+      "returnPct": 1.55,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15733,7 +17334,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.27,
       "exitTime": "2026-04-23T14:03:56Z",
       "open": false,
-      "returnPct": 3.63
+      "returnPct": 3.63,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15744,7 +17346,8 @@ window.V3KR_DATA = {
       "exitPrice": 535.17,
       "exitTime": "2026-04-23T14:02:58Z",
       "open": false,
-      "returnPct": -5.3
+      "returnPct": -5.3,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15755,7 +17358,8 @@ window.V3KR_DATA = {
       "exitPrice": 76.16,
       "exitTime": "2026-04-23T14:02:57Z",
       "open": false,
-      "returnPct": 1.53
+      "returnPct": 1.53,
+      "qqqReturnPct": 1.1
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15766,7 +17370,8 @@ window.V3KR_DATA = {
       "exitPrice": 202.63,
       "exitTime": "2026-04-23T14:02:57Z",
       "open": false,
-      "returnPct": 1.54
+      "returnPct": 1.54,
+      "qqqReturnPct": -0.56
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -15777,7 +17382,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 5.32
+      "returnPct": 5.32,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -15788,7 +17394,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -0.44
+      "returnPct": -0.44,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -15799,7 +17406,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 3.07
+      "returnPct": 3.07,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15810,7 +17418,8 @@ window.V3KR_DATA = {
       "exitPrice": 288.48,
       "exitTime": "2026-04-22T14:04:10Z",
       "open": false,
-      "returnPct": 4.24
+      "returnPct": 4.24,
+      "qqqReturnPct": 1.29
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15821,7 +17430,8 @@ window.V3KR_DATA = {
       "exitPrice": 463.39,
       "exitTime": "2026-04-22T14:04:09Z",
       "open": false,
-      "returnPct": 3.63
+      "returnPct": 3.63,
+      "qqqReturnPct": 1.29
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15832,7 +17442,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.06,
       "exitTime": "2026-04-22T14:04:08Z",
       "open": false,
-      "returnPct": 0.46
+      "returnPct": 0.46,
+      "qqqReturnPct": 0.96
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15843,7 +17454,8 @@ window.V3KR_DATA = {
       "exitPrice": 461.78,
       "exitTime": "2026-04-22T14:03:07Z",
       "open": false,
-      "returnPct": 3.15
+      "returnPct": 3.15,
+      "qqqReturnPct": 1.29
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15854,7 +17466,8 @@ window.V3KR_DATA = {
       "exitPrice": 565.01,
       "exitTime": "2026-04-22T14:03:06Z",
       "open": false,
-      "returnPct": -4.59
+      "returnPct": -4.59,
+      "qqqReturnPct": 0.96
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15865,7 +17478,8 @@ window.V3KR_DATA = {
       "exitPrice": 291.18,
       "exitTime": "2026-04-21T14:31:26Z",
       "open": false,
-      "returnPct": -6.65
+      "returnPct": -6.65,
+      "qqqReturnPct": -0.7
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15876,7 +17490,8 @@ window.V3KR_DATA = {
       "exitPrice": 84.54,
       "exitTime": "2026-04-21T14:31:26Z",
       "open": false,
-      "returnPct": 7.32
+      "returnPct": 7.32,
+      "qqqReturnPct": -0.38
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15887,7 +17502,8 @@ window.V3KR_DATA = {
       "exitPrice": 3.18,
       "exitTime": "2026-04-21T14:04:49Z",
       "open": false,
-      "returnPct": 14.21
+      "returnPct": 14.21,
+      "qqqReturnPct": -0.7
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15898,7 +17514,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.82,
       "exitTime": "2026-04-20T14:31:06Z",
       "open": false,
-      "returnPct": -0.55
+      "returnPct": -0.55,
+      "qqqReturnPct": -0.32
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15909,7 +17526,8 @@ window.V3KR_DATA = {
       "exitPrice": 5.16,
       "exitTime": "2026-04-20T14:31:06Z",
       "open": false,
-      "returnPct": 27.92
+      "returnPct": 27.92,
+      "qqqReturnPct": -0.32
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15920,7 +17538,8 @@ window.V3KR_DATA = {
       "exitPrice": 9.23,
       "exitTime": "2026-04-20T14:31:06Z",
       "open": false,
-      "returnPct": 38.59
+      "returnPct": 38.59,
+      "qqqReturnPct": -0.32
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15931,7 +17550,8 @@ window.V3KR_DATA = {
       "exitPrice": 289.4,
       "exitTime": "2026-04-20T14:03:40Z",
       "open": false,
-      "returnPct": -0.3
+      "returnPct": -0.3,
+      "qqqReturnPct": -0.32
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15942,7 +17562,8 @@ window.V3KR_DATA = {
       "exitPrice": 146.44,
       "exitTime": "2026-04-19T14:31:46Z",
       "open": false,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -15953,7 +17574,8 @@ window.V3KR_DATA = {
       "exitPrice": 422.79,
       "exitTime": "2026-04-19T14:31:46Z",
       "open": false,
-      "returnPct": 0.0
+      "returnPct": 0.0,
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -15964,7 +17586,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.31,
       "exitTime": "2026-04-19T14:06:04Z",
       "open": false,
-      "returnPct": 0.93
+      "returnPct": 0.93,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15975,7 +17598,8 @@ window.V3KR_DATA = {
       "exitPrice": 160.68,
       "exitTime": "2026-04-19T14:05:10Z",
       "open": false,
-      "returnPct": 0.73
+      "returnPct": 0.73,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -15986,7 +17610,8 @@ window.V3KR_DATA = {
       "exitPrice": 234.18,
       "exitTime": "2026-04-19T14:05:09Z",
       "open": false,
-      "returnPct": -0.91
+      "returnPct": -0.91,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -15997,7 +17622,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 64.03
+      "returnPct": 64.03,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16008,7 +17634,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.86,
       "exitTime": "2026-04-18T14:30:39Z",
       "open": false,
-      "returnPct": -1.69
+      "returnPct": -1.69,
+      "qqqReturnPct": 5.1
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16019,7 +17646,8 @@ window.V3KR_DATA = {
       "exitPrice": 97.31,
       "exitTime": "2026-04-18T14:30:39Z",
       "open": false,
-      "returnPct": 0.17
+      "returnPct": 0.17,
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16030,7 +17658,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.37,
       "exitTime": "2026-04-18T14:04:43Z",
       "open": false,
-      "returnPct": 12.36
+      "returnPct": 12.36,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16041,7 +17670,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.93,
       "exitTime": "2026-04-18T14:04:42Z",
       "open": false,
-      "returnPct": 1.72
+      "returnPct": 1.72,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16052,7 +17682,8 @@ window.V3KR_DATA = {
       "exitPrice": 56.93,
       "exitTime": "2026-04-18T14:03:45Z",
       "open": false,
-      "returnPct": 1.81
+      "returnPct": 1.81,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -16063,7 +17694,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -5.11
+      "returnPct": -5.11,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -16074,7 +17706,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": 9.87
+      "returnPct": 9.87,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -16085,7 +17718,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -5.14
+      "returnPct": -5.14,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS NEWSCANNER Momentum",
@@ -16096,7 +17730,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": false,
-      "returnPct": -8.66
+      "returnPct": -8.66,
+      "qqqReturnPct": null
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16107,7 +17742,8 @@ window.V3KR_DATA = {
       "exitPrice": 129.28,
       "exitTime": "2026-04-17T14:28:12Z",
       "open": false,
-      "returnPct": 8.12
+      "returnPct": 8.12,
+      "qqqReturnPct": 6.18
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16118,7 +17754,8 @@ window.V3KR_DATA = {
       "exitPrice": 18.45,
       "exitTime": "2026-04-17T14:28:12Z",
       "open": false,
-      "returnPct": 4.18
+      "returnPct": 4.18,
+      "qqqReturnPct": 6.18
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16129,7 +17766,8 @@ window.V3KR_DATA = {
       "exitPrice": 424.87,
       "exitTime": "2026-04-17T14:28:12Z",
       "open": false,
-      "returnPct": 4.61
+      "returnPct": 4.61,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -16140,7 +17778,8 @@ window.V3KR_DATA = {
       "exitPrice": 441.98,
       "exitTime": "2026-04-17T14:26:40Z",
       "open": false,
-      "returnPct": 4.67
+      "returnPct": 4.67,
+      "qqqReturnPct": 5.1
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16151,7 +17790,8 @@ window.V3KR_DATA = {
       "exitPrice": 19.39,
       "exitTime": "2026-04-17T14:01:39Z",
       "open": false,
-      "returnPct": 4.98
+      "returnPct": 4.98,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16162,7 +17802,8 @@ window.V3KR_DATA = {
       "exitPrice": 217.42,
       "exitTime": "2026-04-17T14:01:38Z",
       "open": false,
-      "returnPct": 1.48
+      "returnPct": 1.48,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16173,7 +17814,8 @@ window.V3KR_DATA = {
       "exitPrice": 254.36,
       "exitTime": "2026-04-17T14:01:37Z",
       "open": false,
-      "returnPct": 3.84
+      "returnPct": 3.84,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16184,7 +17826,8 @@ window.V3KR_DATA = {
       "exitPrice": 27.97,
       "exitTime": "2026-04-17T14:01:36Z",
       "open": false,
-      "returnPct": 1.23
+      "returnPct": 1.23,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16195,7 +17838,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.27,
       "exitTime": "2026-04-17T14:01:35Z",
       "open": false,
-      "returnPct": -0.64
+      "returnPct": -0.64,
+      "qqqReturnPct": 5.1
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16206,7 +17850,8 @@ window.V3KR_DATA = {
       "exitPrice": 93.04,
       "exitTime": "2026-04-17T14:01:35Z",
       "open": false,
-      "returnPct": 5.64
+      "returnPct": 5.64,
+      "qqqReturnPct": 5.1
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16217,7 +17862,8 @@ window.V3KR_DATA = {
       "exitPrice": 930.6,
       "exitTime": "2026-04-17T14:00:30Z",
       "open": false,
-      "returnPct": 3.86
+      "returnPct": 3.86,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16228,7 +17874,8 @@ window.V3KR_DATA = {
       "exitPrice": 322.26,
       "exitTime": "2026-04-17T14:00:30Z",
       "open": false,
-      "returnPct": 2.68
+      "returnPct": 2.68,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16239,7 +17886,8 @@ window.V3KR_DATA = {
       "exitPrice": 50.1,
       "exitTime": "2026-04-17T14:00:29Z",
       "open": false,
-      "returnPct": 1.64
+      "returnPct": 1.64,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16250,7 +17898,8 @@ window.V3KR_DATA = {
       "exitPrice": 254.09,
       "exitTime": "2026-04-17T14:00:29Z",
       "open": false,
-      "returnPct": 3.85
+      "returnPct": 3.85,
+      "qqqReturnPct": 1.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16261,7 +17910,8 @@ window.V3KR_DATA = {
       "exitPrice": 311.62,
       "exitTime": "2026-04-17T14:00:28Z",
       "open": false,
-      "returnPct": 1.42
+      "returnPct": 1.42,
+      "qqqReturnPct": 1.8
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16272,7 +17922,8 @@ window.V3KR_DATA = {
       "exitPrice": 75.62,
       "exitTime": "2026-04-17T14:00:27Z",
       "open": false,
-      "returnPct": -1.39
+      "returnPct": -1.39,
+      "qqqReturnPct": 5.1
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16283,7 +17934,8 @@ window.V3KR_DATA = {
       "exitPrice": 186.66,
       "exitTime": "2026-04-16T14:04:01Z",
       "open": false,
-      "returnPct": 4.93
+      "returnPct": 4.93,
+      "qqqReturnPct": 0.48
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16294,7 +17946,8 @@ window.V3KR_DATA = {
       "exitPrice": 26.11,
       "exitTime": "2026-04-16T14:03:59Z",
       "open": false,
-      "returnPct": 4.48
+      "returnPct": 4.48,
+      "qqqReturnPct": 3.74
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16305,7 +17958,8 @@ window.V3KR_DATA = {
       "exitPrice": 223.02,
       "exitTime": "2026-04-16T14:02:53Z",
       "open": false,
-      "returnPct": 1.49
+      "returnPct": 1.49,
+      "qqqReturnPct": 0.48
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16316,7 +17970,8 @@ window.V3KR_DATA = {
       "exitPrice": 157.84,
       "exitTime": "2026-04-16T14:02:52Z",
       "open": false,
-      "returnPct": 1.18
+      "returnPct": 1.18,
+      "qqqReturnPct": 3.74
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16327,7 +17982,8 @@ window.V3KR_DATA = {
       "exitPrice": 351.6,
       "exitTime": "2026-04-16T14:02:52Z",
       "open": false,
-      "returnPct": 2.15
+      "returnPct": 2.15,
+      "qqqReturnPct": 0.48
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16338,7 +17994,8 @@ window.V3KR_DATA = {
       "exitPrice": 15.01,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": -3.35
+      "returnPct": -3.35,
+      "qqqReturnPct": 5.17
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16349,7 +18006,8 @@ window.V3KR_DATA = {
       "exitPrice": 10.03,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": 6.82
+      "returnPct": 6.82,
+      "qqqReturnPct": 4.31
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16360,7 +18018,8 @@ window.V3KR_DATA = {
       "exitPrice": 31.46,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": 8.76
+      "returnPct": 8.76,
+      "qqqReturnPct": 4.31
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16371,7 +18030,8 @@ window.V3KR_DATA = {
       "exitPrice": 55.66,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": -2.69
+      "returnPct": -2.69,
+      "qqqReturnPct": 3.24
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16382,7 +18042,8 @@ window.V3KR_DATA = {
       "exitPrice": 248.1,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": 4.63
+      "returnPct": 4.63,
+      "qqqReturnPct": 3.24
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16393,7 +18054,8 @@ window.V3KR_DATA = {
       "exitPrice": 453.94,
       "exitTime": "2026-04-15T14:32:14Z",
       "open": false,
-      "returnPct": 10.37
+      "returnPct": 10.37,
+      "qqqReturnPct": 3.24
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -16404,7 +18066,8 @@ window.V3KR_DATA = {
       "exitPrice": 382.36,
       "exitTime": "2026-04-15T14:30:45Z",
       "open": false,
-      "returnPct": 5.7
+      "returnPct": 5.7,
+      "qqqReturnPct": 3.24
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -16415,7 +18078,8 @@ window.V3KR_DATA = {
       "exitPrice": 910.45,
       "exitTime": "2026-04-15T14:30:41Z",
       "open": false,
-      "returnPct": 8.84
+      "returnPct": 8.84,
+      "qqqReturnPct": 11.09
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -16426,7 +18090,8 @@ window.V3KR_DATA = {
       "exitPrice": 40.15,
       "exitTime": "2026-04-15T14:30:40Z",
       "open": false,
-      "returnPct": 6.88
+      "returnPct": 6.88,
+      "qqqReturnPct": 8.43
     },
     {
       "strategy": "STOCKS CONGRESS",
@@ -16437,7 +18102,8 @@ window.V3KR_DATA = {
       "exitPrice": 106.36,
       "exitTime": "2026-04-15T14:30:40Z",
       "open": false,
-      "returnPct": 9.48
+      "returnPct": 9.48,
+      "qqqReturnPct": 8.43
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16448,7 +18114,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.44,
       "exitTime": "2026-04-15T14:05:24Z",
       "open": false,
-      "returnPct": -0.95
+      "returnPct": -0.95,
+      "qqqReturnPct": 4.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16459,7 +18126,8 @@ window.V3KR_DATA = {
       "exitPrice": 147.98,
       "exitTime": "2026-04-15T14:05:24Z",
       "open": false,
-      "returnPct": -2.97
+      "returnPct": -2.97,
+      "qqqReturnPct": 4.31
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16470,7 +18138,8 @@ window.V3KR_DATA = {
       "exitPrice": 239.48,
       "exitTime": "2026-04-15T14:04:15Z",
       "open": false,
-      "returnPct": 0.43
+      "returnPct": 0.43,
+      "qqqReturnPct": 4.31
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16481,7 +18150,8 @@ window.V3KR_DATA = {
       "exitPrice": 182.72,
       "exitTime": "2026-04-14T14:04:10Z",
       "open": false,
-      "returnPct": 2.36
+      "returnPct": 2.36,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16492,7 +18162,8 @@ window.V3KR_DATA = {
       "exitPrice": 27.22,
       "exitTime": "2026-04-14T14:04:10Z",
       "open": false,
-      "returnPct": 1.13
+      "returnPct": 1.13,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT V2",
@@ -16503,7 +18174,8 @@ window.V3KR_DATA = {
       "exitPrice": 44.67,
       "exitTime": "2026-04-14T14:04:10Z",
       "open": false,
-      "returnPct": -2.98
+      "returnPct": -2.98,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16514,7 +18186,8 @@ window.V3KR_DATA = {
       "exitPrice": 499.18,
       "exitTime": "2026-04-14T14:03:12Z",
       "open": false,
-      "returnPct": 1.52
+      "returnPct": 1.52,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16525,7 +18198,8 @@ window.V3KR_DATA = {
       "exitPrice": 259.74,
       "exitTime": "2026-04-14T14:03:11Z",
       "open": false,
-      "returnPct": 1.14
+      "returnPct": 1.14,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16536,7 +18210,8 @@ window.V3KR_DATA = {
       "exitPrice": 215.6,
       "exitTime": "2026-04-14T14:03:11Z",
       "open": false,
-      "returnPct": 1.48
+      "returnPct": 1.48,
+      "qqqReturnPct": 1.82
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16547,7 +18222,8 @@ window.V3KR_DATA = {
       "exitPrice": 148.71,
       "exitTime": "2026-04-14T14:03:10Z",
       "open": false,
-      "returnPct": -2.32
+      "returnPct": -2.32,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16558,7 +18234,8 @@ window.V3KR_DATA = {
       "exitPrice": 120.0,
       "exitTime": "2026-04-14T14:03:09Z",
       "open": false,
-      "returnPct": -1.3
+      "returnPct": -1.3,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16569,7 +18246,8 @@ window.V3KR_DATA = {
       "exitPrice": 81.66,
       "exitTime": "2026-04-14T14:03:09Z",
       "open": false,
-      "returnPct": -0.8
+      "returnPct": -0.8,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16580,7 +18258,8 @@ window.V3KR_DATA = {
       "exitPrice": 27.22,
       "exitTime": "2026-04-14T14:03:08Z",
       "open": false,
-      "returnPct": 0.37
+      "returnPct": 0.37,
+      "qqqReturnPct": 2.87
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16591,7 +18270,8 @@ window.V3KR_DATA = {
       "exitPrice": 16.7,
       "exitTime": "2026-04-13T14:29:53Z",
       "open": false,
-      "returnPct": 5.33
+      "returnPct": 5.33,
+      "qqqReturnPct": 4.91
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16602,7 +18282,8 @@ window.V3KR_DATA = {
       "exitPrice": 178.0,
       "exitTime": "2026-04-13T14:29:53Z",
       "open": false,
-      "returnPct": 0.77
+      "returnPct": 0.77,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16613,7 +18294,8 @@ window.V3KR_DATA = {
       "exitPrice": 7.64,
       "exitTime": "2026-04-13T14:29:53Z",
       "open": false,
-      "returnPct": 8.45
+      "returnPct": 8.45,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16624,7 +18306,8 @@ window.V3KR_DATA = {
       "exitPrice": 190.34,
       "exitTime": "2026-04-13T14:02:49Z",
       "open": false,
-      "returnPct": 1.88
+      "returnPct": 1.88,
+      "qqqReturnPct": 1.03
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16635,7 +18318,8 @@ window.V3KR_DATA = {
       "exitPrice": 939.47,
       "exitTime": "2026-04-11T14:40:41Z",
       "open": false,
-      "returnPct": 0.95
+      "returnPct": 0.95,
+      "qqqReturnPct": 3.84
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16646,7 +18330,8 @@ window.V3KR_DATA = {
       "exitPrice": 370.87,
       "exitTime": "2026-04-11T14:40:41Z",
       "open": false,
-      "returnPct": -0.5
+      "returnPct": -0.5,
+      "qqqReturnPct": 3.84
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16657,7 +18342,8 @@ window.V3KR_DATA = {
       "exitPrice": 37.52,
       "exitTime": "2026-04-11T14:40:41Z",
       "open": false,
-      "returnPct": 1.21
+      "returnPct": 1.21,
+      "qqqReturnPct": 3.84
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16668,7 +18354,8 @@ window.V3KR_DATA = {
       "exitPrice": 45.96,
       "exitTime": "2026-04-11T14:40:41Z",
       "open": false,
-      "returnPct": -2.09
+      "returnPct": -2.09,
+      "qqqReturnPct": 0.14
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16679,7 +18366,8 @@ window.V3KR_DATA = {
       "exitPrice": 350.94,
       "exitTime": "2026-04-11T14:40:41Z",
       "open": false,
-      "returnPct": 0.56
+      "returnPct": 0.56,
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16690,7 +18378,8 @@ window.V3KR_DATA = {
       "exitPrice": 85.15,
       "exitTime": "2026-04-10T14:26:20Z",
       "open": false,
-      "returnPct": -0.16
+      "returnPct": -0.16,
+      "qqqReturnPct": 3.84
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16701,7 +18390,8 @@ window.V3KR_DATA = {
       "exitPrice": 29.49,
       "exitTime": "2026-04-10T14:26:20Z",
       "open": false,
-      "returnPct": 7.82
+      "returnPct": 7.82,
+      "qqqReturnPct": 3.82
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16712,7 +18402,8 @@ window.V3KR_DATA = {
       "exitPrice": 14.99,
       "exitTime": "2026-04-10T14:26:20Z",
       "open": false,
-      "returnPct": 4.97
+      "returnPct": 4.97,
+      "qqqReturnPct": 0.82
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16723,7 +18414,8 @@ window.V3KR_DATA = {
       "exitPrice": 0.91,
       "exitTime": "2026-04-10T14:26:20Z",
       "open": false,
-      "returnPct": -11.94
+      "returnPct": -11.94,
+      "qqqReturnPct": 0.14
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16734,7 +18426,8 @@ window.V3KR_DATA = {
       "exitPrice": 27.39,
       "exitTime": "2026-04-09T14:28:33Z",
       "open": false,
-      "returnPct": 1.18
+      "returnPct": 1.18,
+      "qqqReturnPct": 3.67
     },
     {
       "strategy": "STOCKS ONEPERCENT",
@@ -16745,7 +18438,8 @@ window.V3KR_DATA = {
       "exitPrice": 156.8,
       "exitTime": "2026-04-09T14:28:33Z",
       "open": false,
-      "returnPct": 0.98
+      "returnPct": 0.98,
+      "qqqReturnPct": 3.67
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16756,7 +18450,8 @@ window.V3KR_DATA = {
       "exitPrice": 96.41,
       "exitTime": "2026-04-09T14:25:57Z",
       "open": false,
-      "returnPct": 3.21
+      "returnPct": 3.21,
+      "qqqReturnPct": 3.69
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16767,7 +18462,8 @@ window.V3KR_DATA = {
       "exitPrice": 1.05,
       "exitTime": "2026-04-09T14:25:57Z",
       "open": false,
-      "returnPct": -16.67
+      "returnPct": -16.67,
+      "qqqReturnPct": 0.68
     },
     {
       "strategy": "STOCKS SENTIMENT V5",
@@ -16778,7 +18474,8 @@ window.V3KR_DATA = {
       "exitPrice": 305.14,
       "exitTime": "2026-04-08T18:44:44Z",
       "open": false,
-      "returnPct": 0.27
+      "returnPct": 0.27,
+      "qqqReturnPct": 2.97
     }
   ]
 };
