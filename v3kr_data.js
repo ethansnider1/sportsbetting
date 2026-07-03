@@ -1,13 +1,13 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-02T21:16:46Z",
-  "totalClosed": 1429,
-  "totalOpen": 96,
-  "winRate": 57.7,
-  "avgReturnPct": 1.46,
-  "avgQqqReturnPct": 0.64,
+  "generatedAt": "2026-07-03T13:26:02Z",
+  "totalClosed": 1329,
+  "totalOpen": 81,
+  "winRate": 58.1,
+  "avgReturnPct": 1.5,
+  "avgQqqReturnPct": 0.67,
   "strategies": [
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "verdict": "KEEP",
       "closed": 168,
       "open": 3,
@@ -20,7 +20,7 @@ window.V3KR_DATA = {
       "insightKind": "split"
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "verdict": "KEEP",
       "closed": 128,
       "open": 0,
@@ -33,7 +33,7 @@ window.V3KR_DATA = {
       "insightKind": "bucket"
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "verdict": "KEEP",
       "closed": 214,
       "open": 6,
@@ -46,7 +46,7 @@ window.V3KR_DATA = {
       "insightKind": "keep"
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "verdict": "KEEP",
       "closed": 177,
       "open": 10,
@@ -59,7 +59,7 @@ window.V3KR_DATA = {
       "insightKind": "keep"
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "verdict": "KEEP",
       "closed": 75,
       "open": 17,
@@ -72,7 +72,7 @@ window.V3KR_DATA = {
       "insightKind": "blend"
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
       "closed": 57,
       "open": 0,
@@ -85,7 +85,7 @@ window.V3KR_DATA = {
       "insightKind": "keep"
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "verdict": "KEEP",
       "closed": 209,
       "open": 14,
@@ -98,7 +98,7 @@ window.V3KR_DATA = {
       "insightKind": "keep"
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "verdict": "KEEP",
       "closed": 18,
       "open": 0,
@@ -111,20 +111,7 @@ window.V3KR_DATA = {
       "insightKind": "peak"
     },
     {
-      "strategy": "KESTREL",
-      "verdict": "KEEP",
-      "closed": 100,
-      "open": 15,
-      "winRate": 53.0,
-      "avgReturnPct": 0.99,
-      "expectancy": 0.99,
-      "returnOnCapital": 5.9,
-      "avgPeakPct": null,
-      "insight": "53% WR, +1.0% avg across 100 trades.",
-      "insightKind": "plain"
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "verdict": "KEEP",
       "closed": 229,
       "open": 27,
@@ -137,7 +124,7 @@ window.V3KR_DATA = {
       "insightKind": "peak"
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "verdict": "KEEP",
       "closed": 15,
       "open": 0,
@@ -150,7 +137,7 @@ window.V3KR_DATA = {
       "insightKind": "peak"
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "verdict": "KEEP",
       "closed": 19,
       "open": 4,
@@ -163,7 +150,7 @@ window.V3KR_DATA = {
       "insightKind": "keep"
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "verdict": "KEEP",
       "closed": 20,
       "open": 0,
@@ -178,127 +165,7 @@ window.V3KR_DATA = {
   ],
   "trades": [
     {
-      "strategy": "KESTREL",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 241.07,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 189.72,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 519.64,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CSCO",
-      "direction": "LONG",
-      "entryPrice": 112.92,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "MET",
-      "direction": "LONG",
-      "entryPrice": 89.04,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 510.73,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": 546.21,
-      "exitTime": "2026-07-02T15:38:00Z",
-      "open": false,
-      "returnPct": 6.95,
-      "qqqReturnPct": -1.59
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "BKR",
-      "direction": "LONG",
-      "entryPrice": 55.87,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": 53.4,
-      "exitTime": "2026-07-02T15:38:00Z",
-      "open": false,
-      "returnPct": -4.42,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 92.78,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 94.47,
-      "exitTime": "2026-07-02T15:37:59Z",
-      "open": false,
-      "returnPct": 1.82,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "USB",
-      "direction": "LONG",
-      "entryPrice": 60.17,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 61.56,
-      "exitTime": "2026-07-02T15:37:59Z",
-      "open": false,
-      "returnPct": 2.31,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CB",
-      "direction": "LONG",
-      "entryPrice": 334.88,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 356.28,
-      "exitTime": "2026-07-02T15:37:58Z",
-      "open": false,
-      "returnPct": 6.39,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLE",
       "direction": "SHORT",
       "entryPrice": 53.17,
@@ -310,7 +177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CTAS",
       "direction": "SHORT",
       "entryPrice": 179.53,
@@ -322,7 +189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 974.39,
@@ -334,7 +201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ICE",
       "direction": "SHORT",
       "entryPrice": 130.68,
@@ -346,7 +213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ETN",
       "direction": "LONG",
       "entryPrice": 398.22,
@@ -358,7 +225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SPGI",
       "direction": "SHORT",
       "entryPrice": 431.08,
@@ -370,7 +237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 123.46,
@@ -382,7 +249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 221.01,
@@ -394,7 +261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CRWD",
       "direction": "LONG",
       "entryPrice": 778.52,
@@ -406,7 +273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "RIVN",
       "direction": "SHORT",
       "entryPrice": 17.11,
@@ -418,7 +285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 397.08,
@@ -430,7 +297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADBE",
       "direction": "SHORT",
       "entryPrice": 205.68,
@@ -442,7 +309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AAPL",
       "direction": "SHORT",
       "entryPrice": 288.35,
@@ -454,7 +321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TMO",
       "direction": "SHORT",
       "entryPrice": 509.98,
@@ -466,7 +333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PG",
       "direction": "LONG",
       "entryPrice": 149.79,
@@ -478,7 +345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "EMR",
       "direction": "LONG",
       "entryPrice": 144.76,
@@ -490,7 +357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DHR",
       "direction": "SHORT",
       "entryPrice": 195.21,
@@ -502,7 +369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HUM",
       "direction": "LONG",
       "entryPrice": 405.26,
@@ -514,7 +381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 241.07,
@@ -526,7 +393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HUBS",
       "direction": "LONG",
       "entryPrice": 189.72,
@@ -538,7 +405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 519.64,
@@ -550,7 +417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 112.92,
@@ -562,7 +429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MET",
       "direction": "LONG",
       "entryPrice": 89.04,
@@ -574,7 +441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 252.4,
@@ -586,7 +453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1183.78,
@@ -598,7 +465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 77.18,
@@ -610,7 +477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "BKR",
       "direction": "LONG",
       "entryPrice": 55.87,
@@ -622,7 +489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SPGI",
       "direction": "LONG",
       "entryPrice": 414.66,
@@ -634,7 +501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 92.78,
@@ -646,7 +513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.28
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 60.17,
@@ -658,7 +525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.28
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 997.68,
@@ -670,7 +537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 123.03,
@@ -682,7 +549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 518.38,
@@ -694,7 +561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 361.56,
@@ -706,7 +573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 600.37,
@@ -718,7 +585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 241.3,
@@ -730,7 +597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 975.27,
@@ -742,7 +609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CB",
       "direction": "LONG",
       "entryPrice": 334.88,
@@ -754,7 +621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.28
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "EQIX",
       "direction": "LONG",
       "entryPrice": 1049.64,
@@ -766,7 +633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 189.76,
@@ -778,7 +645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 132.69,
@@ -790,7 +657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 1041.69,
@@ -802,7 +669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 624.03,
@@ -814,7 +681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BLD",
       "direction": "SHORT",
       "entryPrice": 368.99,
@@ -826,7 +693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CMCSA",
       "direction": "SHORT",
       "entryPrice": 24.88,
@@ -838,7 +705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "PRAX",
       "direction": "LONG",
       "entryPrice": 324.58,
@@ -850,7 +717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "SPRO",
       "direction": "LONG",
       "entryPrice": 2.26,
@@ -862,7 +729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AME",
       "direction": "LONG",
       "entryPrice": 235.97,
@@ -874,7 +741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DOV",
       "direction": "LONG",
       "entryPrice": 215.33,
@@ -886,7 +753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ECL",
       "direction": "LONG",
       "entryPrice": 276.95,
@@ -898,7 +765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GWW",
       "direction": "LONG",
       "entryPrice": 1331.15,
@@ -910,7 +777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AEE",
       "direction": "LONG",
       "entryPrice": 112.24,
@@ -922,7 +789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 247.99,
@@ -934,7 +801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 251.5,
@@ -946,7 +813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 247.9,
@@ -958,7 +825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 125.25,
@@ -970,7 +837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 415.05,
@@ -982,7 +849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 136.0,
@@ -994,67 +861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "SPGI",
-      "direction": "LONG",
-      "entryPrice": 414.66,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.72,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 50.62,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.45,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 161.96,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.15,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1183.78,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.43,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "JNJ",
-      "direction": "LONG",
-      "entryPrice": 252.4,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.96,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SBUX",
       "direction": "SHORT",
       "entryPrice": 101.69,
@@ -1066,7 +873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SYK",
       "direction": "SHORT",
       "entryPrice": 314.81,
@@ -1078,7 +885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SRE",
       "direction": "SHORT",
       "entryPrice": 92.24,
@@ -1090,7 +897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "EQIX",
       "direction": "SHORT",
       "entryPrice": 1018.04,
@@ -1102,7 +909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DUK",
       "direction": "SHORT",
       "entryPrice": 125.84,
@@ -1114,7 +921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 358.72,
@@ -1126,7 +933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "WDAY",
       "direction": "SHORT",
       "entryPrice": 121.07,
@@ -1138,7 +945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MDB",
       "direction": "SHORT",
       "entryPrice": 336.04,
@@ -1150,7 +957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADP",
       "direction": "SHORT",
       "entryPrice": 223.3,
@@ -1162,7 +969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PLTR",
       "direction": "SHORT",
       "entryPrice": 117.37,
@@ -1174,7 +981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SHOP",
       "direction": "SHORT",
       "entryPrice": 114.25,
@@ -1186,7 +993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.23
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "FCX",
       "direction": "LONG",
       "entryPrice": 62.04,
@@ -1198,7 +1005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ABT",
       "direction": "SHORT",
       "entryPrice": 91.4,
@@ -1210,7 +1017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NIO",
       "direction": "SHORT",
       "entryPrice": 5.06,
@@ -1222,7 +1029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADSK",
       "direction": "SHORT",
       "entryPrice": 194.88,
@@ -1234,7 +1041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 50.62,
@@ -1246,7 +1053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "DHI",
       "direction": "LONG",
       "entryPrice": 161.96,
@@ -1258,7 +1065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
       "entryPrice": 376.22,
@@ -1270,7 +1077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 416.37,
@@ -1282,7 +1089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PDD",
       "direction": "LONG",
       "entryPrice": 75.54,
@@ -1294,7 +1101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "LIN",
       "direction": "LONG",
       "entryPrice": 510.73,
@@ -1306,7 +1113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 147.0,
@@ -1318,7 +1125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "TGT",
       "direction": "LONG",
       "entryPrice": 128.79,
@@ -1330,7 +1137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "EOG",
       "direction": "LONG",
       "entryPrice": 128.16,
@@ -1342,7 +1149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 283.18,
@@ -1354,7 +1161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 313.82,
@@ -1366,7 +1173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GD",
       "direction": "LONG",
       "entryPrice": 345.97,
@@ -1378,7 +1185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SLS",
       "direction": "LONG",
       "entryPrice": 14.29,
@@ -1390,7 +1197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HST",
       "direction": "LONG",
       "entryPrice": 23.28,
@@ -1402,7 +1209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "BMY",
       "direction": "LONG",
       "entryPrice": 56.7,
@@ -1414,7 +1221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BMY",
       "direction": "LONG",
       "entryPrice": 56.84,
@@ -1426,7 +1233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NEE",
       "direction": "LONG",
       "entryPrice": 87.29,
@@ -1438,7 +1245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "DLTR",
       "direction": "LONG",
       "entryPrice": 119.58,
@@ -1450,91 +1257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.52
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 46.42,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.62,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 376.22,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.01,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 416.37,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.93,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 124.92,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": 139.99,
-      "exitTime": "2026-06-30T15:36:10Z",
-      "open": false,
-      "returnPct": 12.06,
-      "qqqReturnPct": 1.7
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 179.78,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 179.85,
-      "exitTime": "2026-06-30T15:36:09Z",
-      "open": false,
-      "returnPct": 0.04,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 106.98,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 104.3,
-      "exitTime": "2026-06-30T15:36:09Z",
-      "open": false,
-      "returnPct": -2.51,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 516.69,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 566.42,
-      "exitTime": "2026-06-30T15:36:07Z",
-      "open": false,
-      "returnPct": 9.62,
-      "qqqReturnPct": 3.63
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 60.72,
@@ -1546,7 +1269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AXP",
       "direction": "LONG",
       "entryPrice": 338.21,
@@ -1558,7 +1281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TSLA",
       "direction": "SHORT",
       "entryPrice": 397.33,
@@ -1570,7 +1293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 94.62,
@@ -1582,7 +1305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 80.12,
@@ -1594,7 +1317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.19
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 345.5,
@@ -1606,7 +1329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.19
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PM",
       "direction": "LONG",
       "entryPrice": 175.42,
@@ -1618,7 +1341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GILD",
       "direction": "SHORT",
       "entryPrice": 123.89,
@@ -1630,7 +1353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PLD",
       "direction": "LONG",
       "entryPrice": 142.77,
@@ -1642,7 +1365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "RTX",
       "direction": "LONG",
       "entryPrice": 182.35,
@@ -1654,7 +1377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 46.42,
@@ -1666,7 +1389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 124.92,
@@ -1678,7 +1401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TT",
       "direction": "LONG",
       "entryPrice": 481.99,
@@ -1690,7 +1413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 106.98,
@@ -1702,7 +1425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MAR",
       "direction": "LONG",
       "entryPrice": 381.75,
@@ -1714,7 +1437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 209.43,
@@ -1726,7 +1449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1014.52,
@@ -1738,7 +1461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "PLD",
       "direction": "LONG",
       "entryPrice": 136.51,
@@ -1750,7 +1473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 240.82,
@@ -1762,7 +1485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "PM",
       "direction": "LONG",
       "entryPrice": 174.95,
@@ -1774,7 +1497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 345.83,
@@ -1786,7 +1509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.19
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 200.87,
@@ -1798,7 +1521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.19
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 108.69,
@@ -1810,7 +1533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 137.51,
@@ -1822,7 +1545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 47.46,
@@ -1834,7 +1557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 173.89,
@@ -1846,7 +1569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 388.54,
@@ -1858,7 +1581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.02
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 252.57,
@@ -1870,7 +1593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.02
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ABVX",
       "direction": "LONG",
       "entryPrice": 133.23,
@@ -1882,7 +1605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ON",
       "direction": "SHORT",
       "entryPrice": 93.12,
@@ -1894,7 +1617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TSEM",
       "direction": "SHORT",
       "entryPrice": 242.58,
@@ -1906,7 +1629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "VSAT",
       "direction": "LONG",
       "entryPrice": 72.57,
@@ -1918,7 +1641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "WEN",
       "direction": "LONG",
       "entryPrice": 7.85,
@@ -1930,7 +1653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.63
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AYI",
       "direction": "LONG",
       "entryPrice": 370.27,
@@ -1942,7 +1665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TECH",
       "direction": "LONG",
       "entryPrice": 70.54,
@@ -1954,7 +1677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "KBH",
       "direction": "LONG",
       "entryPrice": 61.84,
@@ -1966,7 +1689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.63
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 136.53,
@@ -1978,7 +1701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AFL",
       "direction": "LONG",
       "entryPrice": 118.54,
@@ -1990,7 +1713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CHD",
       "direction": "LONG",
       "entryPrice": 96.58,
@@ -2002,7 +1725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DUK",
       "direction": "LONG",
       "entryPrice": 126.73,
@@ -2014,7 +1737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DVN",
       "direction": "LONG",
       "entryPrice": 42.47,
@@ -2026,7 +1749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APD",
       "direction": "LONG",
       "entryPrice": 275.57,
@@ -2038,7 +1761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 103.03,
@@ -2050,7 +1773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "WBD",
       "direction": "LONG",
       "entryPrice": 26.92,
@@ -2062,7 +1785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HLT",
       "direction": "LONG",
       "entryPrice": 337.29,
@@ -2074,7 +1797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 68.29,
@@ -2086,7 +1809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 136.51,
@@ -2098,7 +1821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TGT",
       "direction": "LONG",
       "entryPrice": 130.45,
@@ -2110,7 +1833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 281.67,
@@ -2122,7 +1845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1063.97,
@@ -2134,7 +1857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 106.09,
@@ -2146,7 +1869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 122.44,
@@ -2158,7 +1881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "EOG",
       "direction": "LONG",
       "entryPrice": 133.01,
@@ -2170,67 +1893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 77.18,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.82,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 276.63,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 282.04,
-      "exitTime": "2026-06-29T15:35:43Z",
-      "open": false,
-      "returnPct": 1.96,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 321.64,
-      "entryTime": "2026-06-23T15:34:20Z",
-      "exitPrice": 322.32,
-      "exitTime": "2026-06-29T15:35:41Z",
-      "open": false,
-      "returnPct": 0.21,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 199.32,
-      "entryTime": "2026-06-23T15:34:20Z",
-      "exitPrice": 190.59,
-      "exitTime": "2026-06-29T15:35:41Z",
-      "open": false,
-      "returnPct": -4.38,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 513.53,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 509.52,
-      "exitTime": "2026-06-29T15:35:40Z",
-      "open": false,
-      "returnPct": -0.78,
-      "qqqReturnPct": -1.88
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NOW",
       "direction": "SHORT",
       "entryPrice": 101.56,
@@ -2242,7 +1905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AMZN",
       "direction": "SHORT",
       "entryPrice": 242.41,
@@ -2254,7 +1917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TT",
       "direction": "LONG",
       "entryPrice": 478.98,
@@ -2266,7 +1929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CRM",
       "direction": "SHORT",
       "entryPrice": 159.69,
@@ -2278,7 +1941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HUBS",
       "direction": "SHORT",
       "entryPrice": 185.91,
@@ -2290,7 +1953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DOCU",
       "direction": "SHORT",
       "entryPrice": 43.39,
@@ -2302,7 +1965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ZS",
       "direction": "SHORT",
       "entryPrice": 126.46,
@@ -2314,7 +1977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 114.49,
@@ -2326,7 +1989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "FCX",
       "direction": "LONG",
       "entryPrice": 61.13,
@@ -2338,7 +2001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 199.32,
@@ -2350,7 +2013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 516.69,
@@ -2362,7 +2025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1177.22,
@@ -2374,7 +2037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 199.18,
@@ -2386,7 +2049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "FCX",
       "direction": "LONG",
       "entryPrice": 64.29,
@@ -2398,7 +2061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "VZ",
       "direction": "LONG",
       "entryPrice": 45.67,
@@ -2410,7 +2073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.88
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 593.35,
@@ -2422,7 +2085,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.68
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "IRDM",
       "direction": "LONG",
       "entryPrice": 53.12,
@@ -2434,7 +2097,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 54.62,
@@ -2446,7 +2109,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ACAD",
       "direction": "LONG",
       "entryPrice": 26.86,
@@ -2458,7 +2121,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "INTC",
       "direction": "SHORT",
       "entryPrice": 128.41,
@@ -2470,7 +2133,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BB",
       "direction": "LONG",
       "entryPrice": 10.28,
@@ -2482,7 +2145,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "KYMR",
       "direction": "LONG",
       "entryPrice": 119.25,
@@ -2494,7 +2157,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ORKA",
       "direction": "LONG",
       "entryPrice": 84.46,
@@ -2506,7 +2169,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.88
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "APGE",
       "direction": "LONG",
       "entryPrice": 132.66,
@@ -2518,7 +2181,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.88
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CCL",
       "direction": "LONG",
       "entryPrice": 28.5,
@@ -2530,7 +2193,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BWIN",
       "direction": "LONG",
       "entryPrice": 24.66,
@@ -2542,7 +2205,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.88
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "CAPR",
       "direction": "LONG",
       "entryPrice": 24.22,
@@ -2554,7 +2217,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "LRMR",
       "direction": "LONG",
       "entryPrice": 3.14,
@@ -2566,7 +2229,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 69.27,
@@ -2578,7 +2241,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "IEX",
       "direction": "LONG",
       "entryPrice": 224.33,
@@ -2590,7 +2253,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "KEY",
       "direction": "LONG",
       "entryPrice": 23.2,
@@ -2602,7 +2265,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MDLZ",
       "direction": "LONG",
       "entryPrice": 60.36,
@@ -2614,7 +2277,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 161.6,
@@ -2626,7 +2289,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 279.86,
@@ -2638,7 +2301,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AES",
       "direction": "LONG",
       "entryPrice": 14.66,
@@ -2650,7 +2313,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 516.3,
@@ -2662,7 +2325,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "BEN",
       "direction": "LONG",
       "entryPrice": 32.97,
@@ -2674,7 +2337,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EQIX",
       "direction": "LONG",
       "entryPrice": 1084.95,
@@ -2686,7 +2349,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DXCM",
       "direction": "LONG",
       "entryPrice": 69.21,
@@ -2698,7 +2361,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HST",
       "direction": "LONG",
       "entryPrice": 24.73,
@@ -2710,7 +2373,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "IVZ",
       "direction": "LONG",
       "entryPrice": 26.04,
@@ -2722,7 +2385,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 188.65,
@@ -2734,7 +2397,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 338.29,
@@ -2746,7 +2409,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1072.73,
@@ -2758,7 +2421,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 117.89,
@@ -2770,7 +2433,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 279.85,
@@ -2782,7 +2445,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 127.08,
@@ -2794,7 +2457,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 303.24,
@@ -2806,7 +2469,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 199.75,
@@ -2818,7 +2481,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 1020.0,
@@ -2830,7 +2493,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 214.96,
@@ -2842,7 +2505,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1035.9,
@@ -2854,7 +2517,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 369.79,
@@ -2866,67 +2529,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1028.9,
-      "entryTime": "2026-06-26T15:36:29Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.4,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "SHOP",
-      "direction": "LONG",
-      "entryPrice": 112.53,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 117.39,
-      "exitTime": "2026-06-26T15:36:26Z",
-      "open": false,
-      "returnPct": 4.32,
-      "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1081.55,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 1032.09,
-      "exitTime": "2026-06-26T15:36:26Z",
-      "open": false,
-      "returnPct": -4.57,
-      "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ECL",
-      "direction": "LONG",
-      "entryPrice": 271.49,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 282.38,
-      "exitTime": "2026-06-26T15:36:24Z",
-      "open": false,
-      "returnPct": 4.01,
-      "qqqReturnPct": -4.26
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 329.28,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 338.71,
-      "exitTime": "2026-06-26T15:36:23Z",
-      "open": false,
-      "returnPct": 2.86,
-      "qqqReturnPct": -4.6
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 331.99,
@@ -2938,7 +2541,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LULU",
       "direction": "SHORT",
       "entryPrice": 115.55,
@@ -2950,7 +2553,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NFLX",
       "direction": "SHORT",
       "entryPrice": 74.72,
@@ -2962,7 +2565,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BDX",
       "direction": "SHORT",
       "entryPrice": 156.34,
@@ -2974,7 +2577,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 214.48,
@@ -2986,7 +2589,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1031.23,
@@ -2998,7 +2601,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CVS",
       "direction": "LONG",
       "entryPrice": 100.36,
@@ -3010,7 +2613,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.58
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SOFI",
       "direction": "SHORT",
       "entryPrice": 17.81,
@@ -3022,7 +2625,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LCID",
       "direction": "SHORT",
       "entryPrice": 5.17,
@@ -3034,7 +2637,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 404.82,
@@ -3046,7 +2649,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NSC",
       "direction": "LONG",
       "entryPrice": 303.44,
@@ -3058,7 +2661,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CSX",
       "direction": "LONG",
       "entryPrice": 46.19,
@@ -3070,7 +2673,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 165.27,
@@ -3082,7 +2685,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "WFC",
       "direction": "LONG",
       "entryPrice": 83.32,
@@ -3094,7 +2697,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HUM",
       "direction": "LONG",
       "entryPrice": 366.5,
@@ -3106,7 +2709,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HON",
       "direction": "SHORT",
       "entryPrice": 227.87,
@@ -3118,7 +2721,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1028.9,
@@ -3130,7 +2733,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JCI",
       "direction": "LONG",
       "entryPrice": 145.54,
@@ -3142,7 +2745,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PM",
       "direction": "LONG",
       "entryPrice": 179.78,
@@ -3154,7 +2757,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 276.63,
@@ -3166,7 +2769,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SHOP",
       "direction": "LONG",
       "entryPrice": 112.53,
@@ -3178,7 +2781,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.58
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1081.55,
@@ -3190,7 +2793,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.58
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 389.87,
@@ -3202,7 +2805,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 369.15,
@@ -3214,7 +2817,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "NXPI",
       "direction": "LONG",
       "entryPrice": 282.99,
@@ -3226,7 +2829,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 549.2,
@@ -3238,7 +2841,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.04
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CRDO",
       "direction": "SHORT",
       "entryPrice": 266.77,
@@ -3250,7 +2853,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.0
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ILLR",
       "direction": "LONG",
       "entryPrice": 3.9,
@@ -3262,7 +2865,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.38
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AGI",
       "direction": "SHORT",
       "entryPrice": 31.0,
@@ -3274,7 +2877,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CAMT",
       "direction": "SHORT",
       "entryPrice": 172.02,
@@ -3286,7 +2889,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.0
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "OTLK",
       "direction": "LONG",
       "entryPrice": 1.62,
@@ -3298,7 +2901,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "MLTX",
       "direction": "LONG",
       "entryPrice": 20.09,
@@ -3310,7 +2913,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "SPRO",
       "direction": "LONG",
       "entryPrice": 2.06,
@@ -3322,7 +2925,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "IRD",
       "direction": "LONG",
       "entryPrice": 3.98,
@@ -3334,7 +2937,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 173.42,
@@ -3346,7 +2949,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 137.45,
@@ -3358,7 +2961,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 47.79,
@@ -3370,43 +2973,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.26
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 182.14,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 174.26,
-      "exitTime": "2026-06-25T15:34:48Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 95.96,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 90.66,
-      "exitTime": "2026-06-25T15:34:48Z",
-      "open": false,
-      "returnPct": -5.53,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 381.29,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 368.12,
-      "exitTime": "2026-06-25T15:34:46Z",
-      "open": false,
-      "returnPct": -3.45,
-      "qqqReturnPct": -2.92
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 586.12,
@@ -3418,7 +2985,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AAPL",
       "direction": "SHORT",
       "entryPrice": 298.8,
@@ -3430,7 +2997,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DKNG",
       "direction": "LONG",
       "entryPrice": 25.77,
@@ -3442,7 +3009,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HD",
       "direction": "LONG",
       "entryPrice": 326.34,
@@ -3454,7 +3021,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 230.26,
@@ -3466,7 +3033,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.92
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 233.65,
@@ -3478,7 +3045,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.27
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NOW",
       "direction": "LONG",
       "entryPrice": 95.96,
@@ -3490,7 +3057,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 321.64,
@@ -3502,7 +3069,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 304.85,
@@ -3514,7 +3081,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HUBS",
       "direction": "LONG",
       "entryPrice": 182.14,
@@ -3526,7 +3093,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
       "entryPrice": 381.29,
@@ -3538,7 +3105,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.92
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CBRS",
       "direction": "SHORT",
       "entryPrice": 191.67,
@@ -3550,7 +3117,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "MAAS",
       "direction": "SHORT",
       "entryPrice": 18.38,
@@ -3562,7 +3129,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ZETA",
       "direction": "LONG",
       "entryPrice": 19.72,
@@ -3574,7 +3141,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RUN",
       "direction": "LONG",
       "entryPrice": 16.33,
@@ -3586,7 +3153,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "TROW",
       "direction": "LONG",
       "entryPrice": 105.06,
@@ -3598,7 +3165,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 310.65,
@@ -3610,7 +3177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ODFL",
       "direction": "LONG",
       "entryPrice": 218.56,
@@ -3622,7 +3189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1042.89,
@@ -3634,7 +3201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 309.84,
@@ -3646,19 +3213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 754.9,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 739.5,
-      "exitTime": "2026-06-24T15:35:55Z",
-      "open": false,
-      "returnPct": -2.04,
-      "qqqReturnPct": -4.49
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CARR",
       "direction": "LONG",
       "entryPrice": 70.59,
@@ -3670,7 +3225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 49.59,
@@ -3682,7 +3237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SNPS",
       "direction": "SHORT",
       "entryPrice": 474.49,
@@ -3694,7 +3249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "T",
       "direction": "SHORT",
       "entryPrice": 22.49,
@@ -3706,7 +3261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLV",
       "direction": "LONG",
       "entryPrice": 152.45,
@@ -3718,7 +3273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLY",
       "direction": "SHORT",
       "entryPrice": 117.31,
@@ -3730,7 +3285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1126.3,
@@ -3742,7 +3297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.64
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 398.83,
@@ -3754,7 +3309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.64
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BKNG",
       "direction": "SHORT",
       "entryPrice": 175.82,
@@ -3766,7 +3321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.64
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PINS",
       "direction": "LONG",
       "entryPrice": 19.93,
@@ -3778,7 +3333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SOFI",
       "direction": "LONG",
       "entryPrice": 17.4,
@@ -3790,7 +3345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 407.62,
@@ -3802,7 +3357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "V",
       "direction": "LONG",
       "entryPrice": 329.28,
@@ -3814,7 +3369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.05
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ECL",
       "direction": "LONG",
       "entryPrice": 271.49,
@@ -3826,7 +3381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.7
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SPY",
       "direction": "LONG",
       "entryPrice": 754.9,
@@ -3838,7 +3393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.49
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FLNC",
       "direction": "SHORT",
       "entryPrice": 22.0,
@@ -3850,7 +3405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PRIM",
       "direction": "LONG",
       "entryPrice": 79.78,
@@ -3862,7 +3417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 131.93,
@@ -3874,7 +3429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.05
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "QS",
       "direction": "LONG",
       "entryPrice": 7.79,
@@ -3886,7 +3441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.05
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GWW",
       "direction": "LONG",
       "entryPrice": 1317.13,
@@ -3898,7 +3453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DECK",
       "direction": "LONG",
       "entryPrice": 103.38,
@@ -3910,7 +3465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.42
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CPT",
       "direction": "LONG",
       "entryPrice": 108.44,
@@ -3922,7 +3477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "RTX",
       "direction": "LONG",
       "entryPrice": 183.2,
@@ -3934,43 +3489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.7
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 742.85,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 716.8,
-      "exitTime": "2026-06-23T15:34:18Z",
-      "open": false,
-      "returnPct": -3.51,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 411.58,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 371.95,
-      "exitTime": "2026-06-23T15:34:18Z",
-      "open": false,
-      "returnPct": -9.63,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1132.53,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 1098.37,
-      "exitTime": "2026-06-23T15:34:17Z",
-      "open": false,
-      "returnPct": -3.02,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MCO",
       "direction": "SHORT",
       "entryPrice": 469.33,
@@ -3982,7 +3501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.23
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 115.99,
@@ -3994,7 +3513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CL",
       "direction": "SHORT",
       "entryPrice": 89.76,
@@ -4006,7 +3525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TMUS",
       "direction": "SHORT",
       "entryPrice": 188.3,
@@ -4018,7 +3537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "UBER",
       "direction": "SHORT",
       "entryPrice": 73.1,
@@ -4030,7 +3549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "V",
       "direction": "SHORT",
       "entryPrice": 325.74,
@@ -4042,7 +3561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 222.06,
@@ -4054,7 +3573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "LIN",
       "direction": "LONG",
       "entryPrice": 513.53,
@@ -4066,7 +3585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TMUS",
       "direction": "LONG",
       "entryPrice": 181.24,
@@ -4078,7 +3597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ARM",
       "direction": "LONG",
       "entryPrice": 411.58,
@@ -4090,7 +3609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "XLF",
       "direction": "LONG",
       "entryPrice": 53.92,
@@ -4102,7 +3621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.64
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1132.53,
@@ -4114,7 +3633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QQQ",
       "direction": "LONG",
       "entryPrice": 742.85,
@@ -4126,7 +3645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.08
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "OKE",
       "direction": "LONG",
       "entryPrice": 85.6,
@@ -4138,7 +3657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.22
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 35.4,
@@ -4150,7 +3669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "KEEL",
       "direction": "LONG",
       "entryPrice": 6.99,
@@ -4162,7 +3681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SLBT",
       "direction": "SHORT",
       "entryPrice": 5.0,
@@ -4174,7 +3693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "UMC",
       "direction": "LONG",
       "entryPrice": 27.77,
@@ -4186,7 +3705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "EQPT",
       "direction": "LONG",
       "entryPrice": 26.27,
@@ -4198,7 +3717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.64
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "SPRO",
       "direction": "LONG",
       "entryPrice": 2.22,
@@ -4210,7 +3729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DGX",
       "direction": "LONG",
       "entryPrice": 193.1,
@@ -4222,7 +3741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "INVH",
       "direction": "LONG",
       "entryPrice": 28.3,
@@ -4234,7 +3753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CHD",
       "direction": "LONG",
       "entryPrice": 94.15,
@@ -4246,7 +3765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 113.42,
@@ -4258,115 +3777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 303.65,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 305.0,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": 0.44,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "XLF",
-      "direction": "LONG",
-      "entryPrice": 53.92,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 53.84,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": -0.15,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.6,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 80.94,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 159.6,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 157.66,
-      "exitTime": "2026-06-22T15:36:36Z",
-      "open": false,
-      "returnPct": -1.22,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 55.03,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 54.76,
-      "exitTime": "2026-06-22T15:36:36Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 125.03,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 124.35,
-      "exitTime": "2026-06-22T15:36:35Z",
-      "open": false,
-      "returnPct": -0.54,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.26,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 44.04,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -2.7,
-      "qqqReturnPct": 6.38
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 406.32,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 404.56,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -0.43,
-      "qqqReturnPct": 2.9
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ELV",
-      "direction": "LONG",
-      "entryPrice": 398.97,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 396.29,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -0.67,
-      "qqqReturnPct": 2.3
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GOOG",
       "direction": "SHORT",
       "entryPrice": 361.92,
@@ -4378,7 +3789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DHR",
       "direction": "LONG",
       "entryPrice": 181.59,
@@ -4390,7 +3801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AMZN",
       "direction": "SHORT",
       "entryPrice": 246.01,
@@ -4402,7 +3813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CTAS",
       "direction": "LONG",
       "entryPrice": 177.18,
@@ -4414,7 +3825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BSX",
       "direction": "SHORT",
       "entryPrice": 46.41,
@@ -4426,7 +3837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DIS",
       "direction": "SHORT",
       "entryPrice": 100.16,
@@ -4438,7 +3849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BLK",
       "direction": "SHORT",
       "entryPrice": 1040.34,
@@ -4450,7 +3861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PM",
       "direction": "SHORT",
       "entryPrice": 183.36,
@@ -4462,7 +3873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SO",
       "direction": "SHORT",
       "entryPrice": 94.38,
@@ -4474,7 +3885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CMG",
       "direction": "SHORT",
       "entryPrice": 32.26,
@@ -4486,7 +3897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "COST",
       "direction": "SHORT",
       "entryPrice": 979.97,
@@ -4498,7 +3909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.9
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TEAM",
       "direction": "LONG",
       "entryPrice": 84.6,
@@ -4510,7 +3921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ENB",
       "direction": "LONG",
       "entryPrice": 55.03,
@@ -4522,7 +3933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HUBS",
       "direction": "LONG",
       "entryPrice": 180.95,
@@ -4534,7 +3945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "DHI",
       "direction": "LONG",
       "entryPrice": 159.6,
@@ -4546,7 +3957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MAR",
       "direction": "LONG",
       "entryPrice": 402.35,
@@ -4558,7 +3969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "XLRE",
       "direction": "LONG",
       "entryPrice": 45.26,
@@ -4570,7 +3981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.38
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 931.56,
@@ -4582,7 +3993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 399.08,
@@ -4594,7 +4005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 238.03,
@@ -4606,7 +4017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1072.59,
@@ -4618,7 +4029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 292.87,
@@ -4630,7 +4041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AAMI",
       "direction": "SHORT",
       "entryPrice": 73.07,
@@ -4642,7 +4053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BHVN",
       "direction": "LONG",
       "entryPrice": 13.73,
@@ -4654,7 +4065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "QURE",
       "direction": "LONG",
       "entryPrice": 47.93,
@@ -4666,7 +4077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FOX",
       "direction": "SHORT",
       "entryPrice": 49.96,
@@ -4678,7 +4089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "XNDU",
       "direction": "LONG",
       "entryPrice": 13.12,
@@ -4690,7 +4101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CRWV",
       "direction": "LONG",
       "entryPrice": 115.93,
@@ -4702,7 +4113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SPCX",
       "direction": "SHORT",
       "entryPrice": 189.73,
@@ -4714,7 +4125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "GPGI",
       "direction": "LONG",
       "entryPrice": 14.37,
@@ -4726,7 +4137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 112.47,
@@ -4738,7 +4149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 105.91,
@@ -4750,7 +4161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 170.27,
@@ -4762,7 +4173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 2.56,
@@ -4774,7 +4185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "SOFI",
       "direction": "LONG",
       "entryPrice": 18.4,
@@ -4786,7 +4197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "GME",
       "direction": "LONG",
       "entryPrice": 21.88,
@@ -4798,7 +4209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "PLTR",
       "direction": "LONG",
       "entryPrice": 128.65,
@@ -4810,7 +4221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "OTLK",
       "direction": "LONG",
       "entryPrice": 1.65,
@@ -4822,7 +4233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "MLTX",
       "direction": "LONG",
       "entryPrice": 22.0,
@@ -4834,7 +4245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "CELC",
       "direction": "LONG",
       "entryPrice": 88.12,
@@ -4846,7 +4257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "IRD",
       "direction": "LONG",
       "entryPrice": 4.1,
@@ -4858,7 +4269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CAH",
       "direction": "LONG",
       "entryPrice": 222.44,
@@ -4870,7 +4281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CB",
       "direction": "LONG",
       "entryPrice": 325.5,
@@ -4882,7 +4293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CI",
       "direction": "LONG",
       "entryPrice": 282.99,
@@ -4894,7 +4305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AFL",
       "direction": "LONG",
       "entryPrice": 116.01,
@@ -4906,7 +4317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALL",
       "direction": "LONG",
       "entryPrice": 219.94,
@@ -4918,7 +4329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DGX",
       "direction": "LONG",
       "entryPrice": 198.3,
@@ -4930,7 +4341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ESS",
       "direction": "LONG",
       "entryPrice": 278.52,
@@ -4942,7 +4353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CPT",
       "direction": "LONG",
       "entryPrice": 111.43,
@@ -4954,7 +4365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CSX",
       "direction": "LONG",
       "entryPrice": 46.38,
@@ -4966,7 +4377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALB",
       "direction": "LONG",
       "entryPrice": 168.19,
@@ -4978,7 +4389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DECK",
       "direction": "LONG",
       "entryPrice": 112.38,
@@ -4990,7 +4401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMT",
       "direction": "LONG",
       "entryPrice": 182.54,
@@ -5002,7 +4413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DLTR",
       "direction": "LONG",
       "entryPrice": 113.1,
@@ -5014,7 +4425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "SPG",
       "direction": "LONG",
       "entryPrice": 215.4,
@@ -5026,7 +4437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CASY",
       "direction": "LONG",
       "entryPrice": 861.5,
@@ -5038,7 +4449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 108.36,
@@ -5050,7 +4461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 79.4,
@@ -5062,7 +4473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 117.54,
@@ -5074,7 +4485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 230.16,
@@ -5086,7 +4497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CI",
       "direction": "LONG",
       "entryPrice": 283.75,
@@ -5098,7 +4509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 207.28,
@@ -5110,7 +4521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 118.44,
@@ -5122,7 +4533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "DLTR",
       "direction": "LONG",
       "entryPrice": 113.17,
@@ -5134,7 +4545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MNST",
       "direction": "LONG",
       "entryPrice": 92.44,
@@ -5146,7 +4557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 178.6,
@@ -5158,7 +4569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 115.49,
@@ -5170,7 +4581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1117.85,
@@ -5182,43 +4593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "F",
-      "direction": "LONG",
-      "entryPrice": 14.78,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 13.96,
-      "exitTime": "2026-06-18T15:35:27Z",
-      "open": false,
-      "returnPct": -5.56,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "WMB",
-      "direction": "LONG",
-      "entryPrice": 72.78,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 72.26,
-      "exitTime": "2026-06-18T15:35:26Z",
-      "open": false,
-      "returnPct": -0.72,
-      "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 82.3,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 78.94,
-      "exitTime": "2026-06-18T15:35:26Z",
-      "open": false,
-      "returnPct": -4.08,
-      "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "INTU",
       "direction": "SHORT",
       "entryPrice": 280.93,
@@ -5230,7 +4605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PINS",
       "direction": "LONG",
       "entryPrice": 21.41,
@@ -5242,7 +4617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.45
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADP",
       "direction": "LONG",
       "entryPrice": 228.08,
@@ -5254,7 +4629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.28
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ICE",
       "direction": "SHORT",
       "entryPrice": 141.94,
@@ -5266,7 +4641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.77
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NSC",
       "direction": "LONG",
       "entryPrice": 303.65,
@@ -5278,7 +4653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 105.59,
@@ -5290,7 +4665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 82.3,
@@ -5302,7 +4677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.67
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "WMB",
       "direction": "LONG",
       "entryPrice": 72.78,
@@ -5314,7 +4689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.67
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 120.28,
@@ -5326,7 +4701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.47
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "IBM",
       "direction": "LONG",
       "entryPrice": 274.83,
@@ -5338,7 +4713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.67
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BRAI",
       "direction": "LONG",
       "entryPrice": 9.9,
@@ -5350,7 +4725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AXTI",
       "direction": "SHORT",
       "entryPrice": 98.2,
@@ -5362,7 +4737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.47
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 122.36,
@@ -5374,7 +4749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 99.38,
@@ -5386,7 +4761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.45
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ESG",
       "direction": "LONG",
       "entryPrice": 172.65,
@@ -5398,7 +4773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.77
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ASTS",
       "direction": "LONG",
       "entryPrice": 84.97,
@@ -5410,7 +4785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.45
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DRI",
       "direction": "LONG",
       "entryPrice": 207.88,
@@ -5422,7 +4797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.47
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "REG",
       "direction": "LONG",
       "entryPrice": 79.57,
@@ -5434,7 +4809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.45
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1020.54,
@@ -5446,7 +4821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 113.51,
@@ -5458,55 +4833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 124.55,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 124.64,
-      "exitTime": "2026-06-17T15:32:09Z",
-      "open": false,
-      "returnPct": 0.08,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 224.54,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 222.05,
-      "exitTime": "2026-06-17T15:32:09Z",
-      "open": false,
-      "returnPct": -1.11,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 116.29,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 115.59,
-      "exitTime": "2026-06-17T15:32:08Z",
-      "open": false,
-      "returnPct": -0.6,
-      "qqqReturnPct": 0.75
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 292.53,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 297.33,
-      "exitTime": "2026-06-17T15:32:07Z",
-      "open": false,
-      "returnPct": 1.64,
-      "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 187.05,
@@ -5518,7 +4845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.07
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CME",
       "direction": "SHORT",
       "entryPrice": 266.0,
@@ -5530,7 +4857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.75
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 224.54,
@@ -5542,7 +4869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.16
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "F",
       "direction": "LONG",
       "entryPrice": 14.78,
@@ -5554,7 +4881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.89
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 292.53,
@@ -5566,7 +4893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.07
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 375.08,
@@ -5578,7 +4905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.15
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "HUN",
       "direction": "SHORT",
       "entryPrice": 12.72,
@@ -5590,7 +4917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.01
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "WDC",
       "direction": "LONG",
       "entryPrice": 646.08,
@@ -5602,7 +4929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.89
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "OLN",
       "direction": "SHORT",
       "entryPrice": 22.98,
@@ -5614,7 +4941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.01
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "SOFI",
       "direction": "LONG",
       "entryPrice": 16.53,
@@ -5626,7 +4953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.16
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 131.6,
@@ -5638,7 +4965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.89
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 2.38,
@@ -5650,7 +4977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.16
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AR",
       "direction": "LONG",
       "entryPrice": 34.78,
@@ -5662,7 +4989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.07
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 81.78,
@@ -5674,7 +5001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.15
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "RKLB",
       "direction": "LONG",
       "entryPrice": 105.77,
@@ -5686,7 +5013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.16
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "RTX",
       "direction": "LONG",
       "entryPrice": 182.98,
@@ -5698,7 +5025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.01
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 2.56,
@@ -5710,19 +5037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 91.31,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 85.79,
-      "exitTime": "2026-06-16T15:36:07Z",
-      "open": false,
-      "returnPct": -6.05,
-      "qqqReturnPct": 1.18
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "UPS",
       "direction": "LONG",
       "entryPrice": 104.44,
@@ -5734,7 +5049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLE",
       "direction": "SHORT",
       "entryPrice": 58.62,
@@ -5746,7 +5061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.21
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "DUK",
       "direction": "LONG",
       "entryPrice": 125.03,
@@ -5758,7 +5073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 129.26,
@@ -5770,7 +5085,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ENTG",
       "direction": "LONG",
       "entryPrice": 167.53,
@@ -5782,7 +5097,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CASY",
       "direction": "LONG",
       "entryPrice": 877.71,
@@ -5794,7 +5109,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.21
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SPCL",
       "direction": "LONG",
       "entryPrice": 51.26,
@@ -5806,7 +5121,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NAVN",
       "direction": "SHORT",
       "entryPrice": 20.14,
@@ -5818,7 +5133,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UAE",
       "direction": "LONG",
       "entryPrice": 18.79,
@@ -5830,7 +5145,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.21
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "LUNR",
       "direction": "LONG",
       "entryPrice": 26.22,
@@ -5842,7 +5157,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "OTLK",
       "direction": "LONG",
       "entryPrice": 1.42,
@@ -5854,7 +5169,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "INBX",
       "direction": "LONG",
       "entryPrice": 95.06,
@@ -5866,7 +5181,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "FSLR",
       "direction": "LONG",
       "entryPrice": 266.11,
@@ -5878,7 +5193,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MDLZ",
       "direction": "LONG",
       "entryPrice": 62.65,
@@ -5890,7 +5205,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CHD",
       "direction": "LONG",
       "entryPrice": 96.46,
@@ -5902,7 +5217,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 82.23,
@@ -5914,7 +5229,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 972.52,
@@ -5926,7 +5241,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 88.82,
@@ -5938,7 +5253,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 82.25,
@@ -5950,7 +5265,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 120.13,
@@ -5962,7 +5277,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.18
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 131.32,
@@ -5974,7 +5289,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 171.92,
@@ -5986,91 +5301,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 117.53,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 112.66,
-      "exitTime": "2026-06-15T15:40:45Z",
-      "open": false,
-      "returnPct": -4.14,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 223.53,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 237.77,
-      "exitTime": "2026-06-15T15:40:44Z",
-      "open": false,
-      "returnPct": 6.37,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "JCI",
-      "direction": "LONG",
-      "entryPrice": 143.57,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 147.52,
-      "exitTime": "2026-06-15T15:40:43Z",
-      "open": false,
-      "returnPct": 2.75,
-      "qqqReturnPct": 7.25
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AEP",
-      "direction": "LONG",
-      "entryPrice": 129.75,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 129.25,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": -0.39,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 88.38,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 89.66,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": 1.45,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 243.6,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 245.88,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": 0.94,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "XLV",
-      "direction": "LONG",
-      "entryPrice": 154.6,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 153.28,
-      "exitTime": "2026-06-15T15:40:41Z",
-      "open": false,
-      "returnPct": -0.85,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TEAM",
       "direction": "LONG",
       "entryPrice": 87.86,
@@ -6082,7 +5313,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "COIN",
       "direction": "SHORT",
       "entryPrice": 162.13,
@@ -6094,7 +5325,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ORCL",
       "direction": "LONG",
       "entryPrice": 179.43,
@@ -6106,7 +5337,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XOM",
       "direction": "SHORT",
       "entryPrice": 151.21,
@@ -6118,7 +5349,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NET",
       "direction": "LONG",
       "entryPrice": 222.79,
@@ -6130,7 +5361,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 79.39,
@@ -6142,7 +5373,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GE",
       "direction": "LONG",
       "entryPrice": 321.02,
@@ -6154,7 +5385,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "VRTX",
       "direction": "LONG",
       "entryPrice": 446.99,
@@ -6166,7 +5397,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AON",
       "direction": "LONG",
       "entryPrice": 325.35,
@@ -6178,7 +5409,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "RBLX",
       "direction": "SHORT",
       "entryPrice": 41.94,
@@ -6190,7 +5421,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SRE",
       "direction": "LONG",
       "entryPrice": 91.86,
@@ -6202,7 +5433,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "IBM",
       "direction": "SHORT",
       "entryPrice": 283.15,
@@ -6214,7 +5445,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "META",
       "direction": "SHORT",
       "entryPrice": 588.29,
@@ -6226,7 +5457,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 400.8,
@@ -6238,7 +5469,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 398.97,
@@ -6250,7 +5481,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "DUK",
       "direction": "LONG",
       "entryPrice": 124.55,
@@ -6262,7 +5493,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 117.53,
@@ -6274,7 +5505,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "OKE",
       "direction": "LONG",
       "entryPrice": 91.31,
@@ -6286,7 +5517,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "XLV",
       "direction": "LONG",
       "entryPrice": 154.6,
@@ -6298,7 +5529,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 129.75,
@@ -6310,7 +5541,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 243.6,
@@ -6322,7 +5553,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "NXPI",
       "direction": "LONG",
       "entryPrice": 293.95,
@@ -6334,7 +5565,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "ETN",
       "direction": "LONG",
       "entryPrice": 383.37,
@@ -6346,7 +5577,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 928.61,
@@ -6358,7 +5589,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 485.91,
@@ -6370,7 +5601,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.52
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "DAN",
       "direction": "SHORT",
       "entryPrice": 31.8,
@@ -6382,7 +5613,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CUPR",
       "direction": "LONG",
       "entryPrice": 5.22,
@@ -6394,7 +5625,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SJM",
       "direction": "LONG",
       "entryPrice": 114.27,
@@ -6406,7 +5637,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NUVL",
       "direction": "LONG",
       "entryPrice": 123.14,
@@ -6418,7 +5649,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 92.84,
@@ -6430,7 +5661,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 161.8,
@@ -6442,7 +5673,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "LEADING Witching",
+      "strategy": "Leading Witching",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 123.51,
@@ -6454,7 +5685,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CELH",
       "direction": "LONG",
       "entryPrice": 27.94,
@@ -6466,7 +5697,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ET",
       "direction": "LONG",
       "entryPrice": 19.39,
@@ -6478,7 +5709,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BJ",
       "direction": "LONG",
       "entryPrice": 92.22,
@@ -6490,7 +5721,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AM",
       "direction": "LONG",
       "entryPrice": 21.6,
@@ -6502,7 +5733,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AVAV",
       "direction": "LONG",
       "entryPrice": 179.87,
@@ -6514,7 +5745,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AGI",
       "direction": "LONG",
       "entryPrice": 34.43,
@@ -6526,7 +5757,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "PYPL",
       "direction": "LONG",
       "entryPrice": 40.71,
@@ -6538,7 +5769,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "DTE",
       "direction": "LONG",
       "entryPrice": 147.71,
@@ -6550,7 +5781,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SPXC",
       "direction": "LONG",
       "entryPrice": 228.68,
@@ -6562,7 +5793,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 384.67,
@@ -6574,7 +5805,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "SMMT",
       "direction": "LONG",
       "entryPrice": 13.91,
@@ -6586,7 +5817,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "L",
       "direction": "LONG",
       "entryPrice": 107.13,
@@ -6598,7 +5829,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "FTV",
       "direction": "LONG",
       "entryPrice": 59.74,
@@ -6610,7 +5841,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CB",
       "direction": "LONG",
       "entryPrice": 320.6,
@@ -6622,7 +5853,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ETN",
       "direction": "LONG",
       "entryPrice": 395.15,
@@ -6634,7 +5865,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 82.27,
@@ -6646,7 +5877,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 294.76,
@@ -6658,7 +5889,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EQIX",
       "direction": "LONG",
       "entryPrice": 1052.82,
@@ -6670,7 +5901,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 241.09,
@@ -6682,7 +5913,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.25
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 224.49,
@@ -6694,7 +5925,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.75
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 294.66,
@@ -6706,7 +5937,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BK",
       "direction": "LONG",
       "entryPrice": 141.78,
@@ -6718,7 +5949,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 30.78,
@@ -6730,7 +5961,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "DASH",
       "direction": "LONG",
       "entryPrice": 148.86,
@@ -6742,7 +5973,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "DKNG",
       "direction": "LONG",
       "entryPrice": 28.99,
@@ -6754,7 +5985,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "NOW",
       "direction": "LONG",
       "entryPrice": 99.83,
@@ -6766,7 +5997,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "PINS",
       "direction": "LONG",
       "entryPrice": 20.88,
@@ -6778,7 +6009,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "UBER",
       "direction": "LONG",
       "entryPrice": 67.68,
@@ -6790,31 +6021,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 457.39,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 513.85,
-      "exitTime": "2026-06-12T15:40:37Z",
-      "open": false,
-      "returnPct": 12.34,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 115.69,
-      "entryTime": "2026-06-08T15:35:45Z",
-      "exitPrice": 118.2,
-      "exitTime": "2026-06-12T15:40:36Z",
-      "open": false,
-      "returnPct": 2.17,
-      "qqqReturnPct": 0.74
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 257.17,
@@ -6826,7 +6033,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HUBS",
       "direction": "SHORT",
       "entryPrice": 196.6,
@@ -6838,7 +6045,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ANET",
       "direction": "SHORT",
       "entryPrice": 150.4,
@@ -6850,7 +6057,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SOFI",
       "direction": "SHORT",
       "entryPrice": 15.97,
@@ -6862,7 +6069,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CVS",
       "direction": "LONG",
       "entryPrice": 96.79,
@@ -6874,7 +6081,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 97.58,
@@ -6886,7 +6093,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "WDAY",
       "direction": "SHORT",
       "entryPrice": 137.14,
@@ -6898,7 +6105,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 119.34,
@@ -6910,7 +6117,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 406.32,
@@ -6922,7 +6129,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NET",
       "direction": "LONG",
       "entryPrice": 223.53,
@@ -6934,7 +6141,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "OKTA",
       "direction": "LONG",
       "entryPrice": 116.29,
@@ -6946,7 +6153,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "LIN",
       "direction": "LONG",
       "entryPrice": 514.47,
@@ -6958,7 +6165,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JCI",
       "direction": "LONG",
       "entryPrice": 143.57,
@@ -6970,7 +6177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 457.39,
@@ -6982,7 +6189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "FCX",
       "direction": "LONG",
       "entryPrice": 62.71,
@@ -6994,7 +6201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 194.36,
@@ -7006,7 +6213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 151.35,
@@ -7018,7 +6225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 335.25,
@@ -7030,7 +6237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.33
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 503.65,
@@ -7042,7 +6249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.07
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 108.32,
@@ -7054,7 +6261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.33
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "VOYG",
       "direction": "LONG",
       "entryPrice": 47.37,
@@ -7066,7 +6273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RDW",
       "direction": "SHORT",
       "entryPrice": 15.94,
@@ -7078,7 +6285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GLD",
       "direction": "LONG",
       "entryPrice": 382.72,
@@ -7090,7 +6297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ORCL",
       "direction": "LONG",
       "entryPrice": 176.55,
@@ -7102,7 +6309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BATL",
       "direction": "LONG",
       "entryPrice": 1.84,
@@ -7114,7 +6321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "CELC",
       "direction": "LONG",
       "entryPrice": 89.79,
@@ -7126,7 +6333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "OTLK",
       "direction": "LONG",
       "entryPrice": 1.2,
@@ -7138,7 +6345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DLR",
       "direction": "LONG",
       "entryPrice": 178.97,
@@ -7150,7 +6357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 224.4,
@@ -7162,7 +6369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "BEN",
       "direction": "LONG",
       "entryPrice": 31.12,
@@ -7174,7 +6381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 207.74,
@@ -7186,7 +6393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 343.5,
@@ -7198,7 +6405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CTVA",
       "direction": "LONG",
       "entryPrice": 76.21,
@@ -7210,7 +6417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MSCI",
       "direction": "LONG",
       "entryPrice": 605.81,
@@ -7222,7 +6429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APD",
       "direction": "LONG",
       "entryPrice": 282.11,
@@ -7234,7 +6441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIEN",
       "direction": "LONG",
       "entryPrice": 463.91,
@@ -7246,7 +6453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 55.42,
@@ -7258,7 +6465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 350.05,
@@ -7270,7 +6477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.59
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 890.17,
@@ -7282,7 +6489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 1023.18,
@@ -7294,7 +6501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 207.55,
@@ -7306,7 +6513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 198.72,
@@ -7318,7 +6525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 213.29,
@@ -7330,7 +6537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "GME",
       "direction": "LONG",
       "entryPrice": 21.85,
@@ -7342,7 +6549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 2.24,
@@ -7354,7 +6561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 119.89,
@@ -7366,7 +6573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "PLTR",
       "direction": "LONG",
       "entryPrice": 128.24,
@@ -7378,7 +6585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 159.7,
@@ -7390,43 +6597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "ADBE",
-      "direction": "LONG",
-      "entryPrice": 236.63,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 223.0,
-      "exitTime": "2026-06-11T15:42:11Z",
-      "open": false,
-      "returnPct": -5.76,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ADSK",
-      "direction": "LONG",
-      "entryPrice": 224.18,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 216.12,
-      "exitTime": "2026-06-11T15:42:11Z",
-      "open": false,
-      "returnPct": -3.6,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 174.26,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 165.17,
-      "exitTime": "2026-06-11T15:42:10Z",
-      "open": false,
-      "returnPct": -5.22,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HUM",
       "direction": "LONG",
       "entryPrice": 350.0,
@@ -7438,7 +6609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CRM",
       "direction": "SHORT",
       "entryPrice": 182.78,
@@ -7450,7 +6621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 414.51,
@@ -7462,7 +6633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ACN",
       "direction": "SHORT",
       "entryPrice": 178.27,
@@ -7474,7 +6645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "WM",
       "direction": "SHORT",
       "entryPrice": 219.6,
@@ -7486,7 +6657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.17
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLY",
       "direction": "LONG",
       "entryPrice": 117.51,
@@ -7498,7 +6669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.17
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PLTR",
       "direction": "SHORT",
       "entryPrice": 137.31,
@@ -7510,7 +6681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BX",
       "direction": "SHORT",
       "entryPrice": 119.11,
@@ -7522,7 +6693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.17
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CRM",
       "direction": "LONG",
       "entryPrice": 174.26,
@@ -7534,7 +6705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ADBE",
       "direction": "LONG",
       "entryPrice": 236.63,
@@ -7546,7 +6717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ADSK",
       "direction": "LONG",
       "entryPrice": 224.18,
@@ -7558,7 +6729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.38
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 363.49,
@@ -7570,7 +6741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 2087.0,
@@ -7582,7 +6753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.64
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SMCI",
       "direction": "SHORT",
       "entryPrice": 33.68,
@@ -7594,7 +6765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.38
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "UNFI",
       "direction": "LONG",
       "entryPrice": 45.24,
@@ -7606,7 +6777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "KB",
       "direction": "SHORT",
       "entryPrice": 99.37,
@@ -7618,7 +6789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CRSP",
       "direction": "LONG",
       "entryPrice": 53.64,
@@ -7630,7 +6801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SF",
       "direction": "LONG",
       "entryPrice": 71.31,
@@ -7642,7 +6813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "FIG",
       "direction": "LONG",
       "entryPrice": 20.7,
@@ -7654,7 +6825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 431.28,
@@ -7666,7 +6837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.17
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 118.65,
@@ -7678,7 +6849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 118.41,
@@ -7690,43 +6861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "EW",
-      "direction": "LONG",
-      "entryPrice": 86.32,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 86.54,
-      "exitTime": "2026-06-10T15:42:27Z",
-      "open": false,
-      "returnPct": 0.25,
-      "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 331.14,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 322.06,
-      "exitTime": "2026-06-10T15:42:27Z",
-      "open": false,
-      "returnPct": -2.74,
-      "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 358.82,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 361.42,
-      "exitTime": "2026-06-10T15:42:26Z",
-      "open": false,
-      "returnPct": 0.73,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DKNG",
       "direction": "LONG",
       "entryPrice": 26.53,
@@ -7738,7 +6873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LULU",
       "direction": "SHORT",
       "entryPrice": 114.36,
@@ -7750,7 +6885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.61
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MET",
       "direction": "LONG",
       "entryPrice": 81.04,
@@ -7762,7 +6897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "REGN",
       "direction": "SHORT",
       "entryPrice": 617.63,
@@ -7774,7 +6909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "UBER",
       "direction": "SHORT",
       "entryPrice": 72.25,
@@ -7786,7 +6921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -7.03
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "APD",
       "direction": "SHORT",
       "entryPrice": 284.04,
@@ -7798,7 +6933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "VZ",
       "direction": "LONG",
       "entryPrice": 46.54,
@@ -7810,7 +6945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 88.38,
@@ -7822,7 +6957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 496.01,
@@ -7834,7 +6969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 976.26,
@@ -7846,7 +6981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.13
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AFL",
       "direction": "LONG",
       "entryPrice": 115.69,
@@ -7858,7 +6993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.13
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 331.14,
@@ -7870,7 +7005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.61
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 486.58,
@@ -7882,7 +7017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.61
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 932.93,
@@ -7894,7 +7029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AZI",
       "direction": "LONG",
       "entryPrice": 3.41,
@@ -7906,7 +7041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "UTI",
       "direction": "SHORT",
       "entryPrice": 37.65,
@@ -7918,7 +7053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LULU",
       "direction": "LONG",
       "entryPrice": 115.27,
@@ -7930,7 +7065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.61
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GLP",
       "direction": "LONG",
       "entryPrice": 48.0,
@@ -7942,7 +7077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -7.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UPS",
       "direction": "LONG",
       "entryPrice": 109.92,
@@ -7954,7 +7089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ULTA",
       "direction": "LONG",
       "entryPrice": 464.84,
@@ -7966,7 +7101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.79
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BMNR",
       "direction": "LONG",
       "entryPrice": 16.82,
@@ -7978,7 +7113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.13
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GMM",
       "direction": "LONG",
       "entryPrice": 0.18,
@@ -7990,7 +7125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "SHW",
       "direction": "LONG",
       "entryPrice": 311.12,
@@ -8002,7 +7137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.92
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "CELC",
       "direction": "LONG",
       "entryPrice": 93.94,
@@ -8014,7 +7149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "BBIO",
       "direction": "LONG",
       "entryPrice": 69.12,
@@ -8026,7 +7161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "MNKD",
       "direction": "LONG",
       "entryPrice": 3.67,
@@ -8038,7 +7173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "OTLK",
       "direction": "LONG",
       "entryPrice": 0.73,
@@ -8050,7 +7185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS MANY SCANNER FDA Calendar",
+      "strategy": "Stocks Many Scanner FDA Calendar",
       "ticker": "SMMT",
       "direction": "LONG",
       "entryPrice": 13.78,
@@ -8062,7 +7197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 222.48,
@@ -8074,7 +7209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AIZ",
       "direction": "LONG",
       "entryPrice": 251.24,
@@ -8086,7 +7221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 230.98,
@@ -8098,7 +7233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 222.49,
@@ -8110,7 +7245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 216.41,
@@ -8122,79 +7257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.13
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 486.58,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 465.0,
-      "exitTime": "2026-06-09T15:38:34Z",
-      "open": false,
-      "returnPct": -4.44,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 216.09,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 203.5,
-      "exitTime": "2026-06-09T15:38:33Z",
-      "open": false,
-      "returnPct": -5.82,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 45.96,
-      "entryTime": "2026-06-04T15:37:54Z",
-      "exitPrice": 46.86,
-      "exitTime": "2026-06-09T15:38:33Z",
-      "open": false,
-      "returnPct": 1.97,
-      "qqqReturnPct": -4.43
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 745.04,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 700.88,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": -5.93,
-      "qqqReturnPct": -5.14
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 68.43,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 69.06,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": 0.93,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 83.33,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 81.72,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": -1.93,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PLD",
       "direction": "LONG",
       "entryPrice": 139.2,
@@ -8206,7 +7269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.14
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLV",
       "direction": "LONG",
       "entryPrice": 147.39,
@@ -8218,7 +7281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.7
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BA",
       "direction": "SHORT",
       "entryPrice": 224.42,
@@ -8230,7 +7293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.7
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 306.95,
@@ -8242,7 +7305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.7
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CARR",
       "direction": "LONG",
       "entryPrice": 68.43,
@@ -8254,7 +7317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.89
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 216.09,
@@ -8266,7 +7329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.89
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 225.82,
@@ -8278,7 +7341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "EW",
       "direction": "LONG",
       "entryPrice": 86.32,
@@ -8290,7 +7353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QQQ",
       "direction": "LONG",
       "entryPrice": 745.04,
@@ -8302,7 +7365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.14
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "OCC",
       "direction": "LONG",
       "entryPrice": 21.05,
@@ -8314,7 +7377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ABAT",
       "direction": "LONG",
       "entryPrice": 4.16,
@@ -8326,7 +7389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CBRS",
       "direction": "LONG",
       "entryPrice": 235.49,
@@ -8338,7 +7401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NOK",
       "direction": "SHORT",
       "entryPrice": 15.14,
@@ -8350,7 +7413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ALM",
       "direction": "SHORT",
       "entryPrice": 16.89,
@@ -8362,7 +7425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TTAN",
       "direction": "SHORT",
       "entryPrice": 78.25,
@@ -8374,7 +7437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TGTX",
       "direction": "LONG",
       "entryPrice": 40.32,
@@ -8386,7 +7449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.89
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CRWD",
       "direction": "LONG",
       "entryPrice": 697.8,
@@ -8398,7 +7461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.43
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PL",
       "direction": "SHORT",
       "entryPrice": 32.91,
@@ -8410,7 +7473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "POET",
       "direction": "SHORT",
       "entryPrice": 13.05,
@@ -8422,7 +7485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 488.17,
@@ -8434,7 +7497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 157.21,
@@ -8446,7 +7509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AKAM",
       "direction": "LONG",
       "entryPrice": 153.06,
@@ -8458,7 +7521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 904.77,
@@ -8470,7 +7533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 362.08,
@@ -8482,7 +7545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ORCL",
       "direction": "LONG",
       "entryPrice": 210.15,
@@ -8494,7 +7557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 402.36,
@@ -8506,7 +7569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "IBM",
       "direction": "LONG",
       "entryPrice": 289.8,
@@ -8518,55 +7581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 103.83,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 110.91,
-      "exitTime": "2026-06-08T15:35:44Z",
-      "open": false,
-      "returnPct": 6.82,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 225.82,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 218.78,
-      "exitTime": "2026-06-08T15:35:43Z",
-      "open": false,
-      "returnPct": -3.12,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 118.54,
-      "entryTime": "2026-05-29T15:41:02Z",
-      "exitPrice": 120.77,
-      "exitTime": "2026-06-08T15:35:41Z",
-      "open": false,
-      "returnPct": 1.88,
-      "qqqReturnPct": -3.01
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 47.88,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 49.06,
-      "exitTime": "2026-06-08T15:35:41Z",
-      "open": false,
-      "returnPct": 2.46,
-      "qqqReturnPct": -4.03
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CRWD",
       "direction": "LONG",
       "entryPrice": 693.34,
@@ -8578,7 +7593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DXCM",
       "direction": "LONG",
       "entryPrice": 72.15,
@@ -8590,7 +7605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 103.83,
@@ -8602,7 +7617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 83.33,
@@ -8614,7 +7629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GILD",
       "direction": "LONG",
       "entryPrice": 130.72,
@@ -8626,7 +7641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.59
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "KEEL",
       "direction": "SHORT",
       "entryPrice": 5.1,
@@ -8638,7 +7653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RMSG",
       "direction": "SHORT",
       "entryPrice": 2.15,
@@ -8650,7 +7665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CIEN",
       "direction": "SHORT",
       "entryPrice": 507.44,
@@ -8662,7 +7677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FIVE",
       "direction": "SHORT",
       "entryPrice": 191.98,
@@ -8674,7 +7689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "OSCR",
       "direction": "LONG",
       "entryPrice": 23.59,
@@ -8686,7 +7701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TMHC",
       "direction": "LONG",
       "entryPrice": 71.63,
@@ -8698,7 +7713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.59
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "MLYS",
       "direction": "SHORT",
       "entryPrice": 24.56,
@@ -8710,7 +7725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "HP",
       "direction": "LONG",
       "entryPrice": 39.01,
@@ -8722,7 +7737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.59
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BRBR",
       "direction": "LONG",
       "entryPrice": 9.23,
@@ -8734,7 +7749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "LULU",
       "direction": "LONG",
       "entryPrice": 114.92,
@@ -8746,7 +7761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EOG",
       "direction": "LONG",
       "entryPrice": 139.9,
@@ -8758,7 +7773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIFR",
       "direction": "LONG",
       "entryPrice": 24.25,
@@ -8770,7 +7785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 187.45,
@@ -8782,7 +7797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "IRM",
       "direction": "LONG",
       "entryPrice": 126.57,
@@ -8794,7 +7809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AAL",
       "direction": "LONG",
       "entryPrice": 13.53,
@@ -8806,7 +7821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APH",
       "direction": "LONG",
       "entryPrice": 142.57,
@@ -8818,7 +7833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APP",
       "direction": "LONG",
       "entryPrice": 571.37,
@@ -8830,7 +7845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "BBY",
       "direction": "LONG",
       "entryPrice": 70.82,
@@ -8842,7 +7857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CHD",
       "direction": "LONG",
       "entryPrice": 95.25,
@@ -8854,7 +7869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 87.93,
@@ -8866,7 +7881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DRI",
       "direction": "LONG",
       "entryPrice": 196.46,
@@ -8878,7 +7893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 255.31,
@@ -8890,7 +7905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 104.09,
@@ -8902,7 +7917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "EOG",
       "direction": "LONG",
       "entryPrice": 139.8,
@@ -8914,7 +7929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 303.87,
@@ -8926,7 +7941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 187.26,
@@ -8938,7 +7953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 216.51,
@@ -8950,7 +7965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 223.65,
@@ -8962,7 +7977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 87.93,
@@ -8974,7 +7989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.03
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "CLSK",
       "direction": "LONG",
       "entryPrice": 15.07,
@@ -8986,7 +8001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MARA",
       "direction": "LONG",
       "entryPrice": 12.54,
@@ -8998,7 +8013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "RIOT",
       "direction": "LONG",
       "entryPrice": 25.1,
@@ -9010,7 +8025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "QUBT",
       "direction": "LONG",
       "entryPrice": 10.24,
@@ -9022,7 +8037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "BBAI",
       "direction": "LONG",
       "entryPrice": 4.37,
@@ -9034,7 +8049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 43.12,
@@ -9046,7 +8061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "IONQ",
       "direction": "LONG",
       "entryPrice": 60.43,
@@ -9058,79 +8073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 420.42,
-      "entryTime": "2026-06-04T15:37:54Z",
-      "exitPrice": 401.04,
-      "exitTime": "2026-06-05T15:40:31Z",
-      "open": false,
-      "returnPct": -4.61,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 85.6,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 88.18,
-      "exitTime": "2026-06-05T15:40:30Z",
-      "open": false,
-      "returnPct": 3.03,
-      "qqqReturnPct": -5.26
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "SBUX",
-      "direction": "LONG",
-      "entryPrice": 95.75,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 95.77,
-      "exitTime": "2026-06-05T15:40:28Z",
-      "open": false,
-      "returnPct": 0.02,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 301.82,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 313.17,
-      "exitTime": "2026-06-05T15:40:28Z",
-      "open": false,
-      "returnPct": 3.76,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 55.65,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 56.26,
-      "exitTime": "2026-06-05T15:40:27Z",
-      "open": false,
-      "returnPct": 1.1,
-      "qqqReturnPct": -4.15
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 130.72,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 130.78,
-      "exitTime": "2026-06-05T15:40:27Z",
-      "open": false,
-      "returnPct": 0.04,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CLSK",
       "direction": "LONG",
       "entryPrice": 16.69,
@@ -9142,7 +8085,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "F",
       "direction": "LONG",
       "entryPrice": 15.85,
@@ -9154,7 +8097,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GD",
       "direction": "LONG",
       "entryPrice": 348.54,
@@ -9166,7 +8109,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ABBV",
       "direction": "LONG",
       "entryPrice": 212.64,
@@ -9178,7 +8121,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.07
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 114.58,
@@ -9190,7 +8133,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.07
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "IWM",
       "direction": "LONG",
       "entryPrice": 291.85,
@@ -9202,7 +8145,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.15
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CSX",
       "direction": "LONG",
       "entryPrice": 45.96,
@@ -9214,7 +8157,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 412.51,
@@ -9226,7 +8169,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 164.73,
@@ -9238,7 +8181,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 47.37,
@@ -9250,7 +8193,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TSLA",
       "direction": "LONG",
       "entryPrice": 420.42,
@@ -9262,7 +8205,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 85.6,
@@ -9274,7 +8217,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "XLB",
       "direction": "LONG",
       "entryPrice": 51.31,
@@ -9286,7 +8229,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.34
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 118.54,
@@ -9298,7 +8241,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.5
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 1058.15,
@@ -9310,7 +8253,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 522.28,
@@ -9322,7 +8265,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.15
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BB",
       "direction": "LONG",
       "entryPrice": 10.72,
@@ -9334,7 +8277,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NVTS",
       "direction": "LONG",
       "entryPrice": 30.91,
@@ -9346,7 +8289,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NTSK",
       "direction": "LONG",
       "entryPrice": 10.45,
@@ -9358,7 +8301,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PENG",
       "direction": "LONG",
       "entryPrice": 71.84,
@@ -9370,7 +8313,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.51
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LUNR",
       "direction": "SHORT",
       "entryPrice": 34.01,
@@ -9382,7 +8325,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RKLB",
       "direction": "SHORT",
       "entryPrice": 123.87,
@@ -9394,7 +8337,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.07
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "HUBS",
       "direction": "SHORT",
       "entryPrice": 229.43,
@@ -9406,7 +8349,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.51
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "XMTR",
       "direction": "SHORT",
       "entryPrice": 83.88,
@@ -9418,7 +8361,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.51
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "EU",
       "direction": "LONG",
       "entryPrice": 1.6,
@@ -9430,7 +8373,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 253.9,
@@ -9442,7 +8385,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 300.14,
@@ -9454,7 +8397,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.5
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "TDG",
       "direction": "LONG",
       "entryPrice": 1224.53,
@@ -9466,7 +8409,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DLR",
       "direction": "LONG",
       "entryPrice": 182.35,
@@ -9478,7 +8421,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALGN",
       "direction": "LONG",
       "entryPrice": 165.27,
@@ -9490,7 +8433,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.26
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GILD",
       "direction": "LONG",
       "entryPrice": 132.37,
@@ -9502,55 +8445,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -5.07
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 232.39,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 221.91,
-      "exitTime": "2026-06-04T15:37:51Z",
-      "open": false,
-      "returnPct": -4.51,
-      "qqqReturnPct": -0.74
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "XLB",
-      "direction": "LONG",
-      "entryPrice": 51.31,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 51.76,
-      "exitTime": "2026-06-04T15:37:49Z",
-      "open": false,
-      "returnPct": 0.89,
-      "qqqReturnPct": 1.53
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 377.78,
-      "entryTime": "2026-05-29T15:41:02Z",
-      "exitPrice": 397.8,
-      "exitTime": "2026-06-04T15:37:49Z",
-      "open": false,
-      "returnPct": 5.3,
-      "qqqReturnPct": 0.31
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 434.45,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 418.79,
-      "exitTime": "2026-06-04T15:37:48Z",
-      "open": false,
-      "returnPct": -3.6,
-      "qqqReturnPct": 1.41
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DE",
       "direction": "SHORT",
       "entryPrice": 571.95,
@@ -9562,7 +8457,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1074.5,
@@ -9574,7 +8469,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.29
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SNAP",
       "direction": "SHORT",
       "entryPrice": 5.87,
@@ -9586,7 +8481,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.53
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ABNB",
       "direction": "SHORT",
       "entryPrice": 133.99,
@@ -9598,7 +8493,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.53
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PINS",
       "direction": "LONG",
       "entryPrice": 20.47,
@@ -9610,7 +8505,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.68
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 358.82,
@@ -9622,7 +8517,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.48
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 47.88,
@@ -9634,7 +8529,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 397.28,
@@ -9646,7 +8541,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "VZ",
       "direction": "LONG",
       "entryPrice": 48.06,
@@ -9658,7 +8553,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.68
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TSLA",
       "direction": "LONG",
       "entryPrice": 434.45,
@@ -9670,7 +8565,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.41
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LASE",
       "direction": "LONG",
       "entryPrice": 3.78,
@@ -9682,7 +8577,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.48
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SDOT",
       "direction": "LONG",
       "entryPrice": 7.27,
@@ -9694,7 +8589,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.48
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ARM",
       "direction": "LONG",
       "entryPrice": 413.99,
@@ -9706,7 +8601,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.29
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NTAP",
       "direction": "LONG",
       "entryPrice": 180.38,
@@ -9718,7 +8613,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.31
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AGI",
       "direction": "LONG",
       "entryPrice": 38.41,
@@ -9730,7 +8625,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.68
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 367.48,
@@ -9742,7 +8637,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CNC",
       "direction": "LONG",
       "entryPrice": 58.97,
@@ -9754,7 +8649,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.48
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AIZ",
       "direction": "LONG",
       "entryPrice": 247.98,
@@ -9766,7 +8661,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CAH",
       "direction": "LONG",
       "entryPrice": 195.19,
@@ -9778,7 +8673,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GE",
       "direction": "LONG",
       "entryPrice": 312.61,
@@ -9790,7 +8685,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.48
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 234.13,
@@ -9802,7 +8697,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 78.37,
@@ -9814,7 +8709,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 1080.86,
@@ -9826,7 +8721,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 222.13,
@@ -9838,7 +8733,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 405.94,
@@ -9850,19 +8745,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 513.28,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 537.15,
-      "exitTime": "2026-06-03T15:37:08Z",
-      "open": false,
-      "returnPct": 4.65,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ROKU",
       "direction": "LONG",
       "entryPrice": 132.1,
@@ -9874,7 +8757,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.8
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BX",
       "direction": "LONG",
       "entryPrice": 118.75,
@@ -9886,7 +8769,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLY",
       "direction": "LONG",
       "entryPrice": 119.05,
@@ -9898,7 +8781,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TT",
       "direction": "LONG",
       "entryPrice": 459.88,
@@ -9910,7 +8793,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ETN",
       "direction": "LONG",
       "entryPrice": 407.88,
@@ -9922,7 +8805,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PM",
       "direction": "LONG",
       "entryPrice": 173.21,
@@ -9934,7 +8817,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 232.39,
@@ -9946,7 +8829,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 377.78,
@@ -9958,7 +8841,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.8
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 513.28,
@@ -9970,7 +8853,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 55.65,
@@ -9982,7 +8865,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.17
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 358.93,
@@ -9994,7 +8877,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 450.93,
@@ -10006,7 +8889,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 966.65,
@@ -10018,7 +8901,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.8
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 393.15,
@@ -10030,7 +8913,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.33
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 853.34,
@@ -10042,7 +8925,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.08
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 1894.31,
@@ -10054,7 +8937,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.72
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PRAX",
       "direction": "SHORT",
       "entryPrice": 293.7,
@@ -10066,7 +8949,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 279.7,
@@ -10078,7 +8961,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LAC",
       "direction": "LONG",
       "entryPrice": 6.05,
@@ -10090,7 +8973,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BYD",
       "direction": "LONG",
       "entryPrice": 82.25,
@@ -10102,7 +8985,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.02
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SAP",
       "direction": "LONG",
       "entryPrice": 193.4,
@@ -10114,7 +8997,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 461.63,
@@ -10126,7 +9009,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 221.44,
@@ -10138,7 +9021,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ETR",
       "direction": "LONG",
       "entryPrice": 107.04,
@@ -10150,7 +9033,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 65.78,
@@ -10162,7 +9045,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 152.46,
@@ -10174,7 +9057,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 65.75,
@@ -10186,67 +9069,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 218.14,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 282.44,
-      "exitTime": "2026-06-02T15:38:39Z",
-      "open": false,
-      "returnPct": 29.48,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 454.72,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 483.71,
-      "exitTime": "2026-06-02T15:38:39Z",
-      "open": false,
-      "returnPct": 6.38,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 990.39,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 1068.76,
-      "exitTime": "2026-06-02T15:38:37Z",
-      "open": false,
-      "returnPct": 7.91,
-      "qqqReturnPct": 2.29
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "C",
-      "direction": "LONG",
-      "entryPrice": 124.4,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 131.9,
-      "exitTime": "2026-06-02T15:38:37Z",
-      "open": false,
-      "returnPct": 6.03,
-      "qqqReturnPct": 1.44
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 214.52,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 226.74,
-      "exitTime": "2026-06-02T15:38:36Z",
-      "open": false,
-      "returnPct": 5.7,
-      "qqqReturnPct": 2.17
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADBE",
       "direction": "SHORT",
       "entryPrice": 274.47,
@@ -10258,7 +9081,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 438.66,
@@ -10270,7 +9093,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 91.85,
@@ -10282,7 +9105,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 119.52,
@@ -10294,7 +9117,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.29
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 95.75,
@@ -10306,7 +9129,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NSC",
       "direction": "LONG",
       "entryPrice": 301.82,
@@ -10318,7 +9141,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 218.14,
@@ -10330,7 +9153,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 454.72,
@@ -10342,7 +9165,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 879.91,
@@ -10354,7 +9177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 1944.99,
@@ -10366,7 +9189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.44
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 116.96,
@@ -10378,7 +9201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.63
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 308.23,
@@ -10390,7 +9213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 393.33,
@@ -10402,7 +9225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.4
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SAIC",
       "direction": "LONG",
       "entryPrice": 122.86,
@@ -10414,7 +9237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FLNC",
       "direction": "LONG",
       "entryPrice": 25.83,
@@ -10426,7 +9249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RDW",
       "direction": "SHORT",
       "entryPrice": 20.59,
@@ -10438,7 +9261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 46.55,
@@ -10450,7 +9273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "HPE",
       "direction": "LONG",
       "entryPrice": 43.91,
@@ -10462,7 +9285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "UMAC",
       "direction": "LONG",
       "entryPrice": 28.13,
@@ -10474,7 +9297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.44
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AMBA",
       "direction": "SHORT",
       "entryPrice": 72.47,
@@ -10486,7 +9309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BBC",
       "direction": "LONG",
       "entryPrice": 42.89,
@@ -10498,7 +9321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.17
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ZM",
       "direction": "LONG",
       "entryPrice": 101.05,
@@ -10510,7 +9333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "CARR",
       "direction": "LONG",
       "entryPrice": 65.27,
@@ -10522,7 +9345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.5
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "WFC",
       "direction": "LONG",
       "entryPrice": 79.6,
@@ -10534,7 +9357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 9.47
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "WELL",
       "direction": "LONG",
       "entryPrice": 208.25,
@@ -10546,7 +9369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AEE",
       "direction": "LONG",
       "entryPrice": 108.25,
@@ -10558,7 +9381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NSC",
       "direction": "LONG",
       "entryPrice": 303.48,
@@ -10570,7 +9393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 291.4,
@@ -10582,7 +9405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 401.76,
@@ -10594,7 +9417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 25.96,
@@ -10606,7 +9429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 118.68,
@@ -10618,7 +9441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 378.54,
@@ -10630,7 +9453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 227.39,
@@ -10642,7 +9465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 219.0,
@@ -10654,43 +9477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 117.52,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 113.9,
-      "exitTime": "2026-06-01T15:40:10Z",
-      "open": false,
-      "returnPct": -3.08,
-      "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 197.75,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 218.23,
-      "exitTime": "2026-06-01T15:40:08Z",
-      "open": false,
-      "returnPct": 10.36,
-      "qqqReturnPct": 1.82
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "MO",
-      "direction": "LONG",
-      "entryPrice": 71.94,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 68.57,
-      "exitTime": "2026-06-01T15:40:07Z",
-      "open": false,
-      "returnPct": -4.68,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ORCL",
       "direction": "LONG",
       "entryPrice": 220.5,
@@ -10702,7 +9489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 246.38,
@@ -10714,7 +9501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TEAM",
       "direction": "LONG",
       "entryPrice": 104.04,
@@ -10726,7 +9513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NXPI",
       "direction": "LONG",
       "entryPrice": 335.8,
@@ -10738,7 +9525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 944.58,
@@ -10750,7 +9537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "WMT",
       "direction": "SHORT",
       "entryPrice": 120.45,
@@ -10762,7 +9549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 152.86,
@@ -10774,7 +9561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 130.3,
@@ -10786,7 +9573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "KMB",
       "direction": "LONG",
       "entryPrice": 99.6,
@@ -10798,7 +9585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CME",
       "direction": "SHORT",
       "entryPrice": 291.7,
@@ -10810,7 +9597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AXP",
       "direction": "LONG",
       "entryPrice": 312.14,
@@ -10822,7 +9609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 117.52,
@@ -10834,7 +9621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 306.41,
@@ -10846,7 +9633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 197.75,
@@ -10858,7 +9645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 303.15,
@@ -10870,7 +9657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.95
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NOW",
       "direction": "LONG",
       "entryPrice": 123.28,
@@ -10882,7 +9669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RDW",
       "direction": "SHORT",
       "entryPrice": 22.69,
@@ -10894,7 +9681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SPCE",
       "direction": "LONG",
       "entryPrice": 4.89,
@@ -10906,7 +9693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PDD",
       "direction": "SHORT",
       "entryPrice": 85.86,
@@ -10918,7 +9705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "SNOW",
       "direction": "LONG",
       "entryPrice": 237.22,
@@ -10930,7 +9717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "OKTA",
       "direction": "LONG",
       "entryPrice": 119.74,
@@ -10942,7 +9729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BBWI",
       "direction": "LONG",
       "entryPrice": 19.89,
@@ -10954,7 +9741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 1.6,
@@ -10966,7 +9753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ELAB",
       "direction": "LONG",
       "entryPrice": 1.71,
@@ -10978,7 +9765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DOC",
       "direction": "LONG",
       "entryPrice": 19.49,
@@ -10990,7 +9777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APD",
       "direction": "LONG",
       "entryPrice": 282.66,
@@ -11002,7 +9789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CB",
       "direction": "LONG",
       "entryPrice": 318.6,
@@ -11014,7 +9801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CAH",
       "direction": "LONG",
       "entryPrice": 200.0,
@@ -11026,7 +9813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 128.53,
@@ -11038,7 +9825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 67.58,
@@ -11050,7 +9837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 102.57,
@@ -11062,7 +9849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALL",
       "direction": "LONG",
       "entryPrice": 212.29,
@@ -11074,7 +9861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "BMY",
       "direction": "LONG",
       "entryPrice": 58.4,
@@ -11086,7 +9873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 410.0,
@@ -11098,7 +9885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AEP",
       "direction": "LONG",
       "entryPrice": 128.51,
@@ -11110,7 +9897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 314.17,
@@ -11122,7 +9909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 102.39,
@@ -11134,7 +9921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MET",
       "direction": "LONG",
       "entryPrice": 83.26,
@@ -11146,7 +9933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 119.27,
@@ -11158,7 +9945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "D",
       "direction": "LONG",
       "entryPrice": 67.54,
@@ -11170,7 +9957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BMY",
       "direction": "LONG",
       "entryPrice": 58.37,
@@ -11182,7 +9969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "SPCE",
       "direction": "LONG",
       "entryPrice": 8.07,
@@ -11194,7 +9981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 73.68,
@@ -11206,7 +9993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 188.07,
@@ -11218,7 +10005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "PLTR",
       "direction": "LONG",
       "entryPrice": 134.32,
@@ -11230,7 +10017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.51
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "QUBT",
       "direction": "LONG",
       "entryPrice": 11.64,
@@ -11242,7 +10029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "CLSK",
       "direction": "LONG",
       "entryPrice": 17.25,
@@ -11254,7 +10041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "HIMS",
       "direction": "LONG",
       "entryPrice": 24.28,
@@ -11266,7 +10053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "BBAI",
       "direction": "LONG",
       "entryPrice": 4.77,
@@ -11278,7 +10065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "IONQ",
       "direction": "LONG",
       "entryPrice": 67.95,
@@ -11290,7 +10077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "TSLA",
       "direction": "LONG",
       "entryPrice": 430.54,
@@ -11302,7 +10089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MARA",
       "direction": "LONG",
       "entryPrice": 13.7,
@@ -11314,7 +10101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SNAP",
       "direction": "LONG",
       "entryPrice": 5.76,
@@ -11326,43 +10113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "WDAY",
-      "direction": "LONG",
-      "entryPrice": 126.25,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 142.55,
-      "exitTime": "2026-05-29T15:41:01Z",
-      "open": false,
-      "returnPct": 12.91,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 312.74,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 328.61,
-      "exitTime": "2026-05-29T15:41:00Z",
-      "open": false,
-      "returnPct": 5.07,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 303.15,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 311.94,
-      "exitTime": "2026-05-29T15:40:59Z",
-      "open": false,
-      "returnPct": 2.9,
-      "qqqReturnPct": 3.33
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HOOD",
       "direction": "LONG",
       "entryPrice": 79.89,
@@ -11374,7 +10125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CRWD",
       "direction": "LONG",
       "entryPrice": 642.79,
@@ -11386,7 +10137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NSC",
       "direction": "LONG",
       "entryPrice": 319.52,
@@ -11398,7 +10149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DDOG",
       "direction": "LONG",
       "entryPrice": 225.07,
@@ -11410,7 +10161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "FTNT",
       "direction": "LONG",
       "entryPrice": 127.33,
@@ -11422,7 +10173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PANW",
       "direction": "LONG",
       "entryPrice": 248.82,
@@ -11434,7 +10185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NET",
       "direction": "LONG",
       "entryPrice": 218.9,
@@ -11446,7 +10197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "COST",
       "direction": "SHORT",
       "entryPrice": 999.22,
@@ -11458,7 +10209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "VRTX",
       "direction": "SHORT",
       "entryPrice": 428.86,
@@ -11470,7 +10221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.33
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MET",
       "direction": "LONG",
       "entryPrice": 83.62,
@@ -11482,7 +10233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.33
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 301.26,
@@ -11494,7 +10245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.33
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DUK",
       "direction": "LONG",
       "entryPrice": 124.48,
@@ -11506,7 +10257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.33
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SO",
       "direction": "LONG",
       "entryPrice": 94.17,
@@ -11518,7 +10269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.33
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 231.2,
@@ -11530,7 +10281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "C",
       "direction": "LONG",
       "entryPrice": 124.4,
@@ -11542,7 +10293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 214.52,
@@ -11554,7 +10305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 876.3,
@@ -11566,7 +10317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AMPX",
       "direction": "LONG",
       "entryPrice": 21.34,
@@ -11578,7 +10329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ATS",
       "direction": "SHORT",
       "entryPrice": 29.83,
@@ -11590,7 +10341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ONDS",
       "direction": "LONG",
       "entryPrice": 12.98,
@@ -11602,7 +10353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "DY",
       "direction": "LONG",
       "entryPrice": 541.14,
@@ -11614,7 +10365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ZS",
       "direction": "SHORT",
       "entryPrice": 125.8,
@@ -11626,7 +10377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AZO",
       "direction": "SHORT",
       "entryPrice": 3029.82,
@@ -11638,7 +10389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ASTS",
       "direction": "LONG",
       "entryPrice": 125.7,
@@ -11650,7 +10401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ANF",
       "direction": "LONG",
       "entryPrice": 83.74,
@@ -11662,7 +10413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "TTWO",
       "direction": "LONG",
       "entryPrice": 224.23,
@@ -11674,7 +10425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.89
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "HUBC",
       "direction": "LONG",
       "entryPrice": 0.12,
@@ -11686,7 +10437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AFL",
       "direction": "LONG",
       "entryPrice": 116.4,
@@ -11698,7 +10449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ACGL",
       "direction": "LONG",
       "entryPrice": 93.74,
@@ -11710,7 +10461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 118.61,
@@ -11722,7 +10473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 1001.3,
@@ -11734,7 +10485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 440.39,
@@ -11746,7 +10497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 116.64,
@@ -11758,7 +10509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 211.03,
@@ -11770,7 +10521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 1001.49,
@@ -11782,55 +10533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "ESTC",
-      "direction": "LONG",
-      "entryPrice": 54.51,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 58.35,
-      "exitTime": "2026-05-28T15:41:01Z",
-      "open": false,
-      "returnPct": 7.03,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 224.93,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 244.48,
-      "exitTime": "2026-05-28T15:41:01Z",
-      "open": false,
-      "returnPct": 8.69,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GOOG",
-      "direction": "LONG",
-      "entryPrice": 384.02,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 386.29,
-      "exitTime": "2026-05-28T15:40:59Z",
-      "open": false,
-      "returnPct": 0.59,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 386.33,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 385.7,
-      "exitTime": "2026-05-28T15:40:59Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BAC",
       "direction": "LONG",
       "entryPrice": 51.28,
@@ -11842,7 +10545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CSX",
       "direction": "LONG",
       "entryPrice": 46.51,
@@ -11854,7 +10557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 54.41,
@@ -11866,7 +10569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 217.2,
@@ -11878,7 +10581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 195.82,
@@ -11890,7 +10593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "C",
       "direction": "LONG",
       "entryPrice": 124.6,
@@ -11902,7 +10605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 990.39,
@@ -11914,7 +10617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "INTU",
       "direction": "LONG",
       "entryPrice": 312.74,
@@ -11926,7 +10629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "WDAY",
       "direction": "LONG",
       "entryPrice": 126.25,
@@ -11938,7 +10641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ESTC",
       "direction": "LONG",
       "entryPrice": 54.51,
@@ -11950,7 +10653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.73
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 224.93,
@@ -11962,7 +10665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 386.33,
@@ -11974,7 +10677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.15
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 472.19,
@@ -11986,7 +10689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.52
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LUNR",
       "direction": "LONG",
       "entryPrice": 39.02,
@@ -11998,7 +10701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ASTC",
       "direction": "LONG",
       "entryPrice": 10.37,
@@ -12010,7 +10713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "DELL",
       "direction": "LONG",
       "entryPrice": 289.12,
@@ -12022,7 +10725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.52
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RDW",
       "direction": "LONG",
       "entryPrice": 22.25,
@@ -12034,7 +10737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.73
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "YSS",
       "direction": "LONG",
       "entryPrice": 34.83,
@@ -12046,7 +10749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.73
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UBS",
       "direction": "LONG",
       "entryPrice": 47.56,
@@ -12058,7 +10761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.73
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ZS",
       "direction": "LONG",
       "entryPrice": 129.34,
@@ -12070,7 +10773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CINF",
       "direction": "LONG",
       "entryPrice": 166.1,
@@ -12082,19 +10785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.94,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 89.35,
-      "exitTime": "2026-05-27T15:36:30Z",
-      "open": false,
-      "returnPct": 5.19,
-      "qqqReturnPct": -0.11
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 79.27,
@@ -12106,7 +10797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 386.3,
@@ -12118,7 +10809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.29
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MDB",
       "direction": "SHORT",
       "entryPrice": 313.52,
@@ -12130,7 +10821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.09
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CVS",
       "direction": "LONG",
       "entryPrice": 94.84,
@@ -12142,7 +10833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ISRG",
       "direction": "SHORT",
       "entryPrice": 443.17,
@@ -12154,7 +10845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ZTS",
       "direction": "SHORT",
       "entryPrice": 79.3,
@@ -12166,7 +10857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DHR",
       "direction": "SHORT",
       "entryPrice": 168.77,
@@ -12178,7 +10869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "PFE",
       "direction": "SHORT",
       "entryPrice": 25.81,
@@ -12190,7 +10881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MO",
       "direction": "LONG",
       "entryPrice": 71.94,
@@ -12202,7 +10893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.11
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 339.15,
@@ -12214,7 +10905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TEAM",
       "direction": "LONG",
       "entryPrice": 84.94,
@@ -12226,7 +10917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.11
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 384.02,
@@ -12238,7 +10929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AFL",
       "direction": "LONG",
       "entryPrice": 117.92,
@@ -12250,7 +10941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.09
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "MOD",
       "direction": "LONG",
       "entryPrice": 310.57,
@@ -12262,7 +10953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.11
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "APLD",
       "direction": "LONG",
       "entryPrice": 46.71,
@@ -12274,7 +10965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.09
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "VTOL",
       "direction": "LONG",
       "entryPrice": 42.48,
@@ -12286,7 +10977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.98
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CAVA",
       "direction": "LONG",
       "entryPrice": 81.33,
@@ -12298,7 +10989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.29
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "IMAX",
       "direction": "LONG",
       "entryPrice": 38.87,
@@ -12310,67 +11001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 130.83,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 133.68,
-      "exitTime": "2026-05-26T15:39:31Z",
-      "open": false,
-      "returnPct": 2.18,
-      "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "ADI",
-      "direction": "LONG",
-      "entryPrice": 387.01,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 415.88,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": 7.46,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "CVS",
-      "direction": "LONG",
-      "entryPrice": 94.47,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 91.92,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": -2.7,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 117.92,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 117.39,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": -0.45,
-      "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 387.2,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 386.25,
-      "exitTime": "2026-05-26T15:39:29Z",
-      "open": false,
-      "returnPct": -0.25,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 188.74,
@@ -12382,7 +11013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GD",
       "direction": "SHORT",
       "entryPrice": 337.83,
@@ -12394,7 +11025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BKNG",
       "direction": "SHORT",
       "entryPrice": 157.29,
@@ -12406,7 +11037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.1
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BA",
       "direction": "SHORT",
       "entryPrice": 217.06,
@@ -12418,7 +11049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 194.03,
@@ -12430,7 +11061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "REGN",
       "direction": "SHORT",
       "entryPrice": 625.0,
@@ -12442,7 +11073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLK",
       "direction": "LONG",
       "entryPrice": 177.6,
@@ -12454,7 +11085,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SPY",
       "direction": "LONG",
       "entryPrice": 741.78,
@@ -12466,7 +11097,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CMG",
       "direction": "SHORT",
       "entryPrice": 32.63,
@@ -12478,7 +11109,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MAR",
       "direction": "LONG",
       "entryPrice": 360.52,
@@ -12490,7 +11121,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MCD",
       "direction": "SHORT",
       "entryPrice": 275.95,
@@ -12502,7 +11133,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ABNB",
       "direction": "LONG",
       "entryPrice": 130.83,
@@ -12514,7 +11145,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 387.01,
@@ -12526,7 +11157,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CVS",
       "direction": "LONG",
       "entryPrice": 94.47,
@@ -12538,7 +11169,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 89.2,
@@ -12550,7 +11181,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "SLB",
       "direction": "LONG",
       "entryPrice": 57.58,
@@ -12562,7 +11193,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "EPD",
       "direction": "LONG",
       "entryPrice": 38.91,
@@ -12574,7 +11205,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 765.7,
@@ -12586,7 +11217,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "BA",
       "direction": "LONG",
       "entryPrice": 222.65,
@@ -12598,7 +11229,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 52.5,
@@ -12610,7 +11241,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 415.02,
@@ -12622,7 +11253,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "ABNB",
       "direction": "LONG",
       "entryPrice": 132.66,
@@ -12634,7 +11265,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.01
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "INFQ",
       "direction": "LONG",
       "entryPrice": 17.51,
@@ -12646,7 +11277,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NIO",
       "direction": "SHORT",
       "entryPrice": 5.47,
@@ -12658,7 +11289,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "OCTVV",
       "direction": "SHORT",
       "entryPrice": 21.5,
@@ -12670,7 +11301,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CAE",
       "direction": "SHORT",
       "entryPrice": 23.43,
@@ -12682,7 +11313,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RAMP",
       "direction": "LONG",
       "entryPrice": 37.86,
@@ -12694,7 +11325,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CMBT",
       "direction": "LONG",
       "entryPrice": 16.85,
@@ -12706,7 +11337,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.1
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "WAY",
       "direction": "LONG",
       "entryPrice": 19.67,
@@ -12718,7 +11349,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.1
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BRC",
       "direction": "LONG",
       "entryPrice": 80.89,
@@ -12730,7 +11361,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 601.98,
@@ -12742,7 +11373,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "IBM",
       "direction": "LONG",
       "entryPrice": 258.11,
@@ -12754,7 +11385,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HLT",
       "direction": "LONG",
       "entryPrice": 320.85,
@@ -12766,7 +11397,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 156.34,
@@ -12778,7 +11409,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "WMB",
       "direction": "LONG",
       "entryPrice": 77.66,
@@ -12790,7 +11421,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CCI",
       "direction": "LONG",
       "entryPrice": 91.88,
@@ -12802,7 +11433,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HAL",
       "direction": "LONG",
       "entryPrice": 42.19,
@@ -12814,7 +11445,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "KMI",
       "direction": "LONG",
       "entryPrice": 33.58,
@@ -12826,7 +11457,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 381.99,
@@ -12838,7 +11469,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 384.76,
@@ -12850,7 +11481,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 1045.03,
@@ -12862,7 +11493,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CTVA",
       "direction": "LONG",
       "entryPrice": 79.54,
@@ -12874,7 +11505,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CME",
       "direction": "LONG",
       "entryPrice": 298.93,
@@ -12886,7 +11517,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 103.04,
@@ -12898,7 +11529,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 156.28,
@@ -12910,7 +11541,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 122.42,
@@ -12922,7 +11553,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "DE",
       "direction": "LONG",
       "entryPrice": 522.93,
@@ -12934,7 +11565,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MNST",
       "direction": "LONG",
       "entryPrice": 86.3,
@@ -12946,7 +11577,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 121.34,
@@ -12958,7 +11589,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 1043.93,
@@ -12970,7 +11601,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.21
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 384.85,
@@ -12982,7 +11613,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CME",
       "direction": "LONG",
       "entryPrice": 299.17,
@@ -12994,31 +11625,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "KESTREL",
-      "ticker": "TXN",
-      "direction": "LONG",
-      "entryPrice": 295.4,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 312.7,
-      "exitTime": "2026-05-22T15:39:00Z",
-      "open": false,
-      "returnPct": 5.86,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "KESTREL",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 114.61,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 121.46,
-      "exitTime": "2026-05-22T15:39:00Z",
-      "open": false,
-      "returnPct": 5.98,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ANET",
       "direction": "LONG",
       "entryPrice": 145.1,
@@ -13030,7 +11637,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ARM",
       "direction": "LONG",
       "entryPrice": 283.0,
@@ -13042,7 +11649,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TSLA",
       "direction": "SHORT",
       "entryPrice": 409.13,
@@ -13054,7 +11661,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 202.36,
@@ -13066,7 +11673,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MCK",
       "direction": "SHORT",
       "entryPrice": 747.85,
@@ -13078,7 +11685,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "VZ",
       "direction": "LONG",
       "entryPrice": 47.1,
@@ -13090,7 +11697,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 114.61,
@@ -13102,7 +11709,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 295.4,
@@ -13114,7 +11721,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 278.68,
@@ -13126,7 +11733,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "SNPS",
       "direction": "LONG",
       "entryPrice": 494.07,
@@ -13138,7 +11745,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 704.19,
@@ -13150,7 +11757,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 419.38,
@@ -13162,7 +11769,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 1753.23,
@@ -13174,7 +11781,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.46
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "QBTS",
       "direction": "LONG",
       "entryPrice": 24.37,
@@ -13186,7 +11793,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AAP",
       "direction": "LONG",
       "entryPrice": 61.1,
@@ -13198,7 +11805,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RGTI",
       "direction": "LONG",
       "entryPrice": 21.16,
@@ -13210,7 +11817,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "AGYS",
       "direction": "SHORT",
       "entryPrice": 79.24,
@@ -13222,7 +11829,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.28
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "INFQ",
       "direction": "LONG",
       "entryPrice": 14.89,
@@ -13234,7 +11841,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NOW",
       "direction": "SHORT",
       "entryPrice": 104.03,
@@ -13246,7 +11853,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.28
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "JD",
       "direction": "LONG",
       "entryPrice": 32.6,
@@ -13258,7 +11865,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.62
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 32.74,
@@ -13270,7 +11877,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.62
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "INTU",
       "direction": "SHORT",
       "entryPrice": 308.17,
@@ -13282,7 +11889,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 388.88,
@@ -13294,7 +11901,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "FRT",
       "direction": "LONG",
       "entryPrice": 114.77,
@@ -13306,7 +11913,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.62
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "SNPS",
       "direction": "LONG",
       "entryPrice": 495.63,
@@ -13318,7 +11925,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.28
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALB",
       "direction": "LONG",
       "entryPrice": 179.35,
@@ -13330,7 +11937,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ETN",
       "direction": "LONG",
       "entryPrice": 385.68,
@@ -13342,7 +11949,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 388.27,
@@ -13354,7 +11961,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 300.66,
@@ -13366,7 +11973,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 115.32,
@@ -13378,7 +11985,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.62
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NEE",
       "direction": "LONG",
       "entryPrice": 89.11,
@@ -13390,7 +11997,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 415.83,
@@ -13402,7 +12009,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DE",
       "direction": "SHORT",
       "entryPrice": 563.44,
@@ -13414,7 +12021,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PANW",
       "direction": "LONG",
       "entryPrice": 247.0,
@@ -13426,7 +12033,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "OKTA",
       "direction": "LONG",
       "entryPrice": 86.86,
@@ -13438,7 +12045,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MDB",
       "direction": "LONG",
       "entryPrice": 334.61,
@@ -13450,7 +12057,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 387.2,
@@ -13462,7 +12069,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "IMVT",
       "direction": "LONG",
       "entryPrice": 34.71,
@@ -13474,7 +12081,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RLAY",
       "direction": "LONG",
       "entryPrice": 13.27,
@@ -13486,7 +12093,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FIG",
       "direction": "LONG",
       "entryPrice": 22.9,
@@ -13498,7 +12105,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.79
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "DNA",
       "direction": "LONG",
       "entryPrice": 7.22,
@@ -13510,7 +12117,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NUE",
       "direction": "LONG",
       "entryPrice": 220.23,
@@ -13522,7 +12129,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AME",
       "direction": "LONG",
       "entryPrice": 220.95,
@@ -13534,7 +12141,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DLR",
       "direction": "LONG",
       "entryPrice": 188.05,
@@ -13546,7 +12153,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EQIX",
       "direction": "LONG",
       "entryPrice": 1059.19,
@@ -13558,7 +12165,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 215.62,
@@ -13570,7 +12177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 279.39,
@@ -13582,7 +12189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 220.44,
@@ -13594,7 +12201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 852.73,
@@ -13606,7 +12213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 414.86,
@@ -13618,7 +12225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 30.09,
@@ -13630,7 +12237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 269.32,
@@ -13642,7 +12249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "COIN",
       "direction": "SHORT",
       "entryPrice": 186.99,
@@ -13654,7 +12261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 86.65,
@@ -13666,7 +12273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.22
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 172.12,
@@ -13678,7 +12285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 255.66,
@@ -13690,7 +12297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 297.07,
@@ -13702,7 +12309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 220.2,
@@ -13714,7 +12321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
       "entryPrice": 353.45,
@@ -13726,7 +12333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.92
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "QQQ",
       "direction": "LONG",
       "entryPrice": 713.11,
@@ -13738,7 +12345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.02
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 108.71,
@@ -13750,7 +12357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RUBI",
       "direction": "SHORT",
       "entryPrice": 1.87,
@@ -13762,7 +12369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "WNW",
       "direction": "LONG",
       "entryPrice": 5.05,
@@ -13774,7 +12381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "GCTS",
       "direction": "LONG",
       "entryPrice": 2.4,
@@ -13786,7 +12393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "RDW",
       "direction": "SHORT",
       "entryPrice": 13.44,
@@ -13798,7 +12405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PCT",
       "direction": "LONG",
       "entryPrice": 12.69,
@@ -13810,7 +12417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.92
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UAE",
       "direction": "LONG",
       "entryPrice": 18.67,
@@ -13822,7 +12429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CRWV",
       "direction": "LONG",
       "entryPrice": 95.84,
@@ -13834,7 +12441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SAP",
       "direction": "LONG",
       "entryPrice": 184.27,
@@ -13846,7 +12453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "EQT",
       "direction": "LONG",
       "entryPrice": 55.7,
@@ -13858,7 +12465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MPWR",
       "direction": "LONG",
       "entryPrice": 1432.68,
@@ -13870,7 +12477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "SRE",
       "direction": "LONG",
       "entryPrice": 90.23,
@@ -13882,7 +12489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 434.95,
@@ -13894,7 +12501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SMH",
       "direction": "LONG",
       "entryPrice": 562.2,
@@ -13906,7 +12513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "HOOD",
       "direction": "SHORT",
       "entryPrice": 78.46,
@@ -13918,7 +12525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.54
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ABT",
       "direction": "SHORT",
       "entryPrice": 84.77,
@@ -13930,7 +12537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.54
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ROKU",
       "direction": "LONG",
       "entryPrice": 126.49,
@@ -13942,7 +12549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.54
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "QQQ",
       "direction": "LONG",
       "entryPrice": 700.02,
@@ -13954,7 +12561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SNPS",
       "direction": "LONG",
       "entryPrice": 508.4,
@@ -13966,7 +12573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "JNJ",
       "direction": "SHORT",
       "entryPrice": 226.2,
@@ -13978,7 +12585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "AON",
       "direction": "SHORT",
       "entryPrice": 312.23,
@@ -13990,7 +12597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.84
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 393.84,
@@ -14002,7 +12609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "BDX",
       "direction": "SHORT",
       "entryPrice": 144.63,
@@ -14014,7 +12621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "NFLX",
       "direction": "SHORT",
       "entryPrice": 88.71,
@@ -14026,7 +12633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 390.73,
@@ -14038,7 +12645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GILD",
       "direction": "LONG",
       "entryPrice": 129.24,
@@ -14050,7 +12657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 326.69,
@@ -14062,7 +12669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 89.46,
@@ -14074,7 +12681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 25.76,
@@ -14086,7 +12693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.54
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 48.21,
@@ -14098,7 +12705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CARR",
       "direction": "LONG",
       "entryPrice": 66.11,
@@ -14110,7 +12717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 215.07,
@@ -14122,7 +12729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 908.45,
@@ -14134,7 +12741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "POET",
       "direction": "SHORT",
       "entryPrice": 14.12,
@@ -14146,7 +12753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "TNGX",
       "direction": "SHORT",
       "entryPrice": 20.36,
@@ -14158,7 +12765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "WOLF",
       "direction": "SHORT",
       "entryPrice": 60.67,
@@ -14170,7 +12777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "INTC",
       "direction": "SHORT",
       "entryPrice": 108.46,
@@ -14182,7 +12789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AM",
       "direction": "LONG",
       "entryPrice": 21.51,
@@ -14194,7 +12801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.84
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "PLTR",
       "direction": "LONG",
       "entryPrice": 133.9,
@@ -14206,7 +12813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "ACN",
       "direction": "LONG",
       "entryPrice": 174.7,
@@ -14218,7 +12825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.92
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AVB",
       "direction": "LONG",
       "entryPrice": 182.85,
@@ -14230,7 +12837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CTVA",
       "direction": "LONG",
       "entryPrice": 82.76,
@@ -14242,7 +12849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 329.85,
@@ -14254,7 +12861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "APD",
       "direction": "LONG",
       "entryPrice": 297.54,
@@ -14266,7 +12873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 415.83,
@@ -14278,7 +12885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GILD",
       "direction": "LONG",
       "entryPrice": 130.26,
@@ -14290,7 +12897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 393.1,
@@ -14302,7 +12909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 112.71,
@@ -14314,7 +12921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 329.83,
@@ -14326,7 +12933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 738.98,
@@ -14338,7 +12945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "GM",
       "direction": "SHORT",
       "entryPrice": 78.52,
@@ -14350,7 +12957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 902.67,
@@ -14362,7 +12969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SYK",
       "direction": "SHORT",
       "entryPrice": 297.24,
@@ -14374,7 +12981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "ADP",
       "direction": "LONG",
       "entryPrice": 208.18,
@@ -14386,7 +12993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "CDNS",
       "direction": "LONG",
       "entryPrice": 356.89,
@@ -14398,7 +13005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "OKTA",
       "direction": "LONG",
       "entryPrice": 78.67,
@@ -14410,7 +13017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "XLE",
       "direction": "LONG",
       "entryPrice": 56.76,
@@ -14422,7 +13029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "REGN",
       "direction": "SHORT",
       "entryPrice": 714.59,
@@ -14434,7 +13041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "EMR",
       "direction": "SHORT",
       "entryPrice": 139.58,
@@ -14446,7 +13053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 179.95,
@@ -14458,7 +13065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CMG",
       "direction": "LONG",
       "entryPrice": 32.65,
@@ -14470,7 +13077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JD",
       "direction": "LONG",
       "entryPrice": 33.04,
@@ -14482,7 +13089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 783.52,
@@ -14494,7 +13101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 461.83,
@@ -14506,7 +13113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 297.35,
@@ -14518,7 +13125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 443.43,
@@ -14530,7 +13137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "YSS",
       "direction": "SHORT",
       "entryPrice": 24.08,
@@ -14542,7 +13149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "HCWB",
       "direction": "LONG",
       "entryPrice": 1.12,
@@ -14554,7 +13161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "DVLT",
       "direction": "SHORT",
       "entryPrice": 0.53,
@@ -14566,7 +13173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ONDS",
       "direction": "LONG",
       "entryPrice": 10.59,
@@ -14578,7 +13185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "POET",
       "direction": "LONG",
       "entryPrice": 18.94,
@@ -14590,7 +13197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "ZBRA",
       "direction": "LONG",
       "entryPrice": 251.87,
@@ -14602,7 +13209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "EA",
       "direction": "LONG",
       "entryPrice": 200.3,
@@ -14614,7 +13221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.04
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "LULU",
       "direction": "LONG",
       "entryPrice": 121.94,
@@ -14626,7 +13233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GCTS",
       "direction": "LONG",
       "entryPrice": 1.41,
@@ -14638,7 +13245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "IEX",
       "direction": "LONG",
       "entryPrice": 211.41,
@@ -14650,7 +13257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GD",
       "direction": "LONG",
       "entryPrice": 341.12,
@@ -14662,7 +13269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 217.2,
@@ -14674,7 +13281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AEE",
       "direction": "LONG",
       "entryPrice": 108.91,
@@ -14686,7 +13293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EIX",
       "direction": "LONG",
       "entryPrice": 70.39,
@@ -14698,7 +13305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "FRT",
       "direction": "LONG",
       "entryPrice": 114.71,
@@ -14710,7 +13317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CFG",
       "direction": "LONG",
       "entryPrice": 61.53,
@@ -14722,7 +13329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 436.72,
@@ -14734,7 +13341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 415.51,
@@ -14746,7 +13353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 217.29,
@@ -14758,7 +13365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SO",
       "direction": "LONG",
       "entryPrice": 93.06,
@@ -14770,7 +13377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 208.2,
@@ -14782,7 +13389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 903.38,
@@ -14794,7 +13401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.24
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 375.67,
@@ -14806,7 +13413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "IONQ",
       "direction": "LONG",
       "entryPrice": 52.26,
@@ -14818,7 +13425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "QUBT",
       "direction": "LONG",
       "entryPrice": 10.86,
@@ -14830,7 +13437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MARA",
       "direction": "LONG",
       "entryPrice": 12.3,
@@ -14842,7 +13449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "CLSK",
       "direction": "LONG",
       "entryPrice": 13.0,
@@ -14854,7 +13461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 199.33,
@@ -14866,7 +13473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SMCI",
       "direction": "LONG",
       "entryPrice": 31.12,
@@ -14878,7 +13485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 109.84,
@@ -14890,7 +13497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "RIOT",
       "direction": "LONG",
       "entryPrice": 23.34,
@@ -14902,7 +13509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 116.72,
@@ -14914,7 +13521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.24
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "BA",
       "direction": "LONG",
       "entryPrice": 230.93,
@@ -14926,7 +13533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.51
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 116.73,
@@ -14938,7 +13545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.51
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 117.42,
@@ -14950,7 +13557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.24
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "LWLG",
       "direction": "SHORT",
       "entryPrice": 15.04,
@@ -14962,7 +13569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.51
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PBH",
       "direction": "SHORT",
       "entryPrice": 44.56,
@@ -14974,7 +13581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.51
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "CAMT",
       "direction": "SHORT",
       "entryPrice": 171.58,
@@ -14986,7 +13593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.24
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SLV",
       "direction": "LONG",
       "entryPrice": 76.9,
@@ -14998,7 +13605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.61
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "EU",
       "direction": "LONG",
       "entryPrice": 1.64,
@@ -15010,7 +13617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.24
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ALB",
       "direction": "LONG",
       "entryPrice": 199.13,
@@ -15022,7 +13629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PEP",
       "direction": "LONG",
       "entryPrice": 151.39,
@@ -15034,7 +13641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.61
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ATO",
       "direction": "LONG",
       "entryPrice": 180.79,
@@ -15046,7 +13653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.61
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "KIM",
       "direction": "LONG",
       "entryPrice": 23.47,
@@ -15058,7 +13665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.61
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 118.34,
@@ -15070,7 +13677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PEP",
       "direction": "LONG",
       "entryPrice": 151.24,
@@ -15082,7 +13689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.61
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "F",
       "direction": "SHORT",
       "entryPrice": 12.99,
@@ -15094,7 +13701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "SMH",
       "direction": "LONG",
       "entryPrice": 547.56,
@@ -15106,7 +13713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "OKE",
       "direction": "LONG",
       "entryPrice": 87.36,
@@ -15118,7 +13725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ZS",
       "direction": "LONG",
       "entryPrice": 146.07,
@@ -15130,7 +13737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 417.63,
@@ -15142,7 +13749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PYPL",
       "direction": "LONG",
       "entryPrice": 45.17,
@@ -15154,7 +13761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "NET",
       "direction": "LONG",
       "entryPrice": 188.98,
@@ -15166,7 +13773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CB",
       "direction": "LONG",
       "entryPrice": 316.49,
@@ -15178,7 +13785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "PANW",
       "direction": "LONG",
       "entryPrice": 210.72,
@@ -15190,7 +13797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.91
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "CRWD",
       "direction": "LONG",
       "entryPrice": 532.46,
@@ -15202,7 +13809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.91
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "VNET",
       "direction": "LONG",
       "entryPrice": 11.38,
@@ -15214,7 +13821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "NBIS",
       "direction": "LONG",
       "entryPrice": 208.22,
@@ -15226,7 +13833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BGSI",
       "direction": "SHORT",
       "entryPrice": 96.25,
@@ -15238,7 +13845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 600.71,
@@ -15250,7 +13857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SONY",
       "direction": "LONG",
       "entryPrice": 22.94,
@@ -15262,7 +13869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 425.0,
@@ -15274,7 +13881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMAT",
       "direction": "LONG",
       "entryPrice": 425.35,
@@ -15286,7 +13893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 288.75,
@@ -15298,7 +13905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BMY",
       "direction": "LONG",
       "entryPrice": 55.99,
@@ -15310,7 +13917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.91
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 264.59,
@@ -15322,7 +13929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "DXCM",
       "direction": "SHORT",
       "entryPrice": 58.55,
@@ -15334,7 +13941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "STC INVERSE",
+      "strategy": "STC Inverse",
       "ticker": "TEAM",
       "direction": "LONG",
       "entryPrice": 86.6,
@@ -15346,7 +13953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 288.2,
@@ -15358,7 +13965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 600.72,
@@ -15370,7 +13977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "GM",
       "direction": "LONG",
       "entryPrice": 76.21,
@@ -15382,7 +13989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "JCI",
       "direction": "LONG",
       "entryPrice": 142.01,
@@ -15394,7 +14001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "PLUG",
       "direction": "SHORT",
       "entryPrice": 3.6,
@@ -15406,7 +14013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "BW",
       "direction": "LONG",
       "entryPrice": 17.95,
@@ -15418,7 +14025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "FLNC",
       "direction": "SHORT",
       "entryPrice": 21.08,
@@ -15430,7 +14037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "IP",
       "direction": "LONG",
       "entryPrice": 33.23,
@@ -15442,7 +14049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.72
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NET",
       "direction": "LONG",
       "entryPrice": 200.0,
@@ -15454,7 +14061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.49
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "TTD",
       "direction": "LONG",
       "entryPrice": 22.08,
@@ -15466,7 +14073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.49
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "CEG",
       "direction": "LONG",
       "entryPrice": 311.0,
@@ -15478,7 +14085,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.49
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GOOG",
       "direction": "LONG",
       "entryPrice": 383.01,
@@ -15490,7 +14097,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 385.7,
@@ -15502,7 +14109,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "EG",
       "direction": "LONG",
       "entryPrice": 348.95,
@@ -15514,7 +14121,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CSX",
       "direction": "LONG",
       "entryPrice": 44.37,
@@ -15526,7 +14133,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UNP",
       "direction": "LONG",
       "entryPrice": 262.07,
@@ -15538,7 +14145,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UPS",
       "direction": "LONG",
       "entryPrice": 97.74,
@@ -15550,7 +14157,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 385.77,
@@ -15562,7 +14169,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "EMR",
       "direction": "LONG",
       "entryPrice": 139.31,
@@ -15574,7 +14181,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "WMT",
       "direction": "LONG",
       "entryPrice": 127.7,
@@ -15586,7 +14193,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "ARM",
       "direction": "LONG",
       "entryPrice": 212.95,
@@ -15598,7 +14205,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "KESTREL",
+      "strategy": "Kestrel",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 42.18,
@@ -15610,7 +14217,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "KLAC",
       "direction": "LONG",
       "entryPrice": 1883.58,
@@ -15622,7 +14229,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "ADAPTIVE Chameleon",
+      "strategy": "Adaptive Chameleon",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 127.3,
@@ -15634,7 +14241,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "QUAD Earnings GAP D1",
+      "strategy": "Quad Earnings GAP D1",
       "ticker": "MRAM",
       "direction": "LONG",
       "entryPrice": 38.0,
@@ -15646,7 +14253,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BROS",
       "direction": "LONG",
       "entryPrice": 53.08,
@@ -15658,7 +14265,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.77
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "USO",
       "direction": "LONG",
       "entryPrice": 136.79,
@@ -15670,7 +14277,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 998.47,
@@ -15682,7 +14289,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GWW",
       "direction": "LONG",
       "entryPrice": 1218.26,
@@ -15694,7 +14301,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ETSY",
       "direction": "LONG",
       "entryPrice": 63.12,
@@ -15706,7 +14313,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "WULF",
       "direction": "LONG",
       "entryPrice": 23.75,
@@ -15718,7 +14325,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 48.83,
@@ -15730,7 +14337,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 998.5,
@@ -15742,7 +14349,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 151.81,
@@ -15754,7 +14361,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MET",
       "direction": "LONG",
       "entryPrice": 77.83,
@@ -15766,7 +14373,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CME",
       "direction": "LONG",
       "entryPrice": 282.69,
@@ -15778,7 +14385,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 311.07,
@@ -15790,7 +14397,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AMPX",
       "direction": "LONG",
       "entryPrice": 16.9,
@@ -15802,7 +14409,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "COIN",
       "direction": "LONG",
       "entryPrice": 187.59,
@@ -15814,7 +14421,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "GOOGL",
       "direction": "LONG",
       "entryPrice": 319.62,
@@ -15826,7 +14433,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 16.73
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NVTS",
       "direction": "LONG",
       "entryPrice": 15.87,
@@ -15838,7 +14445,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PR",
       "direction": "LONG",
       "entryPrice": 19.89,
@@ -15850,7 +14457,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NOV",
       "direction": "LONG",
       "entryPrice": 19.52,
@@ -15862,7 +14469,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 26.27,
@@ -15874,7 +14481,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIFR",
       "direction": "LONG",
       "entryPrice": 20.58,
@@ -15886,7 +14493,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ONDS",
       "direction": "LONG",
       "entryPrice": 9.2,
@@ -15898,7 +14505,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NEE",
       "direction": "LONG",
       "entryPrice": 93.22,
@@ -15910,7 +14517,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 145.15,
@@ -15922,7 +14529,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "EOG",
       "direction": "LONG",
       "entryPrice": 129.51,
@@ -15934,7 +14541,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "DUK",
       "direction": "LONG",
       "entryPrice": 126.09,
@@ -15946,7 +14553,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.52
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 114.7,
@@ -15958,7 +14565,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ELV",
       "direction": "LONG",
       "entryPrice": 370.17,
@@ -15970,7 +14577,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.65
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 184.68,
@@ -15982,7 +14589,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.52
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SOUN",
       "direction": "LONG",
       "entryPrice": 8.68,
@@ -15994,7 +14601,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 42.66,
@@ -16006,7 +14613,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SNOW",
       "direction": "LONG",
       "entryPrice": 147.17,
@@ -16018,7 +14625,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "CRM",
       "direction": "LONG",
       "entryPrice": 178.84,
@@ -16030,7 +14637,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "NOW",
       "direction": "LONG",
       "entryPrice": 89.92,
@@ -16042,7 +14649,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "DASH",
       "direction": "LONG",
       "entryPrice": 165.23,
@@ -16054,7 +14661,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "PINS",
       "direction": "LONG",
       "entryPrice": 20.83,
@@ -16066,7 +14673,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "ADBE",
       "direction": "LONG",
       "entryPrice": 248.62,
@@ -16078,7 +14685,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GOAT",
       "direction": "LONG",
       "entryPrice": 39.04,
@@ -16090,7 +14697,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.51
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BJ",
       "direction": "LONG",
       "entryPrice": 93.73,
@@ -16102,7 +14709,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.5
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 45.14,
@@ -16114,7 +14721,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.5
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 612.8,
@@ -16126,7 +14733,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.22
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NOK",
       "direction": "LONG",
       "entryPrice": 12.52,
@@ -16138,7 +14745,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.34
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "C",
       "direction": "LONG",
       "entryPrice": 127.5,
@@ -16150,7 +14757,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.34
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SO",
       "direction": "LONG",
       "entryPrice": 94.45,
@@ -16162,7 +14769,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.22
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BK",
       "direction": "LONG",
       "entryPrice": 132.87,
@@ -16174,7 +14781,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.7
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "BP",
       "direction": "LONG",
       "entryPrice": 46.56,
@@ -16186,7 +14793,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.04
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 87.79,
@@ -16198,7 +14805,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.12
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MSCI",
       "direction": "LONG",
       "entryPrice": 574.74,
@@ -16210,7 +14817,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.12
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 26.25,
@@ -16222,7 +14829,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.96
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "JEPI",
       "direction": "LONG",
       "entryPrice": 57.08,
@@ -16234,7 +14841,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.81
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UBER",
       "direction": "LONG",
       "entryPrice": 74.1,
@@ -16246,7 +14853,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UPS",
       "direction": "LONG",
       "entryPrice": 98.33,
@@ -16258,7 +14865,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.08
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "ASML",
       "direction": "LONG",
       "entryPrice": 1424.22,
@@ -16270,7 +14877,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.08
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 170.05,
@@ -16282,7 +14889,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 49.91,
@@ -16294,7 +14901,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 912.5,
@@ -16306,7 +14913,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 55.74,
@@ -16318,7 +14925,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BAC",
       "direction": "LONG",
       "entryPrice": 52.67,
@@ -16330,7 +14937,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DOW",
       "direction": "LONG",
       "entryPrice": 39.87,
@@ -16342,7 +14949,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.3
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 199.41,
@@ -16354,7 +14961,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MSCI",
       "direction": "LONG",
       "entryPrice": 592.16,
@@ -16366,7 +14973,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NOV",
       "direction": "LONG",
       "entryPrice": 20.07,
@@ -16378,7 +14985,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CI",
       "direction": "LONG",
       "entryPrice": 283.37,
@@ -16390,7 +14997,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COP",
       "direction": "LONG",
       "entryPrice": 122.94,
@@ -16402,7 +15009,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 200.05,
@@ -16414,7 +15021,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 151.54,
@@ -16426,7 +15033,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.11
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CTO",
       "direction": "LONG",
       "entryPrice": 19.62,
@@ -16438,7 +15045,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.36
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DELL",
       "direction": "LONG",
       "entryPrice": 206.84,
@@ -16450,7 +15057,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.33
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ITT",
       "direction": "LONG",
       "entryPrice": 211.81,
@@ -16462,7 +15069,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.33
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BA",
       "direction": "LONG",
       "entryPrice": 228.94,
@@ -16474,7 +15081,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.33
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 51.04,
@@ -16486,7 +15093,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 45.54,
@@ -16498,7 +15105,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "AMGN",
       "direction": "LONG",
       "entryPrice": 330.68,
@@ -16510,7 +15117,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "QCOM",
       "direction": "LONG",
       "entryPrice": 172.22,
@@ -16522,7 +15129,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "OXY",
       "direction": "LONG",
       "entryPrice": 58.31,
@@ -16534,7 +15141,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MRNA",
       "direction": "LONG",
       "entryPrice": 44.4,
@@ -16546,7 +15153,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.19
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "VALE",
       "direction": "LONG",
       "entryPrice": 15.95,
@@ -16558,7 +15165,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 210.57,
@@ -16570,7 +15177,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "IREN",
       "direction": "LONG",
       "entryPrice": 44.89,
@@ -16582,7 +15189,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.52
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PVH",
       "direction": "LONG",
       "entryPrice": 92.61,
@@ -16594,7 +15201,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.49
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 210.11,
@@ -16606,7 +15213,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BK",
       "direction": "LONG",
       "entryPrice": 132.41,
@@ -16618,7 +15225,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UNP",
       "direction": "LONG",
       "entryPrice": 264.93,
@@ -16630,7 +15237,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.9
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HON",
       "direction": "LONG",
       "entryPrice": 211.8,
@@ -16642,7 +15249,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.49
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 271.43,
@@ -16654,7 +15261,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.49
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 392.67,
@@ -16666,7 +15273,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.49
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "DEA",
       "direction": "LONG",
       "entryPrice": 23.4,
@@ -16678,7 +15285,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 92.66,
@@ -16690,7 +15297,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.53
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "OPEN",
       "direction": "LONG",
       "entryPrice": 5.46,
@@ -16702,7 +15309,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.53
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UAE",
       "direction": "LONG",
       "entryPrice": 19.48,
@@ -16714,7 +15321,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.55
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AGI",
       "direction": "LONG",
       "entryPrice": 41.86,
@@ -16726,7 +15333,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.55
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "AJG",
       "direction": "LONG",
       "entryPrice": 220.68,
@@ -16738,7 +15345,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 8.16
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 321.32,
@@ -16750,7 +15357,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MRVL",
       "direction": "LONG",
       "entryPrice": 154.75,
@@ -16762,7 +15369,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.53
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AVGO",
       "direction": "LONG",
       "entryPrice": 399.24,
@@ -16774,7 +15381,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.93
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LRCX",
       "direction": "LONG",
       "entryPrice": 247.84,
@@ -16786,7 +15393,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.55
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "COST",
       "direction": "LONG",
       "entryPrice": 996.93,
@@ -16798,7 +15405,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.55
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "META",
       "direction": "LONG",
       "entryPrice": 603.59,
@@ -16810,7 +15417,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MTG",
       "direction": "LONG",
       "entryPrice": 28.07,
@@ -16822,7 +15429,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.99
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "MA",
       "direction": "LONG",
       "entryPrice": 499.78,
@@ -16834,7 +15441,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 7.16
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DOW",
       "direction": "LONG",
       "entryPrice": 38.03,
@@ -16846,7 +15453,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.61
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "FDX",
       "direction": "LONG",
       "entryPrice": 386.02,
@@ -16858,7 +15465,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "SBUX",
       "direction": "LONG",
       "entryPrice": 98.18,
@@ -16870,7 +15477,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.4
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BK",
       "direction": "LONG",
       "entryPrice": 134.05,
@@ -16882,7 +15489,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.35
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIFR",
       "direction": "LONG",
       "entryPrice": 18.61,
@@ -16894,7 +15501,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DOW",
       "direction": "LONG",
       "entryPrice": 38.28,
@@ -16906,7 +15513,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PLUG",
       "direction": "LONG",
       "entryPrice": 3.11,
@@ -16918,7 +15525,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 308.28,
@@ -16930,7 +15537,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 222.26,
@@ -16942,7 +15549,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 56.26,
@@ -16954,7 +15561,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "C",
       "direction": "LONG",
       "entryPrice": 128.13,
@@ -16966,7 +15573,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.95
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 419.59,
@@ -16978,7 +15585,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.7
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NIO",
       "direction": "LONG",
       "entryPrice": 6.14,
@@ -16990,7 +15597,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "BAC",
       "direction": "LONG",
       "entryPrice": 52.05,
@@ -17002,7 +15609,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 27.06,
@@ -17014,7 +15621,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.39
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 922.44,
@@ -17026,7 +15633,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LOW",
       "direction": "LONG",
       "entryPrice": 249.61,
@@ -17038,7 +15645,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.39
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "SNOW",
       "direction": "LONG",
       "entryPrice": 135.61,
@@ -17050,7 +15657,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 873.41,
@@ -17062,7 +15669,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "RBLX",
       "direction": "LONG",
       "entryPrice": 53.25,
@@ -17074,7 +15681,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "LMT",
       "direction": "LONG",
       "entryPrice": 510.62,
@@ -17086,7 +15693,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "IONQ",
       "direction": "LONG",
       "entryPrice": 42.14,
@@ -17098,7 +15705,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "MARA",
       "direction": "LONG",
       "entryPrice": 11.43,
@@ -17110,7 +15717,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "DE",
       "direction": "LONG",
       "entryPrice": 573.5,
@@ -17122,7 +15729,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS EDGE FRIDAYMON",
+      "strategy": "Stocks Edge Fridaymon",
       "ticker": "QUBT",
       "direction": "LONG",
       "entryPrice": 8.77,
@@ -17134,7 +15741,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.05
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ONDS",
       "direction": "LONG",
       "entryPrice": 10.28,
@@ -17146,7 +15753,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NXP",
       "direction": "LONG",
       "entryPrice": 14.25,
@@ -17158,7 +15765,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.34
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GILD",
       "direction": "LONG",
       "entryPrice": 133.28,
@@ -17170,7 +15777,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 226.96,
@@ -17182,7 +15789,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 114.25,
@@ -17194,7 +15801,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CME",
       "direction": "LONG",
       "entryPrice": 286.49,
@@ -17206,7 +15813,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "LULU",
       "direction": "LONG",
       "entryPrice": 144.37,
@@ -17218,7 +15825,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "HITI",
       "direction": "LONG",
       "entryPrice": 2.49,
@@ -17230,7 +15837,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GAP",
       "direction": "LONG",
       "entryPrice": 26.35,
@@ -17242,7 +15849,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.34
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 66.39,
@@ -17254,7 +15861,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NIO",
       "direction": "LONG",
       "entryPrice": 6.55,
@@ -17266,7 +15873,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "RTX",
       "direction": "LONG",
       "entryPrice": 182.16,
@@ -17278,7 +15885,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.34
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "INTC",
       "direction": "LONG",
       "entryPrice": 66.52,
@@ -17290,7 +15897,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MOS",
       "direction": "LONG",
       "entryPrice": 24.04,
@@ -17302,7 +15909,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.2
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NOK",
       "direction": "LONG",
       "entryPrice": 9.97,
@@ -17314,7 +15921,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 199.71,
@@ -17326,7 +15933,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIFR",
       "direction": "LONG",
       "entryPrice": 18.59,
@@ -17338,7 +15945,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LMT",
       "direction": "LONG",
       "entryPrice": 565.11,
@@ -17350,7 +15957,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 75.01,
@@ -17362,7 +15969,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "NVDA",
       "direction": "LONG",
       "entryPrice": 199.55,
@@ -17374,7 +15981,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.56
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "CRM",
       "direction": "LONG",
       "entryPrice": 173.63,
@@ -17386,7 +15993,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "TMO",
       "direction": "LONG",
       "entryPrice": 468.85,
@@ -17398,7 +16005,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "ADBE",
       "direction": "LONG",
       "entryPrice": 234.37,
@@ -17410,7 +16017,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
       "entryPrice": 276.76,
@@ -17422,7 +16029,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 447.15,
@@ -17434,7 +16041,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ABEV",
       "direction": "LONG",
       "entryPrice": 3.05,
@@ -17446,7 +16053,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.96
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MU",
       "direction": "LONG",
       "entryPrice": 447.7,
@@ -17458,7 +16065,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.29
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "LMT",
       "direction": "LONG",
       "entryPrice": 592.19,
@@ -17470,7 +16077,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.96
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GE",
       "direction": "LONG",
       "entryPrice": 311.92,
@@ -17482,7 +16089,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.7
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ASTS",
       "direction": "LONG",
       "entryPrice": 78.78,
@@ -17494,7 +16101,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.38
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PLUG",
       "direction": "LONG",
       "entryPrice": 2.78,
@@ -17506,7 +16113,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.7
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "FIG",
       "direction": "LONG",
       "entryPrice": 18.92,
@@ -17518,7 +16125,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.32
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ATAI",
       "direction": "LONG",
       "entryPrice": 4.03,
@@ -17530,7 +16137,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.32
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CMPS",
       "direction": "LONG",
       "entryPrice": 6.66,
@@ -17542,7 +16149,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.32
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CME",
       "direction": "LONG",
       "entryPrice": 290.27,
@@ -17554,7 +16161,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.32
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 146.44,
@@ -17566,7 +16173,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.0
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 422.79,
@@ -17578,7 +16185,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NOK",
       "direction": "LONG",
       "entryPrice": 10.22,
@@ -17590,7 +16197,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TJX",
       "direction": "LONG",
       "entryPrice": 159.52,
@@ -17602,7 +16209,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 236.34,
@@ -17614,7 +16221,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "BYND",
       "direction": "LONG",
       "entryPrice": 0.82,
@@ -17626,7 +16233,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ET",
       "direction": "LONG",
       "entryPrice": 19.18,
@@ -17638,7 +16245,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.1
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 97.14,
@@ -17650,7 +16257,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.0
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CIFR",
       "direction": "LONG",
       "entryPrice": 17.24,
@@ -17662,7 +16269,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 55.97,
@@ -17674,7 +16281,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "USB",
       "direction": "LONG",
       "entryPrice": 55.92,
@@ -17686,7 +16293,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "AMC",
       "direction": "LONG",
       "entryPrice": 1.86,
@@ -17698,7 +16305,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "MSTR",
       "direction": "LONG",
       "entryPrice": 166.52,
@@ -17710,7 +16317,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "NFLX",
       "direction": "LONG",
       "entryPrice": 98.43,
@@ -17722,7 +16329,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS NEWSCANNER Momentum",
+      "strategy": "Stocks Newscanner Momentum",
       "ticker": "BYND",
       "direction": "LONG",
       "entryPrice": 0.9,
@@ -17734,7 +16341,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": null
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CPA",
       "direction": "LONG",
       "entryPrice": 119.57,
@@ -17746,7 +16353,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.18
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "HR",
       "direction": "LONG",
       "entryPrice": 17.71,
@@ -17758,7 +16365,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.18
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 406.14,
@@ -17770,7 +16377,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "SPGI",
       "direction": "LONG",
       "entryPrice": 422.26,
@@ -17782,7 +16389,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "WULF",
       "direction": "LONG",
       "entryPrice": 18.47,
@@ -17794,7 +16401,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "ITT",
       "direction": "LONG",
       "entryPrice": 214.24,
@@ -17806,7 +16413,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 244.95,
@@ -17818,7 +16425,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "RF",
       "direction": "LONG",
       "entryPrice": 27.64,
@@ -17830,7 +16437,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "NXP",
       "direction": "LONG",
       "entryPrice": 14.36,
@@ -17842,7 +16449,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PVH",
       "direction": "LONG",
       "entryPrice": 88.07,
@@ -17854,7 +16461,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 896.04,
@@ -17866,7 +16473,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 313.84,
@@ -17878,7 +16485,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TFC",
       "direction": "LONG",
       "entryPrice": 49.29,
@@ -17890,7 +16497,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 244.68,
@@ -17902,7 +16509,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JPM",
       "direction": "LONG",
       "entryPrice": 307.25,
@@ -17914,7 +16521,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.8
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "KO",
       "direction": "LONG",
       "entryPrice": 76.68,
@@ -17926,7 +16533,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.1
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DELL",
       "direction": "LONG",
       "entryPrice": 177.88,
@@ -17938,7 +16545,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.48
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "GAP",
       "direction": "LONG",
       "entryPrice": 24.99,
@@ -17950,7 +16557,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PNC",
       "direction": "LONG",
       "entryPrice": 219.75,
@@ -17962,7 +16569,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.48
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PEP",
       "direction": "LONG",
       "entryPrice": 156.0,
@@ -17974,7 +16581,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.74
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "ADI",
       "direction": "LONG",
       "entryPrice": 344.19,
@@ -17986,7 +16593,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.48
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "HE",
       "direction": "LONG",
       "entryPrice": 15.53,
@@ -17998,7 +16605,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.17
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "DJT",
       "direction": "LONG",
       "entryPrice": 9.39,
@@ -18010,7 +16617,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.31
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "JD",
       "direction": "LONG",
       "entryPrice": 28.93,
@@ -18022,7 +16629,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.31
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "XLE",
       "direction": "LONG",
       "entryPrice": 57.2,
@@ -18034,7 +16641,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.24
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "AMZN",
       "direction": "LONG",
       "entryPrice": 237.13,
@@ -18046,7 +16653,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.24
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "APP",
       "direction": "LONG",
       "entryPrice": 411.3,
@@ -18058,7 +16665,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.24
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "INTU",
       "direction": "LONG",
       "entryPrice": 361.74,
@@ -18070,7 +16677,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.24
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "GS",
       "direction": "LONG",
       "entryPrice": 836.5,
@@ -18082,7 +16689,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 11.09
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "LGIH",
       "direction": "LONG",
       "entryPrice": 37.56,
@@ -18094,7 +16701,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 8.43
     },
     {
-      "strategy": "STOCKS CONGRESS",
+      "strategy": "Stocks Congress",
       "ticker": "RPM",
       "direction": "LONG",
       "entryPrice": 97.15,
@@ -18106,7 +16713,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 8.43
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 82.22,
@@ -18118,7 +16725,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 152.51,
@@ -18130,7 +16737,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "JNJ",
       "direction": "LONG",
       "entryPrice": 238.46,
@@ -18142,7 +16749,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.31
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "DELL",
       "direction": "LONG",
       "entryPrice": 178.51,
@@ -18154,7 +16761,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 26.92,
@@ -18166,7 +16773,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT V2",
+      "strategy": "Stocks Onepercent V2",
       "ticker": "VZ",
       "direction": "LONG",
       "entryPrice": 46.04,
@@ -18178,7 +16785,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "HCA",
       "direction": "LONG",
       "entryPrice": 491.68,
@@ -18190,7 +16797,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 256.83,
@@ -18202,7 +16809,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "TXN",
       "direction": "LONG",
       "entryPrice": 212.46,
@@ -18214,7 +16821,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "XOM",
       "direction": "LONG",
       "entryPrice": 152.24,
@@ -18226,7 +16833,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "MRK",
       "direction": "LONG",
       "entryPrice": 121.58,
@@ -18238,7 +16845,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CSCO",
       "direction": "LONG",
       "entryPrice": 82.32,
@@ -18250,7 +16857,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 27.12,
@@ -18262,7 +16869,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.87
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SOFI",
       "direction": "LONG",
       "entryPrice": 15.85,
@@ -18274,7 +16881,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.91
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MS",
       "direction": "LONG",
       "entryPrice": 176.64,
@@ -18286,7 +16893,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "POET",
       "direction": "LONG",
       "entryPrice": 7.04,
@@ -18298,7 +16905,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "CVX",
       "direction": "LONG",
       "entryPrice": 186.83,
@@ -18310,7 +16917,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "LLY",
       "direction": "LONG",
       "entryPrice": 930.66,
@@ -18322,7 +16929,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.84
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "MSFT",
       "direction": "LONG",
       "entryPrice": 372.74,
@@ -18334,7 +16941,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.84
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "NVO",
       "direction": "LONG",
       "entryPrice": 37.07,
@@ -18346,7 +16953,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.84
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "GLP",
       "direction": "LONG",
       "entryPrice": 46.94,
@@ -18358,7 +16965,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.14
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "INTU",
       "direction": "LONG",
       "entryPrice": 349.0,
@@ -18370,7 +16977,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.0
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "CL",
       "direction": "LONG",
       "entryPrice": 85.29,
@@ -18382,7 +16989,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.84
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "OUT",
       "direction": "LONG",
       "entryPrice": 27.35,
@@ -18394,7 +17001,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.82
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "SAFE",
       "direction": "LONG",
       "entryPrice": 14.28,
@@ -18406,7 +17013,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.82
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "ARAI",
       "direction": "LONG",
       "entryPrice": 1.03,
@@ -18418,7 +17025,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.14
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PFE",
       "direction": "LONG",
       "entryPrice": 27.07,
@@ -18430,7 +17037,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.67
     },
     {
-      "strategy": "STOCKS ONEPERCENT",
+      "strategy": "Stocks Onepercent",
       "ticker": "PEP",
       "direction": "LONG",
       "entryPrice": 155.27,
@@ -18442,7 +17049,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.67
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "JUST",
       "direction": "LONG",
       "entryPrice": 93.41,
@@ -18454,7 +17061,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.69
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "OMEX",
       "direction": "LONG",
       "entryPrice": 1.26,
@@ -18466,7 +17073,7 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.68
     },
     {
-      "strategy": "STOCKS SENTIMENT V5",
+      "strategy": "Stocks Sentiment V5",
       "ticker": "UNH",
       "direction": "LONG",
       "entryPrice": 304.32,
