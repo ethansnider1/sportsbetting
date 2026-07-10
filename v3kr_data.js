@@ -1,22 +1,22 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-09T15:45:58Z",
-  "totalClosed": 658,
-  "totalOpen": 20,
-  "winRate": 57.4,
-  "avgReturnPct": 2.1,
-  "avgQqqReturnPct": 0.49,
+  "generatedAt": "2026-07-10T15:39:33Z",
+  "totalClosed": 664,
+  "totalOpen": 29,
+  "winRate": 57.2,
+  "avgReturnPct": 2.07,
+  "avgQqqReturnPct": 0.5,
   "strategies": [
     {
       "strategy": "Quad Earnings GAP D1",
       "verdict": "KEEP",
-      "closed": 175,
+      "closed": 176,
       "open": 2,
-      "winRate": 54.3,
-      "avgReturnPct": 3.05,
-      "expectancy": 3.05,
-      "returnOnCapital": 35.6,
+      "winRate": 54.0,
+      "avgReturnPct": 2.98,
+      "expectancy": 2.98,
+      "returnOnCapital": 35.0,
       "avgPeakPct": 0.19,
-      "insight": "SHORT book +4.4% (67t) vs LONG book +2.2% (108t). The LONG side is the drag — trading SHORT-only flips the scanner.",
+      "insight": "SHORT book +4.4% (67t) vs LONG book +2.1% (109t). The LONG side is the drag — trading SHORT-only flips the scanner.",
       "insightKind": "split"
     },
     {
@@ -36,7 +36,7 @@ window.V3KR_DATA = {
       "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
       "closed": 57,
-      "open": 0,
+      "open": 8,
       "winRate": 68.4,
       "avgReturnPct": 1.62,
       "expectancy": 1.62,
@@ -48,37 +48,37 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 199,
-      "open": 10,
-      "winRate": 60.8,
-      "avgReturnPct": 0.58,
-      "expectancy": 0.58,
+      "closed": 203,
+      "open": 11,
+      "winRate": 60.6,
+      "avgReturnPct": 0.56,
+      "expectancy": 0.56,
       "returnOnCapital": 8.2,
-      "avgPeakPct": 0.12,
-      "insight": "Genuine positive edge: 61% WR, +0.6% avg, expectancy +0.6% across 199 trades. One of the real ones — watch it hold out-of-sample.",
+      "avgPeakPct": 0.14,
+      "insight": "Genuine positive edge: 61% WR, +0.6% avg, expectancy +0.6% across 203 trades. One of the real ones — watch it hold out-of-sample.",
       "insightKind": "keep"
     },
     {
       "strategy": "Adaptive Chameleon",
       "verdict": "KEEP",
-      "closed": 99,
+      "closed": 100,
       "open": 8,
-      "winRate": 56.6,
-      "avgReturnPct": 1.77,
-      "expectancy": 1.77,
+      "winRate": 56.0,
+      "avgReturnPct": 1.75,
+      "expectancy": 1.75,
       "returnOnCapital": 8.0,
-      "avgPeakPct": 0.73,
-      "insight": "Genuine positive edge: 57% WR, +1.8% avg, expectancy +1.8% across 99 trades. One of the real ones — watch it hold out-of-sample.",
+      "avgPeakPct": 0.75,
+      "insight": "Genuine positive edge: 56% WR, +1.7% avg, expectancy +1.7% across 100 trades. One of the real ones — watch it hold out-of-sample.",
       "insightKind": "keep"
     }
   ],
   "trades": [
     {
       "strategy": "Kestrel",
-      "ticker": "TEAM",
+      "ticker": "XLE",
       "direction": "LONG",
-      "entryPrice": 88.91,
-      "entryTime": "2026-07-09T15:31:58Z",
+      "entryPrice": 54.69,
+      "entryTime": "2026-07-10T15:27:23Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -87,10 +87,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "LLY",
+      "ticker": "OKE",
       "direction": "LONG",
-      "entryPrice": 1211.23,
-      "entryTime": "2026-07-09T15:31:58Z",
+      "entryPrice": 88.94,
+      "entryTime": "2026-07-10T15:27:23Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -99,10 +99,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "V",
+      "ticker": "EPD",
       "direction": "LONG",
-      "entryPrice": 346.1,
-      "entryTime": "2026-07-09T15:31:58Z",
+      "entryPrice": 37.09,
+      "entryTime": "2026-07-10T15:27:23Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -111,10 +111,22 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "GILD",
+      "ticker": "CVX",
       "direction": "LONG",
-      "entryPrice": 133.59,
-      "entryTime": "2026-07-09T15:31:58Z",
+      "entryPrice": 174.23,
+      "entryTime": "2026-07-10T15:27:23Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "CSX",
+      "direction": "LONG",
+      "entryPrice": 49.6,
+      "entryTime": "2026-07-10T15:27:23Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -127,10 +139,238 @@ window.V3KR_DATA = {
       "direction": "LONG",
       "entryPrice": 103.31,
       "entryTime": "2026-07-09T15:31:58Z",
+      "exitPrice": 104.71,
+      "exitTime": "2026-07-10T15:26:16Z",
+      "open": false,
+      "returnPct": 1.36,
+      "qqqReturnPct": -0.1
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "AMGN",
+      "direction": "LONG",
+      "entryPrice": 368.15,
+      "entryTime": "2026-07-08T15:23:52Z",
+      "exitPrice": 363.54,
+      "exitTime": "2026-07-10T15:26:14Z",
+      "open": false,
+      "returnPct": -1.25,
+      "qqqReturnPct": 1.57
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "ABBV",
+      "direction": "LONG",
+      "entryPrice": 255.07,
+      "entryTime": "2026-07-08T15:23:52Z",
+      "exitPrice": 246.34,
+      "exitTime": "2026-07-10T15:26:14Z",
+      "open": false,
+      "returnPct": -3.42,
+      "qqqReturnPct": 1.57
+    },
+    {
+      "strategy": "Adaptive Chameleon",
+      "ticker": "INTC",
+      "direction": "LONG",
+      "entryPrice": 109.36,
+      "entryTime": "2026-07-10T15:26:13Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
       "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MET",
+      "direction": "LONG",
+      "entryPrice": 89.04,
+      "entryTime": "2026-07-02T15:26:06Z",
+      "exitPrice": 91.65,
+      "exitTime": "2026-07-10T15:26:13Z",
+      "open": false,
+      "returnPct": 2.93,
+      "qqqReturnPct": 1.4
+    },
+    {
+      "strategy": "Adaptive Chameleon",
+      "ticker": "INTC",
+      "direction": "LONG",
+      "entryPrice": 109.62,
+      "entryTime": "2026-07-07T15:22:46Z",
+      "exitPrice": 109.22,
+      "exitTime": "2026-07-10T15:25:20Z",
+      "open": false,
+      "returnPct": -0.36,
+      "qqqReturnPct": 1.85
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "CRCL",
+      "direction": "SHORT",
+      "entryPrice": 66.8,
+      "entryTime": "2026-07-10T15:22:40Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "MARA",
+      "direction": "LONG",
+      "entryPrice": 13.93,
+      "entryTime": "2026-07-09T15:26:28Z",
+      "exitPrice": 12.64,
+      "exitTime": "2026-07-10T15:22:38Z",
+      "open": false,
+      "returnPct": -9.25,
+      "qqqReturnPct": -0.1
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MRNA",
+      "direction": "LONG",
+      "entryPrice": 69.73,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "RXRX",
+      "direction": "LONG",
+      "entryPrice": 3.5,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MARA",
+      "direction": "LONG",
+      "entryPrice": 12.52,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "HIMS",
+      "direction": "LONG",
+      "entryPrice": 33.81,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "IONQ",
+      "direction": "LONG",
+      "entryPrice": 43.2,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "HOOD",
+      "direction": "LONG",
+      "entryPrice": 111.47,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "RIOT",
+      "direction": "LONG",
+      "entryPrice": 20.84,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "INTC",
+      "direction": "LONG",
+      "entryPrice": 109.09,
+      "entryTime": "2026-07-10T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "TEAM",
+      "direction": "LONG",
+      "entryPrice": 88.91,
+      "entryTime": "2026-07-09T15:31:58Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.8,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "LLY",
+      "direction": "LONG",
+      "entryPrice": 1211.23,
+      "entryTime": "2026-07-09T15:31:58Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -1.95,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "V",
+      "direction": "LONG",
+      "entryPrice": 346.1,
+      "entryTime": "2026-07-09T15:31:58Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.17,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "GILD",
+      "direction": "LONG",
+      "entryPrice": 133.59,
+      "entryTime": "2026-07-09T15:31:58Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -1.63,
       "qqqReturnPct": null
     },
     {
@@ -142,7 +382,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.39,
       "qqqReturnPct": null
     },
     {
@@ -155,7 +395,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:50Z",
       "open": false,
       "returnPct": -1.55,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Kestrel",
@@ -167,7 +407,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:50Z",
       "open": false,
       "returnPct": -0.42,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Kestrel",
@@ -179,7 +419,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:49Z",
       "open": false,
       "returnPct": -1.85,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Kestrel",
@@ -191,7 +431,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:49Z",
       "open": false,
       "returnPct": 13.49,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Kestrel",
@@ -203,7 +443,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:49Z",
       "open": false,
       "returnPct": 10.95,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -214,7 +454,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.72,
       "qqqReturnPct": null
     },
     {
@@ -226,7 +466,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.76,
       "qqqReturnPct": null
     },
     {
@@ -238,7 +478,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.7,
       "qqqReturnPct": null
     },
     {
@@ -250,7 +490,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.34,
       "qqqReturnPct": null
     },
     {
@@ -262,7 +502,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.68,
       "qqqReturnPct": null
     },
     {
@@ -274,7 +514,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.17,
       "qqqReturnPct": null
     },
     {
@@ -287,7 +527,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:48Z",
       "open": false,
       "returnPct": -2.36,
-      "qqqReturnPct": -0.12
+      "qqqReturnPct": 0.06
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -299,7 +539,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:18Z",
       "open": false,
       "returnPct": 10.84,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -311,7 +551,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:17Z",
       "open": false,
       "returnPct": 9.13,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -323,7 +563,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:17Z",
       "open": false,
       "returnPct": 10.44,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -335,7 +575,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:17Z",
       "open": false,
       "returnPct": 13.22,
-      "qqqReturnPct": 1.76
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -347,7 +587,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:16Z",
       "open": false,
       "returnPct": 4.63,
-      "qqqReturnPct": -0.45
+      "qqqReturnPct": -0.26
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -359,7 +599,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:16Z",
       "open": false,
       "returnPct": -2.61,
-      "qqqReturnPct": -0.12
+      "qqqReturnPct": 0.06
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -371,19 +611,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:29:16Z",
       "open": false,
       "returnPct": 11.09,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 13.93,
-      "entryTime": "2026-07-09T15:26:28Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "qqqReturnPct": 1.95
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -395,7 +623,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:26:24Z",
       "open": false,
       "returnPct": 13.09,
-      "qqqReturnPct": 1.48
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -407,7 +635,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:26:24Z",
       "open": false,
       "returnPct": 20.79,
-      "qqqReturnPct": 1.48
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -419,31 +647,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:26:24Z",
       "open": false,
       "returnPct": -18.11,
-      "qqqReturnPct": 1.48
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 368.15,
-      "entryTime": "2026-07-08T15:23:52Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.39,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 255.07,
-      "entryTime": "2026-07-08T15:23:52Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.47,
-      "qqqReturnPct": null
+      "qqqReturnPct": 1.66
     },
     {
       "strategy": "Kestrel",
@@ -454,7 +658,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.71,
+      "returnPct": 1.88,
       "qqqReturnPct": null
     },
     {
@@ -538,7 +742,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.65,
+      "returnPct": 3.85,
       "qqqReturnPct": null
     },
     {
@@ -615,18 +819,6 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Adaptive Chameleon",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 109.62,
-      "entryTime": "2026-07-07T15:22:46Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.99,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Adaptive Chameleon",
       "ticker": "CAT",
       "direction": "LONG",
       "entryPrice": 914.2,
@@ -634,7 +826,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.99,
+      "returnPct": 4.04,
       "qqqReturnPct": null
     },
     {
@@ -936,18 +1128,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 10.67,
       "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "MET",
-      "direction": "LONG",
-      "entryPrice": 89.04,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.88,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
