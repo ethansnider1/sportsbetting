@@ -1,5 +1,5 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-10T15:39:33Z",
+  "generatedAt": "2026-07-10T18:19:44Z",
   "totalClosed": 664,
   "totalOpen": 29,
   "winRate": 57.2,
@@ -143,7 +143,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:26:16Z",
       "open": false,
       "returnPct": 1.36,
-      "qqqReturnPct": -0.1
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "Kestrel",
@@ -155,7 +155,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:26:14Z",
       "open": false,
       "returnPct": -1.25,
-      "qqqReturnPct": 1.57
+      "qqqReturnPct": 1.96
     },
     {
       "strategy": "Kestrel",
@@ -167,7 +167,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:26:14Z",
       "open": false,
       "returnPct": -3.42,
-      "qqqReturnPct": 1.57
+      "qqqReturnPct": 1.96
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -191,7 +191,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:26:13Z",
       "open": false,
       "returnPct": 2.93,
-      "qqqReturnPct": 1.4
+      "qqqReturnPct": 1.79
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -203,7 +203,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:25:20Z",
       "open": false,
       "returnPct": -0.36,
-      "qqqReturnPct": 1.85
+      "qqqReturnPct": 2.25
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -227,7 +227,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-10T15:22:38Z",
       "open": false,
       "returnPct": -9.25,
-      "qqqReturnPct": -0.1
+      "qqqReturnPct": 0.29
     },
     {
       "strategy": "Stocks Edge Fridaymon",
